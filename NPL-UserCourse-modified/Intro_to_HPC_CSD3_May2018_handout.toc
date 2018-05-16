@@ -1,0 +1,35 @@
+\beamer@sectionintoc {1}{Why Buy a Big Computer?}{5}{1}{1}
+\beamer@sectionintoc {2}{Inside a Modern Computer}{13}{1}{2}
+\beamer@sectionintoc {3}{How to Build a Supercomputer}{15}{1}{3}
+\beamer@sectionintoc {4}{Programming a Multiprocessor Machine}{18}{1}{4}
+\beamer@sectionintoc {5}{Summary}{19}{1}{5}
+\beamer@sectionintoc {6}{CSD3}{21}{2}{6}
+\beamer@sectionintoc {7}{Peta4-Skylake}{22}{2}{7}
+\beamer@sectionintoc {8}{Coprocessors --- GPUs etc}{23}{2}{8}
+\beamer@sectionintoc {9}{Wilkes2-GPU}{24}{2}{9}
+\beamer@sectionintoc {10}{Peta4-KNL}{25}{2}{10}
+\beamer@sectionintoc {11}{Storage}{27}{2}{11}
+\beamer@sectionintoc {12}{Obtaining an Account and Support}{28}{2}{12}
+\beamer@sectionintoc {13}{Connecting}{30}{3}{13}
+\beamer@subsectionintoc {13}{1}{Windows Clients}{31}{3}{13}
+\beamer@subsectionintoc {13}{2}{Linux/MacOSX/UNIX Clients}{32}{3}{13}
+\beamer@subsectionintoc {13}{3}{Login}{33}{3}{13}
+\beamer@subsectionintoc {13}{4}{File Transfer}{36}{3}{13}
+\beamer@subsectionintoc {13}{5}{Remote Desktop}{37}{3}{13}
+\beamer@sectionintoc {14}{User Environment}{41}{3}{14}
+\beamer@subsectionintoc {14}{1}{Filesystems}{42}{3}{14}
+\beamer@subsectionintoc {14}{2}{Exceeding 1TB of scratch}{45}{3}{14}
+\beamer@subsectionintoc {14}{3}{Software}{51}{3}{14}
+\beamer@subsectionintoc {14}{4}{Environment Modules}{52}{3}{14}
+\beamer@subsectionintoc {14}{5}{Environment Modules}{53}{3}{14}
+\beamer@subsectionintoc {14}{6}{Compilers}{57}{3}{14}
+\beamer@sectionintoc {15}{Job Submission}{58}{3}{15}
+\beamer@subsectionintoc {15}{1}{Single Node Jobs}{68}{3}{15}
+\beamer@subsectionintoc {15}{2}{MPI Jobs}{73}{3}{15}
+\beamer@subsectionintoc {15}{3}{Hybrid Jobs}{75}{3}{15}
+\beamer@subsectionintoc {15}{4}{High Throughput Jobs}{76}{3}{15}
+\beamer@subsectionintoc {15}{5}{Interactive Jobs}{77}{3}{15}
+\beamer@subsectionintoc {15}{6}{Array Jobs}{78}{3}{15}
+\beamer@subsectionintoc {15}{7}{Scheduling}{80}{3}{15}
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
