@@ -1,0 +1,68 @@
+\documentclass{beamer}
+\usepackage{pgfpages}
+
+\mode<presentation>
+{
+  \usetheme{cambridge}
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamercovered{transparent}
+}
+
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{multicol}
+
+\title[An introduction to HPC on CSD3] % (optional, use only with long paper titles)
+{An Introduction to High Performance Computing on the CSD3 Cluster}
+
+%\subtitle
+%{Presentation Subtitle} % (optional)
+
+\author[SJ Rankin] % (optional, use only with lots of authors)
+{Stuart Rankin\\ \texttt{sjr20@cam.ac.uk}}
+%{F.~Author\inst{1} \and S.~Another\inst{2}}
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[UIS, University of Cambridge]
+{Research Computing Services (http://www.hpc.cam.ac.uk/)\\
+University Information Services (http://www.uis.cam.ac.uk/)}
+
+\date[22/05/2018] % (optional)
+{22nd May 2018 / CSD3 User Training}
+
+\subject{Courses}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}<presentation>{Welcome}
+  \begin{itemize}
+  \item{\alert{Paul Sumption} --- Research Computing Technical Liaison}
+  \item{\alert{Jeffrey Salmond} --- Research Software Engineering Team}
+    \pause\medskip
+\item Course files can be downloaded from:  \url{www.csd3.cam.ac.uk}
+\item\alert{Please ask questions and let us know if you need assistance.}
+\end{itemize}
+\end{frame}
+
+\begin{frame}<presentation>{Plan of the Course}
+\begin{description}
+\item[Part 1:]{Basics}
+\item[Part 2:]{HPC Facilities}
+\item[Part 2:]{Using HPC}
+\medskip
+\item<2>{\alert{10:00}\hbox to 0pt{\hphantom{{}-15:15}\quad WELCOME\hss}}
+\item<2>{\alert{11:30-11:45}\quad Break}
+\item<2>{\alert{13:00-14:00}\quad LUNCH}
+\item<2>{\alert{15:30-15:45}\quad Break}
+\item<2>{\alert{16:30}\hbox to 0pt{\hphantom{{}-15:15}\quad CLOSE\hss}}
+\end{description}
+\end{frame}
+
+\include{main}
+
+\end{document}

@@ -1,0 +1,72 @@
+\BOOKMARK [1][]{Outline1}{Introduction}{}% 1
+\BOOKMARK [2][]{Outline1.1}{Who are we?}{Outline1}% 2
+\BOOKMARK [2][]{Outline1.2}{Training Accounts}{Outline1}% 3
+\BOOKMARK [2][]{Outline1.3}{CSD 3 and Login node for today}{Outline1}% 4
+\BOOKMARK [2][]{Outline1.4}{Security}{Outline1}% 5
+\BOOKMARK [2][]{Outline1.5}{Basics: Pre-requisites}{Outline1}% 6
+\BOOKMARK [2][]{Outline1.6}{Connecting}{Outline1}% 7
+\BOOKMARK [3][]{Outline1.6.1.33}{Connecting - SSH}{Outline1.6}% 8
+\BOOKMARK [3][]{Outline1.6.2.39}{Linux Clients}{Outline1.6}% 9
+\BOOKMARK [3][]{Outline1.6.3.41}{Login}{Outline1.6}% 10
+\BOOKMARK [3][]{Outline1.6.4.47}{First time login}{Outline1.6}% 11
+\BOOKMARK [2][]{Outline1.7}{Basic practicals}{Outline1}% 12
+\BOOKMARK [3][]{Outline1.7.1.52}{Navigating the command line }{Outline1.7}% 13
+\BOOKMARK [3][]{Outline1.7.2.53}{Exercise 1: Navigating the command line}{Outline1.7}% 14
+\BOOKMARK [3][]{Outline1.7.3.54}{Exercise 2: Login}{Outline1.7}% 15
+\BOOKMARK [3][]{Outline1.7.4.55}{Exercise 3: SFTP file transfer - pt1}{Outline1.7}% 16
+\BOOKMARK [3][]{Outline1.7.5.56}{Exercise 3: SFTP file transfer - pt2}{Outline1.7}% 17
+\BOOKMARK [3][]{Outline1.7.6.57}{File Transfer with rsync}{Outline1.7}% 18
+\BOOKMARK [3][]{Outline1.7.7.58}{File Transfer with rsync: an example}{Outline1.7}% 19
+\BOOKMARK [2][]{Outline1.8}{Connecting from other clients}{Outline1}% 20
+\BOOKMARK [3][]{Outline1.8.1.64}{MacOSX}{Outline1.8}% 21
+\BOOKMARK [3][]{Outline1.8.2.68}{Windows Users}{Outline1.8}% 22
+\BOOKMARK [1][]{Outline2}{HPC Basics}{}% 23
+\BOOKMARK [2][]{Outline2.9}{Why use an HPC cluster?}{Outline2}% 24
+\BOOKMARK [2][]{Outline2.10}{Types of job}{Outline2}% 25
+\BOOKMARK [3][]{Outline2.10.1.86}{High Throughput}{Outline2.10}% 26
+\BOOKMARK [3][]{Outline2.10.2.90}{Data Intensive}{Outline2.10}% 27
+\BOOKMARK [2][]{Outline2.11}{User Environment Introduction}{Outline2}% 28
+\BOOKMARK [2][]{Outline2.12}{User Environment}{Outline2}% 29
+\BOOKMARK [3][]{Outline2.12.1.103}{Filesystems}{Outline2.12}% 30
+\BOOKMARK [3][]{Outline2.12.2.105}{Exceeding 1TB of scratch}{Outline2.12}% 31
+\BOOKMARK [2][]{Outline2.13}{Software}{Outline2}% 32
+\BOOKMARK [3][]{Outline2.13.1.120}{Environment Modules Pt 1}{Outline2.13}% 33
+\BOOKMARK [3][]{Outline2.13.2.121}{Environment Modules Pt 2}{Outline2.13}% 34
+\BOOKMARK [3][]{Outline2.13.3.127}{Modules: Excercise 4}{Outline2.13}% 35
+\BOOKMARK [3][]{Outline2.13.4.128}{Modules: Excercise 5}{Outline2.13}% 36
+\BOOKMARK [2][]{Outline2.14}{Storage}{Outline2}% 37
+\BOOKMARK [2][]{Outline2.15}{Service Levels}{Outline2}% 38
+\BOOKMARK [2][]{Outline2.16}{How To Apply}{Outline2}% 39
+\BOOKMARK [1][]{Outline3}{Using HPC}{}% 40
+\BOOKMARK [1][]{Outline4}{Advanced HPC}{}% 41
+\BOOKMARK [2][]{Outline4.17}{Types of job part 2}{Outline4}% 42
+\BOOKMARK [3][]{Outline4.17.1.148}{Compute Intensive}{Outline4.17}% 43
+\BOOKMARK [3][]{Outline4.17.2.152}{Amdahls law pt 1}{Outline4.17}% 44
+\BOOKMARK [3][]{Outline4.17.3.155}{Amdahls law pt 2}{Outline4.17}% 45
+\BOOKMARK [3][]{Outline4.17.4.156}{Compute Intensive Summary}{Outline4.17}% 46
+\BOOKMARK [3][]{Outline4.17.5.158}{Memory Intensive}{Outline4.17}% 47
+\BOOKMARK [2][]{Outline4.18}{architecture}{Outline4}% 48
+\BOOKMARK [3][]{Outline4.18.1.166}{Inside a Modern Computer}{Outline4.18}% 49
+\BOOKMARK [3][]{Outline4.18.2.174}{Inside a Modern Computer}{Outline4.18}% 50
+\BOOKMARK [3][]{Outline4.18.3.175}{How to Build a Supercomputer pt 1}{Outline4.18}% 51
+\BOOKMARK [3][]{Outline4.18.4.180}{How to Build a Supercomputer pt 2}{Outline4.18}% 52
+\BOOKMARK [3][]{Outline4.18.5.182}{How to Build a Supercomputer pt 3}{Outline4.18}% 53
+\BOOKMARK [2][]{Outline4.19}{Programming a Multiprocessor Machine}{Outline4}% 54
+\BOOKMARK [2][]{Outline5.21}{A Brief History of the HPCS}{Outline4}% 55
+\BOOKMARK [2][]{Outline5.22}{A Brief History of Darwin}{Outline4}% 56
+\BOOKMARK [2][]{Outline5.23}{Darwin - an Infiniband CPU Cluster}{Outline4}% 57
+\BOOKMARK [2][]{Outline5.24}{Wilkes - a Dual-Rail Infiniband GPU Cluster}{Outline4}% 58
+\BOOKMARK [3][]{Outline5.24.1.217}{Compilers}{Outline5.24}% 59
+\BOOKMARK [2][]{Outline5.25}{Modules and Compilers}{Outline4}% 60
+\BOOKMARK [2][]{Outline5.26}{Job Submission}{Outline4}% 61
+\BOOKMARK [3][]{Outline5.26.1.243}{Single Node Jobs}{Outline5.26}% 62
+\BOOKMARK [3][]{Outline5.26.2.251}{MPI Jobs}{Outline5.26}% 63
+\BOOKMARK [3][]{Outline5.26.3.254}{Hybrid Jobs}{Outline5.26}% 64
+\BOOKMARK [3][]{Outline5.26.4.256}{High Throughput Jobs}{Outline5.26}% 65
+\BOOKMARK [2][]{Outline5.27}{Submitting Jobs}{Outline4}% 66
+\BOOKMARK [3][]{Outline5.27.1.264}{Interactive Jobs}{Outline5.27}% 67
+\BOOKMARK [3][]{Outline5.27.2.267}{Array Jobs}{Outline5.27}% 68
+\BOOKMARK [3][]{Outline5.27.3.275}{Scheduling}{Outline5.27}% 69
+\BOOKMARK [3][]{Outline5.27.4.281}{Wait Times}{Outline5.27}% 70
+\BOOKMARK [3][]{Outline5.27.5.285}{Checkpointing}{Outline5.27}% 71
+\BOOKMARK [3][]{Outline5.27.6.288}{Scheduling Top Tips}{Outline5.27}% 72

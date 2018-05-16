@@ -1,0 +1,70 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Who are we?}{8}{1}{1}
+\beamer@sectionintoc {2}{Training Accounts}{9}{1}{2}
+\beamer@sectionintoc {3}{CSD 3 and Login node for today}{14}{1}{3}
+\beamer@sectionintoc {4}{Security}{19}{1}{4}
+\beamer@sectionintoc {5}{Basics: Pre-requisites}{29}{1}{5}
+\beamer@sectionintoc {6}{Connecting}{32}{1}{6}
+\beamer@subsectionintoc {6}{1}{Connecting - SSH}{33}{1}{6}
+\beamer@subsectionintoc {6}{2}{Linux Clients}{39}{1}{6}
+\beamer@subsectionintoc {6}{3}{Login}{41}{1}{6}
+\beamer@subsectionintoc {6}{4}{First time login}{47}{1}{6}
+\beamer@sectionintoc {7}{Basic practicals}{51}{1}{7}
+\beamer@subsectionintoc {7}{1}{Navigating the command line }{52}{1}{7}
+\beamer@subsectionintoc {7}{2}{Exercise 1: Navigating the command line}{53}{1}{7}
+\beamer@subsectionintoc {7}{3}{Exercise 2: Login}{54}{1}{7}
+\beamer@subsectionintoc {7}{4}{Exercise 3: SFTP file transfer - pt1}{55}{1}{7}
+\beamer@subsectionintoc {7}{5}{Exercise 3: SFTP file transfer - pt2}{56}{1}{7}
+\beamer@subsectionintoc {7}{6}{File Transfer with rsync}{57}{1}{7}
+\beamer@subsectionintoc {7}{7}{File Transfer with rsync: an example}{58}{1}{7}
+\beamer@sectionintoc {8}{Connecting from other clients}{61}{1}{8}
+\beamer@subsectionintoc {8}{1}{MacOSX}{64}{1}{8}
+\beamer@subsectionintoc {8}{2}{Windows Users}{68}{1}{8}
+\beamer@sectionintoc {9}{Why use an HPC cluster?}{78}{2}{9}
+\beamer@sectionintoc {10}{Types of job}{83}{2}{10}
+\beamer@subsectionintoc {10}{1}{High Throughput}{86}{2}{10}
+\beamer@subsectionintoc {10}{2}{Data Intensive}{90}{2}{10}
+\beamer@sectionintoc {11}{User Environment Introduction}{97}{2}{11}
+\beamer@sectionintoc {12}{User Environment}{98}{2}{12}
+\beamer@subsectionintoc {12}{1}{Filesystems}{103}{2}{12}
+\beamer@subsectionintoc {12}{2}{Exceeding 1TB of scratch}{105}{2}{12}
+\beamer@sectionintoc {13}{Software}{118}{2}{13}
+\beamer@subsectionintoc {13}{1}{Environment Modules Pt 1}{120}{2}{13}
+\beamer@subsectionintoc {13}{2}{Environment Modules Pt 2}{121}{2}{13}
+\beamer@subsectionintoc {13}{3}{Modules: Excercise 4}{127}{2}{13}
+\beamer@subsectionintoc {13}{4}{Modules: Excercise 5}{128}{2}{13}
+\beamer@sectionintoc {14}{Storage}{129}{2}{14}
+\beamer@sectionintoc {15}{Service Levels}{133}{2}{15}
+\beamer@sectionintoc {16}{How To Apply}{141}{2}{16}
+\beamer@sectionintoc {17}{Types of job part 2}{146}{4}{17}
+\beamer@subsectionintoc {17}{1}{Compute Intensive}{148}{4}{17}
+\beamer@subsectionintoc {17}{2}{Amdahls law pt 1}{152}{4}{17}
+\beamer@subsectionintoc {17}{3}{Amdahls law pt 2}{155}{4}{17}
+\beamer@subsectionintoc {17}{4}{Compute Intensive Summary}{156}{4}{17}
+\beamer@subsectionintoc {17}{5}{Memory Intensive}{158}{4}{17}
+\beamer@sectionintoc {18}{architecture}{165}{4}{18}
+\beamer@subsectionintoc {18}{1}{Inside a Modern Computer}{166}{4}{18}
+\beamer@subsectionintoc {18}{2}{Inside a Modern Computer}{174}{4}{18}
+\beamer@subsectionintoc {18}{3}{How to Build a Supercomputer pt 1}{175}{4}{18}
+\beamer@subsectionintoc {18}{4}{How to Build a Supercomputer pt 2}{180}{4}{18}
+\beamer@subsectionintoc {18}{5}{How to Build a Supercomputer pt 3}{182}{4}{18}
+\beamer@sectionintoc {19}{Programming a Multiprocessor Machine}{187}{4}{19}
+\beamer@sectionintoc {21}{A Brief History of the HPCS}{200}{5}{20}
+\beamer@sectionintoc {22}{A Brief History of Darwin}{204}{5}{21}
+\beamer@sectionintoc {23}{Darwin - an Infiniband CPU Cluster}{209}{5}{22}
+\beamer@sectionintoc {24}{Wilkes - a Dual-Rail Infiniband GPU Cluster}{212}{5}{23}
+\beamer@subsectionintoc {24}{1}{Compilers}{217}{5}{23}
+\beamer@sectionintoc {25}{Modules and Compilers}{219}{5}{24}
+\beamer@sectionintoc {26}{Job Submission}{227}{5}{25}
+\beamer@subsectionintoc {26}{1}{Single Node Jobs}{243}{5}{25}
+\beamer@subsectionintoc {26}{2}{MPI Jobs}{251}{5}{25}
+\beamer@subsectionintoc {26}{3}{Hybrid Jobs}{254}{5}{25}
+\beamer@subsectionintoc {26}{4}{High Throughput Jobs}{256}{5}{25}
+\beamer@sectionintoc {27}{Submitting Jobs}{261}{5}{26}
+\beamer@subsectionintoc {27}{1}{Interactive Jobs}{264}{5}{26}
+\beamer@subsectionintoc {27}{2}{Array Jobs}{267}{5}{26}
+\beamer@subsectionintoc {27}{3}{Scheduling}{275}{5}{26}
+\beamer@subsectionintoc {27}{4}{Wait Times}{281}{5}{26}
+\beamer@subsectionintoc {27}{5}{Checkpointing}{285}{5}{26}
+\beamer@subsectionintoc {27}{6}{Scheduling Top Tips}{288}{5}{26}

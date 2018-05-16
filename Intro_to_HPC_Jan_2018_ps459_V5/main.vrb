@@ -1,0 +1,8 @@
+\frametitle{Job Submission: Array Jobs (ctd)}
+\begin{itemize}
+\item{Updates can be applied to specific array elements using \$\{{\color[rgb]{0,0.6,0}SLURM\_ARRAY\_JOB\_ID}\}\_\$\{{\color{red}SLURM\_ARRAY\_TASK\_ID}\}}
+\item{Alternatively operate on the entire array via \$\{{\color[rgb]{0,0.6,0}SLURM\_ARRAY\_JOB\_ID}\}}.
+\item{Some commands still require the SLURM\_JOB\_ID (sacct, sreport, sshare, sstat and a few others).}
+%\pause
+%\item{Exercise 9 - Array Jobs.}
+\end{itemize}

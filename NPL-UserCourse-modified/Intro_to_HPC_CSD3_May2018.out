@@ -1,0 +1,39 @@
+\BOOKMARK [1][]{Outline1}{Basics}{}% 1
+\BOOKMARK [2][]{Outline1.1}{Why Buy a Big Computer?}{Outline1}% 2
+\BOOKMARK [2][]{Outline1.2}{Inside a Modern Computer}{Outline1}% 3
+\BOOKMARK [2][]{Outline1.3}{How to Build a Supercomputer}{Outline1}% 4
+\BOOKMARK [2][]{Outline1.4}{Programming a Multiprocessor Machine}{Outline1}% 5
+\BOOKMARK [2][]{Outline1.5}{Summary}{Outline1}% 6
+\BOOKMARK [1][]{Outline2}{HPC Facilities}{}% 7
+\BOOKMARK [2][]{Outline2.6}{Minerva}{Outline2}% 8
+\BOOKMARK [2][]{Outline2.7}{CSD3}{Outline2}% 9
+\BOOKMARK [2][]{Outline2.8}{Peta4-Skylake}{Outline2}% 10
+\BOOKMARK [2][]{Outline2.9}{Coprocessors \204 GPUs etc}{Outline2}% 11
+\BOOKMARK [2][]{Outline2.10}{Wilkes2-GPU}{Outline2}% 12
+\BOOKMARK [2][]{Outline2.11}{Peta4-KNL}{Outline2}% 13
+\BOOKMARK [2][]{Outline2.12}{Storage}{Outline2}% 14
+\BOOKMARK [2][]{Outline2.13}{Obtaining an Account and Support}{Outline2}% 15
+\BOOKMARK [1][]{Outline3}{Using HPC}{}% 16
+\BOOKMARK [2][]{Outline3.14}{Connecting}{Outline3}% 17
+\BOOKMARK [3][]{Outline3.14.1.93}{Windows Clients}{Outline3.14}% 18
+\BOOKMARK [3][]{Outline3.14.2.99}{Linux/MacOSX/UNIX Clients}{Outline3.14}% 19
+\BOOKMARK [3][]{Outline3.14.3.103}{Login}{Outline3.14}% 20
+\BOOKMARK [3][]{Outline3.14.4.110}{File Transfer}{Outline3.14}% 21
+\BOOKMARK [3][]{Outline3.14.5.115}{Remote Desktop}{Outline3.14}% 22
+\BOOKMARK [2][]{Outline3.15}{User Environment}{Outline3}% 23
+\BOOKMARK [3][]{Outline3.15.1.123}{Filesystems}{Outline3.15}% 24
+\BOOKMARK [3][]{Outline3.15.2.129}{Software}{Outline3.15}% 25
+\BOOKMARK [3][]{Outline3.15.3.131}{Environment Modules}{Outline3.15}% 26
+\BOOKMARK [3][]{Outline3.15.4.132}{Environment Modules}{Outline3.15}% 27
+\BOOKMARK [3][]{Outline3.15.5.138}{Compilers}{Outline3.15}% 28
+\BOOKMARK [2][]{Outline3.16}{Job Submission}{Outline3}% 29
+\BOOKMARK [3][]{Outline3.16.1.156}{Single Node Jobs}{Outline3.16}% 30
+\BOOKMARK [3][]{Outline3.16.2.164}{MPI Jobs}{Outline3.16}% 31
+\BOOKMARK [3][]{Outline3.16.3.167}{Hybrid Jobs}{Outline3.16}% 32
+\BOOKMARK [3][]{Outline3.16.4.169}{High Throughput Jobs}{Outline3.16}% 33
+\BOOKMARK [3][]{Outline3.16.5.175}{Interactive Jobs}{Outline3.16}% 34
+\BOOKMARK [3][]{Outline3.16.6.178}{Array Jobs}{Outline3.16}% 35
+\BOOKMARK [3][]{Outline3.16.7.187}{Scheduling}{Outline3.16}% 36
+\BOOKMARK [3][]{Outline3.16.8.193}{Wait Times}{Outline3.16}% 37
+\BOOKMARK [3][]{Outline3.16.9.196}{Checkpointing}{Outline3.16}% 38
+\BOOKMARK [3][]{Outline3.16.10.198}{Scheduling Top Tips}{Outline3.16}% 39
