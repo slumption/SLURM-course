@@ -1,0 +1,75 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Who are we?}{6}{1}{1}
+\beamer@sectionintoc {2}{Training Accounts}{7}{1}{2}
+\beamer@sectionintoc {3}{Login node for today}{12}{1}{3}
+\beamer@sectionintoc {4}{Security}{14}{1}{4}
+\beamer@sectionintoc {5}{Basics: Pre-requisites}{24}{1}{5}
+\beamer@subsectionintoc {5}{1}{Navigating the command line }{27}{1}{5}
+\beamer@sectionintoc {6}{Why Buy a Big Computer?}{29}{2}{6}
+\beamer@sectionintoc {7}{Inside a Modern Computer}{59}{2}{7}
+\beamer@sectionintoc {8}{How to Build a Supercomputer}{67}{2}{8}
+\beamer@sectionintoc {9}{Programming a Multiprocessor Machine}{79}{2}{9}
+\beamer@sectionintoc {10}{Summary}{85}{2}{10}
+\beamer@sectionintoc {11}{CSD3}{92}{3}{11}
+\beamer@sectionintoc {12}{Peta4-Skylake}{96}{3}{12}
+\beamer@sectionintoc {13}{Coprocessors --- GPUs etc}{98}{3}{13}
+\beamer@sectionintoc {14}{Wilkes2-GPU}{102}{3}{14}
+\beamer@sectionintoc {15}{Peta4-KNL}{104}{3}{15}
+\beamer@sectionintoc {16}{Storage}{106}{3}{16}
+\beamer@sectionintoc {17}{Obtaining an Account and Support}{110}{3}{17}
+\beamer@sectionintoc {18}{Connecting}{113}{4}{18}
+\beamer@subsectionintoc {18}{1}{Connecting - SSH}{114}{4}{18}
+\beamer@subsectionintoc {18}{2}{Linux Clients}{120}{4}{18}
+\beamer@subsectionintoc {18}{3}{Login}{122}{4}{18}
+\beamer@subsectionintoc {18}{4}{First time login}{128}{4}{18}
+\beamer@subsectionintoc {18}{5}{File Transfer with rsync: an example}{132}{4}{18}
+\beamer@sectionintoc {19}{Connecting from other clients}{135}{4}{19}
+\beamer@subsectionintoc {19}{1}{MacOSX}{138}{4}{19}
+\beamer@subsectionintoc {19}{2}{Windows Users}{142}{4}{19}
+\beamer@sectionintoc {20}{Basic practicals}{144}{4}{20}
+\beamer@subsectionintoc {20}{1}{Exercise 1: Navigating the command line}{145}{4}{20}
+\beamer@subsectionintoc {20}{2}{Exercise 2: Login}{146}{4}{20}
+\beamer@subsectionintoc {20}{3}{Exercise 3: SFTP file transfer - pt1}{147}{4}{20}
+\beamer@subsectionintoc {20}{4}{Exercise 3: SFTP file transfer - pt2}{148}{4}{20}
+\beamer@subsectionintoc {20}{5}{File Transfer with rsync}{149}{4}{20}
+\beamer@sectionintoc {21}{Connecting}{150}{4}{21}
+\beamer@subsectionintoc {21}{1}{Windows Clients}{152}{4}{21}
+\beamer@subsectionintoc {21}{2}{Linux/MacOSX/UNIX Clients}{158}{4}{21}
+\beamer@subsectionintoc {21}{3}{Login}{162}{4}{21}
+\beamer@subsectionintoc {21}{4}{File Transfer}{169}{4}{21}
+\beamer@subsectionintoc {21}{5}{Remote Desktop}{174}{4}{21}
+\beamer@sectionintoc {22}{User Environment}{179}{4}{22}
+\beamer@subsectionintoc {22}{1}{Filesystems}{182}{4}{22}
+\beamer@subsectionintoc {22}{2}{Software}{188}{4}{22}
+\beamer@subsectionintoc {22}{3}{Environment Modules}{190}{4}{22}
+\beamer@subsectionintoc {22}{4}{Environment Modules}{191}{4}{22}
+\beamer@subsectionintoc {22}{5}{Compilers}{197}{4}{22}
+\beamer@sectionintoc {23}{Job Submission}{199}{4}{23}
+\beamer@subsectionintoc {23}{1}{Single Node Jobs}{215}{4}{23}
+\beamer@subsectionintoc {23}{2}{MPI Jobs}{223}{4}{23}
+\beamer@subsectionintoc {23}{3}{Hybrid Jobs}{226}{4}{23}
+\beamer@subsectionintoc {23}{4}{High Throughput Jobs}{228}{4}{23}
+\beamer@subsectionintoc {23}{5}{Interactive Jobs}{234}{4}{23}
+\beamer@subsectionintoc {23}{6}{Array Jobs}{237}{4}{23}
+\beamer@subsectionintoc {23}{7}{Scheduling}{246}{4}{23}
+\beamer@subsectionintoc {23}{8}{Wait Times}{252}{4}{23}
+\beamer@subsectionintoc {23}{9}{Checkpointing}{255}{4}{23}
+\beamer@subsectionintoc {23}{10}{Scheduling Top Tips}{257}{4}{23}
+\beamer@sectionintoc {24}{User Environment}{259}{5}{24}
+\beamer@subsectionintoc {24}{1}{Filesystems}{262}{5}{24}
+\beamer@subsectionintoc {24}{2}{Software}{268}{5}{24}
+\beamer@subsectionintoc {24}{3}{Environment Modules}{270}{5}{24}
+\beamer@subsectionintoc {24}{4}{Environment Modules}{271}{5}{24}
+\beamer@subsectionintoc {24}{5}{Compilers}{277}{5}{24}
+\beamer@sectionintoc {25}{Job Submission}{280}{6}{25}
+\beamer@subsectionintoc {25}{1}{Single Node Jobs}{296}{6}{25}
+\beamer@subsectionintoc {25}{2}{MPI Jobs}{304}{6}{25}
+\beamer@subsectionintoc {25}{3}{Hybrid Jobs}{307}{6}{25}
+\beamer@subsectionintoc {25}{4}{High Throughput Jobs}{309}{6}{25}
+\beamer@subsectionintoc {25}{5}{Interactive Jobs}{315}{6}{25}
+\beamer@subsectionintoc {25}{6}{Array Jobs}{318}{6}{25}
+\beamer@subsectionintoc {25}{7}{Scheduling}{327}{6}{25}
+\beamer@subsectionintoc {25}{8}{Wait Times}{333}{6}{25}
+\beamer@subsectionintoc {25}{9}{Checkpointing}{336}{6}{25}
+\beamer@subsectionintoc {25}{10}{Scheduling Top Tips}{338}{6}{25}

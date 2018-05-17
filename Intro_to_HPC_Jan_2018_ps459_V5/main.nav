@@ -137,51 +137,51 @@
 \headcommand {\beamer@subsectionpages {97}{97}}
 \headcommand {\slideentry {12}{0}{1}{98/102}{}{2}}
 \headcommand {\beamer@framepages {98}{102}}
-\headcommand {\beamer@subsectionentry {2}{12}{1}{103}{Filesystems}}\headcommand {\beamer@subsectionpages {98}{102}}
-\headcommand {\slideentry {12}{1}{1}{103/104}{Filesystems}{2}}
-\headcommand {\beamer@framepages {103}{104}}
-\headcommand {\beamer@subsectionentry {2}{12}{2}{105}{Exceeding 1TB of scratch}}\headcommand {\beamer@subsectionpages {103}{104}}
-\headcommand {\slideentry {12}{2}{1}{105/106}{Exceeding 1TB of scratch}{2}}
-\headcommand {\beamer@framepages {105}{106}}
-\headcommand {\slideentry {12}{2}{2}{107/110}{Exceeding 1TB of scratch}{2}}
-\headcommand {\beamer@framepages {107}{110}}
-\headcommand {\slideentry {12}{2}{3}{111/115}{Exceeding 1TB of scratch}{2}}
-\headcommand {\beamer@framepages {111}{115}}
-\headcommand {\slideentry {12}{2}{4}{116/116}{Exceeding 1TB of scratch}{2}}
-\headcommand {\beamer@framepages {116}{116}}
-\headcommand {\slideentry {12}{2}{5}{117/117}{Exceeding 1TB of scratch}{2}}
-\headcommand {\beamer@framepages {117}{117}}
-\headcommand {\sectionentry {13}{Software}{118}{Software}{2}}
-\headcommand {\beamer@sectionpages {98}{117}}
-\headcommand {\beamer@subsectionpages {105}{117}}
-\headcommand {\slideentry {13}{0}{1}{118/119}{}{2}}
-\headcommand {\beamer@framepages {118}{119}}
-\headcommand {\beamer@subsectionentry {2}{13}{1}{120}{Environment Modules Pt 1}}\headcommand {\beamer@subsectionpages {118}{119}}
-\headcommand {\slideentry {13}{1}{1}{120/120}{Environment Modules Pt 1}{2}}
+\headcommand {\sectionentry {13}{Storage}{103}{Storage}{2}}
+\headcommand {\beamer@sectionpages {98}{102}}
+\headcommand {\beamer@subsectionpages {98}{102}}
+\headcommand {\slideentry {13}{0}{1}{103/106}{}{2}}
+\headcommand {\beamer@framepages {103}{106}}
+\headcommand {\beamer@subsectionentry {2}{13}{1}{107}{Filesystems}}\headcommand {\beamer@subsectionpages {103}{106}}
+\headcommand {\slideentry {13}{1}{1}{107/108}{Filesystems}{2}}
+\headcommand {\beamer@framepages {107}{108}}
+\headcommand {\beamer@subsectionentry {2}{13}{2}{109}{Exceeding 1TB of scratch}}\headcommand {\beamer@subsectionpages {107}{108}}
+\headcommand {\slideentry {13}{2}{1}{109/110}{Exceeding 1TB of scratch}{2}}
+\headcommand {\beamer@framepages {109}{110}}
+\headcommand {\slideentry {13}{2}{2}{111/114}{Exceeding 1TB of scratch}{2}}
+\headcommand {\beamer@framepages {111}{114}}
+\headcommand {\slideentry {13}{2}{3}{115/119}{Exceeding 1TB of scratch}{2}}
+\headcommand {\beamer@framepages {115}{119}}
+\headcommand {\slideentry {13}{2}{4}{120/120}{Exceeding 1TB of scratch}{2}}
 \headcommand {\beamer@framepages {120}{120}}
-\headcommand {\beamer@subsectionentry {2}{13}{2}{121}{Environment Modules Pt 2}}\headcommand {\beamer@subsectionpages {120}{120}}
-\headcommand {\slideentry {13}{2}{1}{121/121}{Environment Modules Pt 2}{2}}
+\headcommand {\slideentry {13}{2}{5}{121/121}{Exceeding 1TB of scratch}{2}}
 \headcommand {\beamer@framepages {121}{121}}
-\headcommand {\slideentry {13}{2}{2}{122/122}{Environment Modules Pt 2}{2}}
-\headcommand {\beamer@framepages {122}{122}}
-\headcommand {\slideentry {13}{2}{3}{123/125}{Environment Modules Pt 2}{2}}
-\headcommand {\beamer@framepages {123}{125}}
-\headcommand {\slideentry {13}{2}{4}{126/126}{Environment Modules Pt 2}{2}}
+\headcommand {\sectionentry {14}{Software}{122}{Software}{2}}
+\headcommand {\beamer@sectionpages {103}{121}}
+\headcommand {\beamer@subsectionpages {109}{121}}
+\headcommand {\slideentry {14}{0}{1}{122/123}{}{2}}
+\headcommand {\beamer@framepages {122}{123}}
+\headcommand {\beamer@subsectionentry {2}{14}{1}{124}{Environment Modules Pt 1}}\headcommand {\beamer@subsectionpages {122}{123}}
+\headcommand {\slideentry {14}{1}{1}{124/124}{Environment Modules Pt 1}{2}}
+\headcommand {\beamer@framepages {124}{124}}
+\headcommand {\beamer@subsectionentry {2}{14}{2}{125}{Environment Modules Pt 2}}\headcommand {\beamer@subsectionpages {124}{124}}
+\headcommand {\slideentry {14}{2}{1}{125/125}{Environment Modules Pt 2}{2}}
+\headcommand {\beamer@framepages {125}{125}}
+\headcommand {\slideentry {14}{2}{2}{126/126}{Environment Modules Pt 2}{2}}
 \headcommand {\beamer@framepages {126}{126}}
-\headcommand {\beamer@subsectionentry {2}{13}{3}{127}{Modules: Excercise 4}}\headcommand {\beamer@subsectionpages {121}{126}}
-\headcommand {\slideentry {13}{3}{1}{127/127}{Modules: Excercise 4}{2}}
-\headcommand {\beamer@framepages {127}{127}}
-\headcommand {\beamer@subsectionentry {2}{13}{4}{128}{Modules: Excercise 5}}\headcommand {\beamer@subsectionpages {127}{127}}
-\headcommand {\slideentry {13}{4}{1}{128/128}{Modules: Excercise 5}{2}}
-\headcommand {\beamer@framepages {128}{128}}
-\headcommand {\sectionentry {14}{Storage}{129}{Storage}{2}}
-\headcommand {\beamer@sectionpages {118}{128}}
-\headcommand {\beamer@subsectionpages {128}{128}}
-\headcommand {\slideentry {14}{0}{1}{129/132}{}{2}}
-\headcommand {\beamer@framepages {129}{132}}
+\headcommand {\slideentry {14}{2}{3}{127/129}{Environment Modules Pt 2}{2}}
+\headcommand {\beamer@framepages {127}{129}}
+\headcommand {\slideentry {14}{2}{4}{130/130}{Environment Modules Pt 2}{2}}
+\headcommand {\beamer@framepages {130}{130}}
+\headcommand {\beamer@subsectionentry {2}{14}{3}{131}{Modules: Excercise 4}}\headcommand {\beamer@subsectionpages {125}{130}}
+\headcommand {\slideentry {14}{3}{1}{131/131}{Modules: Excercise 4}{2}}
+\headcommand {\beamer@framepages {131}{131}}
+\headcommand {\beamer@subsectionentry {2}{14}{4}{132}{Modules: Excercise 5}}\headcommand {\beamer@subsectionpages {131}{131}}
+\headcommand {\slideentry {14}{4}{1}{132/132}{Modules: Excercise 5}{2}}
+\headcommand {\beamer@framepages {132}{132}}
 \headcommand {\sectionentry {15}{Service Levels}{133}{Service Levels}{2}}
-\headcommand {\beamer@sectionpages {129}{132}}
-\headcommand {\beamer@subsectionpages {129}{132}}
+\headcommand {\beamer@sectionpages {122}{132}}
+\headcommand {\beamer@subsectionpages {132}{132}}
 \headcommand {\slideentry {15}{0}{1}{133/137}{}{2}}
 \headcommand {\beamer@framepages {133}{137}}
 \headcommand {\slideentry {15}{0}{2}{138/139}{}{2}}

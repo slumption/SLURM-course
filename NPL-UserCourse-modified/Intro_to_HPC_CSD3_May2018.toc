@@ -11,28 +11,27 @@
 \beamer@sectionintoc {9}{Wilkes2-GPU}{80}{2}{9}
 \beamer@sectionintoc {10}{Peta4-KNL}{82}{2}{10}
 \beamer@sectionintoc {11}{Storage}{85}{2}{11}
-\beamer@sectionintoc {12}{Obtaining an Account and Support}{86}{2}{12}
-\beamer@sectionintoc {13}{Connecting}{89}{3}{13}
-\beamer@subsectionintoc {13}{1}{Windows Clients}{91}{3}{13}
-\beamer@subsectionintoc {13}{2}{Linux/MacOSX/UNIX Clients}{97}{3}{13}
-\beamer@subsectionintoc {13}{3}{Login}{101}{3}{13}
-\beamer@subsectionintoc {13}{4}{File Transfer}{108}{3}{13}
-\beamer@subsectionintoc {13}{5}{Remote Desktop}{113}{3}{13}
-\beamer@sectionintoc {14}{User Environment}{118}{3}{14}
-\beamer@subsectionintoc {14}{1}{Filesystems}{121}{3}{14}
-\beamer@subsectionintoc {14}{2}{Exceeding 1TB of scratch}{127}{3}{14}
-\beamer@subsectionintoc {14}{3}{Software}{140}{3}{14}
-\beamer@subsectionintoc {14}{4}{Environment Modules}{142}{3}{14}
-\beamer@subsectionintoc {14}{5}{Environment Modules}{143}{3}{14}
-\beamer@subsectionintoc {14}{6}{Compilers}{149}{3}{14}
-\beamer@sectionintoc {15}{Job Submission}{151}{3}{15}
-\beamer@subsectionintoc {15}{1}{Single Node Jobs}{167}{3}{15}
-\beamer@subsectionintoc {15}{2}{MPI Jobs}{175}{3}{15}
-\beamer@subsectionintoc {15}{3}{Hybrid Jobs}{178}{3}{15}
-\beamer@subsectionintoc {15}{4}{High Throughput Jobs}{180}{3}{15}
-\beamer@subsectionintoc {15}{5}{Interactive Jobs}{186}{3}{15}
-\beamer@subsectionintoc {15}{6}{Array Jobs}{189}{3}{15}
-\beamer@subsectionintoc {15}{7}{Scheduling}{198}{3}{15}
-\beamer@subsectionintoc {15}{8}{Wait Times}{204}{3}{15}
-\beamer@subsectionintoc {15}{9}{Checkpointing}{207}{3}{15}
-\beamer@subsectionintoc {15}{10}{Scheduling Top Tips}{209}{3}{15}
+\beamer@sectionintoc {12}{Obtaining an Account and Support}{89}{2}{12}
+\beamer@sectionintoc {13}{Connecting}{92}{3}{13}
+\beamer@subsectionintoc {13}{1}{Windows Clients}{94}{3}{13}
+\beamer@subsectionintoc {13}{2}{Linux/MacOSX/UNIX Clients}{100}{3}{13}
+\beamer@subsectionintoc {13}{3}{Login}{104}{3}{13}
+\beamer@subsectionintoc {13}{4}{File Transfer}{111}{3}{13}
+\beamer@subsectionintoc {13}{5}{Remote Desktop}{116}{3}{13}
+\beamer@sectionintoc {14}{User Environment}{121}{3}{14}
+\beamer@subsectionintoc {14}{1}{Filesystems}{124}{3}{14}
+\beamer@subsectionintoc {14}{2}{Software}{130}{3}{14}
+\beamer@subsectionintoc {14}{3}{Environment Modules}{132}{3}{14}
+\beamer@subsectionintoc {14}{4}{Environment Modules}{133}{3}{14}
+\beamer@subsectionintoc {14}{5}{Compilers}{139}{3}{14}
+\beamer@sectionintoc {15}{Job Submission}{141}{3}{15}
+\beamer@subsectionintoc {15}{1}{Single Node Jobs}{157}{3}{15}
+\beamer@subsectionintoc {15}{2}{MPI Jobs}{165}{3}{15}
+\beamer@subsectionintoc {15}{3}{Hybrid Jobs}{168}{3}{15}
+\beamer@subsectionintoc {15}{4}{High Throughput Jobs}{170}{3}{15}
+\beamer@subsectionintoc {15}{5}{Interactive Jobs}{176}{3}{15}
+\beamer@subsectionintoc {15}{6}{Array Jobs}{179}{3}{15}
+\beamer@subsectionintoc {15}{7}{Scheduling}{188}{3}{15}
+\beamer@subsectionintoc {15}{8}{Wait Times}{194}{3}{15}
+\beamer@subsectionintoc {15}{9}{Checkpointing}{197}{3}{15}
+\beamer@subsectionintoc {15}{10}{Scheduling Top Tips}{199}{3}{15}

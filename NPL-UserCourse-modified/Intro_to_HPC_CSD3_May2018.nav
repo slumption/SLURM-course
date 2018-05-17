@@ -92,145 +92,136 @@
 \headcommand {\sectionentry {11}{Storage}{85}{Storage}{2}}
 \headcommand {\beamer@sectionpages {82}{84}}
 \headcommand {\beamer@subsectionpages {82}{84}}
-\headcommand {\slideentry {11}{0}{1}{85/85}{}{2}}
-\headcommand {\beamer@framepages {85}{85}}
-\headcommand {\sectionentry {12}{Obtaining an Account and Support}{86}{Obtaining an Account and Support}{2}}
-\headcommand {\beamer@sectionpages {85}{85}}
-\headcommand {\beamer@subsectionpages {85}{85}}
-\headcommand {\slideentry {12}{0}{1}{86/87}{}{2}}
-\headcommand {\beamer@framepages {86}{87}}
-\headcommand {\partentry {Using HPC}{3}}
-\headcommand {\beamer@partpages {69}{87}}
-\headcommand {\beamer@sectionpages {86}{87}}
-\headcommand {\beamer@subsectionpages {86}{87}}
-\headcommand {\slideentry {12}{0}{2}{88/88}{}{3}}
-\headcommand {\beamer@framepages {88}{88}}
-\headcommand {\sectionentry {13}{Connecting}{89}{Connecting}{3}}
-\headcommand {\beamer@sectionpages {88}{88}}
-\headcommand {\beamer@subsectionpages {88}{88}}
-\headcommand {\slideentry {13}{0}{1}{89/90}{}{3}}
+\headcommand {\slideentry {11}{0}{1}{85/88}{}{2}}
+\headcommand {\beamer@framepages {85}{88}}
+\headcommand {\sectionentry {12}{Obtaining an Account and Support}{89}{Obtaining an Account and Support}{2}}
+\headcommand {\beamer@sectionpages {85}{88}}
+\headcommand {\beamer@subsectionpages {85}{88}}
+\headcommand {\slideentry {12}{0}{1}{89/90}{}{2}}
 \headcommand {\beamer@framepages {89}{90}}
-\headcommand {\beamer@subsectionentry {3}{13}{1}{91}{Windows Clients}}\headcommand {\beamer@subsectionpages {89}{90}}
-\headcommand {\slideentry {13}{1}{1}{91/96}{Windows Clients}{3}}
-\headcommand {\beamer@framepages {91}{96}}
-\headcommand {\beamer@subsectionentry {3}{13}{2}{97}{Linux/MacOSX/UNIX Clients}}\headcommand {\beamer@subsectionpages {91}{96}}
-\headcommand {\slideentry {13}{2}{1}{97/100}{Linux/MacOSX/UNIX Clients}{3}}
-\headcommand {\beamer@framepages {97}{100}}
-\headcommand {\beamer@subsectionentry {3}{13}{3}{101}{Login}}\headcommand {\beamer@subsectionpages {97}{100}}
-\headcommand {\slideentry {13}{3}{1}{101/102}{Login}{3}}
-\headcommand {\beamer@framepages {101}{102}}
-\headcommand {\slideentry {13}{3}{2}{103/105}{Login}{3}}
-\headcommand {\beamer@framepages {103}{105}}
-\headcommand {\slideentry {13}{3}{3}{106/107}{Login}{3}}
-\headcommand {\beamer@framepages {106}{107}}
-\headcommand {\beamer@subsectionentry {3}{13}{4}{108}{File Transfer}}\headcommand {\beamer@subsectionpages {101}{107}}
-\headcommand {\slideentry {13}{4}{1}{108/112}{File Transfer}{3}}
-\headcommand {\beamer@framepages {108}{112}}
-\headcommand {\beamer@subsectionentry {3}{13}{5}{113}{Remote Desktop}}\headcommand {\beamer@subsectionpages {108}{112}}
-\headcommand {\slideentry {13}{5}{1}{113/113}{Remote Desktop}{3}}
-\headcommand {\beamer@framepages {113}{113}}
-\headcommand {\slideentry {13}{5}{2}{114/114}{Remote Desktop}{3}}
-\headcommand {\beamer@framepages {114}{114}}
-\headcommand {\slideentry {13}{5}{3}{115/116}{Remote Desktop}{3}}
-\headcommand {\beamer@framepages {115}{116}}
-\headcommand {\slideentry {13}{5}{4}{117/117}{Remote Desktop}{3}}
+\headcommand {\partentry {Using HPC}{3}}
+\headcommand {\beamer@partpages {69}{90}}
+\headcommand {\beamer@sectionpages {89}{90}}
+\headcommand {\beamer@subsectionpages {89}{90}}
+\headcommand {\slideentry {12}{0}{2}{91/91}{}{3}}
+\headcommand {\beamer@framepages {91}{91}}
+\headcommand {\sectionentry {13}{Connecting}{92}{Connecting}{3}}
+\headcommand {\beamer@sectionpages {91}{91}}
+\headcommand {\beamer@subsectionpages {91}{91}}
+\headcommand {\slideentry {13}{0}{1}{92/93}{}{3}}
+\headcommand {\beamer@framepages {92}{93}}
+\headcommand {\beamer@subsectionentry {3}{13}{1}{94}{Windows Clients}}\headcommand {\beamer@subsectionpages {92}{93}}
+\headcommand {\slideentry {13}{1}{1}{94/99}{Windows Clients}{3}}
+\headcommand {\beamer@framepages {94}{99}}
+\headcommand {\beamer@subsectionentry {3}{13}{2}{100}{Linux/MacOSX/UNIX Clients}}\headcommand {\beamer@subsectionpages {94}{99}}
+\headcommand {\slideentry {13}{2}{1}{100/103}{Linux/MacOSX/UNIX Clients}{3}}
+\headcommand {\beamer@framepages {100}{103}}
+\headcommand {\beamer@subsectionentry {3}{13}{3}{104}{Login}}\headcommand {\beamer@subsectionpages {100}{103}}
+\headcommand {\slideentry {13}{3}{1}{104/105}{Login}{3}}
+\headcommand {\beamer@framepages {104}{105}}
+\headcommand {\slideentry {13}{3}{2}{106/108}{Login}{3}}
+\headcommand {\beamer@framepages {106}{108}}
+\headcommand {\slideentry {13}{3}{3}{109/110}{Login}{3}}
+\headcommand {\beamer@framepages {109}{110}}
+\headcommand {\beamer@subsectionentry {3}{13}{4}{111}{File Transfer}}\headcommand {\beamer@subsectionpages {104}{110}}
+\headcommand {\slideentry {13}{4}{1}{111/115}{File Transfer}{3}}
+\headcommand {\beamer@framepages {111}{115}}
+\headcommand {\beamer@subsectionentry {3}{13}{5}{116}{Remote Desktop}}\headcommand {\beamer@subsectionpages {111}{115}}
+\headcommand {\slideentry {13}{5}{1}{116/116}{Remote Desktop}{3}}
+\headcommand {\beamer@framepages {116}{116}}
+\headcommand {\slideentry {13}{5}{2}{117/117}{Remote Desktop}{3}}
 \headcommand {\beamer@framepages {117}{117}}
-\headcommand {\sectionentry {14}{User Environment}{118}{User Environment}{3}}
-\headcommand {\beamer@sectionpages {89}{117}}
-\headcommand {\beamer@subsectionpages {113}{117}}
-\headcommand {\slideentry {14}{0}{1}{118/120}{}{3}}
-\headcommand {\beamer@framepages {118}{120}}
-\headcommand {\beamer@subsectionentry {3}{14}{1}{121}{Filesystems}}\headcommand {\beamer@subsectionpages {118}{120}}
-\headcommand {\slideentry {14}{1}{1}{121/122}{Filesystems}{3}}
-\headcommand {\beamer@framepages {121}{122}}
-\headcommand {\slideentry {14}{1}{2}{123/126}{Filesystems}{3}}
-\headcommand {\beamer@framepages {123}{126}}
-\headcommand {\beamer@subsectionentry {3}{14}{2}{127}{Exceeding 1TB of scratch}}\headcommand {\beamer@subsectionpages {121}{126}}
-\headcommand {\slideentry {14}{2}{1}{127/128}{Exceeding 1TB of scratch}{3}}
-\headcommand {\beamer@framepages {127}{128}}
-\headcommand {\slideentry {14}{2}{2}{129/132}{Exceeding 1TB of scratch}{3}}
-\headcommand {\beamer@framepages {129}{132}}
-\headcommand {\slideentry {14}{2}{3}{133/137}{Exceeding 1TB of scratch}{3}}
-\headcommand {\beamer@framepages {133}{137}}
-\headcommand {\slideentry {14}{2}{4}{138/138}{Exceeding 1TB of scratch}{3}}
+\headcommand {\slideentry {13}{5}{3}{118/119}{Remote Desktop}{3}}
+\headcommand {\beamer@framepages {118}{119}}
+\headcommand {\slideentry {13}{5}{4}{120/120}{Remote Desktop}{3}}
+\headcommand {\beamer@framepages {120}{120}}
+\headcommand {\sectionentry {14}{User Environment}{121}{User Environment}{3}}
+\headcommand {\beamer@sectionpages {92}{120}}
+\headcommand {\beamer@subsectionpages {116}{120}}
+\headcommand {\slideentry {14}{0}{1}{121/123}{}{3}}
+\headcommand {\beamer@framepages {121}{123}}
+\headcommand {\beamer@subsectionentry {3}{14}{1}{124}{Filesystems}}\headcommand {\beamer@subsectionpages {121}{123}}
+\headcommand {\slideentry {14}{1}{1}{124/124}{Filesystems}{3}}
+\headcommand {\beamer@framepages {124}{124}}
+\headcommand {\slideentry {14}{1}{2}{125/128}{Filesystems}{3}}
+\headcommand {\beamer@framepages {125}{128}}
+\headcommand {\slideentry {14}{1}{3}{129/129}{Filesystems}{3}}
+\headcommand {\beamer@framepages {129}{129}}
+\headcommand {\beamer@subsectionentry {3}{14}{2}{130}{Software}}\headcommand {\beamer@subsectionpages {124}{129}}
+\headcommand {\slideentry {14}{2}{1}{130/131}{Software}{3}}
+\headcommand {\beamer@framepages {130}{131}}
+\headcommand {\beamer@subsectionentry {3}{14}{3}{132}{Environment Modules}}\headcommand {\beamer@subsectionpages {130}{131}}
+\headcommand {\slideentry {14}{3}{1}{132/132}{Environment Modules}{3}}
+\headcommand {\beamer@framepages {132}{132}}
+\headcommand {\beamer@subsectionentry {3}{14}{4}{133}{Environment Modules}}\headcommand {\beamer@subsectionpages {132}{132}}
+\headcommand {\slideentry {14}{4}{1}{133/133}{Environment Modules}{3}}
+\headcommand {\beamer@framepages {133}{133}}
+\headcommand {\slideentry {14}{4}{2}{134/134}{Environment Modules}{3}}
+\headcommand {\beamer@framepages {134}{134}}
+\headcommand {\slideentry {14}{4}{3}{135/137}{Environment Modules}{3}}
+\headcommand {\beamer@framepages {135}{137}}
+\headcommand {\slideentry {14}{4}{4}{138/138}{Environment Modules}{3}}
 \headcommand {\beamer@framepages {138}{138}}
-\headcommand {\slideentry {14}{2}{5}{139/139}{Exceeding 1TB of scratch}{3}}
-\headcommand {\beamer@framepages {139}{139}}
-\headcommand {\beamer@subsectionentry {3}{14}{3}{140}{Software}}\headcommand {\beamer@subsectionpages {127}{139}}
-\headcommand {\slideentry {14}{3}{1}{140/141}{Software}{3}}
-\headcommand {\beamer@framepages {140}{141}}
-\headcommand {\beamer@subsectionentry {3}{14}{4}{142}{Environment Modules}}\headcommand {\beamer@subsectionpages {140}{141}}
-\headcommand {\slideentry {14}{4}{1}{142/142}{Environment Modules}{3}}
+\headcommand {\beamer@subsectionentry {3}{14}{5}{139}{Compilers}}\headcommand {\beamer@subsectionpages {133}{138}}
+\headcommand {\slideentry {14}{5}{1}{139/140}{Compilers}{3}}
+\headcommand {\beamer@framepages {139}{140}}
+\headcommand {\sectionentry {15}{Job Submission}{141}{Job Submission}{3}}
+\headcommand {\beamer@sectionpages {121}{140}}
+\headcommand {\beamer@subsectionpages {139}{140}}
+\headcommand {\slideentry {15}{0}{1}{141/141}{}{3}}
+\headcommand {\beamer@framepages {141}{141}}
+\headcommand {\slideentry {15}{0}{2}{142/142}{}{3}}
 \headcommand {\beamer@framepages {142}{142}}
-\headcommand {\beamer@subsectionentry {3}{14}{5}{143}{Environment Modules}}\headcommand {\beamer@subsectionpages {142}{142}}
-\headcommand {\slideentry {14}{5}{1}{143/143}{Environment Modules}{3}}
-\headcommand {\beamer@framepages {143}{143}}
-\headcommand {\slideentry {14}{5}{2}{144/144}{Environment Modules}{3}}
-\headcommand {\beamer@framepages {144}{144}}
-\headcommand {\slideentry {14}{5}{3}{145/147}{Environment Modules}{3}}
-\headcommand {\beamer@framepages {145}{147}}
-\headcommand {\slideentry {14}{5}{4}{148/148}{Environment Modules}{3}}
-\headcommand {\beamer@framepages {148}{148}}
-\headcommand {\beamer@subsectionentry {3}{14}{6}{149}{Compilers}}\headcommand {\beamer@subsectionpages {143}{148}}
-\headcommand {\slideentry {14}{6}{1}{149/150}{Compilers}{3}}
-\headcommand {\beamer@framepages {149}{150}}
-\headcommand {\sectionentry {15}{Job Submission}{151}{Job Submission}{3}}
-\headcommand {\beamer@sectionpages {118}{150}}
-\headcommand {\beamer@subsectionpages {149}{150}}
-\headcommand {\slideentry {15}{0}{1}{151/151}{}{3}}
+\headcommand {\slideentry {15}{0}{3}{143/144}{}{3}}
+\headcommand {\beamer@framepages {143}{144}}
+\headcommand {\slideentry {15}{0}{4}{145/145}{}{3}}
+\headcommand {\beamer@framepages {145}{145}}
+\headcommand {\slideentry {15}{0}{5}{146/146}{}{3}}
+\headcommand {\beamer@framepages {146}{146}}
+\headcommand {\slideentry {15}{0}{6}{147/149}{}{3}}
+\headcommand {\beamer@framepages {147}{149}}
+\headcommand {\slideentry {15}{0}{7}{150/150}{}{3}}
+\headcommand {\beamer@framepages {150}{150}}
+\headcommand {\slideentry {15}{0}{8}{151/151}{}{3}}
 \headcommand {\beamer@framepages {151}{151}}
-\headcommand {\slideentry {15}{0}{2}{152/152}{}{3}}
-\headcommand {\beamer@framepages {152}{152}}
-\headcommand {\slideentry {15}{0}{3}{153/154}{}{3}}
-\headcommand {\beamer@framepages {153}{154}}
-\headcommand {\slideentry {15}{0}{4}{155/155}{}{3}}
-\headcommand {\beamer@framepages {155}{155}}
-\headcommand {\slideentry {15}{0}{5}{156/156}{}{3}}
+\headcommand {\slideentry {15}{0}{9}{152/155}{}{3}}
+\headcommand {\beamer@framepages {152}{155}}
+\headcommand {\slideentry {15}{0}{10}{156/156}{}{3}}
 \headcommand {\beamer@framepages {156}{156}}
-\headcommand {\slideentry {15}{0}{6}{157/159}{}{3}}
-\headcommand {\beamer@framepages {157}{159}}
-\headcommand {\slideentry {15}{0}{7}{160/160}{}{3}}
-\headcommand {\beamer@framepages {160}{160}}
-\headcommand {\slideentry {15}{0}{8}{161/161}{}{3}}
-\headcommand {\beamer@framepages {161}{161}}
-\headcommand {\slideentry {15}{0}{9}{162/165}{}{3}}
-\headcommand {\beamer@framepages {162}{165}}
-\headcommand {\slideentry {15}{0}{10}{166/166}{}{3}}
-\headcommand {\beamer@framepages {166}{166}}
-\headcommand {\beamer@subsectionentry {3}{15}{1}{167}{Single Node Jobs}}\headcommand {\beamer@subsectionpages {151}{166}}
-\headcommand {\slideentry {15}{1}{1}{167/174}{Single Node Jobs}{3}}
-\headcommand {\beamer@framepages {167}{174}}
-\headcommand {\beamer@subsectionentry {3}{15}{2}{175}{MPI Jobs}}\headcommand {\beamer@subsectionpages {167}{174}}
-\headcommand {\slideentry {15}{2}{1}{175/177}{MPI Jobs}{3}}
-\headcommand {\beamer@framepages {175}{177}}
-\headcommand {\beamer@subsectionentry {3}{15}{3}{178}{Hybrid Jobs}}\headcommand {\beamer@subsectionpages {175}{177}}
-\headcommand {\slideentry {15}{3}{1}{178/179}{Hybrid Jobs}{3}}
-\headcommand {\beamer@framepages {178}{179}}
-\headcommand {\beamer@subsectionentry {3}{15}{4}{180}{High Throughput Jobs}}\headcommand {\beamer@subsectionpages {178}{179}}
-\headcommand {\slideentry {15}{4}{1}{180/185}{High Throughput Jobs}{3}}
-\headcommand {\beamer@framepages {180}{185}}
-\headcommand {\beamer@subsectionentry {3}{15}{5}{186}{Interactive Jobs}}\headcommand {\beamer@subsectionpages {180}{185}}
-\headcommand {\slideentry {15}{5}{1}{186/188}{Interactive Jobs}{3}}
-\headcommand {\beamer@framepages {186}{188}}
-\headcommand {\beamer@subsectionentry {3}{15}{6}{189}{Array Jobs}}\headcommand {\beamer@subsectionpages {186}{188}}
-\headcommand {\slideentry {15}{6}{1}{189/195}{Array Jobs}{3}}
-\headcommand {\beamer@framepages {189}{195}}
-\headcommand {\slideentry {15}{6}{2}{196/197}{Array Jobs}{3}}
-\headcommand {\beamer@framepages {196}{197}}
-\headcommand {\beamer@subsectionentry {3}{15}{7}{198}{Scheduling}}\headcommand {\beamer@subsectionpages {189}{197}}
-\headcommand {\slideentry {15}{7}{1}{198/203}{Scheduling}{3}}
-\headcommand {\beamer@framepages {198}{203}}
-\headcommand {\beamer@subsectionentry {3}{15}{8}{204}{Wait Times}}\headcommand {\beamer@subsectionpages {198}{203}}
-\headcommand {\slideentry {15}{8}{1}{204/206}{Wait Times}{3}}
-\headcommand {\beamer@framepages {204}{206}}
-\headcommand {\beamer@subsectionentry {3}{15}{9}{207}{Checkpointing}}\headcommand {\beamer@subsectionpages {204}{206}}
-\headcommand {\slideentry {15}{9}{1}{207/208}{Checkpointing}{3}}
-\headcommand {\beamer@framepages {207}{208}}
-\headcommand {\beamer@subsectionentry {3}{15}{10}{209}{Scheduling Top Tips}}\headcommand {\beamer@subsectionpages {207}{208}}
-\headcommand {\slideentry {15}{10}{1}{209/209}{Scheduling Top Tips}{3}}
-\headcommand {\beamer@framepages {209}{209}}
-\headcommand {\beamer@partpages {88}{209}}
-\headcommand {\beamer@subsectionpages {209}{209}}
-\headcommand {\beamer@sectionpages {151}{209}}
-\headcommand {\beamer@documentpages {209}}
-\headcommand {\def \inserttotalframenumber {76}}
+\headcommand {\beamer@subsectionentry {3}{15}{1}{157}{Single Node Jobs}}\headcommand {\beamer@subsectionpages {141}{156}}
+\headcommand {\slideentry {15}{1}{1}{157/164}{Single Node Jobs}{3}}
+\headcommand {\beamer@framepages {157}{164}}
+\headcommand {\beamer@subsectionentry {3}{15}{2}{165}{MPI Jobs}}\headcommand {\beamer@subsectionpages {157}{164}}
+\headcommand {\slideentry {15}{2}{1}{165/167}{MPI Jobs}{3}}
+\headcommand {\beamer@framepages {165}{167}}
+\headcommand {\beamer@subsectionentry {3}{15}{3}{168}{Hybrid Jobs}}\headcommand {\beamer@subsectionpages {165}{167}}
+\headcommand {\slideentry {15}{3}{1}{168/169}{Hybrid Jobs}{3}}
+\headcommand {\beamer@framepages {168}{169}}
+\headcommand {\beamer@subsectionentry {3}{15}{4}{170}{High Throughput Jobs}}\headcommand {\beamer@subsectionpages {168}{169}}
+\headcommand {\slideentry {15}{4}{1}{170/175}{High Throughput Jobs}{3}}
+\headcommand {\beamer@framepages {170}{175}}
+\headcommand {\beamer@subsectionentry {3}{15}{5}{176}{Interactive Jobs}}\headcommand {\beamer@subsectionpages {170}{175}}
+\headcommand {\slideentry {15}{5}{1}{176/178}{Interactive Jobs}{3}}
+\headcommand {\beamer@framepages {176}{178}}
+\headcommand {\beamer@subsectionentry {3}{15}{6}{179}{Array Jobs}}\headcommand {\beamer@subsectionpages {176}{178}}
+\headcommand {\slideentry {15}{6}{1}{179/185}{Array Jobs}{3}}
+\headcommand {\beamer@framepages {179}{185}}
+\headcommand {\slideentry {15}{6}{2}{186/187}{Array Jobs}{3}}
+\headcommand {\beamer@framepages {186}{187}}
+\headcommand {\beamer@subsectionentry {3}{15}{7}{188}{Scheduling}}\headcommand {\beamer@subsectionpages {179}{187}}
+\headcommand {\slideentry {15}{7}{1}{188/193}{Scheduling}{3}}
+\headcommand {\beamer@framepages {188}{193}}
+\headcommand {\beamer@subsectionentry {3}{15}{8}{194}{Wait Times}}\headcommand {\beamer@subsectionpages {188}{193}}
+\headcommand {\slideentry {15}{8}{1}{194/196}{Wait Times}{3}}
+\headcommand {\beamer@framepages {194}{196}}
+\headcommand {\beamer@subsectionentry {3}{15}{9}{197}{Checkpointing}}\headcommand {\beamer@subsectionpages {194}{196}}
+\headcommand {\slideentry {15}{9}{1}{197/198}{Checkpointing}{3}}
+\headcommand {\beamer@framepages {197}{198}}
+\headcommand {\beamer@subsectionentry {3}{15}{10}{199}{Scheduling Top Tips}}\headcommand {\beamer@subsectionpages {197}{198}}
+\headcommand {\slideentry {15}{10}{1}{199/199}{Scheduling Top Tips}{3}}
+\headcommand {\beamer@framepages {199}{199}}
+\headcommand {\beamer@partpages {91}{199}}
+\headcommand {\beamer@subsectionpages {199}{199}}
+\headcommand {\beamer@sectionpages {141}{199}}
+\headcommand {\beamer@documentpages {199}}
+\headcommand {\def \inserttotalframenumber {72}}

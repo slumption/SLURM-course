@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.18)  17 MAY 2018 15:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.10.18)  17 MAY 2018 16:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1242,7 +1242,7 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 ]
 [67
 
-] <imgs/mobaxterm-SSH-settings2.png, id=728, 1156.32pt x 722.7pt>
+] <imgs/mobaxterm-SSH-settings2.png, id=716, 1156.32pt x 722.7pt>
 File: imgs/mobaxterm-SSH-settings2.png Graphic file (type png)
 
 <use imgs/mobaxterm-SSH-settings2.png>
@@ -1256,7 +1256,7 @@ Overfull \vbox (12.84695pt too high) detected at line 304
 [68
 
  <./imgs/mobaxterm-SSH-settings2.png>]
-<imgs/mobaxterm-SSH-session.png, id=735, 1156.32pt x 722.7pt>
+<imgs/mobaxterm-SSH-session.png, id=722, 1156.32pt x 722.7pt>
 File: imgs/mobaxterm-SSH-session.png Graphic file (type png)
 
 <use imgs/mobaxterm-SSH-session.png>
@@ -1370,92 +1370,92 @@ Overfull \hbox (2.7375pt too wide) detected at line 2
 
 ] [106
 
+] [107
+
+] [108
+
+] [109
+
+] [110
+
 ]
 \openout4 = `main.vrb'.
 
- (./main.vrb) [107
+ (./main.vrb)
+[111
 
-] (./main.vrb)
-[108
+] (./main.vrb) [112
 
-] (./main.vrb) [109
+] (./main.vrb) [113
 
-] (./main.vrb) [110
-
-] [111
-
-] [112
-
-] [113
-
-] [114
+] (./main.vrb) [114
 
 ] [115
 
-]
-[116
+] [116
 
-] [117
+]
+[117
 
 ] [118
 
 ] [119
 
-]
-\openout4 = `main.vrb'.
+] [120
 
- (./main.vrb) [120
+] [121
 
-]
-\openout4 = `main.vrb'.
+] [122
 
- (./main.vrb) [121
+] [123
 
 ]
 \openout4 = `main.vrb'.
 
- (./main.vrb)
-[122
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb) [123
-
-] (./main.vrb) [124
-
-] (./main.vrb) [125
+ (./main.vrb) [124
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-[126
+[125
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb) [126
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb) [127
 
+] (./main.vrb) [128
+
+] (./main.vrb)
+[129
+
 ]
 \openout4 = `main.vrb'.
 
- (./main.vrb) [128
+ (./main.vrb) [130
 
-] [129
+]
+\openout4 = `main.vrb'.
 
-] [130
+ (./main.vrb) [131
 
-] [131
+]
+\openout4 = `main.vrb'.
 
-] [132
+ (./main.vrb) [132
 
 ] [133
 
-]
-[134
+] [134
 
-] [135
+]
+[135
 
 ] [136
 
@@ -1519,7 +1519,7 @@ Overfull \hbox (2.7375pt too wide) detected at line 413
 ] [153
 
 ]
-<imgs/AmdahlsLaw.png, id=1196, 520.344pt x 390.258pt>
+<imgs/AmdahlsLaw.png, id=1179, 520.344pt x 390.258pt>
 File: imgs/AmdahlsLaw.png Graphic file (type png)
 
 <use imgs/AmdahlsLaw.png>
@@ -1565,7 +1565,7 @@ Package pdftex.def Info: imgs/AmdahlsLaw.png used on input line 56.
 
 ] [172
 
-] <imgs/lstopo.png, id=1301, 1030.85126pt x 903.375pt>
+] <imgs/lstopo.png, id=1280, 1030.85126pt x 903.375pt>
 File: imgs/lstopo.png Graphic file (type png)
 
 <use imgs/lstopo.png>
@@ -1588,7 +1588,7 @@ Overfull \vbox (19.92807pt too high) detected at line 120
 ] [178
 
 ]
-<imgs/coreib.jpg, id=1336, 2731.20375pt x 5100.05376pt>
+<imgs/coreib.jpg, id=1313, 2731.20375pt x 5100.05376pt>
 File: imgs/coreib.jpg Graphic file (type jpg)
  <use imgs/coreib.jpg>
 Package pdftex.def Info: imgs/coreib.jpg used on input line 157.
@@ -1675,7 +1675,7 @@ Overfull \hbox (2.7375pt too wide) detected at line 228
 
 ] [201
 
-] <imgs/WCDC4.jpg, id=1463, 1204.5pt x 677.53125pt>
+] <imgs/WCDC4.jpg, id=1438, 1204.5pt x 677.53125pt>
 File: imgs/WCDC4.jpg Graphic file (type jpg)
 
 <use imgs/WCDC4.jpg>
@@ -1690,7 +1690,7 @@ Package pdftex.def Info: imgs/WCDC4.jpg used on input line 246.
 ] [205
 
 ]
-<imgs/darwin.jpg, id=1485, 301.125pt x 220.4235pt>
+<imgs/darwin.jpg, id=1460, 301.125pt x 220.4235pt>
 File: imgs/darwin.jpg Graphic file (type jpg)
  <use imgs/darwin.jpg>
 Package pdftex.def Info: imgs/darwin.jpg used on input line 269.
@@ -1701,7 +1701,7 @@ Overfull \vbox (2.09862pt too high) detected at line 269
 
 [206
 
- <./imgs/darwin.jpg>] <imgs/MLDC-big.jpg, id=1491, 3902.58pt x 2601.72pt>
+ <./imgs/darwin.jpg>] <imgs/MLDC-big.jpg, id=1466, 3902.58pt x 2601.72pt>
 File: imgs/MLDC-big.jpg Graphic file (type jpg)
 
 <use imgs/MLDC-big.jpg>
@@ -1724,7 +1724,7 @@ Package pdftex.def Info: imgs/MLDC-big.jpg used on input line 275.
 
 ] [214
 
-] <imgs/cluster.png, id=1534, 1293.7747pt x 753.87529pt>
+] <imgs/cluster.png, id=1509, 1293.7747pt x 753.87529pt>
 File: imgs/cluster.png Graphic file (type png)
 
 <use imgs/cluster.png>
@@ -1757,7 +1757,7 @@ Package pdftex.def Info: imgs/cluster.png used on input line 311.
 ] [225
 
 ]
-<imgs/EDSAC_2_1960.jpg, id=1593, 513.92pt x 316.18124pt>
+<imgs/EDSAC_2_1960.jpg, id=1567, 513.92pt x 316.18124pt>
 File: imgs/EDSAC_2_1960.jpg Graphic file (type jpg)
 
 <use imgs/EDSAC_2_1960.jpg>
@@ -2089,8 +2089,8 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 83AD103FBCD5609F9000C89F76F3905F;4866
-(rerunfilecheck)             After:  03066FCA915366E5E4E501035F758CE2;4884.
+(rerunfilecheck)             Before: 03066FCA915366E5E4E501035F758CE2;4884
+(rerunfilecheck)             After:  FC70136E1B465DAC6A755406B04A5CB6;4884.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -2101,138 +2101,30 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
  ) 
 Here is how much of TeX's memory you used:
- 18757 strings out of 494910
- 349816 string characters out of 6179835
- 430324 words of memory out of 5000000
- 20779 multiletter control sequences out of 15000+600000
+ 18725 strings out of 494910
+ 349304 string characters out of 6179835
+ 430816 words of memory out of 5000000
+ 20783 multiletter control sequences out of 15000+600000
  18156 words of font info for 69 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  48i,15n,61p,384b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Outline5.27.6.113} has been referenced but does n
+pdfTeX warning (dest): name{Outline2.13.4.128} has been referenced but does n
 ot exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Outline5.27.5.112} has been referenced but does not
+pdfTeX warning (dest): name{Outline2.13.3.127} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Outline5.27.4.111} has been referenced but does not
+pdfTeX warning (dest): name{Outline2.13.2.121} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Outline5.27.3.110} has been referenced but does not
+pdfTeX warning (dest): name{Outline2.13.1.120} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Outline5.27.2.108} has been referenced but does not
+pdfTeX warning (dest): name{Outline2.12.2.105} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Outline5.27.1.107} has been referenced but does not
+pdfTeX warning (dest): name{Outline2.12.1.103} has been referenced but does not
  exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline5.26.4.104} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline5.26.3.103} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline5.26.2.101} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline5.26.1.96} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline5.24.1.83} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline4.18.5.71} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline4.18.4.70} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline4.18.3.69} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline4.18.2.68} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline4.18.1.67} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline4.17.5.65} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline4.17.4.64} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline4.17.3.63} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline4.17.2.62} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline4.17.1.61} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline2.13.4.54} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline2.13.3.53} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline2.13.2.49} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline2.13.1.48} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline2.12.2.41} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline2.12.1.40} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline2.10.2.36} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline2.10.1.35} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline1.8.2.29} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline1.8.1.28} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline1.7.7.26} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline1.7.6.25} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline1.7.5.24} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline1.7.4.23} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline1.7.3.22} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline1.7.2.21} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline1.7.1.20} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline1.6.4.17} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline1.6.3.16} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline1.6.2.15} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline1.6.1.14} has been referenced but does not e
-xist, replaced by a fixed one
 
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
@@ -2251,10 +2143,10 @@ share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on main.pdf (287 pages, 9549555 bytes).
+Output written on main.pdf (287 pages, 9548807 bytes).
 PDF statistics:
- 2140 PDF objects out of 2487 (max. 8388607)
- 1782 compressed objects within 18 object streams
- 692 named destinations out of 1000 (max. 500000)
+ 2097 PDF objects out of 2487 (max. 8388607)
+ 1739 compressed objects within 18 object streams
+ 656 named destinations out of 1000 (max. 500000)
  709 words of extra memory for PDF output out of 10000 (max. 10000000)
 

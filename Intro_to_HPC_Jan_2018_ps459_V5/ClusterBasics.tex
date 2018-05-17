@@ -114,6 +114,26 @@ In this section we will cover high throughput and compute intensive jobs. We wil
 \end{itemize}
 \end{frame}
 
+\section{Storage}
+\begin{frame}{HPCS: Storage}
+\begin{itemize}
+\item{Multi-petabytes split across multiple filesystems with tape.}
+\item{Lustre cluster filesystem:}
+\begin{itemize}
+\item[$\ast$]{Multiple RAID6 back-end disk volumes.}
+\item[$\ast$]{Multiple object storage servers.}
+\item[$\ast$]{Single metadata server.}
+\item[$\ast$]{Tape-backed HSM on newest filesystems.}
+\pause
+\item[$\ast$]{\alert{$4\,\text{GB/sec}$ overall read or write.}}
+\pause
+\item[$\ast$]{\alert{Prefers big read/writes over small.}}
+\end{itemize}
+\pause
+\item{\alert{For active HPC work only.}}
+\end{itemize}
+\end{frame}
+
 \subsection{Filesystems}
 \begin{frame}{User Environment: Filesystems}
 When you apply for an HPC account a home directory is created for you. 
@@ -342,26 +362,6 @@ module load default-impi-LATEST
 \item{Load the module for: R/3.3.2}
 \item[\emph{Hints:}]{\alert{module load R/3.3.2}}
 \item{Run the script again: Rscript hello.r}
-\end{itemize}
-\end{frame}
-
-\section{Storage}
-\begin{frame}{HPCS: Storage}
-\begin{itemize}
-\item{Multi-petabytes split across multiple filesystems with tape.}
-\item{Lustre cluster filesystem:}
-\begin{itemize}
-\item[$\ast$]{Multiple RAID6 back-end disk volumes.}
-\item[$\ast$]{Multiple object storage servers.}
-\item[$\ast$]{Single metadata server.}
-\item[$\ast$]{Tape-backed HSM on newest filesystems.}
-\pause
-\item[$\ast$]{\alert{$4\,\text{GB/sec}$ overall read or write.}}
-\pause
-\item[$\ast$]{\alert{Prefers big read/writes over small.}}
-\end{itemize}
-\pause
-\item{\alert{For active HPC work only.}}
 \end{itemize}
 \end{frame}
 

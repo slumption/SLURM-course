@@ -27,14 +27,14 @@
 \beamer@subsectionintoc {10}{2}{Data Intensive}{90}{2}{10}
 \beamer@sectionintoc {11}{User Environment Introduction}{97}{2}{11}
 \beamer@sectionintoc {12}{User Environment}{98}{2}{12}
-\beamer@subsectionintoc {12}{1}{Filesystems}{103}{2}{12}
-\beamer@subsectionintoc {12}{2}{Exceeding 1TB of scratch}{105}{2}{12}
-\beamer@sectionintoc {13}{Software}{118}{2}{13}
-\beamer@subsectionintoc {13}{1}{Environment Modules Pt 1}{120}{2}{13}
-\beamer@subsectionintoc {13}{2}{Environment Modules Pt 2}{121}{2}{13}
-\beamer@subsectionintoc {13}{3}{Modules: Excercise 4}{127}{2}{13}
-\beamer@subsectionintoc {13}{4}{Modules: Excercise 5}{128}{2}{13}
-\beamer@sectionintoc {14}{Storage}{129}{2}{14}
+\beamer@sectionintoc {13}{Storage}{103}{2}{13}
+\beamer@subsectionintoc {13}{1}{Filesystems}{107}{2}{13}
+\beamer@subsectionintoc {13}{2}{Exceeding 1TB of scratch}{109}{2}{13}
+\beamer@sectionintoc {14}{Software}{122}{2}{14}
+\beamer@subsectionintoc {14}{1}{Environment Modules Pt 1}{124}{2}{14}
+\beamer@subsectionintoc {14}{2}{Environment Modules Pt 2}{125}{2}{14}
+\beamer@subsectionintoc {14}{3}{Modules: Excercise 4}{131}{2}{14}
+\beamer@subsectionintoc {14}{4}{Modules: Excercise 5}{132}{2}{14}
 \beamer@sectionintoc {15}{Service Levels}{133}{2}{15}
 \beamer@sectionintoc {16}{How To Apply}{140}{2}{16}
 \beamer@sectionintoc {17}{Types of job part 2}{145}{4}{17}
