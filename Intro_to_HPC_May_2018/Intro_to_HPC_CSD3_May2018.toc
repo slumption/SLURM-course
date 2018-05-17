@@ -20,56 +20,56 @@
 \beamer@sectionintoc {17}{Obtaining an Account and Support}{110}{3}{17}
 \beamer@sectionintoc {18}{Connecting}{113}{4}{18}
 \beamer@subsectionintoc {18}{1}{Connecting - SSH}{114}{4}{18}
-\beamer@subsectionintoc {18}{2}{Linux Clients}{120}{4}{18}
-\beamer@subsectionintoc {18}{3}{Login}{122}{4}{18}
-\beamer@subsectionintoc {18}{4}{First time login}{128}{4}{18}
-\beamer@subsectionintoc {18}{5}{File Transfer with rsync: an example}{132}{4}{18}
-\beamer@sectionintoc {19}{Connecting from other clients}{135}{4}{19}
-\beamer@subsectionintoc {19}{1}{MacOSX}{138}{4}{19}
-\beamer@subsectionintoc {19}{2}{Windows Users}{142}{4}{19}
-\beamer@sectionintoc {20}{Basic practicals}{144}{4}{20}
-\beamer@subsectionintoc {20}{1}{Exercise 1: Navigating the command line}{145}{4}{20}
-\beamer@subsectionintoc {20}{2}{Exercise 2: Login}{146}{4}{20}
-\beamer@subsectionintoc {20}{3}{Exercise 3: SFTP file transfer - pt1}{147}{4}{20}
-\beamer@subsectionintoc {20}{4}{Exercise 3: SFTP file transfer - pt2}{148}{4}{20}
-\beamer@subsectionintoc {20}{5}{File Transfer with rsync}{149}{4}{20}
-\beamer@sectionintoc {21}{Connecting}{150}{4}{21}
-\beamer@subsectionintoc {21}{1}{Windows Clients}{152}{4}{21}
-\beamer@subsectionintoc {21}{2}{Linux/MacOSX/UNIX Clients}{158}{4}{21}
-\beamer@subsectionintoc {21}{3}{Login}{162}{4}{21}
-\beamer@subsectionintoc {21}{4}{File Transfer}{169}{4}{21}
-\beamer@subsectionintoc {21}{5}{Remote Desktop}{174}{4}{21}
-\beamer@sectionintoc {22}{User Environment}{179}{4}{22}
-\beamer@subsectionintoc {22}{1}{Filesystems}{182}{4}{22}
-\beamer@subsectionintoc {22}{2}{Software}{188}{4}{22}
-\beamer@subsectionintoc {22}{3}{Environment Modules}{190}{4}{22}
-\beamer@subsectionintoc {22}{4}{Environment Modules}{191}{4}{22}
-\beamer@subsectionintoc {22}{5}{Compilers}{197}{4}{22}
-\beamer@sectionintoc {23}{Job Submission}{199}{4}{23}
-\beamer@subsectionintoc {23}{1}{Single Node Jobs}{215}{4}{23}
-\beamer@subsectionintoc {23}{2}{MPI Jobs}{223}{4}{23}
-\beamer@subsectionintoc {23}{3}{Hybrid Jobs}{226}{4}{23}
-\beamer@subsectionintoc {23}{4}{High Throughput Jobs}{228}{4}{23}
-\beamer@subsectionintoc {23}{5}{Interactive Jobs}{234}{4}{23}
-\beamer@subsectionintoc {23}{6}{Array Jobs}{237}{4}{23}
-\beamer@subsectionintoc {23}{7}{Scheduling}{246}{4}{23}
-\beamer@subsectionintoc {23}{8}{Wait Times}{252}{4}{23}
-\beamer@subsectionintoc {23}{9}{Checkpointing}{255}{4}{23}
-\beamer@subsectionintoc {23}{10}{Scheduling Top Tips}{257}{4}{23}
-\beamer@sectionintoc {24}{User Environment}{259}{5}{24}
-\beamer@subsectionintoc {24}{1}{Filesystems}{262}{5}{24}
-\beamer@subsectionintoc {24}{2}{Software}{268}{5}{24}
-\beamer@subsectionintoc {24}{3}{Environment Modules}{270}{5}{24}
-\beamer@subsectionintoc {24}{4}{Environment Modules}{271}{5}{24}
-\beamer@subsectionintoc {24}{5}{Compilers}{277}{5}{24}
-\beamer@sectionintoc {25}{Job Submission}{280}{6}{25}
-\beamer@subsectionintoc {25}{1}{Single Node Jobs}{296}{6}{25}
-\beamer@subsectionintoc {25}{2}{MPI Jobs}{304}{6}{25}
-\beamer@subsectionintoc {25}{3}{Hybrid Jobs}{307}{6}{25}
-\beamer@subsectionintoc {25}{4}{High Throughput Jobs}{309}{6}{25}
-\beamer@subsectionintoc {25}{5}{Interactive Jobs}{315}{6}{25}
-\beamer@subsectionintoc {25}{6}{Array Jobs}{318}{6}{25}
-\beamer@subsectionintoc {25}{7}{Scheduling}{327}{6}{25}
-\beamer@subsectionintoc {25}{8}{Wait Times}{333}{6}{25}
-\beamer@subsectionintoc {25}{9}{Checkpointing}{336}{6}{25}
-\beamer@subsectionintoc {25}{10}{Scheduling Top Tips}{338}{6}{25}
+\beamer@subsectionintoc {18}{2}{Linux Clients}{119}{4}{18}
+\beamer@subsectionintoc {18}{3}{Login}{121}{4}{18}
+\beamer@subsectionintoc {18}{4}{First time login}{127}{4}{18}
+\beamer@subsectionintoc {18}{5}{File Transfer with rsync: an example}{131}{4}{18}
+\beamer@sectionintoc {19}{Connecting from other clients}{134}{4}{19}
+\beamer@subsectionintoc {19}{1}{MacOSX}{137}{4}{19}
+\beamer@subsectionintoc {19}{2}{Windows Users}{141}{4}{19}
+\beamer@sectionintoc {20}{Basic practicals}{143}{4}{20}
+\beamer@subsectionintoc {20}{1}{Exercise 1: Navigating the command line}{144}{4}{20}
+\beamer@subsectionintoc {20}{2}{Exercise 2: Login}{145}{4}{20}
+\beamer@subsectionintoc {20}{3}{Exercise 3: SFTP file transfer - pt1}{146}{4}{20}
+\beamer@subsectionintoc {20}{4}{Exercise 3: SFTP file transfer - pt2}{147}{4}{20}
+\beamer@subsectionintoc {20}{5}{File Transfer with rsync}{148}{4}{20}
+\beamer@sectionintoc {21}{Connecting}{149}{4}{21}
+\beamer@subsectionintoc {21}{1}{Windows Clients}{151}{4}{21}
+\beamer@subsectionintoc {21}{2}{Linux/MacOSX/UNIX Clients}{157}{4}{21}
+\beamer@subsectionintoc {21}{3}{Login}{161}{4}{21}
+\beamer@subsectionintoc {21}{4}{File Transfer}{168}{4}{21}
+\beamer@subsectionintoc {21}{5}{Remote Desktop}{173}{4}{21}
+\beamer@sectionintoc {22}{User Environment}{178}{4}{22}
+\beamer@subsectionintoc {22}{1}{Filesystems}{181}{4}{22}
+\beamer@subsectionintoc {22}{2}{Software}{187}{4}{22}
+\beamer@subsectionintoc {22}{3}{Environment Modules}{189}{4}{22}
+\beamer@subsectionintoc {22}{4}{Environment Modules}{190}{4}{22}
+\beamer@subsectionintoc {22}{5}{Compilers}{196}{4}{22}
+\beamer@sectionintoc {23}{Job Submission}{198}{4}{23}
+\beamer@subsectionintoc {23}{1}{Single Node Jobs}{214}{4}{23}
+\beamer@subsectionintoc {23}{2}{MPI Jobs}{222}{4}{23}
+\beamer@subsectionintoc {23}{3}{Hybrid Jobs}{225}{4}{23}
+\beamer@subsectionintoc {23}{4}{High Throughput Jobs}{227}{4}{23}
+\beamer@subsectionintoc {23}{5}{Interactive Jobs}{233}{4}{23}
+\beamer@subsectionintoc {23}{6}{Array Jobs}{236}{4}{23}
+\beamer@subsectionintoc {23}{7}{Scheduling}{245}{4}{23}
+\beamer@subsectionintoc {23}{8}{Wait Times}{251}{4}{23}
+\beamer@subsectionintoc {23}{9}{Checkpointing}{254}{4}{23}
+\beamer@subsectionintoc {23}{10}{Scheduling Top Tips}{256}{4}{23}
+\beamer@sectionintoc {24}{User Environment}{258}{5}{24}
+\beamer@subsectionintoc {24}{1}{Filesystems}{261}{5}{24}
+\beamer@subsectionintoc {24}{2}{Software}{267}{5}{24}
+\beamer@subsectionintoc {24}{3}{Environment Modules}{269}{5}{24}
+\beamer@subsectionintoc {24}{4}{Environment Modules}{270}{5}{24}
+\beamer@subsectionintoc {24}{5}{Compilers}{276}{5}{24}
+\beamer@sectionintoc {25}{Job Submission}{279}{6}{25}
+\beamer@subsectionintoc {25}{1}{Single Node Jobs}{295}{6}{25}
+\beamer@subsectionintoc {25}{2}{MPI Jobs}{303}{6}{25}
+\beamer@subsectionintoc {25}{3}{Hybrid Jobs}{306}{6}{25}
+\beamer@subsectionintoc {25}{4}{High Throughput Jobs}{308}{6}{25}
+\beamer@subsectionintoc {25}{5}{Interactive Jobs}{314}{6}{25}
+\beamer@subsectionintoc {25}{6}{Array Jobs}{317}{6}{25}
+\beamer@subsectionintoc {25}{7}{Scheduling}{326}{6}{25}
+\beamer@subsectionintoc {25}{8}{Wait Times}{332}{6}{25}
+\beamer@subsectionintoc {25}{9}{Checkpointing}{335}{6}{25}
+\beamer@subsectionintoc {25}{10}{Scheduling Top Tips}{337}{6}{25}

@@ -19,11 +19,10 @@
 \begin{itemize}
 \item SSH secure protocol only.\hfill\\
 \visible<2->{\alert{Supports login, file transfer, remote desktop\ldots}}
-\item<3-> HPCS allows access from registered IP addresses only.\hfill\\
-\visible<4->{\alert{Almost all Cambridge University addresses already registered.}}
-\visible<5->{\alert{Connection from home possible via the VPN service\hfill\\
+\item<3-> HPCS now allows direct access from outside of the CUDN.\hfill\\
+\visible<4->{\alert{It is still worth configuring the UIS VPN service\hfill\\
 \qquad http://www.ucs.cam.ac.uk/vpn}}\hfill\\
-\visible<6->{\qquad\alert{or SSH tunnel through a departmental gateway.}}
+\visible<5->{\qquad\alert{Useful for other CUDN only services.}}
 \end{itemize}
 \end{frame}
 
@@ -44,10 +43,10 @@
 \alert{ssh -Y \textbf{abc123}@login.hpc.cam.ac.uk}
 \pause
 \item From graphical clients:\hfill\\
-Host: \alert{login.hpc.cam.ac.uk}\hfill\\
+Host: \alert{login-cpu.hpc.cam.ac.uk}\hfill\\
 Username: \alert{\textbf{abc123}} (your UCAM account name)
 \pause
-\item login.hpc will map to a random login node\hfill\\
+\item login-cpu.hpc will map to a random login node\hfill\\
 \alert{i.e. one of login-sand1, login-sand2,\,\ldots\,, login-sand8}\hfill\\
 \uncover<4->{{\color{red}NB Not darwin.hpc (the head node).}}
 \item<5->Non-registered addresses will fail with ``Connection refused''.
@@ -177,7 +176,6 @@ Replace abc123 with your training account username
 \end{itemize}
 \end{frame}
 
-%%%%
 \subsection{Exercise 3: SFTP file transfer - pt1}
 \begin{frame}{Exercise 3: Transfer some files}
 You will need to transfer the exercise files to the cluster.
@@ -210,7 +208,7 @@ In exercise 3 we used sftp. Another tool to be familiar with is rsync especially
 \item[$\ast$]All transfers are checksummed.
 \end{itemize}
 \end{frame}
-%%%%%%
+
 \section{Connecting}
 \begin{frame}{Using HPC: Connecting}
 \begin{itemize}
