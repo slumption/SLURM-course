@@ -36,35 +36,35 @@
 \beamer@subsectionintoc {13}{4}{Modules: Excercise 5}{128}{2}{13}
 \beamer@sectionintoc {14}{Storage}{129}{2}{14}
 \beamer@sectionintoc {15}{Service Levels}{133}{2}{15}
-\beamer@sectionintoc {16}{How To Apply}{141}{2}{16}
-\beamer@sectionintoc {17}{Types of job part 2}{146}{4}{17}
-\beamer@subsectionintoc {17}{1}{Compute Intensive}{148}{4}{17}
-\beamer@subsectionintoc {17}{2}{Amdahls law pt 1}{152}{4}{17}
-\beamer@subsectionintoc {17}{3}{Amdahls law pt 2}{155}{4}{17}
-\beamer@subsectionintoc {17}{4}{Compute Intensive Summary}{156}{4}{17}
-\beamer@subsectionintoc {17}{5}{Memory Intensive}{158}{4}{17}
-\beamer@sectionintoc {18}{architecture}{165}{4}{18}
-\beamer@subsectionintoc {18}{1}{Inside a Modern Computer}{166}{4}{18}
-\beamer@subsectionintoc {18}{2}{Inside a Modern Computer}{174}{4}{18}
-\beamer@subsectionintoc {18}{3}{How to Build a Supercomputer pt 1}{175}{4}{18}
-\beamer@subsectionintoc {18}{4}{How to Build a Supercomputer pt 2}{180}{4}{18}
-\beamer@subsectionintoc {18}{5}{How to Build a Supercomputer pt 3}{182}{4}{18}
-\beamer@sectionintoc {19}{Programming a Multiprocessor Machine}{187}{4}{19}
-\beamer@sectionintoc {21}{A Brief History of the HPCS}{200}{5}{20}
-\beamer@sectionintoc {22}{A Brief History of Darwin}{204}{5}{21}
-\beamer@sectionintoc {23}{Darwin - an Infiniband CPU Cluster}{209}{5}{22}
-\beamer@sectionintoc {24}{Wilkes - a Dual-Rail Infiniband GPU Cluster}{212}{5}{23}
-\beamer@subsectionintoc {24}{1}{Compilers}{217}{5}{23}
-\beamer@sectionintoc {25}{Modules and Compilers}{219}{5}{24}
-\beamer@sectionintoc {26}{Job Submission}{227}{5}{25}
-\beamer@subsectionintoc {26}{1}{Single Node Jobs}{243}{5}{25}
-\beamer@subsectionintoc {26}{2}{MPI Jobs}{251}{5}{25}
-\beamer@subsectionintoc {26}{3}{Hybrid Jobs}{254}{5}{25}
-\beamer@subsectionintoc {26}{4}{High Throughput Jobs}{256}{5}{25}
-\beamer@sectionintoc {27}{Submitting Jobs}{261}{5}{26}
-\beamer@subsectionintoc {27}{1}{Interactive Jobs}{264}{5}{26}
-\beamer@subsectionintoc {27}{2}{Array Jobs}{267}{5}{26}
-\beamer@subsectionintoc {27}{3}{Scheduling}{275}{5}{26}
-\beamer@subsectionintoc {27}{4}{Wait Times}{281}{5}{26}
-\beamer@subsectionintoc {27}{5}{Checkpointing}{285}{5}{26}
-\beamer@subsectionintoc {27}{6}{Scheduling Top Tips}{288}{5}{26}
+\beamer@sectionintoc {16}{How To Apply}{140}{2}{16}
+\beamer@sectionintoc {17}{Types of job part 2}{145}{4}{17}
+\beamer@subsectionintoc {17}{1}{Compute Intensive}{147}{4}{17}
+\beamer@subsectionintoc {17}{2}{Amdahls law pt 1}{151}{4}{17}
+\beamer@subsectionintoc {17}{3}{Amdahls law pt 2}{154}{4}{17}
+\beamer@subsectionintoc {17}{4}{Compute Intensive Summary}{155}{4}{17}
+\beamer@subsectionintoc {17}{5}{Memory Intensive}{157}{4}{17}
+\beamer@sectionintoc {18}{architecture}{164}{4}{18}
+\beamer@subsectionintoc {18}{1}{Inside a Modern Computer}{165}{4}{18}
+\beamer@subsectionintoc {18}{2}{Inside a Modern Computer}{173}{4}{18}
+\beamer@subsectionintoc {18}{3}{How to Build a Supercomputer pt 1}{174}{4}{18}
+\beamer@subsectionintoc {18}{4}{How to Build a Supercomputer pt 2}{179}{4}{18}
+\beamer@subsectionintoc {18}{5}{How to Build a Supercomputer pt 3}{181}{4}{18}
+\beamer@sectionintoc {19}{Programming a Multiprocessor Machine}{186}{4}{19}
+\beamer@sectionintoc {21}{A Brief History of the HPCS}{199}{5}{20}
+\beamer@sectionintoc {22}{A Brief History of Darwin}{203}{5}{21}
+\beamer@sectionintoc {23}{Darwin - an Infiniband CPU Cluster}{208}{5}{22}
+\beamer@sectionintoc {24}{Wilkes - a Dual-Rail Infiniband GPU Cluster}{211}{5}{23}
+\beamer@subsectionintoc {24}{1}{Compilers}{216}{5}{23}
+\beamer@sectionintoc {25}{Modules and Compilers}{218}{5}{24}
+\beamer@sectionintoc {26}{Job Submission}{226}{5}{25}
+\beamer@subsectionintoc {26}{1}{Single Node Jobs}{242}{5}{25}
+\beamer@subsectionintoc {26}{2}{MPI Jobs}{250}{5}{25}
+\beamer@subsectionintoc {26}{3}{Hybrid Jobs}{253}{5}{25}
+\beamer@subsectionintoc {26}{4}{High Throughput Jobs}{255}{5}{25}
+\beamer@sectionintoc {27}{Submitting Jobs}{260}{5}{26}
+\beamer@subsectionintoc {27}{1}{Interactive Jobs}{263}{5}{26}
+\beamer@subsectionintoc {27}{2}{Array Jobs}{266}{5}{26}
+\beamer@subsectionintoc {27}{3}{Scheduling}{274}{5}{26}
+\beamer@subsectionintoc {27}{4}{Wait Times}{280}{5}{26}
+\beamer@subsectionintoc {27}{5}{Checkpointing}{284}{5}{26}
+\beamer@subsectionintoc {27}{6}{Scheduling Top Tips}{287}{5}{26}

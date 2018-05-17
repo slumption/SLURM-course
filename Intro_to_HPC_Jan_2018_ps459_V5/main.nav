@@ -186,181 +186,179 @@
 \headcommand {\beamer@framepages {133}{137}}
 \headcommand {\slideentry {15}{0}{2}{138/139}{}{2}}
 \headcommand {\beamer@framepages {138}{139}}
-\headcommand {\slideentry {15}{0}{3}{140/140}{}{2}}
-\headcommand {\beamer@framepages {140}{140}}
-\headcommand {\sectionentry {16}{How To Apply}{141}{How To Apply}{2}}
-\headcommand {\beamer@sectionpages {133}{140}}
-\headcommand {\beamer@subsectionpages {133}{140}}
-\headcommand {\slideentry {16}{0}{1}{141/144}{}{2}}
-\headcommand {\beamer@framepages {141}{144}}
+\headcommand {\sectionentry {16}{How To Apply}{140}{How To Apply}{2}}
+\headcommand {\beamer@sectionpages {133}{139}}
+\headcommand {\beamer@subsectionpages {133}{139}}
+\headcommand {\slideentry {16}{0}{1}{140/143}{}{2}}
+\headcommand {\beamer@framepages {140}{143}}
 \headcommand {\partentry {Using HPC}{3}}
-\headcommand {\beamer@partpages {70}{144}}
-\headcommand {\beamer@sectionpages {141}{144}}
-\headcommand {\beamer@subsectionpages {141}{144}}
-\headcommand {\slideentry {16}{0}{2}{145/145}{}{3}}
-\headcommand {\beamer@framepages {145}{145}}
+\headcommand {\beamer@partpages {70}{143}}
+\headcommand {\beamer@sectionpages {140}{143}}
+\headcommand {\beamer@subsectionpages {140}{143}}
+\headcommand {\slideentry {16}{0}{2}{144/144}{}{3}}
+\headcommand {\beamer@framepages {144}{144}}
 \headcommand {\partentry {Advanced HPC}{4}}
-\headcommand {\beamer@partpages {145}{145}}
-\headcommand {\beamer@sectionpages {145}{145}}
-\headcommand {\beamer@subsectionpages {145}{145}}
-\headcommand {\sectionentry {17}{Types of job part 2}{146}{Types of job part 2}{4}}
-\headcommand {\beamer@sectionpages {146}{145}}
-\headcommand {\beamer@subsectionpages {146}{145}}
-\headcommand {\slideentry {17}{0}{1}{146/147}{}{4}}
-\headcommand {\beamer@framepages {146}{147}}
-\headcommand {\beamer@subsectionentry {4}{17}{1}{148}{Compute Intensive}}\headcommand {\beamer@subsectionpages {146}{147}}
-\headcommand {\slideentry {17}{1}{1}{148/151}{Compute Intensive}{4}}
-\headcommand {\beamer@framepages {148}{151}}
-\headcommand {\beamer@subsectionentry {4}{17}{2}{152}{Amdahls law pt 1}}\headcommand {\beamer@subsectionpages {148}{151}}
-\headcommand {\slideentry {17}{2}{1}{152/154}{Amdahls law pt 1}{4}}
-\headcommand {\beamer@framepages {152}{154}}
-\headcommand {\beamer@subsectionentry {4}{17}{3}{155}{Amdahls law pt 2}}\headcommand {\beamer@subsectionpages {152}{154}}
-\headcommand {\slideentry {17}{3}{1}{155/155}{Amdahls law pt 2}{4}}
-\headcommand {\beamer@framepages {155}{155}}
-\headcommand {\beamer@subsectionentry {4}{17}{4}{156}{Compute Intensive Summary}}\headcommand {\beamer@subsectionpages {155}{155}}
-\headcommand {\slideentry {17}{4}{1}{156/157}{Compute Intensive Summary}{4}}
-\headcommand {\beamer@framepages {156}{157}}
-\headcommand {\beamer@subsectionentry {4}{17}{5}{158}{Memory Intensive}}\headcommand {\beamer@subsectionpages {156}{157}}
-\headcommand {\slideentry {17}{5}{1}{158/164}{Memory Intensive}{4}}
-\headcommand {\beamer@framepages {158}{164}}
-\headcommand {\sectionentry {18}{architecture}{165}{architecture}{4}}
-\headcommand {\beamer@sectionpages {146}{164}}
-\headcommand {\beamer@subsectionpages {158}{164}}
-\headcommand {\slideentry {18}{0}{1}{165/165}{}{4}}
-\headcommand {\beamer@framepages {165}{165}}
-\headcommand {\beamer@subsectionentry {4}{18}{1}{166}{Inside a Modern Computer}}\headcommand {\beamer@subsectionpages {165}{165}}
-\headcommand {\slideentry {18}{1}{1}{166/173}{Inside a Modern Computer}{4}}
-\headcommand {\beamer@framepages {166}{173}}
-\headcommand {\beamer@subsectionentry {4}{18}{2}{174}{Inside a Modern Computer}}\headcommand {\beamer@subsectionpages {166}{173}}
-\headcommand {\slideentry {18}{2}{1}{174/174}{Inside a Modern Computer}{4}}
-\headcommand {\beamer@framepages {174}{174}}
-\headcommand {\beamer@subsectionentry {4}{18}{3}{175}{How to Build a Supercomputer pt 1}}\headcommand {\beamer@subsectionpages {174}{174}}
-\headcommand {\slideentry {18}{3}{1}{175/179}{How to Build a Supercomputer pt 1}{4}}
-\headcommand {\beamer@framepages {175}{179}}
-\headcommand {\beamer@subsectionentry {4}{18}{4}{180}{How to Build a Supercomputer pt 2}}\headcommand {\beamer@subsectionpages {175}{179}}
-\headcommand {\slideentry {18}{4}{1}{180/181}{How to Build a Supercomputer pt 2}{4}}
-\headcommand {\beamer@framepages {180}{181}}
-\headcommand {\beamer@subsectionentry {4}{18}{5}{182}{How to Build a Supercomputer pt 3}}\headcommand {\beamer@subsectionpages {180}{181}}
-\headcommand {\slideentry {18}{5}{1}{182/186}{How to Build a Supercomputer pt 3}{4}}
-\headcommand {\beamer@framepages {182}{186}}
-\headcommand {\sectionentry {19}{Programming a Multiprocessor Machine}{187}{Programming a Multiprocessor Machine}{4}}
-\headcommand {\beamer@sectionpages {165}{186}}
-\headcommand {\beamer@subsectionpages {182}{186}}
-\headcommand {\slideentry {19}{0}{1}{187/192}{}{4}}
-\headcommand {\beamer@framepages {187}{192}}
-\headcommand {\sectionentry {20}{Summary}{193}{Summary}{4}}
-\headcommand {\beamer@sectionpages {187}{192}}
-\headcommand {\beamer@subsectionpages {187}{192}}
-\headcommand {\slideentry {20}{0}{1}{193/198}{}{4}}
-\headcommand {\beamer@framepages {193}{198}}
+\headcommand {\beamer@partpages {144}{144}}
+\headcommand {\beamer@sectionpages {144}{144}}
+\headcommand {\beamer@subsectionpages {144}{144}}
+\headcommand {\sectionentry {17}{Types of job part 2}{145}{Types of job part 2}{4}}
+\headcommand {\beamer@sectionpages {145}{144}}
+\headcommand {\beamer@subsectionpages {145}{144}}
+\headcommand {\slideentry {17}{0}{1}{145/146}{}{4}}
+\headcommand {\beamer@framepages {145}{146}}
+\headcommand {\beamer@subsectionentry {4}{17}{1}{147}{Compute Intensive}}\headcommand {\beamer@subsectionpages {145}{146}}
+\headcommand {\slideentry {17}{1}{1}{147/150}{Compute Intensive}{4}}
+\headcommand {\beamer@framepages {147}{150}}
+\headcommand {\beamer@subsectionentry {4}{17}{2}{151}{Amdahls law pt 1}}\headcommand {\beamer@subsectionpages {147}{150}}
+\headcommand {\slideentry {17}{2}{1}{151/153}{Amdahls law pt 1}{4}}
+\headcommand {\beamer@framepages {151}{153}}
+\headcommand {\beamer@subsectionentry {4}{17}{3}{154}{Amdahls law pt 2}}\headcommand {\beamer@subsectionpages {151}{153}}
+\headcommand {\slideentry {17}{3}{1}{154/154}{Amdahls law pt 2}{4}}
+\headcommand {\beamer@framepages {154}{154}}
+\headcommand {\beamer@subsectionentry {4}{17}{4}{155}{Compute Intensive Summary}}\headcommand {\beamer@subsectionpages {154}{154}}
+\headcommand {\slideentry {17}{4}{1}{155/156}{Compute Intensive Summary}{4}}
+\headcommand {\beamer@framepages {155}{156}}
+\headcommand {\beamer@subsectionentry {4}{17}{5}{157}{Memory Intensive}}\headcommand {\beamer@subsectionpages {155}{156}}
+\headcommand {\slideentry {17}{5}{1}{157/163}{Memory Intensive}{4}}
+\headcommand {\beamer@framepages {157}{163}}
+\headcommand {\sectionentry {18}{architecture}{164}{architecture}{4}}
+\headcommand {\beamer@sectionpages {145}{163}}
+\headcommand {\beamer@subsectionpages {157}{163}}
+\headcommand {\slideentry {18}{0}{1}{164/164}{}{4}}
+\headcommand {\beamer@framepages {164}{164}}
+\headcommand {\beamer@subsectionentry {4}{18}{1}{165}{Inside a Modern Computer}}\headcommand {\beamer@subsectionpages {164}{164}}
+\headcommand {\slideentry {18}{1}{1}{165/172}{Inside a Modern Computer}{4}}
+\headcommand {\beamer@framepages {165}{172}}
+\headcommand {\beamer@subsectionentry {4}{18}{2}{173}{Inside a Modern Computer}}\headcommand {\beamer@subsectionpages {165}{172}}
+\headcommand {\slideentry {18}{2}{1}{173/173}{Inside a Modern Computer}{4}}
+\headcommand {\beamer@framepages {173}{173}}
+\headcommand {\beamer@subsectionentry {4}{18}{3}{174}{How to Build a Supercomputer pt 1}}\headcommand {\beamer@subsectionpages {173}{173}}
+\headcommand {\slideentry {18}{3}{1}{174/178}{How to Build a Supercomputer pt 1}{4}}
+\headcommand {\beamer@framepages {174}{178}}
+\headcommand {\beamer@subsectionentry {4}{18}{4}{179}{How to Build a Supercomputer pt 2}}\headcommand {\beamer@subsectionpages {174}{178}}
+\headcommand {\slideentry {18}{4}{1}{179/180}{How to Build a Supercomputer pt 2}{4}}
+\headcommand {\beamer@framepages {179}{180}}
+\headcommand {\beamer@subsectionentry {4}{18}{5}{181}{How to Build a Supercomputer pt 3}}\headcommand {\beamer@subsectionpages {179}{180}}
+\headcommand {\slideentry {18}{5}{1}{181/185}{How to Build a Supercomputer pt 3}{4}}
+\headcommand {\beamer@framepages {181}{185}}
+\headcommand {\sectionentry {19}{Programming a Multiprocessor Machine}{186}{Programming a Multiprocessor Machine}{4}}
+\headcommand {\beamer@sectionpages {164}{185}}
+\headcommand {\beamer@subsectionpages {181}{185}}
+\headcommand {\slideentry {19}{0}{1}{186/191}{}{4}}
+\headcommand {\beamer@framepages {186}{191}}
+\headcommand {\sectionentry {20}{Summary}{192}{Summary}{4}}
+\headcommand {\beamer@sectionpages {186}{191}}
+\headcommand {\beamer@subsectionpages {186}{191}}
+\headcommand {\slideentry {20}{0}{1}{192/197}{}{4}}
+\headcommand {\beamer@framepages {192}{197}}
 \headcommand {\partentry {The HPC Service}{5}}
-\headcommand {\beamer@partpages {146}{198}}
-\headcommand {\beamer@sectionpages {193}{198}}
-\headcommand {\beamer@subsectionpages {193}{198}}
-\headcommand {\slideentry {20}{0}{2}{199/199}{}{5}}
-\headcommand {\beamer@framepages {199}{199}}
-\headcommand {\sectionentry {21}{A Brief History of the HPCS}{200}{A Brief History of the HPCS}{5}}
-\headcommand {\beamer@sectionpages {199}{199}}
-\headcommand {\beamer@subsectionpages {199}{199}}
-\headcommand {\slideentry {21}{0}{1}{200/202}{}{5}}
-\headcommand {\beamer@framepages {200}{202}}
-\headcommand {\slideentry {21}{0}{2}{203/203}{}{5}}
-\headcommand {\beamer@framepages {203}{203}}
-\headcommand {\sectionentry {22}{A Brief History of Darwin}{204}{A Brief History of Darwin}{5}}
-\headcommand {\beamer@sectionpages {200}{203}}
-\headcommand {\beamer@subsectionpages {200}{203}}
-\headcommand {\slideentry {22}{0}{1}{204/206}{}{5}}
-\headcommand {\beamer@framepages {204}{206}}
-\headcommand {\slideentry {22}{0}{2}{207/207}{}{5}}
+\headcommand {\beamer@partpages {145}{197}}
+\headcommand {\beamer@sectionpages {192}{197}}
+\headcommand {\beamer@subsectionpages {192}{197}}
+\headcommand {\slideentry {20}{0}{2}{198/198}{}{5}}
+\headcommand {\beamer@framepages {198}{198}}
+\headcommand {\sectionentry {21}{A Brief History of the HPCS}{199}{A Brief History of the HPCS}{5}}
+\headcommand {\beamer@sectionpages {198}{198}}
+\headcommand {\beamer@subsectionpages {198}{198}}
+\headcommand {\slideentry {21}{0}{1}{199/201}{}{5}}
+\headcommand {\beamer@framepages {199}{201}}
+\headcommand {\slideentry {21}{0}{2}{202/202}{}{5}}
+\headcommand {\beamer@framepages {202}{202}}
+\headcommand {\sectionentry {22}{A Brief History of Darwin}{203}{A Brief History of Darwin}{5}}
+\headcommand {\beamer@sectionpages {199}{202}}
+\headcommand {\beamer@subsectionpages {199}{202}}
+\headcommand {\slideentry {22}{0}{1}{203/205}{}{5}}
+\headcommand {\beamer@framepages {203}{205}}
+\headcommand {\slideentry {22}{0}{2}{206/206}{}{5}}
+\headcommand {\beamer@framepages {206}{206}}
+\headcommand {\slideentry {22}{0}{3}{207/207}{}{5}}
 \headcommand {\beamer@framepages {207}{207}}
-\headcommand {\slideentry {22}{0}{3}{208/208}{}{5}}
-\headcommand {\beamer@framepages {208}{208}}
-\headcommand {\sectionentry {23}{Darwin - an Infiniband CPU Cluster}{209}{Darwin - an Infiniband CPU Cluster}{5}}
-\headcommand {\beamer@sectionpages {204}{208}}
-\headcommand {\beamer@subsectionpages {204}{208}}
-\headcommand {\slideentry {23}{0}{1}{209/211}{}{5}}
-\headcommand {\beamer@framepages {209}{211}}
-\headcommand {\sectionentry {24}{Wilkes - a Dual-Rail Infiniband GPU Cluster}{212}{Wilkes - a Dual-Rail Infiniband GPU Cluster}{5}}
-\headcommand {\beamer@sectionpages {209}{211}}
-\headcommand {\beamer@subsectionpages {209}{211}}
-\headcommand {\slideentry {24}{0}{1}{212/215}{}{5}}
-\headcommand {\beamer@framepages {212}{215}}
-\headcommand {\slideentry {24}{0}{2}{216/216}{}{5}}
-\headcommand {\beamer@framepages {216}{216}}
-\headcommand {\beamer@subsectionentry {5}{24}{1}{217}{Compilers}}\headcommand {\beamer@subsectionpages {212}{216}}
-\headcommand {\slideentry {24}{1}{1}{217/218}{Compilers}{5}}
-\headcommand {\beamer@framepages {217}{218}}
-\headcommand {\sectionentry {25}{Modules and Compilers}{219}{Modules and Compilers}{5}}
-\headcommand {\beamer@sectionpages {212}{218}}
-\headcommand {\beamer@subsectionpages {217}{218}}
-\headcommand {\slideentry {25}{0}{1}{219/222}{}{5}}
-\headcommand {\beamer@framepages {219}{222}}
-\headcommand {\slideentry {25}{0}{2}{223/226}{}{5}}
-\headcommand {\beamer@framepages {223}{226}}
-\headcommand {\sectionentry {26}{Job Submission}{227}{Job Submission}{5}}
-\headcommand {\beamer@sectionpages {219}{226}}
-\headcommand {\beamer@subsectionpages {219}{226}}
-\headcommand {\slideentry {26}{0}{1}{227/227}{}{5}}
+\headcommand {\sectionentry {23}{Darwin - an Infiniband CPU Cluster}{208}{Darwin - an Infiniband CPU Cluster}{5}}
+\headcommand {\beamer@sectionpages {203}{207}}
+\headcommand {\beamer@subsectionpages {203}{207}}
+\headcommand {\slideentry {23}{0}{1}{208/210}{}{5}}
+\headcommand {\beamer@framepages {208}{210}}
+\headcommand {\sectionentry {24}{Wilkes - a Dual-Rail Infiniband GPU Cluster}{211}{Wilkes - a Dual-Rail Infiniband GPU Cluster}{5}}
+\headcommand {\beamer@sectionpages {208}{210}}
+\headcommand {\beamer@subsectionpages {208}{210}}
+\headcommand {\slideentry {24}{0}{1}{211/214}{}{5}}
+\headcommand {\beamer@framepages {211}{214}}
+\headcommand {\slideentry {24}{0}{2}{215/215}{}{5}}
+\headcommand {\beamer@framepages {215}{215}}
+\headcommand {\beamer@subsectionentry {5}{24}{1}{216}{Compilers}}\headcommand {\beamer@subsectionpages {211}{215}}
+\headcommand {\slideentry {24}{1}{1}{216/217}{Compilers}{5}}
+\headcommand {\beamer@framepages {216}{217}}
+\headcommand {\sectionentry {25}{Modules and Compilers}{218}{Modules and Compilers}{5}}
+\headcommand {\beamer@sectionpages {211}{217}}
+\headcommand {\beamer@subsectionpages {216}{217}}
+\headcommand {\slideentry {25}{0}{1}{218/221}{}{5}}
+\headcommand {\beamer@framepages {218}{221}}
+\headcommand {\slideentry {25}{0}{2}{222/225}{}{5}}
+\headcommand {\beamer@framepages {222}{225}}
+\headcommand {\sectionentry {26}{Job Submission}{226}{Job Submission}{5}}
+\headcommand {\beamer@sectionpages {218}{225}}
+\headcommand {\beamer@subsectionpages {218}{225}}
+\headcommand {\slideentry {26}{0}{1}{226/226}{}{5}}
+\headcommand {\beamer@framepages {226}{226}}
+\headcommand {\slideentry {26}{0}{2}{227/227}{}{5}}
 \headcommand {\beamer@framepages {227}{227}}
-\headcommand {\slideentry {26}{0}{2}{228/228}{}{5}}
-\headcommand {\beamer@framepages {228}{228}}
-\headcommand {\slideentry {26}{0}{3}{229/230}{}{5}}
-\headcommand {\beamer@framepages {229}{230}}
-\headcommand {\slideentry {26}{0}{4}{231/231}{}{5}}
+\headcommand {\slideentry {26}{0}{3}{228/229}{}{5}}
+\headcommand {\beamer@framepages {228}{229}}
+\headcommand {\slideentry {26}{0}{4}{230/230}{}{5}}
+\headcommand {\beamer@framepages {230}{230}}
+\headcommand {\slideentry {26}{0}{5}{231/231}{}{5}}
 \headcommand {\beamer@framepages {231}{231}}
-\headcommand {\slideentry {26}{0}{5}{232/232}{}{5}}
-\headcommand {\beamer@framepages {232}{232}}
-\headcommand {\slideentry {26}{0}{6}{233/235}{}{5}}
-\headcommand {\beamer@framepages {233}{235}}
-\headcommand {\slideentry {26}{0}{7}{236/236}{}{5}}
+\headcommand {\slideentry {26}{0}{6}{232/234}{}{5}}
+\headcommand {\beamer@framepages {232}{234}}
+\headcommand {\slideentry {26}{0}{7}{235/235}{}{5}}
+\headcommand {\beamer@framepages {235}{235}}
+\headcommand {\slideentry {26}{0}{8}{236/236}{}{5}}
 \headcommand {\beamer@framepages {236}{236}}
-\headcommand {\slideentry {26}{0}{8}{237/237}{}{5}}
-\headcommand {\beamer@framepages {237}{237}}
-\headcommand {\slideentry {26}{0}{9}{238/241}{}{5}}
-\headcommand {\beamer@framepages {238}{241}}
-\headcommand {\slideentry {26}{0}{10}{242/242}{}{5}}
-\headcommand {\beamer@framepages {242}{242}}
-\headcommand {\beamer@subsectionentry {5}{26}{1}{243}{Single Node Jobs}}\headcommand {\beamer@subsectionpages {227}{242}}
-\headcommand {\slideentry {26}{1}{1}{243/250}{Single Node Jobs}{5}}
-\headcommand {\beamer@framepages {243}{250}}
-\headcommand {\beamer@subsectionentry {5}{26}{2}{251}{MPI Jobs}}\headcommand {\beamer@subsectionpages {243}{250}}
-\headcommand {\slideentry {26}{2}{1}{251/253}{MPI Jobs}{5}}
-\headcommand {\beamer@framepages {251}{253}}
-\headcommand {\beamer@subsectionentry {5}{26}{3}{254}{Hybrid Jobs}}\headcommand {\beamer@subsectionpages {251}{253}}
-\headcommand {\slideentry {26}{3}{1}{254/255}{Hybrid Jobs}{5}}
-\headcommand {\beamer@framepages {254}{255}}
-\headcommand {\beamer@subsectionentry {5}{26}{4}{256}{High Throughput Jobs}}\headcommand {\beamer@subsectionpages {254}{255}}
-\headcommand {\slideentry {26}{4}{1}{256/260}{High Throughput Jobs}{5}}
-\headcommand {\beamer@framepages {256}{260}}
-\headcommand {\sectionentry {27}{Submitting Jobs}{261}{Submitting Jobs}{5}}
-\headcommand {\beamer@sectionpages {227}{260}}
-\headcommand {\beamer@subsectionpages {256}{260}}
-\headcommand {\slideentry {27}{0}{1}{261/262}{}{5}}
-\headcommand {\beamer@framepages {261}{262}}
-\headcommand {\slideentry {27}{0}{2}{263/263}{}{5}}
-\headcommand {\beamer@framepages {263}{263}}
-\headcommand {\beamer@subsectionentry {5}{27}{1}{264}{Interactive Jobs}}\headcommand {\beamer@subsectionpages {261}{263}}
-\headcommand {\slideentry {27}{1}{1}{264/266}{Interactive Jobs}{5}}
-\headcommand {\beamer@framepages {264}{266}}
-\headcommand {\beamer@subsectionentry {5}{27}{2}{267}{Array Jobs}}\headcommand {\beamer@subsectionpages {264}{266}}
-\headcommand {\slideentry {27}{2}{1}{267/273}{Array Jobs}{5}}
-\headcommand {\beamer@framepages {267}{273}}
-\headcommand {\slideentry {27}{2}{2}{274/274}{Array Jobs}{5}}
-\headcommand {\beamer@framepages {274}{274}}
-\headcommand {\beamer@subsectionentry {5}{27}{3}{275}{Scheduling}}\headcommand {\beamer@subsectionpages {267}{274}}
-\headcommand {\slideentry {27}{3}{1}{275/280}{Scheduling}{5}}
-\headcommand {\beamer@framepages {275}{280}}
-\headcommand {\beamer@subsectionentry {5}{27}{4}{281}{Wait Times}}\headcommand {\beamer@subsectionpages {275}{280}}
-\headcommand {\slideentry {27}{4}{1}{281/284}{Wait Times}{5}}
-\headcommand {\beamer@framepages {281}{284}}
-\headcommand {\beamer@subsectionentry {5}{27}{5}{285}{Checkpointing}}\headcommand {\beamer@subsectionpages {281}{284}}
-\headcommand {\slideentry {27}{5}{1}{285/287}{Checkpointing}{5}}
-\headcommand {\beamer@framepages {285}{287}}
-\headcommand {\beamer@subsectionentry {5}{27}{6}{288}{Scheduling Top Tips}}\headcommand {\beamer@subsectionpages {285}{287}}
-\headcommand {\slideentry {27}{6}{1}{288/288}{Scheduling Top Tips}{5}}
-\headcommand {\beamer@framepages {288}{288}}
-\headcommand {\beamer@partpages {199}{288}}
-\headcommand {\beamer@subsectionpages {288}{288}}
-\headcommand {\beamer@sectionpages {261}{288}}
-\headcommand {\beamer@documentpages {288}}
-\headcommand {\def \inserttotalframenumber {108}}
+\headcommand {\slideentry {26}{0}{9}{237/240}{}{5}}
+\headcommand {\beamer@framepages {237}{240}}
+\headcommand {\slideentry {26}{0}{10}{241/241}{}{5}}
+\headcommand {\beamer@framepages {241}{241}}
+\headcommand {\beamer@subsectionentry {5}{26}{1}{242}{Single Node Jobs}}\headcommand {\beamer@subsectionpages {226}{241}}
+\headcommand {\slideentry {26}{1}{1}{242/249}{Single Node Jobs}{5}}
+\headcommand {\beamer@framepages {242}{249}}
+\headcommand {\beamer@subsectionentry {5}{26}{2}{250}{MPI Jobs}}\headcommand {\beamer@subsectionpages {242}{249}}
+\headcommand {\slideentry {26}{2}{1}{250/252}{MPI Jobs}{5}}
+\headcommand {\beamer@framepages {250}{252}}
+\headcommand {\beamer@subsectionentry {5}{26}{3}{253}{Hybrid Jobs}}\headcommand {\beamer@subsectionpages {250}{252}}
+\headcommand {\slideentry {26}{3}{1}{253/254}{Hybrid Jobs}{5}}
+\headcommand {\beamer@framepages {253}{254}}
+\headcommand {\beamer@subsectionentry {5}{26}{4}{255}{High Throughput Jobs}}\headcommand {\beamer@subsectionpages {253}{254}}
+\headcommand {\slideentry {26}{4}{1}{255/259}{High Throughput Jobs}{5}}
+\headcommand {\beamer@framepages {255}{259}}
+\headcommand {\sectionentry {27}{Submitting Jobs}{260}{Submitting Jobs}{5}}
+\headcommand {\beamer@sectionpages {226}{259}}
+\headcommand {\beamer@subsectionpages {255}{259}}
+\headcommand {\slideentry {27}{0}{1}{260/261}{}{5}}
+\headcommand {\beamer@framepages {260}{261}}
+\headcommand {\slideentry {27}{0}{2}{262/262}{}{5}}
+\headcommand {\beamer@framepages {262}{262}}
+\headcommand {\beamer@subsectionentry {5}{27}{1}{263}{Interactive Jobs}}\headcommand {\beamer@subsectionpages {260}{262}}
+\headcommand {\slideentry {27}{1}{1}{263/265}{Interactive Jobs}{5}}
+\headcommand {\beamer@framepages {263}{265}}
+\headcommand {\beamer@subsectionentry {5}{27}{2}{266}{Array Jobs}}\headcommand {\beamer@subsectionpages {263}{265}}
+\headcommand {\slideentry {27}{2}{1}{266/272}{Array Jobs}{5}}
+\headcommand {\beamer@framepages {266}{272}}
+\headcommand {\slideentry {27}{2}{2}{273/273}{Array Jobs}{5}}
+\headcommand {\beamer@framepages {273}{273}}
+\headcommand {\beamer@subsectionentry {5}{27}{3}{274}{Scheduling}}\headcommand {\beamer@subsectionpages {266}{273}}
+\headcommand {\slideentry {27}{3}{1}{274/279}{Scheduling}{5}}
+\headcommand {\beamer@framepages {274}{279}}
+\headcommand {\beamer@subsectionentry {5}{27}{4}{280}{Wait Times}}\headcommand {\beamer@subsectionpages {274}{279}}
+\headcommand {\slideentry {27}{4}{1}{280/283}{Wait Times}{5}}
+\headcommand {\beamer@framepages {280}{283}}
+\headcommand {\beamer@subsectionentry {5}{27}{5}{284}{Checkpointing}}\headcommand {\beamer@subsectionpages {280}{283}}
+\headcommand {\slideentry {27}{5}{1}{284/286}{Checkpointing}{5}}
+\headcommand {\beamer@framepages {284}{286}}
+\headcommand {\beamer@subsectionentry {5}{27}{6}{287}{Scheduling Top Tips}}\headcommand {\beamer@subsectionpages {284}{286}}
+\headcommand {\slideentry {27}{6}{1}{287/287}{Scheduling Top Tips}{5}}
+\headcommand {\beamer@framepages {287}{287}}
+\headcommand {\beamer@partpages {198}{287}}
+\headcommand {\beamer@subsectionpages {287}{287}}
+\headcommand {\beamer@sectionpages {260}{287}}
+\headcommand {\beamer@documentpages {287}}
+\headcommand {\def \inserttotalframenumber {107}}
