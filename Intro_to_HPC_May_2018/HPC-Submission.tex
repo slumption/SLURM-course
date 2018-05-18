@@ -38,7 +38,7 @@
 \item{Prepare a shell script and submit it to SLURM:}
 \begin{semiverbatim}
 \scriptsize
-[abc123@login-a-1]$ sbatch slurm_submission_script
+[abc123@login-a-1]\$ sbatch slurm_submission_script
 Submitted batch job {\color{red}790299}
 \end{semiverbatim}
 \end{itemize}
@@ -49,7 +49,7 @@ Submitted batch job {\color{red}790299}
 \item{Submitted job scripts are copied and stored in a queue:}
 \begin{semiverbatim}
 \tiny
-[abc123@login-a-1]$ squeue -u abc123
+[abc123@login-a-1]\$ squeue -u abc123
              JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
             {\color{red}790299}   skylake     Test3  abc123 PD       0:00      2 (\only<1>{{\color{blue}Priority}}\only<2>{{\color{green}Resources}}\only<3>{{\color{red}AssocGrpCPUMinsLimit}})
             790290   skylake     Test2  abc123  R   27:56:10      2 cpu-a-[1,10]
@@ -62,7 +62,7 @@ Submitted batch job {\color{red}790299}
 \item{Examine a particular job:}
 \begin{semiverbatim}
 \scriptsize
-[abc123@login-a-1]$ scontrol show job={\color{red}790290}
+[abc123@login-a-1]\$ scontrol show job={\color{red}790290}
 \end{semiverbatim}
 \end{itemize}
 \end{frame}
@@ -72,7 +72,7 @@ Submitted batch job {\color{red}790299}
 \item{Cancel a particular job:}
 \begin{semiverbatim}
 \scriptsize
-[abc123@login-a-1]$ scancel {\color{red}790290}
+[abc123@login-a-1]\$ scancel {\color{red}790290}
 \end{semiverbatim}
 \end{itemize}
 \end{frame}
@@ -165,7 +165,7 @@ gstatement -p NPL-GENERAL-CPU  -u xyz10 -s "2018-04-01-00:00:00" -e "2018-04-30-
 \uncover<5|handout:2>{{\color{red}# Increasing --mem or --cpus-per-task implicitly increases the other}}
 \ldots
 \uncover<6-|handout:3->{{\color{red}export OMP\_NUM\_THREADS=\only<6|handout:3>{32}\only<7-|handout:4->{16}  # For OpenMP across \only<6|handout:3>{32}\only<7-|handout:4->{16} cores\only<8-|handout:5->{ (using all memory)}}}
-$application \$options
+\$application \$options
 \ldots
 \end{semiverbatim}
 \end{itemize}
@@ -267,10 +267,10 @@ cd directory\_for\_job64
 \item{SLURM}
 \begin{semiverbatim}
 \scriptsize
-[abc123@login-a-1]$ sbatch --array=\only<1,2>{{\color{red}1-7}}\only<2>{{\color{red}:2}}\only<3->{{\color{red}1,3,5,7}} -A NPL-GENERAL-CPU submit\_script
+[abc123@login-a-1]\$ sbatch --array=\only<1,2>{{\color{red}1-7}}\only<2>{{\color{red}:2}}\only<3->{{\color{red}1,3,5,7}} -A NPL-GENERAL-CPU submit\_script
 Submitted batch job {\color[rgb]{0,0.6,0}791609}
 \tiny
-\uncover<4->{[abc123@login-a-1]$ squeue -u abc123
+\uncover<4->{[abc123@login-a-1]\$ squeue -u abc123
              JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
           {\color[rgb]{0,0.6,0}791609}\_{\color{red}1} skylake      hpl    abc123  R       0:06      1 cpu-a-6
           {\color[rgb]{0,0.6,0}791609}\_{\color{red}3} skylake      hpl    abc123  R       0:06      1 cpu-a-16

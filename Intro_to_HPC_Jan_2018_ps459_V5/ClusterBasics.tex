@@ -174,13 +174,11 @@ When you apply for an HPC account a home directory is created for you.
 \item{quota}
 \begin{semiverbatim}
 \tiny
-====================================================================================
-Usage on /scratch (lfs quota -u abc123 /scratch):
-====================================================================================
-Disk quotas for user abc123 (uid 456):
-      Filesystem  kbytes   quota   limit   grace   files   quota   limit   grace
- /scratch/abc123 \only<1|handout:1>{9298708}\only<2-|handout:2->{{\color{red}*1073742000}}  1073741824 1181116006   -   165588       0       0       -
-...
+[ps459@login-e-13 hpc-work]\$ quota
+Filesystem  GiBytes    quota   limit   grace    files    quota    limit   grace User/group
+/home          12.4     40.0    40.0       0    ----- No ZFS File Quotas  ----- U:ps459
+/rds-d1        89.2   1024.0  1126.4       -   757345  1048576  1048576       - G:ps459
+/rds-d1        22.1   1024.0  1024.0       -   113475  1048576  1048576       - G:rds-ps459-test
 \end{semiverbatim}
 \item<1-|handout:1->{\alert{Aim to stay below the soft limit (\emph{quota}).}}
 \item<2-|handout:1->{\alert{Once over the soft limit, you have 7 days grace to return below.}}
