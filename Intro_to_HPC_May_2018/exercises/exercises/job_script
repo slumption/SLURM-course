@@ -16,7 +16,7 @@
 
 #! These are special settings for the _training course_, so please don't change:
 #SBATCH -A training
-#SBATCH -p biocloud-normal
+#SBATCH -p skylake-cpu
 #SBATCH --reservation=training
 #SBATCH --profile=none
 
