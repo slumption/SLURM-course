@@ -1,39 +1,56 @@
-\BOOKMARK [1][]{Outline1}{Using HPC}{}% 1
-\BOOKMARK [2][]{Outline1.1}{Connecting}{Outline1}% 2
-\BOOKMARK [3][]{Outline1.1.1.6}{Connecting - SSH}{Outline1.1}% 3
-\BOOKMARK [3][]{Outline1.1.2.11}{Linux Clients}{Outline1.1}% 4
-\BOOKMARK [3][]{Outline1.1.3.13}{Login}{Outline1.1}% 5
-\BOOKMARK [3][]{Outline1.1.4.19}{First time login}{Outline1.1}% 6
-\BOOKMARK [3][]{Outline1.1.5.23}{File Transfer with rsync: an example}{Outline1.1}% 7
-\BOOKMARK [2][]{Outline1.2}{Connecting from other clients}{Outline1}% 8
-\BOOKMARK [3][]{Outline1.2.1.29}{MacOSX}{Outline1.2}% 9
-\BOOKMARK [3][]{Outline1.2.2.33}{Windows Users}{Outline1.2}% 10
-\BOOKMARK [2][]{Outline1.3}{Basic practicals}{Outline1}% 11
-\BOOKMARK [3][]{Outline1.3.1.36}{Exercise 1: Navigating the command line}{Outline1.3}% 12
-\BOOKMARK [3][]{Outline1.3.2.37}{Exercise 2: Login}{Outline1.3}% 13
-\BOOKMARK [3][]{Outline1.3.3.38}{Exercise 3: SFTP file transfer - pt1}{Outline1.3}% 14
-\BOOKMARK [3][]{Outline1.3.4.39}{Exercise 3: SFTP file transfer - pt2}{Outline1.3}% 15
-\BOOKMARK [3][]{Outline1.3.5.40}{File Transfer with rsync}{Outline1.3}% 16
-\BOOKMARK [2][]{Outline1.4}{Connecting}{Outline1}% 17
-\BOOKMARK [3][]{Outline1.4.1.43}{Windows Clients}{Outline1.4}% 18
-\BOOKMARK [3][]{Outline1.4.2.49}{Linux/MacOSX/UNIX Clients}{Outline1.4}% 19
-\BOOKMARK [3][]{Outline1.4.3.53}{Login}{Outline1.4}% 20
-\BOOKMARK [3][]{Outline1.4.4.60}{File Transfer}{Outline1.4}% 21
-\BOOKMARK [3][]{Outline1.4.5.65}{Remote Desktop}{Outline1.4}% 22
-\BOOKMARK [2][]{Outline1.5}{User Environment}{Outline1}% 23
-\BOOKMARK [3][]{Outline1.5.1.73}{Filesystems}{Outline1.5}% 24
-\BOOKMARK [3][]{Outline1.5.2.79}{Software}{Outline1.5}% 25
-\BOOKMARK [3][]{Outline1.5.3.81}{Environment Modules}{Outline1.5}% 26
-\BOOKMARK [3][]{Outline1.5.4.82}{Environment Modules}{Outline1.5}% 27
-\BOOKMARK [3][]{Outline1.5.5.88}{Compilers}{Outline1.5}% 28
-\BOOKMARK [2][]{Outline1.6}{Job Submission}{Outline1}% 29
-\BOOKMARK [3][]{Outline1.6.1.106}{Single Node Jobs}{Outline1.6}% 30
-\BOOKMARK [3][]{Outline1.6.2.114}{MPI Jobs}{Outline1.6}% 31
-\BOOKMARK [3][]{Outline1.6.3.117}{Hybrid Jobs}{Outline1.6}% 32
-\BOOKMARK [3][]{Outline1.6.4.119}{High Throughput Jobs}{Outline1.6}% 33
-\BOOKMARK [3][]{Outline1.6.5.125}{Interactive Jobs}{Outline1.6}% 34
-\BOOKMARK [3][]{Outline1.6.6.128}{Array Jobs}{Outline1.6}% 35
-\BOOKMARK [3][]{Outline1.6.7.137}{Scheduling}{Outline1.6}% 36
-\BOOKMARK [3][]{Outline1.6.8.143}{Wait Times}{Outline1.6}% 37
-\BOOKMARK [3][]{Outline1.6.9.146}{Checkpointing}{Outline1.6}% 38
-\BOOKMARK [3][]{Outline1.6.10.148}{Scheduling Top Tips}{Outline1.6}% 39
+\BOOKMARK [1][]{Outline1}{Introduction}{}% 1
+\BOOKMARK [2][]{Outline1.1}{Who are we?}{Outline1}% 2
+\BOOKMARK [2][]{Outline1.2}{Training Accounts}{Outline1}% 3
+\BOOKMARK [2][]{Outline1.3}{Login node for today}{Outline1}% 4
+\BOOKMARK [2][]{Outline1.4}{Security}{Outline1}% 5
+\BOOKMARK [2][]{Outline1.5}{Introduction: Pre-requisites}{Outline1}% 6
+\BOOKMARK [3][]{Outline1.5.1.11}{Navigating the command line }{Outline1.5}% 7
+\BOOKMARK [1][]{Outline2}{Basics}{}% 8
+\BOOKMARK [2][]{Outline2.6}{Why Buy a Big Computer?}{Outline2}% 9
+\BOOKMARK [2][]{Outline2.7}{Inside a Modern Computer}{Outline2}% 10
+\BOOKMARK [2][]{Outline2.8}{How to Build a Supercomputer}{Outline2}% 11
+\BOOKMARK [2][]{Outline2.9}{Programming a Multiprocessor Machine}{Outline2}% 12
+\BOOKMARK [2][]{Outline2.10}{Summary}{Outline2}% 13
+\BOOKMARK [1][]{Outline3}{HPC Facilities}{}% 14
+\BOOKMARK [2][]{Outline3.11}{CSD3}{Outline3}% 15
+\BOOKMARK [2][]{Outline3.12}{Peta4-Skylake}{Outline3}% 16
+\BOOKMARK [2][]{Outline3.13}{Wilkes2-GPU}{Outline3}% 17
+\BOOKMARK [2][]{Outline3.14}{Peta4-KNL}{Outline3}% 18
+\BOOKMARK [2][]{Outline3.15}{Storage}{Outline3}% 19
+\BOOKMARK [2][]{Outline3.16}{Obtaining an Account and Support}{Outline3}% 20
+\BOOKMARK [1][]{Outline4}{Using HPC}{}% 21
+\BOOKMARK [2][]{Outline4.17}{Connecting}{Outline4}% 22
+\BOOKMARK [3][]{Outline4.17.1.37}{Connecting - SSH}{Outline4.17}% 23
+\BOOKMARK [3][]{Outline4.17.2.38}{Login Nodes}{Outline4.17}% 24
+\BOOKMARK [3][]{Outline4.17.3.39}{Linux Clients}{Outline4.17}% 25
+\BOOKMARK [3][]{Outline4.17.4.40}{Login}{Outline4.17}% 26
+\BOOKMARK [3][]{Outline4.17.5.41}{First time login}{Outline4.17}% 27
+\BOOKMARK [3][]{Outline4.17.6.43}{File Transfer with rsync: an example}{Outline4.17}% 28
+\BOOKMARK [2][]{Outline4.18}{Connecting from other clients}{Outline4}% 29
+\BOOKMARK [3][]{Outline4.18.1.45}{MacOSX}{Outline4.18}% 30
+\BOOKMARK [3][]{Outline4.18.2.46}{Windows Clients}{Outline4.18}% 31
+\BOOKMARK [3][]{Outline4.18.3.47}{Windows Users}{Outline4.18}% 32
+\BOOKMARK [2][]{Outline4.19}{Basic practicals}{Outline4}% 33
+\BOOKMARK [3][]{Outline4.19.1.50}{Exercise 1: Login}{Outline4.19}% 34
+\BOOKMARK [3][]{Outline4.19.2.51}{Exercise 2: SFTP file transfer - pt1}{Outline4.19}% 35
+\BOOKMARK [3][]{Outline4.19.3.52}{Exercise 2: SFTP file transfer - pt2}{Outline4.19}% 36
+\BOOKMARK [3][]{Outline4.19.4.53}{File Transfer with rsync}{Outline4.19}% 37
+\BOOKMARK [1][]{Outline5}{Using HPC}{}% 38
+\BOOKMARK [2][]{Outline5.20}{User Environment}{Outline5}% 39
+\BOOKMARK [3][]{Outline5.20.1.56}{Filesystems}{Outline5.20}% 40
+\BOOKMARK [3][]{Outline5.20.2.60}{Software}{Outline5.20}% 41
+\BOOKMARK [3][]{Outline5.20.3.61}{Environment Modules}{Outline5.20}% 42
+\BOOKMARK [3][]{Outline5.20.4.62}{Environment Modules}{Outline5.20}% 43
+\BOOKMARK [3][]{Outline5.20.5.66}{Compilers}{Outline5.20}% 44
+\BOOKMARK [1][]{Outline6}{HPC Job Submission}{}% 45
+\BOOKMARK [2][]{Outline6.21}{Job Submission}{Outline6}% 46
+\BOOKMARK [3][]{Outline6.21.1.78}{Single Node Jobs}{Outline6.21}% 47
+\BOOKMARK [3][]{Outline6.21.2.83}{MPI Jobs}{Outline6.21}% 48
+\BOOKMARK [3][]{Outline6.21.3.85}{Hybrid Jobs}{Outline6.21}% 49
+\BOOKMARK [3][]{Outline6.21.4.86}{High Throughput Jobs}{Outline6.21}% 50
+\BOOKMARK [3][]{Outline6.21.5.87}{Interactive Jobs}{Outline6.21}% 51
+\BOOKMARK [3][]{Outline6.21.6.88}{Array Jobs}{Outline6.21}% 52
+\BOOKMARK [3][]{Outline6.21.7.90}{Scheduling}{Outline6.21}% 53
+\BOOKMARK [3][]{Outline6.21.8.91}{Wait Times}{Outline6.21}% 54
+\BOOKMARK [3][]{Outline6.21.9.92}{Checkpointing}{Outline6.21}% 55
+\BOOKMARK [3][]{Outline6.21.10.93}{Scheduling Top Tips}{Outline6.21}% 56

@@ -171,15 +171,11 @@ N&\text{ is the number of CPUs.}
 \begin{tabular}{ll}
 \parbox[c]{0.5\textwidth}{\begin{enumerate}
 \setcounter{enumi}{1}
-\item{Connect the nodes with one or more \alert{networks}. E.g.}
-\begin{description}
-\item[Gbit Ethernet:]{\alert{100 MB/sec}}
-\item[Omni-Path:]{\alert{10 GB/sec}}
-\end{description}
+\item{Connect the nodes with one or more \alert{networks}.}
 \pause
 \null\par
-Faster network is for \alert{inter-CPU communication across nodes}.\par
-Slower network is for \alert{management} and \alert{provisioning}.\par
+Faster network for \alert{inter-CPU communication across nodes}.\par
+Slower network for \alert{management} and \alert{provisioning}.\par
 \alert{Storage} may use either.
 \end{enumerate}}
 &\vbox to 0pt{\vss\vskip 0.25cm\leftline{\includegraphics[height=0.85\textheight]{imgs/coreib.jpg}}\vss}\\
@@ -201,19 +197,21 @@ on common private network(s) and controlled centrally.}
 \pause
 \item[$\ast$]{\color{red}Each process/thread must fit within a single node's memory.}
 \end{itemize}
-\pause
-\item{More expensive machines logically bind nodes into a single system\hfill\\
-{}\qquad i.e. CPUs \alert{and} memory.}
-\begin{itemize}
-\item[$\ast$]{E.g.\ SGI UV.}
-\item[$\ast$]{Private networks allow CPUs to see CPUs and memory in other nodes.}
-\pause
-\item[$\ast$]{These are \alert{shared memory} machines.}
-\item[$\ast$]{Logically a single system - 1 big node - but very non-uniform.}
-\item[$\ast$]{A single process can span the entire system.}
-\end{itemize}
+
+%\pause
+%\item{More expensive machines logically bind nodes into a single system\hfill\\
+%{}\qquad i.e. CPUs \alert{and} memory.}
+%\begin{itemize}
+%\item[$\ast$]{E.g.\ SGI UV.}
+%\item[$\ast$]{Private networks allow CPUs to see CPUs and memory in other nodes.}
+%\pause
+%\item[$\ast$]{These are \alert{shared memory} machines.}
+%\item[$\ast$]{Logically a single system - 1 big node - but very non-uniform.}
+%\item[$\ast$]{A single process can span the entire system.}
+%\end{itemize}
 \end{itemize}
 \end{enumerate}
+
 \end{frame}
 
 \section{Programming a Multiprocessor Machine}
