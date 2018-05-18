@@ -5,78 +5,349 @@
 \headcommand {\beamer@framepages {2}{2}}
 \headcommand {\slideentry {0}{0}{3}{3/3}{}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\partentry {Using HPC}{1}}
+\headcommand {\partentry {Introduction}{1}}
 \headcommand {\beamer@partpages {1}{3}}
 \headcommand {\beamer@sectionpages {1}{3}}
 \headcommand {\beamer@subsectionpages {1}{3}}
 \headcommand {\slideentry {0}{0}{4}{4/4}{}{1}}
 \headcommand {\beamer@framepages {4}{4}}
-\headcommand {\sectionentry {1}{Connecting}{5}{Connecting}{1}}
+\headcommand {\sectionentry {1}{Who are we?}{5}{Who are we?}{1}}
 \headcommand {\beamer@sectionpages {4}{4}}
 \headcommand {\beamer@subsectionpages {4}{4}}
 \headcommand {\slideentry {1}{0}{1}{5/5}{}{1}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\beamer@subsectionentry {1}{1}{1}{6}{Connecting - SSH}}\headcommand {\beamer@subsectionpages {5}{5}}
-\headcommand {\slideentry {1}{1}{1}{6/6}{Connecting - SSH}{1}}
-\headcommand {\beamer@framepages {6}{6}}
-\headcommand {\beamer@subsectionentry {1}{1}{2}{7}{Login Nodes}}\headcommand {\beamer@subsectionpages {6}{6}}
-\headcommand {\slideentry {1}{2}{1}{7/7}{Login Nodes}{1}}
-\headcommand {\beamer@framepages {7}{7}}
-\headcommand {\beamer@subsectionentry {1}{1}{3}{8}{Linux Clients}}\headcommand {\beamer@subsectionpages {7}{7}}
-\headcommand {\slideentry {1}{3}{1}{8/8}{Linux Clients}{1}}
-\headcommand {\beamer@framepages {8}{8}}
-\headcommand {\beamer@subsectionentry {1}{1}{4}{9}{Login}}\headcommand {\beamer@subsectionpages {8}{8}}
-\headcommand {\slideentry {1}{4}{1}{9/9}{Login}{1}}
-\headcommand {\beamer@framepages {9}{9}}
-\headcommand {\beamer@subsectionentry {1}{1}{5}{10}{First time login}}\headcommand {\beamer@subsectionpages {9}{9}}
-\headcommand {\slideentry {1}{5}{1}{10/10}{First time login}{1}}
-\headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {1}{5}{2}{11/11}{First time login}{1}}
-\headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@subsectionentry {1}{1}{6}{12}{File Transfer with rsync: an example}}\headcommand {\beamer@subsectionpages {10}{11}}
-\headcommand {\slideentry {1}{6}{1}{12/12}{File Transfer with rsync: an example}{1}}
-\headcommand {\beamer@framepages {12}{12}}
-\headcommand {\sectionentry {2}{Connecting from other clients}{13}{Connecting from other clients}{1}}
-\headcommand {\beamer@sectionpages {5}{12}}
-\headcommand {\beamer@subsectionpages {12}{12}}
-\headcommand {\slideentry {2}{0}{1}{13/13}{}{1}}
-\headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@subsectionentry {1}{2}{1}{14}{MacOSX}}\headcommand {\beamer@subsectionpages {13}{13}}
-\headcommand {\slideentry {2}{1}{1}{14/14}{MacOSX}{1}}
-\headcommand {\beamer@framepages {14}{14}}
-\headcommand {\beamer@subsectionentry {1}{2}{2}{15}{Windows Clients}}\headcommand {\beamer@subsectionpages {14}{14}}
-\headcommand {\slideentry {2}{2}{1}{15/15}{Windows Clients}{1}}
-\headcommand {\beamer@framepages {15}{15}}
-\headcommand {\beamer@subsectionentry {1}{2}{3}{16}{Windows Users}}\headcommand {\beamer@subsectionpages {15}{15}}
-\headcommand {\slideentry {2}{3}{1}{16/16}{Windows Users}{1}}
-\headcommand {\beamer@framepages {16}{16}}
-\headcommand {\slideentry {2}{3}{2}{17/17}{Windows Users}{1}}
-\headcommand {\beamer@framepages {17}{17}}
-\headcommand {\sectionentry {3}{Simple command line operations}{18}{Simple command line operations}{1}}
-\headcommand {\beamer@sectionpages {13}{17}}
-\headcommand {\beamer@subsectionpages {16}{17}}
-\headcommand {\slideentry {3}{0}{1}{18/18}{}{1}}
-\headcommand {\beamer@framepages {18}{18}}
-\headcommand {\beamer@subsectionentry {1}{3}{1}{19}{Exercise 1: Login with SSH}}\headcommand {\beamer@subsectionpages {18}{18}}
-\headcommand {\slideentry {3}{1}{1}{19/19}{Exercise 1: Login with SSH}{1}}
-\headcommand {\beamer@framepages {19}{19}}
-\headcommand {\beamer@subsectionentry {1}{3}{2}{20}{Exercise 2: SFTP file transfer - pt1}}\headcommand {\beamer@subsectionpages {19}{19}}
-\headcommand {\slideentry {3}{2}{1}{20/20}{Exercise 2: SFTP file transfer - pt1}{1}}
-\headcommand {\beamer@framepages {20}{20}}
-\headcommand {\beamer@subsectionentry {1}{3}{3}{21}{Exercise 2: SFTP file transfer - pt2}}\headcommand {\beamer@subsectionpages {20}{20}}
-\headcommand {\slideentry {3}{3}{1}{21/21}{Exercise 2: SFTP file transfer - pt2}{1}}
-\headcommand {\beamer@framepages {21}{21}}
-\headcommand {\beamer@subsectionentry {1}{3}{4}{22}{Excercise 3: Unzip the excercises.tar file}}\headcommand {\beamer@subsectionpages {21}{21}}
-\headcommand {\slideentry {3}{4}{1}{22/22}{Excercise 3: Unzip the excercises.tar file}{1}}
-\headcommand {\beamer@framepages {22}{22}}
-\headcommand {\beamer@subsectionentry {1}{3}{5}{23}{Excercise 4: Navigating the command line}}\headcommand {\beamer@subsectionpages {22}{22}}
-\headcommand {\slideentry {3}{5}{1}{23/23}{Excercise 4: Navigating the command line}{1}}
-\headcommand {\beamer@framepages {23}{23}}
-\headcommand {\beamer@subsectionentry {1}{3}{6}{24}{Excercise 5: Learn more about a command}}\headcommand {\beamer@subsectionpages {23}{23}}
-\headcommand {\slideentry {3}{6}{1}{24/24}{Excercise 5: Learn more about a command}{1}}
-\headcommand {\beamer@framepages {24}{24}}
-\headcommand {\beamer@partpages {4}{24}}
-\headcommand {\beamer@subsectionpages {24}{24}}
-\headcommand {\beamer@sectionpages {18}{24}}
-\headcommand {\beamer@documentpages {24}}
-\headcommand {\def \inserttotalframenumber {24}}
+\headcommand {\sectionentry {2}{Training Accounts}{6}{Training Accounts}{1}}
+\headcommand {\beamer@sectionpages {5}{5}}
+\headcommand {\beamer@subsectionpages {5}{5}}
+\headcommand {\slideentry {2}{0}{1}{6/10}{}{1}}
+\headcommand {\beamer@framepages {6}{10}}
+\headcommand {\sectionentry {3}{Login node for today}{11}{Login node for today}{1}}
+\headcommand {\beamer@sectionpages {6}{10}}
+\headcommand {\beamer@subsectionpages {6}{10}}
+\headcommand {\slideentry {3}{0}{1}{11/12}{}{1}}
+\headcommand {\beamer@framepages {11}{12}}
+\headcommand {\sectionentry {4}{Security}{13}{Security}{1}}
+\headcommand {\beamer@sectionpages {11}{12}}
+\headcommand {\beamer@subsectionpages {11}{12}}
+\headcommand {\slideentry {4}{0}{1}{13/17}{}{1}}
+\headcommand {\beamer@framepages {13}{17}}
+\headcommand {\slideentry {4}{0}{2}{18/22}{}{1}}
+\headcommand {\beamer@framepages {18}{22}}
+\headcommand {\sectionentry {5}{Introduction: Pre-requisites}{23}{Introduction: Pre-requisites}{1}}
+\headcommand {\beamer@sectionpages {13}{22}}
+\headcommand {\beamer@subsectionpages {13}{22}}
+\headcommand {\slideentry {5}{0}{1}{23/25}{}{1}}
+\headcommand {\beamer@framepages {23}{25}}
+\headcommand {\beamer@subsectionentry {1}{5}{1}{26}{Navigating the command line }}\headcommand {\beamer@subsectionpages {23}{25}}
+\headcommand {\slideentry {5}{1}{1}{26/26}{Navigating the command line }{1}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\partentry {Basics}{2}}
+\headcommand {\beamer@partpages {4}{26}}
+\headcommand {\beamer@sectionpages {23}{26}}
+\headcommand {\beamer@subsectionpages {26}{26}}
+\headcommand {\slideentry {5}{0}{2}{27/27}{}{2}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\sectionentry {6}{Why Buy a Big Computer?}{28}{Why Buy a Big Computer?}{2}}
+\headcommand {\beamer@sectionpages {27}{27}}
+\headcommand {\beamer@subsectionpages {27}{27}}
+\headcommand {\slideentry {6}{0}{1}{28/32}{}{2}}
+\headcommand {\beamer@framepages {28}{32}}
+\headcommand {\slideentry {6}{0}{2}{33/36}{}{2}}
+\headcommand {\beamer@framepages {33}{36}}
+\headcommand {\slideentry {6}{0}{3}{37/39}{}{2}}
+\headcommand {\beamer@framepages {37}{39}}
+\headcommand {\slideentry {6}{0}{4}{40/40}{}{2}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\slideentry {6}{0}{5}{41/42}{}{2}}
+\headcommand {\beamer@framepages {41}{42}}
+\headcommand {\slideentry {6}{0}{6}{43/46}{}{2}}
+\headcommand {\beamer@framepages {43}{46}}
+\headcommand {\slideentry {6}{0}{7}{47/51}{}{2}}
+\headcommand {\beamer@framepages {47}{51}}
+\headcommand {\slideentry {6}{0}{8}{52/57}{}{2}}
+\headcommand {\beamer@framepages {52}{57}}
+\headcommand {\sectionentry {7}{Inside a Modern Computer}{58}{Inside a Modern Computer}{2}}
+\headcommand {\beamer@sectionpages {28}{57}}
+\headcommand {\beamer@subsectionpages {28}{57}}
+\headcommand {\slideentry {7}{0}{1}{58/64}{}{2}}
+\headcommand {\beamer@framepages {58}{64}}
+\headcommand {\slideentry {7}{0}{2}{65/65}{}{2}}
+\headcommand {\beamer@framepages {65}{65}}
+\headcommand {\sectionentry {8}{How to Build a Supercomputer}{66}{How to Build a Supercomputer}{2}}
+\headcommand {\beamer@sectionpages {58}{65}}
+\headcommand {\beamer@subsectionpages {58}{65}}
+\headcommand {\slideentry {8}{0}{1}{66/70}{}{2}}
+\headcommand {\beamer@framepages {66}{70}}
+\headcommand {\slideentry {8}{0}{2}{71/72}{}{2}}
+\headcommand {\beamer@framepages {71}{72}}
+\headcommand {\slideentry {8}{0}{3}{73/75}{}{2}}
+\headcommand {\beamer@framepages {73}{75}}
+\headcommand {\sectionentry {9}{Programming a Multiprocessor Machine}{76}{Programming a Multiprocessor Machine}{2}}
+\headcommand {\beamer@sectionpages {66}{75}}
+\headcommand {\beamer@subsectionpages {66}{75}}
+\headcommand {\slideentry {9}{0}{1}{76/81}{}{2}}
+\headcommand {\beamer@framepages {76}{81}}
+\headcommand {\sectionentry {10}{Summary}{82}{Summary}{2}}
+\headcommand {\beamer@sectionpages {76}{81}}
+\headcommand {\beamer@subsectionpages {76}{81}}
+\headcommand {\slideentry {10}{0}{1}{82/87}{}{2}}
+\headcommand {\beamer@framepages {82}{87}}
+\headcommand {\partentry {HPC Facilities}{3}}
+\headcommand {\beamer@partpages {27}{87}}
+\headcommand {\beamer@sectionpages {82}{87}}
+\headcommand {\beamer@subsectionpages {82}{87}}
+\headcommand {\slideentry {10}{0}{2}{88/88}{}{3}}
+\headcommand {\beamer@framepages {88}{88}}
+\headcommand {\sectionentry {11}{CSD3}{89}{CSD3}{3}}
+\headcommand {\beamer@sectionpages {88}{88}}
+\headcommand {\beamer@subsectionpages {88}{88}}
+\headcommand {\slideentry {11}{0}{1}{89/92}{}{3}}
+\headcommand {\beamer@framepages {89}{92}}
+\headcommand {\sectionentry {12}{Peta4-Skylake}{93}{Peta4-Skylake}{3}}
+\headcommand {\beamer@sectionpages {89}{92}}
+\headcommand {\beamer@subsectionpages {89}{92}}
+\headcommand {\slideentry {12}{0}{1}{93/94}{}{3}}
+\headcommand {\beamer@framepages {93}{94}}
+\headcommand {\sectionentry {13}{Wilkes2-GPU}{95}{Wilkes2-GPU}{3}}
+\headcommand {\beamer@sectionpages {93}{94}}
+\headcommand {\beamer@subsectionpages {93}{94}}
+\headcommand {\slideentry {13}{0}{1}{95/96}{}{3}}
+\headcommand {\beamer@framepages {95}{96}}
+\headcommand {\sectionentry {14}{Peta4-KNL}{97}{Peta4-KNL}{3}}
+\headcommand {\beamer@sectionpages {95}{96}}
+\headcommand {\beamer@subsectionpages {95}{96}}
+\headcommand {\slideentry {14}{0}{1}{97/98}{}{3}}
+\headcommand {\beamer@framepages {97}{98}}
+\headcommand {\sectionentry {15}{Storage}{99}{Storage}{3}}
+\headcommand {\beamer@sectionpages {97}{98}}
+\headcommand {\beamer@subsectionpages {97}{98}}
+\headcommand {\slideentry {15}{0}{1}{99/102}{}{3}}
+\headcommand {\beamer@framepages {99}{102}}
+\headcommand {\sectionentry {16}{Obtaining an Account and Support}{103}{Obtaining an Account and Support}{3}}
+\headcommand {\beamer@sectionpages {99}{102}}
+\headcommand {\beamer@subsectionpages {99}{102}}
+\headcommand {\slideentry {16}{0}{1}{103/104}{}{3}}
+\headcommand {\beamer@framepages {103}{104}}
+\headcommand {\partentry {Using HPC}{4}}
+\headcommand {\beamer@partpages {88}{104}}
+\headcommand {\beamer@sectionpages {103}{104}}
+\headcommand {\beamer@subsectionpages {103}{104}}
+\headcommand {\slideentry {16}{0}{2}{105/105}{}{4}}
+\headcommand {\beamer@framepages {105}{105}}
+\headcommand {\sectionentry {17}{Connecting}{106}{Connecting}{4}}
+\headcommand {\beamer@sectionpages {105}{105}}
+\headcommand {\beamer@subsectionpages {105}{105}}
+\headcommand {\slideentry {17}{0}{1}{106/106}{}{4}}
+\headcommand {\beamer@framepages {106}{106}}
+\headcommand {\beamer@subsectionentry {4}{17}{1}{107}{Connecting - SSH}}\headcommand {\beamer@subsectionpages {106}{106}}
+\headcommand {\slideentry {17}{1}{1}{107/111}{Connecting - SSH}{4}}
+\headcommand {\beamer@framepages {107}{111}}
+\headcommand {\beamer@subsectionentry {4}{17}{2}{112}{Login Nodes}}\headcommand {\beamer@subsectionpages {107}{111}}
+\headcommand {\slideentry {17}{2}{1}{112/112}{Login Nodes}{4}}
+\headcommand {\beamer@framepages {112}{112}}
+\headcommand {\beamer@subsectionentry {4}{17}{3}{113}{Linux Clients}}\headcommand {\beamer@subsectionpages {112}{112}}
+\headcommand {\slideentry {17}{3}{1}{113/114}{Linux Clients}{4}}
+\headcommand {\beamer@framepages {113}{114}}
+\headcommand {\beamer@subsectionentry {4}{17}{4}{115}{Login}}\headcommand {\beamer@subsectionpages {113}{114}}
+\headcommand {\slideentry {17}{4}{1}{115/118}{Login}{4}}
+\headcommand {\beamer@framepages {115}{118}}
+\headcommand {\beamer@subsectionentry {4}{17}{5}{119}{First time login}}\headcommand {\beamer@subsectionpages {115}{118}}
+\headcommand {\slideentry {17}{5}{1}{119/121}{First time login}{4}}
+\headcommand {\beamer@framepages {119}{121}}
+\headcommand {\slideentry {17}{5}{2}{122/122}{First time login}{4}}
+\headcommand {\beamer@framepages {122}{122}}
+\headcommand {\beamer@subsectionentry {4}{17}{6}{123}{File Transfer with rsync: an example}}\headcommand {\beamer@subsectionpages {119}{122}}
+\headcommand {\slideentry {17}{6}{1}{123/125}{File Transfer with rsync: an example}{4}}
+\headcommand {\beamer@framepages {123}{125}}
+\headcommand {\sectionentry {18}{Connecting from other clients}{126}{Connecting from other clients}{4}}
+\headcommand {\beamer@sectionpages {106}{125}}
+\headcommand {\beamer@subsectionpages {123}{125}}
+\headcommand {\slideentry {18}{0}{1}{126/128}{}{4}}
+\headcommand {\beamer@framepages {126}{128}}
+\headcommand {\beamer@subsectionentry {4}{18}{1}{129}{MacOSX}}\headcommand {\beamer@subsectionpages {126}{128}}
+\headcommand {\slideentry {18}{1}{1}{129/132}{MacOSX}{4}}
+\headcommand {\beamer@framepages {129}{132}}
+\headcommand {\beamer@subsectionentry {4}{18}{2}{133}{Windows Clients}}\headcommand {\beamer@subsectionpages {129}{132}}
+\headcommand {\slideentry {18}{2}{1}{133/138}{Windows Clients}{4}}
+\headcommand {\beamer@framepages {133}{138}}
+\headcommand {\beamer@subsectionentry {4}{18}{3}{139}{Windows Users}}\headcommand {\beamer@subsectionpages {133}{138}}
+\headcommand {\slideentry {18}{3}{1}{139/139}{Windows Users}{4}}
+\headcommand {\beamer@framepages {139}{139}}
+\headcommand {\slideentry {18}{3}{2}{140/140}{Windows Users}{4}}
+\headcommand {\beamer@framepages {140}{140}}
+\headcommand {\sectionentry {19}{Simple command line operations}{141}{Simple command line operations}{4}}
+\headcommand {\beamer@sectionpages {126}{140}}
+\headcommand {\beamer@subsectionpages {139}{140}}
+\headcommand {\slideentry {19}{0}{1}{141/141}{}{4}}
+\headcommand {\beamer@framepages {141}{141}}
+\headcommand {\beamer@subsectionentry {4}{19}{1}{142}{Exercise 1: Login with SSH}}\headcommand {\beamer@subsectionpages {141}{141}}
+\headcommand {\slideentry {19}{1}{1}{142/142}{Exercise 1: Login with SSH}{4}}
+\headcommand {\beamer@framepages {142}{142}}
+\headcommand {\beamer@subsectionentry {4}{19}{2}{143}{Exercise 2: SFTP file transfer - pt1}}\headcommand {\beamer@subsectionpages {142}{142}}
+\headcommand {\slideentry {19}{2}{1}{143/143}{Exercise 2: SFTP file transfer - pt1}{4}}
+\headcommand {\beamer@framepages {143}{143}}
+\headcommand {\beamer@subsectionentry {4}{19}{3}{144}{Exercise 2: SFTP file transfer - pt2}}\headcommand {\beamer@subsectionpages {143}{143}}
+\headcommand {\slideentry {19}{3}{1}{144/144}{Exercise 2: SFTP file transfer - pt2}{4}}
+\headcommand {\beamer@framepages {144}{144}}
+\headcommand {\beamer@subsectionentry {4}{19}{4}{145}{Excercise 3: Learn more about a command}}\headcommand {\beamer@subsectionpages {144}{144}}
+\headcommand {\slideentry {19}{4}{1}{145/146}{Excercise 3: Learn more about a command}{4}}
+\headcommand {\beamer@framepages {145}{146}}
+\headcommand {\beamer@subsectionentry {4}{19}{5}{147}{Excercise 4: Unzip the excercises.tar file}}\headcommand {\beamer@subsectionpages {145}{146}}
+\headcommand {\slideentry {19}{5}{1}{147/150}{Excercise 4: Unzip the excercises.tar file}{4}}
+\headcommand {\beamer@framepages {147}{150}}
+\headcommand {\beamer@subsectionentry {4}{19}{6}{151}{Excercise 5: Navigating the command line}}\headcommand {\beamer@subsectionpages {147}{150}}
+\headcommand {\slideentry {19}{6}{1}{151/153}{Excercise 5: Navigating the command line}{4}}
+\headcommand {\beamer@framepages {151}{153}}
+\headcommand {\beamer@subsectionentry {4}{19}{7}{154}{Remote Desktop}}\headcommand {\beamer@subsectionpages {151}{153}}
+\headcommand {\slideentry {19}{7}{1}{154/154}{Remote Desktop}{4}}
+\headcommand {\beamer@framepages {154}{154}}
+\headcommand {\slideentry {19}{7}{2}{155/155}{Remote Desktop}{4}}
+\headcommand {\beamer@framepages {155}{155}}
+\headcommand {\slideentry {19}{7}{3}{156/156}{Remote Desktop}{4}}
+\headcommand {\beamer@framepages {156}{156}}
+\headcommand {\partentry {Using HPC}{5}}
+\headcommand {\beamer@partpages {105}{156}}
+\headcommand {\beamer@sectionpages {141}{156}}
+\headcommand {\beamer@subsectionpages {154}{156}}
+\headcommand {\slideentry {19}{0}{4}{157/157}{}{5}}
+\headcommand {\beamer@framepages {157}{157}}
+\headcommand {\sectionentry {20}{User Environment}{158}{User Environment}{5}}
+\headcommand {\beamer@sectionpages {157}{157}}
+\headcommand {\beamer@subsectionpages {157}{157}}
+\headcommand {\slideentry {20}{0}{1}{158/160}{}{5}}
+\headcommand {\beamer@framepages {158}{160}}
+\headcommand {\beamer@subsectionentry {5}{20}{1}{161}{Filesystems}}\headcommand {\beamer@subsectionpages {158}{160}}
+\headcommand {\slideentry {20}{1}{1}{161/162}{Filesystems}{5}}
+\headcommand {\beamer@framepages {161}{162}}
+\headcommand {\beamer@subsectionentry {5}{20}{2}{163}{Exceeding 1TB of HPC work}}\headcommand {\beamer@subsectionpages {161}{162}}
+\headcommand {\slideentry {20}{2}{1}{163/164}{Exceeding 1TB of HPC work}{5}}
+\headcommand {\beamer@framepages {163}{164}}
+\headcommand {\beamer@subsectionentry {5}{20}{3}{165}{Snapshots}}\headcommand {\beamer@subsectionpages {163}{164}}
+\headcommand {\slideentry {20}{3}{1}{165/168}{Snapshots}{5}}
+\headcommand {\beamer@framepages {165}{168}}
+\headcommand {\slideentry {20}{3}{2}{169/172}{Snapshots}{5}}
+\headcommand {\beamer@framepages {169}{172}}
+\headcommand {\slideentry {20}{3}{3}{173/173}{Snapshots}{5}}
+\headcommand {\beamer@framepages {173}{173}}
+\headcommand {\sectionentry {21}{Software}{174}{Software}{5}}
+\headcommand {\beamer@sectionpages {158}{173}}
+\headcommand {\beamer@subsectionpages {165}{173}}
+\headcommand {\slideentry {21}{0}{1}{174/175}{}{5}}
+\headcommand {\beamer@framepages {174}{175}}
+\headcommand {\beamer@subsectionentry {5}{21}{1}{176}{Environment Modules}}\headcommand {\beamer@subsectionpages {174}{175}}
+\headcommand {\slideentry {21}{1}{1}{176/176}{Environment Modules}{5}}
+\headcommand {\beamer@framepages {176}{176}}
+\headcommand {\beamer@subsectionentry {5}{21}{2}{177}{Environment Modules}}\headcommand {\beamer@subsectionpages {176}{176}}
+\headcommand {\slideentry {21}{2}{1}{177/177}{Environment Modules}{5}}
+\headcommand {\beamer@framepages {177}{177}}
+\headcommand {\slideentry {21}{2}{2}{178/178}{Environment Modules}{5}}
+\headcommand {\beamer@framepages {178}{178}}
+\headcommand {\slideentry {21}{2}{3}{179/181}{Environment Modules}{5}}
+\headcommand {\beamer@framepages {179}{181}}
+\headcommand {\slideentry {21}{2}{4}{182/182}{Environment Modules}{5}}
+\headcommand {\beamer@framepages {182}{182}}
+\headcommand {\beamer@subsectionentry {5}{21}{3}{183}{Compilers}}\headcommand {\beamer@subsectionpages {177}{182}}
+\headcommand {\slideentry {21}{3}{1}{183/184}{Compilers}{5}}
+\headcommand {\beamer@framepages {183}{184}}
+\headcommand {\sectionentry {22}{Excercises}{185}{Excercises}{5}}
+\headcommand {\beamer@sectionpages {174}{184}}
+\headcommand {\beamer@subsectionpages {183}{184}}
+\headcommand {\beamer@subsectionentry {5}{22}{1}{185}{Modules: Excercise 6}}\headcommand {\beamer@subsectionpages {185}{184}}
+\headcommand {\slideentry {22}{1}{1}{185/185}{Modules: Excercise 6}{5}}
+\headcommand {\beamer@framepages {185}{185}}
+\headcommand {\beamer@subsectionentry {5}{22}{2}{186}{Modules: Excercise 7}}\headcommand {\beamer@subsectionpages {185}{185}}
+\headcommand {\slideentry {22}{2}{1}{186/186}{Modules: Excercise 7}{5}}
+\headcommand {\beamer@framepages {186}{186}}
+\headcommand {\beamer@subsectionentry {5}{22}{3}{187}{Local R library: Excercise 8}}\headcommand {\beamer@subsectionpages {186}{186}}
+\headcommand {\slideentry {22}{3}{1}{187/187}{Local R library: Excercise 8}{5}}
+\headcommand {\beamer@framepages {187}{187}}
+\headcommand {\beamer@subsectionentry {5}{22}{4}{188}{Excercise 8: notes}}\headcommand {\beamer@subsectionpages {187}{187}}
+\headcommand {\slideentry {22}{4}{1}{188/188}{Excercise 8: notes}{5}}
+\headcommand {\beamer@framepages {188}{188}}
+\headcommand {\sectionentry {23}{Excercise 9: Modules and Compilers}{189}{Excercise 9: Modules and Compilers}{5}}
+\headcommand {\beamer@sectionpages {185}{188}}
+\headcommand {\beamer@subsectionpages {188}{188}}
+\headcommand {\slideentry {23}{0}{1}{189/191}{}{5}}
+\headcommand {\beamer@framepages {189}{191}}
+\headcommand {\sectionentry {24}{Excercise 9: Modules and Compilers}{192}{Excercise 9: Modules and Compilers}{5}}
+\headcommand {\beamer@sectionpages {189}{191}}
+\headcommand {\beamer@subsectionpages {189}{191}}
+\headcommand {\slideentry {24}{0}{1}{192/192}{}{5}}
+\headcommand {\beamer@framepages {192}{192}}
+\headcommand {\partentry {HPC Job Submission}{6}}
+\headcommand {\beamer@partpages {157}{192}}
+\headcommand {\beamer@sectionpages {192}{192}}
+\headcommand {\beamer@subsectionpages {192}{192}}
+\headcommand {\slideentry {24}{0}{2}{193/193}{}{6}}
+\headcommand {\beamer@framepages {193}{193}}
+\headcommand {\sectionentry {25}{Job Submission}{194}{Job Submission}{6}}
+\headcommand {\beamer@sectionpages {193}{193}}
+\headcommand {\beamer@subsectionpages {193}{193}}
+\headcommand {\slideentry {25}{0}{1}{194/194}{}{6}}
+\headcommand {\beamer@framepages {194}{194}}
+\headcommand {\slideentry {25}{0}{2}{195/195}{}{6}}
+\headcommand {\beamer@framepages {195}{195}}
+\headcommand {\slideentry {25}{0}{3}{196/197}{}{6}}
+\headcommand {\beamer@framepages {196}{197}}
+\headcommand {\slideentry {25}{0}{4}{198/198}{}{6}}
+\headcommand {\beamer@framepages {198}{198}}
+\headcommand {\slideentry {25}{0}{5}{199/199}{}{6}}
+\headcommand {\beamer@framepages {199}{199}}
+\headcommand {\slideentry {25}{0}{6}{200/202}{}{6}}
+\headcommand {\beamer@framepages {200}{202}}
+\headcommand {\slideentry {25}{0}{7}{203/203}{}{6}}
+\headcommand {\beamer@framepages {203}{203}}
+\headcommand {\slideentry {25}{0}{8}{204/204}{}{6}}
+\headcommand {\beamer@framepages {204}{204}}
+\headcommand {\slideentry {25}{0}{9}{205/208}{}{6}}
+\headcommand {\beamer@framepages {205}{208}}
+\headcommand {\slideentry {25}{0}{10}{209/209}{}{6}}
+\headcommand {\beamer@framepages {209}{209}}
+\headcommand {\beamer@subsectionentry {6}{25}{1}{210}{Single Node Jobs}}\headcommand {\beamer@subsectionpages {194}{209}}
+\headcommand {\slideentry {25}{1}{1}{210/217}{Single Node Jobs}{6}}
+\headcommand {\beamer@framepages {210}{217}}
+\headcommand {\beamer@subsectionentry {6}{25}{2}{218}{MPI Jobs}}\headcommand {\beamer@subsectionpages {210}{217}}
+\headcommand {\slideentry {25}{2}{1}{218/220}{MPI Jobs}{6}}
+\headcommand {\beamer@framepages {218}{220}}
+\headcommand {\beamer@subsectionentry {6}{25}{3}{221}{Hybrid Jobs}}\headcommand {\beamer@subsectionpages {218}{220}}
+\headcommand {\slideentry {25}{3}{1}{221/222}{Hybrid Jobs}{6}}
+\headcommand {\beamer@framepages {221}{222}}
+\headcommand {\beamer@subsectionentry {6}{25}{4}{223}{High Throughput Jobs}}\headcommand {\beamer@subsectionpages {221}{222}}
+\headcommand {\slideentry {25}{4}{1}{223/227}{High Throughput Jobs}{6}}
+\headcommand {\beamer@framepages {223}{227}}
+\headcommand {\beamer@subsectionentry {6}{25}{5}{228}{Exercise 10: High Throughput Jobs}}\headcommand {\beamer@subsectionpages {223}{227}}
+\headcommand {\slideentry {25}{5}{1}{228/229}{Exercise 10: High Throughput Jobs}{6}}
+\headcommand {\beamer@framepages {228}{229}}
+\headcommand {\beamer@subsectionentry {6}{25}{6}{230}{Interactive Jobs}}\headcommand {\beamer@subsectionpages {228}{229}}
+\headcommand {\slideentry {25}{6}{1}{230/232}{Interactive Jobs}{6}}
+\headcommand {\beamer@framepages {230}{232}}
+\headcommand {\sectionentry {26}{Array Jobs}{233}{Array Jobs}{6}}
+\headcommand {\beamer@sectionpages {194}{232}}
+\headcommand {\beamer@subsectionpages {230}{232}}
+\headcommand {\beamer@subsectionentry {6}{26}{1}{233}{Array Jobs}}\headcommand {\beamer@subsectionpages {233}{232}}
+\headcommand {\slideentry {26}{1}{1}{233/239}{Array Jobs}{6}}
+\headcommand {\beamer@framepages {233}{239}}
+\headcommand {\slideentry {26}{1}{2}{240/241}{Array Jobs}{6}}
+\headcommand {\beamer@framepages {240}{241}}
+\headcommand {\sectionentry {27}{Excercise 11: Array Jobs}{242}{Excercise 11: Array Jobs}{6}}
+\headcommand {\beamer@sectionpages {233}{241}}
+\headcommand {\beamer@subsectionpages {233}{241}}
+\headcommand {\slideentry {27}{0}{1}{242/244}{}{6}}
+\headcommand {\beamer@framepages {242}{244}}
+\headcommand {\beamer@subsectionentry {6}{27}{1}{245}{Scheduling}}\headcommand {\beamer@subsectionpages {242}{244}}
+\headcommand {\slideentry {27}{1}{1}{245/250}{Scheduling}{6}}
+\headcommand {\beamer@framepages {245}{250}}
+\headcommand {\beamer@subsectionentry {6}{27}{2}{251}{Wait Times}}\headcommand {\beamer@subsectionpages {245}{250}}
+\headcommand {\slideentry {27}{2}{1}{251/253}{Wait Times}{6}}
+\headcommand {\beamer@framepages {251}{253}}
+\headcommand {\beamer@subsectionentry {6}{27}{3}{254}{Checkpointing}}\headcommand {\beamer@subsectionpages {251}{253}}
+\headcommand {\slideentry {27}{3}{1}{254/255}{Checkpointing}{6}}
+\headcommand {\beamer@framepages {254}{255}}
+\headcommand {\beamer@subsectionentry {6}{27}{4}{256}{Scheduling Top Tips}}\headcommand {\beamer@subsectionpages {254}{255}}
+\headcommand {\slideentry {27}{4}{1}{256/256}{Scheduling Top Tips}{6}}
+\headcommand {\beamer@framepages {256}{256}}
+\headcommand {\beamer@partpages {193}{256}}
+\headcommand {\beamer@subsectionpages {256}{256}}
+\headcommand {\beamer@sectionpages {242}{256}}
+\headcommand {\beamer@documentpages {256}}
+\headcommand {\def \inserttotalframenumber {102}}

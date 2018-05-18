@@ -88,7 +88,7 @@ In \alert{$\tilde{}$/job\_templates}, see examples: \alert{slurm\_submit.skylake
 #! Name of the job:
 {\color<2->{red}#SBATCH} -J myjob
 #! Which project should be charged:
-{\color<2->{red}#SBATCH} -A NPL-GENERAL-CPU
+{\color<2->{red}#SBATCH} -A TRAININGCPU
 #! How many whole nodes should be allocated?
 {\color<2->{red}#SBATCH} --nodes=1
 #! How many tasks will there be in total? (<= nodes*32)
@@ -135,7 +135,7 @@ sjr20 *            3 |    SUPPORT-CPU     2,929 |    22,425,600 22,422,671
 \item{List all jobs charged to a project/user between certain times:}
 \begin{semiverbatim}
 \Tiny
-gstatement -p NPL-GENERAL-CPU  -u xyz10 -s "2018-04-01-00:00:00" -e "2018-04-30-00:00:00" 
+gstatement -p SKYLAKE  -u xyz10 -s "2018-04-01-00:00:00" -e "2018-04-30-00:00:00" 
        JobID      User    Account    JobName  Partition                 End ExitCode      State  CompHrs 
 ------------ --------- ---------- ---------- ---------- ------------------- -------- ---------- -------- 
 263              xyz10 support-c+ _interact+    skylake 2018-04-18T19:44:40      0:0    TIMEOUT      1.0
@@ -145,7 +145,6 @@ gstatement -p NPL-GENERAL-CPU  -u xyz10 -s "2018-04-01-00:00:00" -e "2018-04-30-
 \end{semiverbatim}
 \end{itemize}
 \end{frame}
-
 
 \subsection{Single Node Jobs}
 \begin{frame}[fragile]{Job Submission: Single Node Jobs}
@@ -231,7 +230,25 @@ cd directory\_for\_job64
 \alert{srun} {\color<3>{red}--exclusive} {\color<2>{red}-N 1 -n 1} \$application \$options\_for\_job64 > output 2> err {\color<4>{red}&}
 {\color<5>{red}wait}
 \end{semiverbatim}
-\item<6>{Exercise 6 - Submitting Jobs.}
+\end{itemize}
+\end{frame}
+
+\subsection{Exercise 10: High Throughput Jobs}
+\begin{frame}{Exercise 10: Submitting Jobs}
+\begin{itemize}
+\item{Submit a job which will run a copy of your hello program on 1 cpu.}
+\visible<2->{\begin{description}
+\item[\emph{Hints:}]{\scriptsize\begin{enumerate}
+\item{Edit the script \alert{job\_script} in your exercises directory. Set:\hfill\\
+\alert{\#SBATCH --nodes=1}\hfill\\
+\alert{\#SBATCH --ntasks=1}\hfill\\
+\alert{application="./hello"}}
+\item{Submit the job with \alert{sbatch job\_script}. The jobid is then printed.}
+\item{Watch the job in the queue with \alert{squeue}.}
+\item{After it has disappeared, open the output file \alert{slurm-jobid.out} in your editor. There should be exactly one ``Hello, World!'' message.}
+\end{enumerate}%
+}
+\end{description}}
 \end{itemize}
 \end{frame}
 
@@ -242,7 +259,7 @@ cd directory\_for\_job64
 \pause
 \item{Alternatively, submit an interactive job:}
 \begin{semiverbatim}
-\alert{sintr -A NPL-GENERAL-CPU -N1 -n8 -t 2:0:0}
+\alert{sintr -A TRAINING -N1 -n8 -t 2:0:0}
 \end{semiverbatim}
 \medskip
 \pause
@@ -257,7 +274,7 @@ cd directory\_for\_job64
 \end{itemize}
 \end{frame}
 
-
+\section{Array Jobs}
 \subsection{Array Jobs}
 \begin{frame}[fragile]{Job Submission: Array Jobs}
 \begin{itemize}
@@ -267,7 +284,7 @@ cd directory\_for\_job64
 \item{SLURM}
 \begin{semiverbatim}
 \scriptsize
-[abc123@login-a-1]\$ sbatch --array=\only<1,2>{{\color{red}1-7}}\only<2>{{\color{red}:2}}\only<3->{{\color{red}1,3,5,7}} -A NPL-GENERAL-CPU submit\_script
+[abc123@login-a-1]\$ sbatch --array=\only<1,2>{{\color{red}1-7}}\only<2>{{\color{red}:2}}\only<3->{{\color{red}1,3,5,7}} -A TRAININGCPU submit\_script
 Submitted batch job {\color[rgb]{0,0.6,0}791609}
 \tiny
 \uncover<4->{[abc123@login-a-1]\$ squeue -u abc123
@@ -293,6 +310,32 @@ Submitted batch job {\color[rgb]{0,0.6,0}791609}
 \item{Some commands still require the SLURM\_JOB\_ID (sacct, sreport, sshare, sstat and a few others).}
 \pause
 \item{Exercise 7 - Array Jobs.}
+\end{itemize}
+\end{frame}
+
+\section{Excercise 11: Array Jobs}
+\begin{frame}{Exercise 11: Array Jobs}
+\begin{itemize}
+\item{Submit your last job in the form of an array with indices 1-32. Use -H with sbatch to mark the array as held (so that it won't run immediately).}
+\visible<2->{\begin{description}
+\item[\emph{Hints:}]{\scriptsize\begin{enumerate}
+\item{Use \alert{sbatch -H -{}-array=1-32 job\_script}}
+\item{Use \alert{squeue -u userid} to see your array job. Note that \alert{-r} reports each array element individually.}
+\end{enumerate}%
+}
+\end{description}}
+\item{Release array element 1 and allow it to run. Then release the others.}
+\visible<3->{\begin{description}
+\item[\emph{Hints:}]{\scriptsize\begin{enumerate}
+\item{Use \alert{scontrol release \$\{{SLURM\_ARRAY\_JOB\_ID}\}\_{{\color{red}1}}}}
+\item{Use \alert{squeue -u userid} again to watch what happens.}
+\item{Release the others with\hfill\break
+\null\qquad scontrol release \$\{{SLURM\_ARRAY\_JOB\_ID}\}\hfill\break
+i.e. use the array id to release the entire array.}
+  \item{When all the jobs complete you should have 64 slurm-\$\{SLURM\_ARRAY\_JOB\_ID\}\_N.out files saying hello from various cpus on possibly multiple nodes.}
+\end{enumerate}%
+}
+\end{description}}
 \end{itemize}
 \end{frame}
 

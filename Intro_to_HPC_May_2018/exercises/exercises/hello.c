@@ -1,5 +1,4 @@
 #include <unistd.h>
-#include <stdio.h>
 
 #define HOST_NAME_MAX 20
 

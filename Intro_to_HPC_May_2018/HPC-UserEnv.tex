@@ -220,8 +220,8 @@ mpif90 -O3 -mtune=native mpi_code.f90 -o mpi_prog
 
 \section{Excercises}
 
-\subsection{Modules: Excercise 3}
-\begin{frame}[fragile]{Excercise 3: Environment Modules}
+\subsection{Modules: Excercise 6}
+\begin{frame}[fragile]{Excercise 6: Environment Modules}
 \begin{itemize}
 \item{Connect to the cluster using your training account: See excercise 1 if you have closed your terminal. }
 \item{Get a list of modules that are currently loaded}
@@ -231,8 +231,8 @@ mpif90 -O3 -mtune=native mpi_code.f90 -o mpi_prog
 \end{itemize}
 \end{frame}
 
-\subsection{Modules: Excercise 4}
-\begin{frame}[fragile]{Excercise 5: Run an Rscript}
+\subsection{Modules: Excercise 7}
+\begin{frame}[fragile]{Excercise 7: Run an Rscript}
 \begin{itemize}
 \item{Connect to the cluster using your training account: See excercise 1 if you have closed your terminal.}
 \item{In the exercises folder there is a file called test.r}
@@ -243,8 +243,8 @@ mpif90 -O3 -mtune=native mpi_code.f90 -o mpi_prog
 \end{itemize}
 \end{frame}
 
-\subsection{Local R library: Excercise 5}
-\begin{frame}[fragile]{Exercise 5: Install the R library locally}
+\subsection{Local R library: Excercise 8}
+\begin{frame}[fragile]{Exercise 8: Install the R library locally}
 As a user you can create a local R library directory for packages that you want to install. 
 
 \begin{itemize}
@@ -271,23 +271,41 @@ quit()
 \end{itemize}
 \end{frame}
 
-\subsection{Excercise 5: explained}
-\begin{frame}[fragile]{Excercise explained}
-As a user you can create a local R library directory for packages that you want to install.
+\subsection{Excercise 8: notes}
+\begin{frame}[fragile]{Excercise 8: Explained}
 \begin{itemize}
-\item First we load an R module, note the lower case r: module load r/(version). The lower case r is neccasary as upper case R modules are compiled for an older version of linux.
-\item We create a folder for your local R package installs. This could be in your home or on HPC work.
-mkdir ~/my-R-libs
-\item In the root of your home directory we create a file .Renviron. This file is read by R and sets a variable which makes it aware of our local R library directory.
-\item echo " " outputs the text between the quotes, \textgreater redirects the text into .Renviron which a file.
-\item When we start R the .Renviron file is read and R will look for and install local packages in the local library directory.
-\item .libPaths() is used to displays the R library locations where R modules will get installed. 
-\item We then installing a package to the library using the R console:
-\begin{verbatim}
-install.packages("new_package_installation", "options", dependences=)
-\end{verbatim}
-Note that its possible to specify options or name other packages that are a dependency. 
-\item Now you can load the library from the R terminal or inside an Rscript:
-require(pander)
+\item Our R modules: module load r/(version). We have two sets of R modules, those with an upper case R where compiled for an older version of Linux and should be ignored (Darwin legacy)
+\item echo " " outputs the text between the quotes, \textgreater redirects the text into the .Renviron file.
+\item When we start R the .Renviron file is read and R will now be aware of our local library directory.
+\item .libPaths() is how to check your library locations 
+\end{itemize}
+\end{frame}
+
+\section{Excercise 9: Modules and Compilers}
+\begin{frame}[fragile]{Exercise 9: Modules and Compilers}
+\begin{itemize}
+\item{Connect to the cluster using your training account: See excercise 1 if you have closed your terminal.}
+\item{Go to the \alert{exercises} directory that you unzipped in hpcwork.}
+\visible<1->{\begin{description}
+\item{Try to compile the \alert{hello.c} program using the default \alert{gcc} compiler (it will fail because there is a deliberate bug).}
+\end{description}}
+\visible<2->{\begin{description}
+\item[\emph{Hints:}]{\small \alert{gcc hello.c -o hello}}
+\end{description}}
+\item{To fix the problem, open the \alert{hello.c} file in the \alert{gedit} editor.}
+\visible<3->{\begin{description}
+\item[\emph{Hints:}]{\small Launch gedit in the background by doing \alert{gedit\&}. A gedit window should appear. Remove the word \alert{BUG}, save the file and recompile. Do \alert{./hello} to run the program.}
+\end{description}}
+\item{If you get this error: \begin{verbatim}WARNING **: cannot open display:\end{verbatim} then you have missed the '-Y' in your SSH command}
+\end{itemize}
+\end{frame}
+ 
+\section{Excercise 9: Modules and Compilers}
+\begin{frame}[fragile]{Exercise 9: Modules and Compilers}
+\begin{itemize} 
+\item{The default version of gcc is 4.8.5. Compile hello.c again with \alert{gcc 5.4.0}.}
+\visible<1->{\begin{description}
+\item[\emph{Hints:}]{\small module av, module load gcc-5.4.0-gcc-4.8.5-fis24gg, then \alert{gcc hello.c -o hello2}}
+\end{description}}
 \end{itemize}
 \end{frame}
