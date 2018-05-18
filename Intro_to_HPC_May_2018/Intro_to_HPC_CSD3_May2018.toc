@@ -35,33 +35,31 @@
 \beamer@subsectionintoc {19}{4}{Excercise 3: Learn more about a command}{53}{4}{19}
 \beamer@subsectionintoc {19}{5}{Excercise 4: Unzip the excercises.tar file}{54}{4}{19}
 \beamer@subsectionintoc {19}{6}{Excercise 5: Navigating the command line}{55}{4}{19}
-\beamer@subsectionintoc {19}{7}{Remote Desktop}{56}{4}{19}
-\beamer@sectionintoc {20}{User Environment}{60}{5}{20}
-\beamer@subsectionintoc {20}{1}{Filesystems}{61}{5}{20}
-\beamer@subsectionintoc {20}{2}{Exceeding 1TB of HPC work}{62}{5}{20}
-\beamer@subsectionintoc {20}{3}{Snapshots}{63}{5}{20}
-\beamer@sectionintoc {21}{Software}{67}{5}{21}
-\beamer@subsectionintoc {21}{1}{Environment Modules}{68}{5}{21}
-\beamer@subsectionintoc {21}{2}{Environment Modules}{69}{5}{21}
-\beamer@subsectionintoc {21}{3}{Compilers}{73}{5}{21}
-\beamer@sectionintoc {22}{Excercises}{74}{5}{22}
-\beamer@subsectionintoc {22}{1}{Modules: Excercise 6}{74}{5}{22}
-\beamer@subsectionintoc {22}{2}{Modules: Excercise 7}{75}{5}{22}
-\beamer@subsectionintoc {22}{3}{Local R library: Excercise 8}{76}{5}{22}
-\beamer@subsectionintoc {22}{4}{Excercise 8: notes}{77}{5}{22}
-\beamer@sectionintoc {23}{Excercise 9: Modules and Compilers}{78}{5}{23}
-\beamer@sectionintoc {24}{Excercise 9: Modules and Compilers}{79}{5}{24}
-\beamer@sectionintoc {25}{Job Submission}{81}{6}{25}
-\beamer@subsectionintoc {25}{1}{Single Node Jobs}{91}{6}{25}
-\beamer@subsectionintoc {25}{2}{MPI Jobs}{96}{6}{25}
-\beamer@subsectionintoc {25}{3}{Hybrid Jobs}{98}{6}{25}
-\beamer@subsectionintoc {25}{4}{High Throughput Jobs}{99}{6}{25}
-\beamer@sectionintoc {26}{Exercise 10: High Throughput Jobs}{100}{6}{26}
-\beamer@subsectionintoc {26}{1}{Exercise 11: High Throughput Jobs}{101}{6}{26}
-\beamer@subsectionintoc {26}{2}{Interactive Jobs}{102}{6}{26}
-\beamer@sectionintoc {27}{Array Jobs}{103}{6}{27}
-\beamer@subsectionintoc {27}{1}{Array Jobs}{103}{6}{27}
-\beamer@sectionintoc {28}{Excercise 12: Array Jobs}{105}{6}{28}
-\beamer@subsectionintoc {28}{1}{Scheduling}{106}{6}{28}
-\beamer@subsectionintoc {28}{2}{Wait Times}{107}{6}{28}
-\beamer@subsectionintoc {28}{3}{Checkpointing}{108}{6}{28}
+\beamer@sectionintoc {20}{User Environment}{57}{5}{20}
+\beamer@subsectionintoc {20}{1}{Filesystems}{58}{5}{20}
+\beamer@subsectionintoc {20}{2}{Exceeding 1TB of HPC work}{59}{5}{20}
+\beamer@subsectionintoc {20}{3}{Snapshots}{60}{5}{20}
+\beamer@sectionintoc {21}{Software}{64}{5}{21}
+\beamer@subsectionintoc {21}{1}{Environment Modules}{65}{5}{21}
+\beamer@subsectionintoc {21}{2}{Environment Modules}{66}{5}{21}
+\beamer@subsectionintoc {21}{3}{Compilers}{70}{5}{21}
+\beamer@sectionintoc {22}{Excercises}{71}{5}{22}
+\beamer@subsectionintoc {22}{1}{Modules: Excercise 6}{71}{5}{22}
+\beamer@subsectionintoc {22}{2}{Modules: Excercise 7}{72}{5}{22}
+\beamer@subsectionintoc {22}{3}{Local R library: Excercise 8}{73}{5}{22}
+\beamer@subsectionintoc {22}{4}{Excercise 8: notes}{74}{5}{22}
+\beamer@sectionintoc {23}{Excercise 9: Modules and Compilers}{75}{5}{23}
+\beamer@sectionintoc {24}{Excercise 9: Modules and Compilers}{76}{5}{24}
+\beamer@sectionintoc {25}{Job Submission}{78}{6}{25}
+\beamer@subsectionintoc {25}{1}{Single Node Jobs}{88}{6}{25}
+\beamer@subsectionintoc {25}{2}{MPI Jobs}{93}{6}{25}
+\beamer@subsectionintoc {25}{3}{Hybrid Jobs}{95}{6}{25}
+\beamer@subsectionintoc {25}{4}{High Throughput Jobs}{96}{6}{25}
+\beamer@sectionintoc {26}{Exercise 10: High Throughput Jobs}{97}{6}{26}
+\beamer@subsectionintoc {26}{1}{Exercise 11: High Throughput Jobs}{98}{6}{26}
+\beamer@subsectionintoc {26}{2}{Interactive Jobs}{99}{6}{26}
+\beamer@sectionintoc {27}{Array Jobs}{100}{6}{27}
+\beamer@subsectionintoc {27}{1}{Array Jobs}{100}{6}{27}
+\beamer@sectionintoc {28}{Excercise 12: Array Jobs}{102}{6}{28}
+\beamer@subsectionintoc {28}{1}{Scheduling}{103}{6}{28}
+\beamer@subsectionintoc {28}{2}{Wait Times}{104}{6}{28}

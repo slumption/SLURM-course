@@ -37,36 +37,35 @@
 \BOOKMARK [3][]{Outline4.19.4.53}{Excercise 3: Learn more about a command}{Outline4.19}% 37
 \BOOKMARK [3][]{Outline4.19.5.54}{Excercise 4: Unzip the excercises.tar file}{Outline4.19}% 38
 \BOOKMARK [3][]{Outline4.19.6.55}{Excercise 5: Navigating the command line}{Outline4.19}% 39
-\BOOKMARK [3][]{Outline4.19.7.56}{Remote Desktop}{Outline4.19}% 40
-\BOOKMARK [1][]{Outline5}{Using HPC}{}% 41
-\BOOKMARK [2][]{Outline5.20}{User Environment}{Outline5}% 42
-\BOOKMARK [3][]{Outline5.20.1.61}{Filesystems}{Outline5.20}% 43
-\BOOKMARK [3][]{Outline5.20.2.62}{Exceeding 1TB of HPC work}{Outline5.20}% 44
-\BOOKMARK [3][]{Outline5.20.3.63}{Snapshots}{Outline5.20}% 45
-\BOOKMARK [2][]{Outline5.21}{Software}{Outline5}% 46
-\BOOKMARK [3][]{Outline5.21.1.68}{Environment Modules}{Outline5.21}% 47
-\BOOKMARK [3][]{Outline5.21.2.69}{Environment Modules}{Outline5.21}% 48
-\BOOKMARK [3][]{Outline5.21.3.73}{Compilers}{Outline5.21}% 49
-\BOOKMARK [2][]{Outline5.22}{Excercises}{Outline5}% 50
-\BOOKMARK [3][]{Outline5.22.1.74}{Modules: Excercise 6}{Outline5.22}% 51
-\BOOKMARK [3][]{Outline5.22.2.75}{Modules: Excercise 7}{Outline5.22}% 52
-\BOOKMARK [3][]{Outline5.22.3.76}{Local R library: Excercise 8}{Outline5.22}% 53
-\BOOKMARK [3][]{Outline5.22.4.77}{Excercise 8: notes}{Outline5.22}% 54
-\BOOKMARK [2][]{Outline5.23}{Excercise 9: Modules and Compilers}{Outline5}% 55
-\BOOKMARK [2][]{Outline5.24}{Excercise 9: Modules and Compilers}{Outline5}% 56
-\BOOKMARK [1][]{Outline6}{HPC Job Submission}{}% 57
-\BOOKMARK [2][]{Outline6.25}{Job Submission}{Outline6}% 58
-\BOOKMARK [3][]{Outline6.25.1.91}{Single Node Jobs}{Outline6.25}% 59
-\BOOKMARK [3][]{Outline6.25.2.96}{MPI Jobs}{Outline6.25}% 60
-\BOOKMARK [3][]{Outline6.25.3.98}{Hybrid Jobs}{Outline6.25}% 61
-\BOOKMARK [3][]{Outline6.25.4.99}{High Throughput Jobs}{Outline6.25}% 62
-\BOOKMARK [2][]{Outline6.26}{Exercise 10: High Throughput Jobs}{Outline6}% 63
-\BOOKMARK [3][]{Outline6.26.1.101}{Exercise 11: High Throughput Jobs}{Outline6.26}% 64
-\BOOKMARK [3][]{Outline6.26.2.102}{Interactive Jobs}{Outline6.26}% 65
-\BOOKMARK [2][]{Outline6.27}{Array Jobs}{Outline6}% 66
-\BOOKMARK [3][]{Outline6.27.1.103}{Array Jobs}{Outline6.27}% 67
-\BOOKMARK [2][]{Outline6.28}{Excercise 12: Array Jobs}{Outline6}% 68
-\BOOKMARK [3][]{Outline6.28.1.106}{Scheduling}{Outline6.28}% 69
-\BOOKMARK [3][]{Outline6.28.2.107}{Wait Times}{Outline6.28}% 70
-\BOOKMARK [3][]{Outline6.28.3.108}{Checkpointing}{Outline6.28}% 71
-\BOOKMARK [3][]{Outline6.28.4.109}{Scheduling Top Tips}{Outline6.28}% 72
+\BOOKMARK [1][]{Outline5}{Using HPC}{}% 40
+\BOOKMARK [2][]{Outline5.20}{User Environment}{Outline5}% 41
+\BOOKMARK [3][]{Outline5.20.1.58}{Filesystems}{Outline5.20}% 42
+\BOOKMARK [3][]{Outline5.20.2.59}{Exceeding 1TB of HPC work}{Outline5.20}% 43
+\BOOKMARK [3][]{Outline5.20.3.60}{Snapshots}{Outline5.20}% 44
+\BOOKMARK [2][]{Outline5.21}{Software}{Outline5}% 45
+\BOOKMARK [3][]{Outline5.21.1.65}{Environment Modules}{Outline5.21}% 46
+\BOOKMARK [3][]{Outline5.21.2.66}{Environment Modules}{Outline5.21}% 47
+\BOOKMARK [3][]{Outline5.21.3.70}{Compilers}{Outline5.21}% 48
+\BOOKMARK [2][]{Outline5.22}{Excercises}{Outline5}% 49
+\BOOKMARK [3][]{Outline5.22.1.71}{Modules: Excercise 6}{Outline5.22}% 50
+\BOOKMARK [3][]{Outline5.22.2.72}{Modules: Excercise 7}{Outline5.22}% 51
+\BOOKMARK [3][]{Outline5.22.3.73}{Local R library: Excercise 8}{Outline5.22}% 52
+\BOOKMARK [3][]{Outline5.22.4.74}{Excercise 8: notes}{Outline5.22}% 53
+\BOOKMARK [2][]{Outline5.23}{Excercise 9: Modules and Compilers}{Outline5}% 54
+\BOOKMARK [2][]{Outline5.24}{Excercise 9: Modules and Compilers}{Outline5}% 55
+\BOOKMARK [1][]{Outline6}{HPC Job Submission}{}% 56
+\BOOKMARK [2][]{Outline6.25}{Job Submission}{Outline6}% 57
+\BOOKMARK [3][]{Outline6.25.1.88}{Single Node Jobs}{Outline6.25}% 58
+\BOOKMARK [3][]{Outline6.25.2.93}{MPI Jobs}{Outline6.25}% 59
+\BOOKMARK [3][]{Outline6.25.3.95}{Hybrid Jobs}{Outline6.25}% 60
+\BOOKMARK [3][]{Outline6.25.4.96}{High Throughput Jobs}{Outline6.25}% 61
+\BOOKMARK [2][]{Outline6.26}{Exercise 10: High Throughput Jobs}{Outline6}% 62
+\BOOKMARK [3][]{Outline6.26.1.98}{Exercise 11: High Throughput Jobs}{Outline6.26}% 63
+\BOOKMARK [3][]{Outline6.26.2.99}{Interactive Jobs}{Outline6.26}% 64
+\BOOKMARK [2][]{Outline6.27}{Array Jobs}{Outline6}% 65
+\BOOKMARK [3][]{Outline6.27.1.100}{Array Jobs}{Outline6.27}% 66
+\BOOKMARK [2][]{Outline6.28}{Excercise 12: Array Jobs}{Outline6}% 67
+\BOOKMARK [3][]{Outline6.28.1.103}{Scheduling}{Outline6.28}% 68
+\BOOKMARK [3][]{Outline6.28.2.104}{Wait Times}{Outline6.28}% 69
+\BOOKMARK [3][]{Outline6.28.3.105}{Checkpointing}{Outline6.28}% 70
+\BOOKMARK [3][]{Outline6.28.4.106}{Scheduling Top Tips}{Outline6.28}% 71
