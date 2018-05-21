@@ -197,21 +197,8 @@ on common private network(s) and controlled centrally.}
 \pause
 \item[$\ast$]{\color{red}Each process/thread must fit within a single node's memory.}
 \end{itemize}
-
-%\pause
-%\item{More expensive machines logically bind nodes into a single system\hfill\\
-%{}\qquad i.e. CPUs \alert{and} memory.}
-%\begin{itemize}
-%\item[$\ast$]{E.g.\ SGI UV.}
-%\item[$\ast$]{Private networks allow CPUs to see CPUs and memory in other nodes.}
-%\pause
-%\item[$\ast$]{These are \alert{shared memory} machines.}
-%\item[$\ast$]{Logically a single system - 1 big node - but very non-uniform.}
-%\item[$\ast$]{A single process can span the entire system.}
-%\end{itemize}
 \end{itemize}
 \end{enumerate}
-
 \end{frame}
 
 \section{Programming a Multiprocessor Machine}
@@ -248,7 +235,7 @@ Message Passing Interface (MPI).}
   \item<3->{Most current supercomputers are \alert{clusters} of separate \alert{nodes}.}
   \item<4->{Each node has \alert{multiple CPUs} and \alert{non-uniform shared memory}.}
   \item<5->{\alert{Parallel} code uses shared memory (\alert{pthreads/OpenMP}) within a node, distributed memory (\alert{MPI}) spanning multiple nodes.}
-  \item<6->{\alert{Non-parallel} code uses the memory of one node, but may be copied across many.}
+  \item<6->{\alert{Non-parallel} code uses the memory of one node, but may be copied across many nodes (i.e. High Throughput, single core).}
   \end{itemize}
   \end{frame}
 

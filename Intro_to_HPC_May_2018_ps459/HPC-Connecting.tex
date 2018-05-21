@@ -192,7 +192,7 @@ Using a Linux terminal you will login to the cluster with your HPC training acco
 \item{ssh -Y \textbf{abc123}@login-cpu.hpc.cam.ac.uk}\\
 Replace abc123 with your training account username 
 \item {Enter your password as supplied on the sheet}
-\item{Leave this terminal open, you will need it for exercise 2!}
+\item{Leave this terminal open, you will need it for exercise 3!}
 \end{itemize}
 \end{frame}
 
@@ -211,16 +211,17 @@ You will need to transfer the exercise files to the cluster.
 \begin{frame}{Exercise 3: Transfer some files}
 Transfer the exercises.tar to your HPC home folder.
 \begin{itemize}
+\item{In the local terminal on your training computer enter the command:}
 \item \alert{\footnotesize sftp abc123@login.hpc.cam.ac.uk}\\
 Change abc123 to your training account username
 \item{The command: \alert{\footnotesize put exercises.tar} will transfer the file from your local computer to the remote one}
+\item Type 'exit' to close the local terminal
 \end{itemize}
 \end{frame}
 
 \subsection{Excercise 3: Learn more about a command}
 \begin{frame}{Exercise 3: Learn more about a command}
 \begin{itemize}
-    
 \item[(a)]{View the man page for the \alert{cp} command by doing \alert{man cp}. Use \alert{SPACE} to page down and \alert{b} to page up. Press \alert{q} to exit the manual page command.}
 
 \item[(b)]{Copy \alert{exercises.tar} to the $\tilde{}$/hpc-work directory. Note that $\tilde{}$ is just a convenient shorthand for your home directory. Omitting the $\tilde{}$/ will look for a hpc-work in the current directory.}

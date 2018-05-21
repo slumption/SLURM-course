@@ -1,0 +1,7 @@
+\frametitle{Exercise 9: Modules and Compilers}
+\begin{itemize}
+\item{The default version of gcc is 4.8.5. Compile hello.c again with \alert{gcc 5.4.0}.}
+\visible<1->{\begin{description}
+\item[\emph{Hints:}]{\small module av, module load gcc-5.4.0-gcc-4.8.5-fis24gg, then \alert{gcc hello.c -o hello2}}
+\end{description}}
+\end{itemize}
