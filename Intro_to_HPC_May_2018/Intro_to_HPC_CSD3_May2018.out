@@ -4,7 +4,7 @@
 \BOOKMARK [2][]{Outline1.3}{Login node for today}{Outline1}% 4
 \BOOKMARK [2][]{Outline1.4}{Security}{Outline1}% 5
 \BOOKMARK [2][]{Outline1.5}{Introduction: Pre-requisites}{Outline1}% 6
-\BOOKMARK [3][]{Outline1.5.1.12}{Navigating the command line }{Outline1.5}% 7
+\BOOKMARK [3][]{Outline1.5.1.27}{Navigating the command line }{Outline1.5}% 7
 \BOOKMARK [1][]{Outline2}{Basics}{}% 8
 \BOOKMARK [2][]{Outline2.6}{Why Buy a Big Computer?}{Outline2}% 9
 \BOOKMARK [2][]{Outline2.7}{Inside a Modern Computer}{Outline2}% 10
@@ -20,52 +20,52 @@
 \BOOKMARK [2][]{Outline3.16}{Obtaining an Account and Support}{Outline3}% 20
 \BOOKMARK [1][]{Outline4}{Using HPC}{}% 21
 \BOOKMARK [2][]{Outline4.17}{Connecting}{Outline4}% 22
-\BOOKMARK [3][]{Outline4.17.1.38}{Connecting - SSH}{Outline4.17}% 23
-\BOOKMARK [3][]{Outline4.17.2.39}{Login Nodes}{Outline4.17}% 24
-\BOOKMARK [3][]{Outline4.17.3.40}{Linux Clients}{Outline4.17}% 25
-\BOOKMARK [3][]{Outline4.17.4.41}{Login}{Outline4.17}% 26
-\BOOKMARK [3][]{Outline4.17.5.42}{First time login}{Outline4.17}% 27
-\BOOKMARK [3][]{Outline4.17.6.44}{File Transfer with rsync: an example}{Outline4.17}% 28
+\BOOKMARK [3][]{Outline4.17.1.108}{Connecting - SSH}{Outline4.17}% 23
+\BOOKMARK [3][]{Outline4.17.2.113}{Login Nodes}{Outline4.17}% 24
+\BOOKMARK [3][]{Outline4.17.3.114}{Linux Clients}{Outline4.17}% 25
+\BOOKMARK [3][]{Outline4.17.4.116}{Login}{Outline4.17}% 26
+\BOOKMARK [3][]{Outline4.17.5.120}{First time login}{Outline4.17}% 27
+\BOOKMARK [3][]{Outline4.17.6.124}{File Transfer with rsync: an example}{Outline4.17}% 28
 \BOOKMARK [2][]{Outline4.18}{Connecting from other clients}{Outline4}% 29
-\BOOKMARK [3][]{Outline4.18.1.46}{MacOSX}{Outline4.18}% 30
-\BOOKMARK [3][]{Outline4.18.2.47}{Windows Clients}{Outline4.18}% 31
-\BOOKMARK [3][]{Outline4.18.3.48}{Windows Users}{Outline4.18}% 32
+\BOOKMARK [3][]{Outline4.18.1.130}{MacOSX}{Outline4.18}% 30
+\BOOKMARK [3][]{Outline4.18.2.134}{Windows Clients}{Outline4.18}% 31
+\BOOKMARK [3][]{Outline4.18.3.140}{Windows Users}{Outline4.18}% 32
 \BOOKMARK [2][]{Outline4.19}{Simple command line operations}{Outline4}% 33
-\BOOKMARK [3][]{Outline4.19.1.51}{Exercise 1: Login with SSH}{Outline4.19}% 34
-\BOOKMARK [3][]{Outline4.19.2.52}{Exercise 2: SFTP file transfer - pt1}{Outline4.19}% 35
-\BOOKMARK [3][]{Outline4.19.3.53}{Exercise 2: SFTP file transfer - pt2}{Outline4.19}% 36
-\BOOKMARK [3][]{Outline4.19.4.54}{Excercise 3: Learn more about a command}{Outline4.19}% 37
-\BOOKMARK [3][]{Outline4.19.5.55}{Excercise 4: Unzip the excercises.tar file}{Outline4.19}% 38
-\BOOKMARK [3][]{Outline4.19.6.56}{Excercise 5: Navigating the command line}{Outline4.19}% 39
+\BOOKMARK [3][]{Outline4.19.1.143}{Exercise 1: Login with SSH}{Outline4.19}% 34
+\BOOKMARK [3][]{Outline4.19.2.144}{Exercise 2: SFTP file transfer - pt1}{Outline4.19}% 35
+\BOOKMARK [3][]{Outline4.19.3.145}{Exercise 2: SFTP file transfer - pt2}{Outline4.19}% 36
+\BOOKMARK [3][]{Outline4.19.4.146}{Excercise 3: Learn more about a command}{Outline4.19}% 37
+\BOOKMARK [3][]{Outline4.19.5.148}{Excercise 4: Unzip the excercises.tar file}{Outline4.19}% 38
+\BOOKMARK [3][]{Outline4.19.6.152}{Excercise 5: Navigating the command line}{Outline4.19}% 39
 \BOOKMARK [1][]{Outline5}{Using HPC}{}% 40
 \BOOKMARK [2][]{Outline5.20}{User Environment}{Outline5}% 41
-\BOOKMARK [3][]{Outline5.20.1.59}{Filesystems}{Outline5.20}% 42
-\BOOKMARK [3][]{Outline5.20.2.60}{Exceeding 1TB of HPC work}{Outline5.20}% 43
-\BOOKMARK [3][]{Outline5.20.3.61}{Snapshots}{Outline5.20}% 44
+\BOOKMARK [3][]{Outline5.20.1.159}{Filesystems}{Outline5.20}% 42
+\BOOKMARK [3][]{Outline5.20.2.161}{Exceeding 1TB of HPC work}{Outline5.20}% 43
+\BOOKMARK [3][]{Outline5.20.3.163}{Snapshots}{Outline5.20}% 44
 \BOOKMARK [2][]{Outline5.21}{Software}{Outline5}% 45
-\BOOKMARK [3][]{Outline5.21.1.66}{Environment Modules}{Outline5.21}% 46
-\BOOKMARK [3][]{Outline5.21.2.67}{Environment Modules}{Outline5.21}% 47
-\BOOKMARK [3][]{Outline5.21.3.71}{Compilers}{Outline5.21}% 48
+\BOOKMARK [3][]{Outline5.21.1.174}{Environment Modules}{Outline5.21}% 46
+\BOOKMARK [3][]{Outline5.21.2.175}{Environment Modules}{Outline5.21}% 47
+\BOOKMARK [3][]{Outline5.21.3.181}{Compilers}{Outline5.21}% 48
 \BOOKMARK [2][]{Outline5.22}{Excercises}{Outline5}% 49
-\BOOKMARK [3][]{Outline5.22.1.72}{Modules: Excercise 6}{Outline5.22}% 50
-\BOOKMARK [3][]{Outline5.22.2.73}{Modules: Excercise 7}{Outline5.22}% 51
-\BOOKMARK [3][]{Outline5.22.3.74}{Local R library: Excercise 8}{Outline5.22}% 52
-\BOOKMARK [3][]{Outline5.22.4.75}{Excercise 8: notes}{Outline5.22}% 53
+\BOOKMARK [3][]{Outline5.22.1.183}{Modules: Excercise 6}{Outline5.22}% 50
+\BOOKMARK [3][]{Outline5.22.2.184}{Modules: Excercise 7}{Outline5.22}% 51
+\BOOKMARK [3][]{Outline5.22.3.185}{Local R library: Excercise 8}{Outline5.22}% 52
+\BOOKMARK [3][]{Outline5.22.4.186}{Excercise 8: notes}{Outline5.22}% 53
 \BOOKMARK [2][]{Outline5.23}{Excercise 9: Modules and Compilers}{Outline5}% 54
 \BOOKMARK [2][]{Outline5.24}{Excercise 9: Modules and Compilers}{Outline5}% 55
 \BOOKMARK [1][]{Outline6}{HPC Job Submission}{}% 56
 \BOOKMARK [2][]{Outline6.25}{Job Submission}{Outline6}% 57
-\BOOKMARK [3][]{Outline6.25.1.89}{Single Node Jobs}{Outline6.25}% 58
-\BOOKMARK [3][]{Outline6.25.2.94}{MPI Jobs}{Outline6.25}% 59
-\BOOKMARK [3][]{Outline6.25.3.96}{Hybrid Jobs}{Outline6.25}% 60
-\BOOKMARK [3][]{Outline6.25.4.97}{High Throughput Jobs}{Outline6.25}% 61
+\BOOKMARK [3][]{Outline6.25.1.208}{Single Node Jobs}{Outline6.25}% 58
+\BOOKMARK [3][]{Outline6.25.2.216}{MPI Jobs}{Outline6.25}% 59
+\BOOKMARK [3][]{Outline6.25.3.219}{Hybrid Jobs}{Outline6.25}% 60
+\BOOKMARK [3][]{Outline6.25.4.221}{High Throughput Jobs}{Outline6.25}% 61
 \BOOKMARK [2][]{Outline6.26}{Exercise 10: High Throughput Jobs}{Outline6}% 62
-\BOOKMARK [3][]{Outline6.26.1.99}{Exercise 11: High Throughput Jobs}{Outline6.26}% 63
-\BOOKMARK [3][]{Outline6.26.2.100}{Interactive Jobs}{Outline6.26}% 64
+\BOOKMARK [3][]{Outline6.26.1.228}{Exercise 11: High Throughput Jobs}{Outline6.26}% 63
+\BOOKMARK [3][]{Outline6.26.2.230}{Interactive Jobs}{Outline6.26}% 64
 \BOOKMARK [2][]{Outline6.27}{Array Jobs}{Outline6}% 65
-\BOOKMARK [3][]{Outline6.27.1.101}{Array Jobs}{Outline6.27}% 66
+\BOOKMARK [3][]{Outline6.27.1.233}{Array Jobs}{Outline6.27}% 66
 \BOOKMARK [2][]{Outline6.28}{Excercise 12: Array Jobs}{Outline6}% 67
-\BOOKMARK [3][]{Outline6.28.1.104}{Scheduling}{Outline6.28}% 68
-\BOOKMARK [3][]{Outline6.28.2.105}{Wait Times}{Outline6.28}% 69
-\BOOKMARK [3][]{Outline6.28.3.106}{Checkpointing}{Outline6.28}% 70
-\BOOKMARK [3][]{Outline6.28.4.107}{Scheduling Top Tips}{Outline6.28}% 71
+\BOOKMARK [3][]{Outline6.28.1.245}{Scheduling}{Outline6.28}% 68
+\BOOKMARK [3][]{Outline6.28.2.251}{Wait Times}{Outline6.28}% 69
+\BOOKMARK [3][]{Outline6.28.3.254}{Checkpointing}{Outline6.28}% 70
+\BOOKMARK [3][]{Outline6.28.4.256}{Scheduling Top Tips}{Outline6.28}% 71
