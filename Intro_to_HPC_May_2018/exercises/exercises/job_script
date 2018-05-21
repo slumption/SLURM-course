@@ -17,7 +17,7 @@
 #! These are special settings for the _training course_, so please don't change:
 #SBATCH -A training
 #SBATCH -p skylake-cpu
-#SBATCH --reservation=training
+#SBATCH --reservation=training-cpu
 #SBATCH --profile=none
 
 #! sbatch directives end here (put any additional directives above this line)
