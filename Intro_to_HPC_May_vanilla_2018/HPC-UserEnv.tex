@@ -1,0 +1,312 @@
+\part{Using HPC}
+\begin{frame}
+\partpage
+\end{frame}
+
+\section{User Environment}
+\begin{frame}{Using HPC: User Environment}
+\begin{itemize}
+\item<1,3->{\visible<1>{CentOS Linux 7.4 (}\alert<1>{{\color<3->{red}Red Hat Enterprise Linux 7}\visible<1>{.4 rebuild)}}}
+\begin{itemize}
+\item{\visible<1>{bash shell}}
+\item{\visible<1>{Gnome or XFCE4 desktop \alert{(if you want)}}}
+\item{\visible<1>{GCC compilers and other development software.}}
+\end{itemize}
+\item<2->{But you don't need to know that.}
+\end{itemize}
+\end{frame}
+
+\subsection{Filesystems}
+\begin{frame}{User Environment: Filesystems}
+When you apply for an HPC account a home directory is created for you. 
+\begin{itemize}
+\item{\alert{/home/abc123}}
+\begin{itemize}
+\item{40GB quota.}
+\item{Visible equally from all nodes.}
+\item{Single storage server.}
+\item{Hourly, daily, weekly snapshots copied to tape.}
+\item{Not intended for job outputs or large/many input files.}
+\end{itemize}
+\item{\alert{/rds/user/abc123/hpc-work}}
+\begin{itemize}
+\item{Visible equally from all nodes.}
+\item{Larger and faster (1TB initial quota).}
+\item{Intended for job inputs and outputs.}
+\item{{\color{red}Not backed up.}}
+ \pause
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\subsection{Exceeding 1TB of HPC work}
+\begin{frame}{Our storage services}
+\begin{itemize}
+\item{We have several storage services for users that need to exceed 1TB.}
+\pause
+\item{\alert{http://www.uis.cam.ac.uk/initiatives/storage-strategy/storage-services}}
+\item{The most relevant services to HPC are RCS and RDS.}
+\item{RCS - Research Cold Store is for data that isn't changing, data goes to disk then two sets of tapes.}
+\item{RDS - Research Data Store, non backed up high performance storage for projects.}
+\end{itemize}
+\end{frame}
+
+\subsection{Snapshots}
+\begin{frame}{Filesystems: Snapshots}
+\begin{itemize}
+\item<1->{ZFS snapshots on /home are taken hourly, daily and weekly}
+\item<2->{{\color{red}No backups are made of data in the RDS directories - take care when deleting.}}
+\item<3->{Snapshots are not backups, they are retained for two weeks}
+\item<4->{\color{red}Very short lived files are unlikely to get written to snapshots}
+\item{The file needs exist long enough to get into a snapshot.}
+\item{It is possible to search /home/.zfs/snapshot and browse the snapshots}
+\item {Locatre the most recent version of the file then copy it back to your home folder} 
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Filesystems: Quotas}
+\begin{itemize}
+\item{quota}
+\begin{semiverbatim}
+\tiny
+[ps459@login-e-13 hpc-work]\$ quota
+Filesystem  GiBytes    quota   limit   grace    files    quota    limit   grace User/group
+/home          12.4     40.0    40.0       0    ----- No ZFS File Quotas  ----- U:ps459
+/rds-d1        89.2   1024.0  1126.4       -   757345  1048576  1048576       - G:ps459
+/rds-d1        22.1   1024.0  1024.0       -   113475  1048576  1048576       - G:rds-ps459-test
+\end{semiverbatim}
+\item<1-|handout:1->{\alert{Aim to stay below the soft limit (\emph{quota}).}}
+\item<2-|handout:1->{\alert{Once over the soft limit, you have 7 days grace to return below.}}
+\item<3-|handout:2>{\alert{When the grace period expires, or you reach the hard limit (\emph{limit}), no more data can be written.}}
+\item<4-|handout:2>{\alert{It is important to rectify an out of quota condition ASAP.}}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Filesystems: Permissions}
+\begin{itemize}
+\item{\color{red}Be careful and if unsure, please ask support.}
+\begin{itemize}
+\item{Can lead to \alert{accidental destruction} of your data or \alert{account compromise}.}
+\end{itemize}
+\item{Avoid changing the permissions on your home directory.}
+\begin{itemize}
+\item{Files under /home are particularly security sensitive.}
+\item{Easy to break passwordless communication between nodes.}
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\section{Software}
+\begin{frame}{Using HPC: Software}
+\begin{itemize}
+\item{Free software accompanying \alert{Red Hat Enterprise} is (or can be) provided.}
+\item{Other software (free and non-free) is available via \alert{modules}.}
+\item{Some proprietary software may not be generally accessible.}
+\item{See \alert{http://www.hpc.cam.ac.uk/using-clusters/software}.}
+\item{New software may be possible to provide on request.}
+\item{\alert{Self-installed software must be properly licensed.}}
+  \pause
+\item{\color{red}\emph{sudo will not work.}\/ (You should be worried if it did.)}
+\end{itemize}
+\end{frame}
+
+\subsection{Environment Modules}
+\begin{frame}[fragile]{User Environment: Environment Modules}
+\begin{itemize}
+\item{Modules load or unload additional software packages.}
+\item{Some are \alert{required} and automatically loaded on login.}
+\item{Others are optional extras, or possible replacements for other modules.}
+\item{\alert{Beware} unloading default modules in $\tilde{}\text{/.bashrc}$.}
+\item{\alert{Beware} overwriting environment variables such as PATH and LD\_LIBRARY\_PATH in $\tilde{}\text{/.bashrc}$. If necessary append or prepend.}
+\end{itemize}
+\end{frame}
+
+\subsection{Environment Modules}
+\begin{frame}[fragile]{User Environment: Environment Modules}
+\begin{itemize}
+\item{Currently loaded:}
+\begin{semiverbatim}
+\scriptsize
+module list
+Currently Loaded Modulefiles:
+ 1) dot                            2) singularity/current            2) intel/impi/2017.4/intel       4) intel/libs/daal/2017.4
+....plus several more default modules
+\end{semiverbatim}
+\medskip
+\item{Available:}
+\begin{semiverbatim}
+\scriptsize
+module av
+\end{semiverbatim}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{User Environment: Environment Modules}
+\begin{itemize}
+\item{Whatis:}
+\begin{semiverbatim}
+\tiny
+module whatis openmpi-3.0.0-gcc-4.8.5-n2hvjgm
+openmpi-3.0.0-gcc-4.8.5-n2hvjgm: The Open MPI Project is an open source...
+\end{semiverbatim}
+\medskip
+\item{Load:}
+\begin{semiverbatim}
+\scriptsize
+module load openmpi-3.0.0-gcc-5.4.0-4ryklvu
+\end{semiverbatim}
+\medskip
+\item{Unload:}
+\begin{semiverbatim}
+\scriptsize
+module unload openmpi-3.0.0-gcc-5.4.0-4ryklvu
+\end{semiverbatim}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{User Environment: Environment Modules}
+\begin{itemize}
+\item{Matlab}
+\begin{semiverbatim}
+\scriptsize
+module load matlab/r2017b
+\end{semiverbatim}
+\medskip\pause
+\item{Invoking matlab in batch mode:\hfill\\
+  \qquad \alert{matlab -nodisplay -nojvm -nosplash command}\hfill\\
+  where the file \alert{command.m} contains your matlab code.}
+  \pause
+  \item{The current site license contains the Parallel Computing Toolbox.}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{User Environment: Environment Modules}
+\begin{itemize}
+\item{Purge and Load Defaults:}
+\begin{semiverbatim}
+\scriptsize
+module purge
+\item{module load rhel7/default-peta4}
+\end{semiverbatim}
+\smallskip
+\end{itemize}
+\end{frame}
+
+\subsection{Compilers}
+\begin{frame}[fragile]{User Environment: Compilers}
+  \begin{itemize}
+    \item{Load a newer GCC}
+\begin{semiverbatim}
+\scriptsize
+module show gcc-7.2.0-gcc-4.8.5-pqn7o2k
+module load gcc-7.2.0-gcc-4.8.5-pqn7o2k
+Your commands to compile your software....
+\end{semiverbatim}
+\medskip
+\item{If you have compiled software yourself your run time environment must match compile time environment!}
+
+\begin{semiverbatim}
+\scriptsize
+gcc -O3 -mtune=native code.c -o prog
+gfortran -O3 -mtune=native code.f90 -o prog
+\medskip
+module load openmpi-3.0.0-gcc-4.8.5-n2hvjgm
+mpicc -O3 -mtune=native mpi_code.c -o mpi_prog
+mpif90 -O3 -mtune=native mpi_code.f90 -o mpi_prog
+\end{semiverbatim}
+\pause
+\end{itemize}
+\end{frame}
+
+\section{Excercises}
+
+\subsection{Modules: Excercise 6}
+\begin{frame}[fragile]{Excercise 6: Environment Modules}
+\begin{itemize}
+\item{Connect to the cluster using your training account: See excercise 1 if you have closed your terminal. }
+\item{Get a list of modules that are currently loaded}
+\item[\emph{Hints:}]{\alert{module list}}
+\item{Get a list of available R modules}
+\item[\emph{Hints:}]{\alert{module av R}}
+\end{itemize}
+\end{frame}
+
+\subsection{Modules: Excercise 7}
+\begin{frame}[fragile]{Excercise 7: Run an Rscript}
+\begin{itemize}
+\item{Connect to the cluster using your training account: See excercise 1 if you have closed your terminal.}
+\item{In the exercises folder there is a file called test.r}
+\item{Run this script using: Rscript hello.r }
+\item{Load the module for: R/3.3.2}
+\item[\emph{Hints:}]{\alert{module load R/3.3.2}}
+\item{Run the script again: Rscript hello.r}
+\end{itemize}
+\end{frame}
+
+\subsection{Local R library: Excercise 8}
+\begin{frame}[fragile]{Exercise 8: Install the R library locally}
+As a user you can create a local R library directory for packages that you want to install. 
+
+\begin{itemize}
+\item Load an R module: 
+module load r-3.4.3-gcc-5.4.0-rbvhnga
+\item Create a folder in your home for your own R package installs:
+mkdir ~/my-R-libs
+\item Make R aware of the new library location:
+\begin{verbatim}
+echo "R_LIBS_USER=~/my-R-libs" \textgreater .Renviron
+\end{verbatim}
+\item Start R:
+R
+\item Display your library paths:
+.libPaths()
+\item Try loading a library:
+require(pander)
+\item Its not insalled, lets install it:
+install.packages("pander")
+\item Try loading a library:
+require(pander)
+\item Library is now installed, lets quit R:
+quit()
+\end{itemize}
+\end{frame}
+
+\subsection{Excercise 8: notes}
+\begin{frame}[fragile]{Excercise 8: Explained}
+\begin{itemize}
+\item Our R modules: module load r/(version). We have two sets of R modules, those with an upper case R where compiled for an older version of Linux and should be ignored (Darwin legacy)
+\item echo " " outputs the text between the quotes, \textgreater redirects the text into the .Renviron file.
+\item When we start R the .Renviron file is read and R will now be aware of our local library directory.
+\item .libPaths() is how to check your library locations 
+\end{itemize}
+\end{frame}
+
+\section{Excercise 9: Modules and Compilers}
+\begin{frame}[fragile]{Exercise 9: Modules and Compilers}
+\begin{itemize}
+\item{Connect to the cluster using your training account: See excercise 1 if you have closed your terminal.}
+\item{Go to the \alert{exercises} directory that you unzipped in hpcwork.}
+\visible<1->{\begin{description}
+\item{Try to compile the \alert{hello.c} program using the default \alert{gcc} compiler (it will fail because there is a deliberate bug).}
+\end{description}}
+\visible<2->{\begin{description}
+\item[\emph{Hints:}]{\small \alert{gcc hello.c -o hello}}
+\end{description}}
+\item{To fix the problem, open the \alert{hello.c} file in the \alert{gedit} editor.}
+\visible<3->{\begin{description}
+\item[\emph{Hints:}]{\small Launch gedit in the background by doing \alert{gedit\&}. A gedit window should appear. Remove the word \alert{BUG}, save the file and recompile. Do \alert{./hello} to run the program.}
+\end{description}}
+\item{If you get this error: \begin{verbatim}WARNING **: cannot open display:\end{verbatim} then you have missed the '-Y' in your SSH command}
+\end{itemize}
+\end{frame}
+ 
+\section{Excercise 9: Modules and Compilers}
+\begin{frame}[fragile]{Exercise 9: Modules and Compilers}
+\begin{itemize} 
+\item{The default version of gcc is 4.8.5. Compile hello.c again with \alert{gcc 5.4.0}.}
+\visible<1->{\begin{description}
+\item[\emph{Hints:}]{\small module av, module load gcc-5.4.0-gcc-4.8.5-fis24gg, then \alert{gcc hello.c -o hello2}}
+\end{description}}
+\end{itemize}
+\end{frame}
+
