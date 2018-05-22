@@ -227,7 +227,7 @@ mpif90 -O3 -mtune=native mpi_code.f90 -o mpi_prog
 \item{Get a list of modules that are currently loaded}
 \item[\emph{Hints:}]{\alert{module list}}
 \item{Get a list of available R modules}
-\item[\emph{Hints:}]{\alert{module av R}}
+\item[\emph{Hints:}]{\alert{module av r} note the lower case r}
 \end{itemize}
 \end{frame}
 
@@ -251,10 +251,12 @@ As a user you can create a local R library directory for packages that you want 
 \item Load an R module: 
 module load r-3.4.3-gcc-5.4.0-rbvhnga
 \item Create a folder in your home for your own R package installs:
+\begin{verbatim}
 mkdir ~/my-R-libs
+\end{verbatim}
 \item Make R aware of the new library location:
 \begin{verbatim}
-echo "R_LIBS_USER=~/my-R-libs" \textgreater .Renviron
+echo "R_LIBS_USER=~/my-R-libs" > .Renviron
 \end{verbatim}
 \item Start R:
 R
