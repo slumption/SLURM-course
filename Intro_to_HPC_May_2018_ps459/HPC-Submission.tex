@@ -29,7 +29,7 @@
 \item{Jobs may use \alert{part} or \alert{all} of one or more nodes\hfill\\
 \qquad --- the owner can specify \mbox{\tt --exclusive} to force exclusive\hfill\\\qquad\hphantom{---} node access.}
 \item{Template submission scripts are available under\hfill\\
-\qquad \alert{$\tilde{}$/job\_templates}.}
+\qquad \alert{/usr/local/Cluster-Docs/SLURM}.}
 \end{itemize}
 \end{frame}
 
@@ -233,8 +233,8 @@ cd directory\_for\_job64
 \end{itemize}
 \end{frame}
 
-\section{Exercise 10: High Throughput Jobs}
-\begin{frame}{Exercise 10: Submitting a Matlab job}
+\section{Exercise 11: High Throughput Jobs}
+\begin{frame}{Exercise 11: Submitting a Matlab job}
 \begin{itemize}
 \item{Submit a job which will run \alert{matlab} on the \alert{file.m} command file (which contains just the \alert{ver} command).}
 \visible<2->{\begin{description}
@@ -252,8 +252,8 @@ cd directory\_for\_job64
 \end{itemize}
 \end{frame}
 
-\subsection{Exercise 11: High Throughput Jobs}
-\begin{frame}{Exercise 11: Submitting compiled code}
+\subsection{Exercise 12: High Throughput Jobs}
+\begin{frame}{Exercise 12: Submitting compiled code}
 \begin{itemize}
 \item{Submit a job which will run a copy of your hello program on 1 cpu.}
 \visible<2->{\begin{description}
@@ -332,8 +332,8 @@ Submitted batch job {\color[rgb]{0,0.6,0}791609}
 \end{itemize}
 \end{frame}
 
-\section{Excercise 12: Array Jobs}
-\begin{frame}{Exercise 11: Array Jobs}
+\section{Excercise 13: Array Jobs}
+\begin{frame}{Exercise 13: Array Jobs}
 \begin{itemize}
 \item{Submit your last job in the form of an array with indices 1-32. Use -H with sbatch to mark the array as held (so that it won't run immediately).}
 \visible<2->{\begin{description}
@@ -351,7 +351,7 @@ Submitted batch job {\color[rgb]{0,0.6,0}791609}
 \item{Release the others with\hfill\break
 \null\qquad scontrol release \$\{{SLURM\_ARRAY\_JOB\_ID}\}\hfill\break
 i.e. use the array id to release the entire array.}
-  \item{When all the jobs complete you should have 64 slurm-\$\{SLURM\_ARRAY\_JOB\_ID\}\_N.out files saying hello from various cpus on possibly multiple nodes.}
+  \item{When all the jobs complete you should have 32 slurm-\$\{SLURM\_ARRAY\_JOB\_ID\}\_N.out files saying hello from various cpus on possibly multiple nodes.}
 \end{enumerate}%
 }
 \end{description}}
@@ -388,8 +388,9 @@ i.e. use the array id to release the entire array.}
 \subsection{Wait Times}
 \begin{frame}{Wait Times}
   \begin{itemize}
-  \item{36 hour job walltimes are permitted.}
+ \item{12 or 36 hour job walltimes are permitted.}
     \pause
+    \item {SL3 jobs, 12hrs (non payers), SL2 and 1, 36hrs (payers)}
   \item{\alert{This sets the timescale at busy times (\emph{without} backfilling).}}
     \pause
   \item{Use backfilling when possible.}

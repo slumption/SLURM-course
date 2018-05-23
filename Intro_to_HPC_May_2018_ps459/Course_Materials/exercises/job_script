@@ -18,6 +18,7 @@
 #SBATCH -A training-cpu
 #SBATCH -p skylake
 #SBATCH --reservation=training
+
 #SBATCH --profile=none
 
 #! sbatch directives end here (put any additional directives above this line)
@@ -36,7 +37,7 @@ mpi_tasks_per_node=$(echo "$SLURM_TASKS_PER_NODE" | sed -e  's/^\([0-9][0-9]*\).
 #! (note that SLURM reproduces the environment at submission irrespective of ~/.bashrc):
 . /etc/profile.d/modules.sh                # Leave this line (enables the module command)
 module purge                               # Removes all modules still loaded
-module load rhel7/default-impi             # REQUIRED - loads the basic environment
+module load rhel7/default-peta4             # REQUIRED - loads the basic environment
                                            # This line differs slightly according to the part of
                                            # the cluster being used (see the relevant template).
 
