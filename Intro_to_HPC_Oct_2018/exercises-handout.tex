@@ -45,7 +45,7 @@ Using a Linux terminal you will login to the cluster with your HPC training acco
 \item{ssh -Y \textbf{abc123}@login-cpu.hpc.cam.ac.uk}\\
 Replace abc123 with your training account username 
 \item {Enter your password as supplied on the sheet}
-\item{Leave this terminal open, you will need it for exercise 3!}
+\item{Leave this terminal open, you will need it for exercise 3,4 and 5!}
 \end{itemize}
 \end{frame}
 
@@ -53,7 +53,7 @@ Replace abc123 with your training account username
 \begin{frame}{Exercise 2: Transfer some files}
 You will need to transfer the exercise files to the cluster.
 \begin{itemize}
-\item{Open a second Linux terminal on your training computer.}
+\item{Open a new Linux terminal on your training computer.}
 \item{Enter this command: cd \alert{\footnotesize \path{~\Course_material}}}
 \item{Check the file 'exercises.tar is in your directory listing}
 \item{Hint: ls}
@@ -61,7 +61,7 @@ You will need to transfer the exercise files to the cluster.
 \end{frame}
 
 \subsection{Exercise 2: SFTP file transfer - pt2}
-\begin{frame}{Exercise 3: Transfer some files}
+\begin{frame}{Exercise 2: Transfer some files}
 Transfer the exercises.tar to your HPC home folder.
 \begin{itemize}
 \item{In the local terminal on your training computer enter the command:}
@@ -74,19 +74,10 @@ Change abc123 to your training account username
 \end{itemize}
 \end{frame}
 
-\subsection{Excercise 3: Learn more about a command}
-\begin{frame}{Exercise 3: Learn more about a command}
-\begin{itemize}
-\item[(a)]{View the man page for the \alert{cp} command by doing \alert{man cp}. 
-Use \alert{SPACE} to page down and \alert{b} to page up. Press \alert{q} to exit the manual page command.}
-\item[(b)]{View the man pages for the \alert{mkdir} and \alert{mv} commands. }
-\end{itemize}
-\end{frame}
-
-\subsection{Excercise 4: Unzip the excercises.tar file}
-\begin{frame}{Exercise 4: Unzip the excercises.tar file}
+\subsection{Excercise 3: Unzip the excercises.tar file}
+\begin{frame}{Exercise 3: Unzip the excercises.tar file}
   \begin{itemize}
-
+\item{In a terminal logged into the cluster: (see excercise 1.)}
 \item[(a)]{Use the \alert{ls} to list your home folder contents --- you should see the copy of exercises.tar.}
  \visible<3->{\begin{description}
 \item[\emph{Hints:}]{Do \alert{cd\quad$\tilde{}$} then \alert{ls -al}. Note that \alert{cd\quad$\tilde{}$} will take you back to your home directory.}
@@ -103,38 +94,53 @@ Use \alert{SPACE} to page down and \alert{b} to page up. Press \alert{q} to exit
 \end{itemize}
 \end{frame}
 
-\subsection{Excercise 5: Navigating the command line}
-\begin{frame}{Exercise 5: File listings}
+\subsection{Excercise 4: Navigating the command line}
+\begin{frame}{Exercise 4: File listings}
 \begin{itemize}
-
-\item[(a)]{In a terminal logged into the cluster list the contents of your current directory \alert{ls}. This won't show everything --- use \alert{ls -al} for a long listing showing all files. Initially you will start in your home directory --- use \alert{pwd} to print the name of your current working directory. If you get lost, you can always do \alert{cd} without arguments to return to your home directory.}
+\item{In a terminal logged into the cluster: (see excercise 1.)}
+\item{[(a)List the contents of your current directory \alert{ls}. This won't show everything --- use \alert{ls -al} for a long listing showing all files. Initially you will start in your home directory --- use \alert{pwd} to print the name of your current working directory. If you get lost, you can always do \alert{cd} without arguments to return to your home directory.}
 
 \item[(b)]{Focus your long listing on \alert{all files with names beginning ``myexercises''}.}
  \visible<2->{\begin{description}
 \item[\emph{Hints:}]{Do \alert{ls -al myexercises*}}
 \end{description}}
-
 \item[(c)]{Print a long listing of the subdirectory \alert{myexercises}.}
  \visible<3->{\begin{description}
 \item[\emph{Hints:}]{Do \alert{ls -al myexercises/}.}
  \end{description}}
-
 \end{itemize}
 \end{frame}
 
+\subsection{Excercise 5: Learn more about a command}
+\begin{frame}{Exercise 5: Learn more about a command}
+\begin{itemize}
+\item{In a terminal logged into the cluster: (see excercise 1.)}
+\item[(a)]{View the man page for the \alert{cp} command by doing \alert{man cp}. 
+Use \alert{SPACE} to page down and \alert{b} to page up. Press \alert{q} to exit the manual page command.}
+\item[(b)]{View the man pages for the \alert{mkdir} and \alert{mv} commands. }
+\end{itemize}
+\end{frame}
+
+
+
+
+
+
+
+
 \section{User Environment}
-\subsection{Excercise 6: Environment Modules}
+\subsection{Excercise 6: Modules}
 \begin{frame}[fragile]{Excercise 6: Environment Modules}
 \begin{itemize}
 \item{Connect to the cluster using your training account: See excercise 1 if you have closed your terminal. }
 \item{Get a list of modules that are currently loaded}
 \item[\emph{Hints:}]{\alert{module list}}
 \item{Get a list of available R modules}
-\item[\emph{Hints:}]{\alert{module av R}}
+\item[\emph{Hints:}]{\alert{module av r}}
 \end{itemize}
 \end{frame}
 
-\subsection{Excercise 7: Run an Rscript}
+\subsection{Excercise 7: Rscript}
 \begin{frame}[fragile]{Excercise 7: Run an Rscript}
 \begin{itemize}
 \item{Connect to the cluster using your training account: See excercise 1 if you have closed your terminal.}
@@ -147,7 +153,7 @@ Use \alert{SPACE} to page down and \alert{b} to page up. Press \alert{q} to exit
 \end{itemize}
 \end{frame}
 
-\subsection{Exercise 8: Install the R library locally}
+\subsection{Excercise 8: Local R library}
 \begin{frame}[fragile]{Exercise 8: Install the R library locally}
 As a user you can create a local R library directory for packages that you want to install. 
 \begin{itemize}
@@ -179,8 +185,7 @@ quit()
 \subsection{Excercise 8: notes}
 \begin{frame}[fragile]{Excercise 8: Explained}
 \begin{itemize}
-\item Our R modules: module load r/(version)
-\item We have two sets of R modules, those with an upper case R where compiled for an older version of Linux and should be ignored (Darwin legacy)
+\item To load one of our R modules: module load r/(version)
 \item echo " " outputs the text between the quotes, \textgreater redirects the text into the .Renviron file.
 \item When we start R the .Renviron file is read and R will now be aware of our local library directory.
 \item .libPaths() is how to check your library locations 
@@ -217,68 +222,6 @@ quit()
 \end{frame}
 
 \section{Exercise 11: High Throughput Jobs}
-\section{Exercise 11: High Throughput Jobs}
-\begin{frame}{Exercise 11: Submitting a Matlab job}
-\begin{itemize}
-\item{Submit a job which will run \alert{matlab} on the \alert{file.m} command file (which contains just the \alert{ver} command).}
-\visible<2->{\begin{description}
-\item[\emph{Hints:}]{\scriptsize\begin{enumerate}
-\item{Load the matlab module using the \alert{job\_script} in your exercises directory.}
-\item{Set the value of application to\hfill\break{}\alert{\"{}matlab -nodesktop -nosplash -nojvm\"{}}}
-\item{Set the value of options to \alert{\"{}-r file\"{}}}
-\item{Submit the job with \alert{sbatch job\_script}. The jobid is then printed.}
-\item{Watch the job in the queue with \alert{squeue}.}
-\item{After it has disappeared, open the output file \alert{slurm-jobid.out} in your editor. It should contain a list of licensed Matlab features.}
-  \item{For more demanding work you can increase the available memory by increasing the number of cpus.}
-  \end{enumerate}%
-}
-\end{description}}
-\end{itemize}
-\end{frame}
 
-\subsection{Exercise 12: Submitting compiled code}
-\begin{frame}{Exercise 12: Submitting compiled code}
-\begin{itemize}
-\item{Submit a job which will run a copy of your hello program on 1 cpu.}
-\visible<2->{\begin{description}
-\item[\emph{Hints:}]{\scriptsize\begin{enumerate}
-\item{Edit the script \alert{job\_script} in your exercises directory. Set:\hfill\\
-\alert{\#SBATCH --nodes=1}\hfill\\
-\alert{\#SBATCH --ntasks=1}\hfill\\
-\alert{application="./hello"}}
-\item{Submit the job with \alert{sbatch job\_script}. The jobid is then printed.}
-\item{Watch the job in the queue with \alert{squeue}.}
-\item{After it has disappeared, open the output file \alert{slurm-jobid.out} in your editor. There should be exactly one ``Hello, World!'' message.}
-\end{enumerate}%
-}
-\end{description}}
-\end{itemize}
-\end{frame}
-
-\subsection{Excercise 13: Array Jobs}
-\begin{frame}{Exercise 13: Array Jobs}
-\begin{itemize}
-\item{Submit your last job in the form of an array with indices 1-32. Use -H with sbatch to mark the array as held (so that it won't run immediately).}
-\visible<2->{\begin{description}
-\item[\emph{Hints:}]{\scriptsize\begin{enumerate}
-\item{Use \alert{sbatch -H -{}-array=1-32 job\_script}}
-\item{Use \alert{squeue -u userid} to see your array job. Note that \alert{-r} reports each array element individually.}
-\end{enumerate}%
-}
-\end{description}}
-\item{Release array element 1 and allow it to run. Then release the others.}
-\visible<3->{\begin{description}
-\item[\emph{Hints:}]{\scriptsize\begin{enumerate}
-\item{Use \alert{scontrol release \$\{{SLURM\_ARRAY\_JOB\_ID}\}\_{{\color{red}1}}}}
-\item{Use \alert{squeue -u userid} again to watch what happens.}
-\item{Release the others with\hfill\break
-\null\qquad scontrol release \$\{{SLURM\_ARRAY\_JOB\_ID}\}\hfill\break
-i.e. use the array id to release the entire array.}
-  \item{When all the jobs complete you should have 32 slurm-\$\{SLURM\_ARRAY\_JOB\_ID\}\_N.out files saying hello from various cpus on possibly multiple nodes.}
-\end{enumerate}%
-}
-\end{description}}
-\end{itemize}
-\end{frame}
 
 \end{document}

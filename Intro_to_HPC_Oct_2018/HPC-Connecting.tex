@@ -30,7 +30,7 @@
 \begin{frame}{Basics: Connecting}
 \begin{itemize}
 \item To access the Peta4-Skylake (CPU cluster) nodes:\hfill\\
-ssh \textless username\textgreater @login-cpu.hpc.cam.ac.uk
+{\color<2->{red} ssh \textless username\textgreater @login-cpu.hpc.cam.ac.uk}
 \item To access the Peta4-KNL (KNL cluster) nodes:\hfill\\
 ssh \textless username\textgreater @login-knl.hpc.cam.ac.uk
 \item To access the Wilkes2-GPU (GPU cluster) nodes:\hfill\\
@@ -108,10 +108,10 @@ SHA256:wq9ljBfPa7lXXpQq+rk5JTBXLJO/kXjOc5A7rp4ENzA
 \begin{frame}{Connecting: File Transfer}
 \begin{itemize}
 \item From Linux/MacOSX/UNIX (or Cygwin):\hfill\\
-\alert{\footnotesize rsync -av \textbf{old\_directory/} abc123@login.hpc.cam.ac.uk:/home/abc123/new\_directory}\hfill\\
+\alert{\footnotesize rsync -av \textbf{old\_directory/} abc123@login-cpu.hpc.cam.ac.uk:/home/abc123/new\_directory}\hfill\\
 copies contents of old\_directory to $\tilde{}\text{/home/abc123/new\_directory}$.\hfill\\\smallskip
 \pause
-\alert{\footnotesize rsync -av \textbf{old\_directory} abc123@login.hpc.cam.ac.uk:/home/abc123/new\_directory}\hfill\\
+\alert{\footnotesize rsync -av \textbf{old\_directory} abc123@login-cpu.hpc.cam.ac.uk:/home/abc123/new\_directory}\hfill\\
 copies old\_directory (and contents) to $\tilde{}\text{/home/abc123/new\_directory/old\_directory}$.\hfill\\
 \pause
 \item[$\ast$]For transfers in the opposite direction, place the remote machine as the first argument.
@@ -192,7 +192,7 @@ Using a Linux terminal you will login to the cluster with your HPC training acco
 \item{ssh -Y \textbf{abc123}@login-cpu.hpc.cam.ac.uk}\\
 Replace abc123 with your training account username 
 \item {Enter your password as supplied on the sheet}
-\item{Leave this terminal open, you will need it for exercise 3!}
+\item{Leave this terminal open, you will need it for exercise 3,4 and 5!}
 \end{itemize}
 \end{frame}
 
@@ -200,7 +200,7 @@ Replace abc123 with your training account username
 \begin{frame}{Exercise 2: Transfer some files}
 You will need to transfer the exercise files to the cluster.
 \begin{itemize}
-\item{Open a second Linux terminal on your training computer.}
+\item{Open a new Linux terminal on your training computer.}
 \item{Enter this command: cd \alert{\footnotesize \path{~\Course_material}}}
 \item{Check the file 'exercises.tar is in your directory listing}
 \item{Hint: ls}
@@ -221,19 +221,10 @@ Change abc123 to your training account username
 \end{itemize}
 \end{frame}
 
-\subsection{Excercise 3: Learn more about a command}
-\begin{frame}{Exercise 3: Learn more about a command}
-\begin{itemize}
-\item[(a)]{View the man page for the \alert{cp} command by doing \alert{man cp}. 
-Use \alert{SPACE} to page down and \alert{b} to page up. Press \alert{q} to exit the manual page command.}
-\item[(b)]{View the man pages for the \alert{mkdir} and \alert{mv} commands. }
-\end{itemize}
-\end{frame}
-
-\subsection{Excercise 4: Unzip the excercises.tar file}
-\begin{frame}{Exercise 4: Unzip the excercises.tar file}
+\subsection{Excercise 3: Unzip the excercises.tar file}
+\begin{frame}{Exercise 3: Unzip the excercises.tar file}
   \begin{itemize}
-
+\item{In a terminal logged into the cluster: (see excercise 1.)}
 \item[(a)]{Use the \alert{ls} to list your home folder contents --- you should see the copy of exercises.tar.}
  \visible<3->{\begin{description}
 \item[\emph{Hints:}]{Do \alert{cd\quad$\tilde{}$} then \alert{ls -al}. Note that \alert{cd\quad$\tilde{}$} will take you back to your home directory.}
@@ -250,11 +241,11 @@ Use \alert{SPACE} to page down and \alert{b} to page up. Press \alert{q} to exit
 \end{itemize}
 \end{frame}
 
-\subsection{Excercise 5: Navigating the command line}
-\begin{frame}{Exercise 5: File listings}
+\subsection{Excercise 4: Navigating the command line}
+\begin{frame}{Exercise 4: File listings}
 \begin{itemize}
-
-\item[(a)]{In a terminal logged into the cluster list the contents of your current directory \alert{ls}. This won't show everything --- use \alert{ls -al} for a long listing showing all files. Initially you will start in your home directory --- use \alert{pwd} to print the name of your current working directory. If you get lost, you can always do \alert{cd} without arguments to return to your home directory.}
+\item{In a terminal logged into the cluster: (see excercise 1.)}
+\item{[(a)List the contents of your current directory \alert{ls}. This won't show everything --- use \alert{ls -al} for a long listing showing all files. Initially you will start in your home directory --- use \alert{pwd} to print the name of your current working directory. If you get lost, you can always do \alert{cd} without arguments to return to your home directory.}
 
 \item[(b)]{Focus your long listing on \alert{all files with names beginning ``myexercises''}.}
  \visible<2->{\begin{description}
@@ -269,7 +260,15 @@ Use \alert{SPACE} to page down and \alert{b} to page up. Press \alert{q} to exit
 \end{itemize}
 \end{frame}
 
-
+\subsection{Excercise 5: Learn more about a command}
+\begin{frame}{Exercise 5: Learn more about a command}
+\begin{itemize}
+\item{In a terminal logged into the cluster: (see excercise 1.)}
+\item[(a)]{View the man page for the \alert{cp} command by doing \alert{man cp}. 
+Use \alert{SPACE} to page down and \alert{b} to page up. Press \alert{q} to exit the manual page command.}
+\item[(b)]{View the man pages for the \alert{mkdir} and \alert{mv} commands. }
+\end{itemize}
+\end{frame}
 
 
 

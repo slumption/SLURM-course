@@ -35,9 +35,9 @@
 \BOOKMARK [3][]{Outline4.20.1.52}{Exercise 1: Login with SSH}{Outline4.20}% 35
 \BOOKMARK [3][]{Outline4.20.2.53}{Exercise 2: SFTP file transfer - pt1}{Outline4.20}% 36
 \BOOKMARK [3][]{Outline4.20.3.54}{Exercise 2: SFTP file transfer - pt2}{Outline4.20}% 37
-\BOOKMARK [3][]{Outline4.20.4.55}{Excercise 3: Learn more about a command}{Outline4.20}% 38
-\BOOKMARK [3][]{Outline4.20.5.56}{Excercise 4: Unzip the excercises.tar file}{Outline4.20}% 39
-\BOOKMARK [3][]{Outline4.20.6.57}{Excercise 5: Navigating the command line}{Outline4.20}% 40
+\BOOKMARK [3][]{Outline4.20.4.55}{Excercise 3: Unzip the excercises.tar file}{Outline4.20}% 38
+\BOOKMARK [3][]{Outline4.20.5.56}{Excercise 4: Navigating the command line}{Outline4.20}% 39
+\BOOKMARK [3][]{Outline4.20.6.57}{Excercise 5: Learn more about a command}{Outline4.20}% 40
 \BOOKMARK [1][]{Outline5}{Using HPC}{}% 41
 \BOOKMARK [2][]{Outline5.21}{User Environment}{Outline5}% 42
 \BOOKMARK [3][]{Outline5.21.1.60}{Filesystems}{Outline5.21}% 43
@@ -54,19 +54,22 @@
 \BOOKMARK [3][]{Outline5.23.4.76}{Excercise 8: notes}{Outline5.23}% 54
 \BOOKMARK [2][]{Outline5.24}{Excercise 9: Modules and Compilers}{Outline5}% 55
 \BOOKMARK [2][]{Outline5.25}{Excercise 10: Modules and Compilers}{Outline5}% 56
-\BOOKMARK [1][]{Outline6}{HPC Job Submission}{}% 57
-\BOOKMARK [2][]{Outline6.26}{Job Submission}{Outline6}% 58
-\BOOKMARK [3][]{Outline6.26.1.90}{Single Node Jobs}{Outline6.26}% 59
-\BOOKMARK [3][]{Outline6.26.2.95}{MPI Jobs}{Outline6.26}% 60
-\BOOKMARK [3][]{Outline6.26.3.97}{Hybrid Jobs}{Outline6.26}% 61
-\BOOKMARK [3][]{Outline6.26.4.98}{High Throughput Jobs}{Outline6.26}% 62
-\BOOKMARK [2][]{Outline6.27}{Exercise 11: High Throughput Jobs}{Outline6}% 63
-\BOOKMARK [3][]{Outline6.27.1.100}{Exercise 12: High Throughput Jobs}{Outline6.27}% 64
-\BOOKMARK [3][]{Outline6.27.2.101}{Interactive Jobs}{Outline6.27}% 65
-\BOOKMARK [2][]{Outline6.28}{Array Jobs}{Outline6}% 66
-\BOOKMARK [3][]{Outline6.28.1.102}{Array Jobs}{Outline6.28}% 67
-\BOOKMARK [2][]{Outline6.29}{Excercise 13: Array Jobs}{Outline6}% 68
-\BOOKMARK [3][]{Outline6.29.1.105}{Scheduling}{Outline6.29}% 69
-\BOOKMARK [3][]{Outline6.29.2.106}{Wait Times}{Outline6.29}% 70
-\BOOKMARK [3][]{Outline6.29.3.107}{Checkpointing}{Outline6.29}% 71
-\BOOKMARK [3][]{Outline6.29.4.108}{Scheduling Top Tips}{Outline6.29}% 72
+\BOOKMARK [2][]{Outline5.26}{Exercise 11: High Throughput Jobs}{Outline5}% 57
+\BOOKMARK [3][]{Outline5.26.1.80}{Exercise 12: High Throughput Jobs}{Outline5.26}% 58
+\BOOKMARK [2][]{Outline5.27}{Excercise 13: Array Jobs}{Outline5}% 59
+\BOOKMARK [1][]{Outline6}{HPC Job Submission}{}% 60
+\BOOKMARK [2][]{Outline6.28}{Job Submission}{Outline6}% 61
+\BOOKMARK [3][]{Outline6.28.1.93}{Single Node Jobs}{Outline6.28}% 62
+\BOOKMARK [3][]{Outline6.28.2.98}{MPI Jobs}{Outline6.28}% 63
+\BOOKMARK [3][]{Outline6.28.3.100}{Hybrid Jobs}{Outline6.28}% 64
+\BOOKMARK [3][]{Outline6.28.4.101}{High Throughput Jobs}{Outline6.28}% 65
+\BOOKMARK [2][]{Outline6.29}{Exercise 11: High Throughput Jobs}{Outline6}% 66
+\BOOKMARK [3][]{Outline6.29.1.103}{Exercise 12: High Throughput Jobs}{Outline6.29}% 67
+\BOOKMARK [3][]{Outline6.29.2.104}{Interactive Jobs}{Outline6.29}% 68
+\BOOKMARK [2][]{Outline6.30}{Array Jobs}{Outline6}% 69
+\BOOKMARK [3][]{Outline6.30.1.105}{Array Jobs}{Outline6.30}% 70
+\BOOKMARK [2][]{Outline6.31}{Excercise 13: Array Jobs}{Outline6}% 71
+\BOOKMARK [3][]{Outline6.31.1.108}{Scheduling}{Outline6.31}% 72
+\BOOKMARK [3][]{Outline6.31.2.109}{Wait Times}{Outline6.31}% 73
+\BOOKMARK [3][]{Outline6.31.3.110}{Checkpointing}{Outline6.31}% 74
+\BOOKMARK [3][]{Outline6.31.4.111}{Scheduling Top Tips}{Outline6.31}% 75

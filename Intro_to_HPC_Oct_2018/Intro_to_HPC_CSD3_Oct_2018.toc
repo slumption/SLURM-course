@@ -1,5 +1,4 @@
-\beamer@endinputifotherversion {3.36pt}
-\select@language {english}
+\babel@toc {english}{}
 \beamer@sectionintoc {1}{Who are we?}{6}{1}{1}
 \beamer@sectionintoc {2}{Training Accounts}{7}{1}{2}
 \beamer@sectionintoc {3}{Login node for today}{8}{1}{3}
@@ -33,9 +32,9 @@
 \beamer@subsectionintoc {20}{1}{Exercise 1: Login with SSH}{52}{4}{20}
 \beamer@subsectionintoc {20}{2}{Exercise 2: SFTP file transfer - pt1}{53}{4}{20}
 \beamer@subsectionintoc {20}{3}{Exercise 2: SFTP file transfer - pt2}{54}{4}{20}
-\beamer@subsectionintoc {20}{4}{Excercise 3: Learn more about a command}{55}{4}{20}
-\beamer@subsectionintoc {20}{5}{Excercise 4: Unzip the excercises.tar file}{56}{4}{20}
-\beamer@subsectionintoc {20}{6}{Excercise 5: Navigating the command line}{57}{4}{20}
+\beamer@subsectionintoc {20}{4}{Excercise 3: Unzip the excercises.tar file}{55}{4}{20}
+\beamer@subsectionintoc {20}{5}{Excercise 4: Navigating the command line}{56}{4}{20}
+\beamer@subsectionintoc {20}{6}{Excercise 5: Learn more about a command}{57}{4}{20}
 \beamer@sectionintoc {21}{User Environment}{59}{5}{21}
 \beamer@subsectionintoc {21}{1}{Filesystems}{60}{5}{21}
 \beamer@subsectionintoc {21}{2}{Exceeding 1TB of HPC work}{61}{5}{21}
@@ -51,18 +50,21 @@
 \beamer@subsectionintoc {23}{4}{Excercise 8: notes}{76}{5}{23}
 \beamer@sectionintoc {24}{Excercise 9: Modules and Compilers}{77}{5}{24}
 \beamer@sectionintoc {25}{Excercise 10: Modules and Compilers}{78}{5}{25}
-\beamer@sectionintoc {26}{Job Submission}{80}{6}{26}
-\beamer@subsectionintoc {26}{1}{Single Node Jobs}{90}{6}{26}
-\beamer@subsectionintoc {26}{2}{MPI Jobs}{95}{6}{26}
-\beamer@subsectionintoc {26}{3}{Hybrid Jobs}{97}{6}{26}
-\beamer@subsectionintoc {26}{4}{High Throughput Jobs}{98}{6}{26}
-\beamer@sectionintoc {27}{Exercise 11: High Throughput Jobs}{99}{6}{27}
-\beamer@subsectionintoc {27}{1}{Exercise 12: High Throughput Jobs}{100}{6}{27}
-\beamer@subsectionintoc {27}{2}{Interactive Jobs}{101}{6}{27}
-\beamer@sectionintoc {28}{Array Jobs}{102}{6}{28}
-\beamer@subsectionintoc {28}{1}{Array Jobs}{102}{6}{28}
-\beamer@sectionintoc {29}{Excercise 13: Array Jobs}{104}{6}{29}
-\beamer@subsectionintoc {29}{1}{Scheduling}{105}{6}{29}
-\beamer@subsectionintoc {29}{2}{Wait Times}{106}{6}{29}
-\beamer@subsectionintoc {29}{3}{Checkpointing}{107}{6}{29}
-\beamer@subsectionintoc {29}{4}{Scheduling Top Tips}{108}{6}{29}
+\beamer@sectionintoc {26}{Exercise 11: High Throughput Jobs}{79}{5}{26}
+\beamer@subsectionintoc {26}{1}{Exercise 12: High Throughput Jobs}{80}{5}{26}
+\beamer@sectionintoc {27}{Excercise 13: Array Jobs}{81}{5}{27}
+\beamer@sectionintoc {28}{Job Submission}{83}{6}{28}
+\beamer@subsectionintoc {28}{1}{Single Node Jobs}{93}{6}{28}
+\beamer@subsectionintoc {28}{2}{MPI Jobs}{98}{6}{28}
+\beamer@subsectionintoc {28}{3}{Hybrid Jobs}{100}{6}{28}
+\beamer@subsectionintoc {28}{4}{High Throughput Jobs}{101}{6}{28}
+\beamer@sectionintoc {29}{Exercise 11: High Throughput Jobs}{102}{6}{29}
+\beamer@subsectionintoc {29}{1}{Exercise 12: High Throughput Jobs}{103}{6}{29}
+\beamer@subsectionintoc {29}{2}{Interactive Jobs}{104}{6}{29}
+\beamer@sectionintoc {30}{Array Jobs}{105}{6}{30}
+\beamer@subsectionintoc {30}{1}{Array Jobs}{105}{6}{30}
+\beamer@sectionintoc {31}{Excercise 13: Array Jobs}{107}{6}{31}
+\beamer@subsectionintoc {31}{1}{Scheduling}{108}{6}{31}
+\beamer@subsectionintoc {31}{2}{Wait Times}{109}{6}{31}
+\beamer@subsectionintoc {31}{3}{Checkpointing}{110}{6}{31}
+\beamer@subsectionintoc {31}{4}{Scheduling Top Tips}{111}{6}{31}

@@ -229,7 +229,7 @@ mpif90 -O3 -mtune=native mpi_code.f90 -o mpi_prog
 \item{Get a list of modules that are currently loaded}
 \item[\emph{Hints:}]{\alert{module list}}
 \item{Get a list of available R modules}
-\item[\emph{Hints:}]{\alert{module av R}}
+\item[\emph{Hints:}]{\alert{module av r}}
 \end{itemize}
 \end{frame}
 
@@ -278,8 +278,7 @@ quit()
 \subsection{Excercise 8: notes}
 \begin{frame}[fragile]{Excercise 8: Explained}
 \begin{itemize}
-\item Our R modules: module load r/(version)
-\item We have two sets of R modules, those with an upper case R where compiled for an older version of Linux and should be ignored (Darwin legacy)
+\item To load one of our R modules: module load r/(version)
 \item echo " " outputs the text between the quotes, \textgreater redirects the text into the .Renviron file.
 \item When we start R the .Renviron file is read and R will now be aware of our local library directory.
 \item .libPaths() is how to check your library locations 
@@ -315,3 +314,66 @@ quit()
 \end{itemize}
 \end{frame}
 
+\section{Exercise 11: High Throughput Jobs}
+\begin{frame}{Exercise 11: Submitting a Matlab job}
+\begin{itemize}
+\item{Submit a job which will run \alert{matlab} on the \alert{file.m} command file (which contains just the \alert{ver} command).}
+\visible<2->{\begin{description}
+\item[\emph{Hints:}]{\scriptsize\begin{enumerate}
+\item{Load the matlab module using the \alert{job\_script} in your exercises directory.}
+\item{Set the value of application to\hfill\break{}\alert{\"{}matlab -nodesktop -nosplash -nojvm\"{}}}
+\item{Set the value of options to \alert{\"{}-r file\"{}}}
+\item{Submit the job with \alert{sbatch job\_script}. The jobid is then printed.}
+\item{Watch the job in the queue with \alert{squeue}.}
+\item{After it has disappeared, open the output file \alert{slurm-jobid.out} in your editor. It should contain a list of licensed Matlab features.}
+  \item{For more demanding work you can increase the available memory by increasing the number of cpus.}
+  \end{enumerate}%
+}
+\end{description}}
+\end{itemize}
+\end{frame}
+
+\subsection{Exercise 12: High Throughput Jobs}
+\begin{frame}{Exercise 12: Submitting compiled code}
+\begin{itemize}
+\item{Submit a job which will run a copy of your hello program on 1 cpu.}
+\visible<2->{\begin{description}
+\item[\emph{Hints:}]{\scriptsize\begin{enumerate}
+\item{Edit the script \alert{job\_script} in your exercises directory. Set:\hfill\\
+\alert{\#SBATCH --nodes=1}\hfill\\
+\alert{\#SBATCH --ntasks=1}\hfill\\
+\alert{application="./hello"}}
+\item{Submit the job with \alert{sbatch job\_script}. The jobid is then printed.}
+\item{Watch the job in the queue with \alert{squeue}.}
+\item{After it has disappeared, open the output file \alert{slurm-jobid.out} in your editor. There should be exactly one ``Hello, World!'' message.}
+\end{enumerate}%
+}
+\end{description}}
+\end{itemize}
+\end{frame}
+
+\section{Excercise 13: Array Jobs}
+\begin{frame}{Exercise 13: Array Jobs}
+\begin{itemize}
+\item{Submit your last job in the form of an array with indices 1-32. Use -H with sbatch to mark the array as held (so that it won't run immediately).}
+\visible<2->{\begin{description}
+\item[\emph{Hints:}]{\scriptsize\begin{enumerate}
+\item{Use \alert{sbatch -H -{}-array=1-32 job\_script}}
+\item{Use \alert{squeue -u userid} to see your array job. Note that \alert{-r} reports each array element individually.}
+\end{enumerate}%
+}
+\end{description}}
+\item{Release array element 1 and allow it to run. Then release the others.}
+\visible<3->{\begin{description}
+\item[\emph{Hints:}]{\scriptsize\begin{enumerate}
+\item{Use \alert{scontrol release \$\{{SLURM\_ARRAY\_JOB\_ID}\}\_{{\color{red}1}}}}
+\item{Use \alert{squeue -u userid} again to watch what happens.}
+\item{Release the others with\hfill\break
+\null\qquad scontrol release \$\{{SLURM\_ARRAY\_JOB\_ID}\}\hfill\break
+i.e. use the array id to release the entire array.}
+  \item{When all the jobs complete you should have 32 slurm-\$\{SLURM\_ARRAY\_JOB\_ID\}\_N.out files saying hello from various cpus on possibly multiple nodes.}
+\end{enumerate}%
+}
+\end{description}}
+\end{itemize}
+\end{frame}
