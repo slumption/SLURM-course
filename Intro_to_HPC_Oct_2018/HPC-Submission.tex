@@ -233,13 +233,26 @@ cd directory\_for\_job64
 \end{itemize}
 \end{frame}
 
-\section{Exercise 11: High Throughput Jobs}
+\section{HPC Job Submission}
+If you are attending the HPC Course:
+\subsection{README}
+\begin{frame}{README: Job Scripts!}
+If you are attending the HPC Course:
+\begin{itemize} 
+\item{Use job\textunderscore script for the exerises when running the exercises during the course}
+\item {Use slurm\textunderscore submit.peta4-skylake if running the exercises outside of the course}
+\item {I recommend you make a copy of the job script for each exercise}
+\end{itemize}
+\end{frame}
+
+\subsection{Exercise 11: High Throughput Jobs}
 \begin{frame}{Exercise 11: Submitting a Matlab job}
 \begin{itemize}
 \item{Submit a job which will run \alert{matlab} on the \alert{file.m} command file (which contains just the \alert{ver} command).}
 \visible<2->{\begin{description}
 \item[\emph{Hints:}]{\scriptsize\begin{enumerate}
-\item{Load the matlab module using the \alert{job\_script} in your exercises directory.}
+\item{Edit the \alert{job\_script} in your exercises directory.}
+\item{In the module load section: \alert{module load matlab/r2017b{}}}
 \item{Set the value of application to\hfill\break{}\alert{\"{}matlab -nodesktop -nosplash -nojvm\"{}}}
 \item{Set the value of options to \alert{\"{}-r file\"{}}}
 \item{Submit the job with \alert{sbatch job\_script}. The jobid is then printed.}
@@ -332,7 +345,7 @@ Submitted batch job {\color[rgb]{0,0.6,0}791609}
 \end{itemize}
 \end{frame}
 
-\section{Excercise 13: Array Jobs}
+\subsection{Excercise 13: Array Jobs}
 \begin{frame}{Exercise 13: Array Jobs}
 \begin{itemize}
 \item{Submit your last job in the form of an array with indices 1-32. Use -H with sbatch to mark the array as held (so that it won't run immediately).}

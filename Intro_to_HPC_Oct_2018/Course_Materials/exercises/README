@@ -1,7 +1,0 @@
-If you are attending the HPC Course:
-
-Use 'job_script' for the exerises when running the exercises during the course
-
-Use 'slurm_submit.peta4-skylake' if running the exercises outside of the course
-
-I recomend you make a copy of the job script for each exercise.

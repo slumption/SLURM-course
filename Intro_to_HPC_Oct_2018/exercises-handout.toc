@@ -13,3 +13,8 @@
 \beamer@subsectionintoc {2}{4}{Excercise 8: notes}{11}{0}{2}
 \beamer@subsectionintoc {2}{5}{Excercise 9: Modules and Compilers}{12}{0}{2}
 \beamer@subsectionintoc {2}{6}{Excercise 10: Modules and Compilers}{13}{0}{2}
+\beamer@sectionintoc {3}{HPC Job Submission}{14}{0}{3}
+\beamer@subsectionintoc {3}{1}{README}{14}{0}{3}
+\beamer@subsectionintoc {3}{2}{Exercise 11: High Throughput Jobs}{16}{0}{3}
+\beamer@subsectionintoc {3}{3}{Exercise 12: High Throughput Jobs}{17}{0}{3}
+\beamer@subsectionintoc {3}{4}{Excercise 13: Array Jobs}{18}{0}{3}

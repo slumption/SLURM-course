@@ -89,7 +89,7 @@ Change abc123 to your training account username
 \end{description}}
 \item[(c)]{Move the exercise subdirectory to a new directory.}
 \visible<4->{\begin{description}
-\item[\emph{Hints:}]{Do \alert{mv -Rf exercises myexercises}}
+\item[\emph{Hints:}]{Do \alert{mv exercises myexercises}}
 \end{description}}
 \end{itemize}
 \end{frame}
@@ -120,13 +120,6 @@ Use \alert{SPACE} to page down and \alert{b} to page up. Press \alert{q} to exit
 \item[(b)]{View the man pages for the \alert{mkdir} and \alert{mv} commands. }
 \end{itemize}
 \end{frame}
-
-
-
-
-
-
-
 
 \section{User Environment}
 \subsection{Excercise 6: Modules}
@@ -196,7 +189,7 @@ quit()
 \begin{frame}[fragile]{Exercise 9: Modules and Compilers}
 \begin{itemize}
 \item{Connect to the cluster using your training account: See excercise 1 if you have closed your terminal.}
-\item{Go to the \alert{exercises} directory that you unzipped in hpcwork.}
+\item{Go to the \alert{myexercises} directory.}
 \visible<1->{\begin{description}
 \item{Try to compile the \alert{hello.c} program using the default \alert{gcc} compiler (it will fail because there is a deliberate bug).}
 \end{description}}
@@ -221,7 +214,82 @@ quit()
 \end{itemize}
 \end{frame}
 
-\section{Exercise 11: High Throughput Jobs}
+\section{HPC Job Submission}
+If you are attending the HPC Course:
+\subsection{README}
+\begin{frame}{README: Job Scripts!}
+If you are attending the HPC Course:
+\begin{itemize} 
+\item{Use job\textunderscore script for the exerises when running the exercises during the course}
+\item {Use slurm\textunderscore submit.peta4-skylake if running the exercises outside of the course}
+\item {I recommend you make a copy of the job script for each exercise}
+\end{itemize}
+\end{frame}
+
+\subsection{Exercise 11: High Throughput Jobs}
+\begin{frame}{Exercise 11: Submitting a Matlab job}
+\begin{itemize}
+\item{Submit a job which will run \alert{matlab} on the \alert{file.m} command file (which contains just the \alert{ver} command).}
+\visible<2->{\begin{description}
+\item[\emph{Hints:}]{\scriptsize\begin{enumerate}
+\item{Edit the \alert{job\_script} in your exercises directory.}
+\item{In the module load section: \alert{module load matlab/r2017b{}}}
+\item{Set the value of application to\hfill\break{}\alert{\"{}matlab -nodesktop -nosplash -nojvm\"{}}}
+\item{Set the value of options to \alert{\"{}-r file\"{}}}
+\item{Submit the job with \alert{sbatch job\_script}. The jobid is then printed.}
+\item{Watch the job in the queue with \alert{squeue}.}
+\item{After it has disappeared, open the output file \alert{slurm-jobid.out} in your editor. It should contain a list of licensed Matlab features.}
+  \item{For more demanding work you can increase the available memory by increasing the number of cpus.}
+  \end{enumerate}%
+}
+\end{description}}
+\end{itemize}
+\end{frame}
+
+\subsection{Exercise 12: High Throughput Jobs}
+\begin{frame}{Exercise 12: Submitting compiled code}
+\begin{itemize}
+\item{Submit a job which will run a copy of your hello program on 1 cpu.}
+\visible<2->{\begin{description}
+\item[\emph{Hints:}]{\scriptsize\begin{enumerate}
+\item{Edit the script \alert{job\_script} in your exercises directory. Set:\hfill\\
+\alert{\#SBATCH --nodes=1}\hfill\\
+\alert{\#SBATCH --ntasks=1}\hfill\\
+\alert{application="./hello"}}
+\item{Submit the job with \alert{sbatch job\_script}. The jobid is then printed.}
+\item{Watch the job in the queue with \alert{squeue}.}
+\item{After it has disappeared, open the output file \alert{slurm-jobid.out} in your editor. There should be exactly one ``Hello, World!'' message.}
+\end{enumerate}%
+}
+\end{description}}
+\end{itemize}
+\end{frame}
+
+\subsection{Excercise 13: Array Jobs}
+\begin{frame}{Exercise 13: Array Jobs}
+\begin{itemize}
+\item{Submit your last job in the form of an array with indices 1-32. Use -H with sbatch to mark the array as held (so that it won't run immediately).}
+\visible<2->{\begin{description}
+\item[\emph{Hints:}]{\scriptsize\begin{enumerate}
+\item{Use \alert{sbatch -H -{}-array=1-32 job\_script}}
+\item{Use \alert{squeue -u userid} to see your array job. Note that \alert{-r} reports each array element individually.}
+\end{enumerate}%
+}
+\end{description}}
+\item{Release array element 1 and allow it to run. Then release the others.}
+\visible<3->{\begin{description}
+\item[\emph{Hints:}]{\scriptsize\begin{enumerate}
+\item{Use \alert{scontrol release \$\{{SLURM\_ARRAY\_JOB\_ID}\}\_{{\color{red}1}}}}
+\item{Use \alert{squeue -u userid} again to watch what happens.}
+\item{Release the others with\hfill\break
+\null\qquad scontrol release \$\{{SLURM\_ARRAY\_JOB\_ID}\}\hfill\break
+i.e. use the array id to release the entire array.}
+  \item{When all the jobs complete you should have 32 slurm-\$\{SLURM\_ARRAY\_JOB\_ID\}\_N.out files saying hello from various cpus on possibly multiple nodes.}
+\end{enumerate}%
+}
+\end{description}}
+\end{itemize}
+\end{frame}
 
 
 \end{document}
