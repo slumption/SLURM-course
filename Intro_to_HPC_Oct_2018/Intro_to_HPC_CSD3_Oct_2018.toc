@@ -59,13 +59,13 @@
 \beamer@subsectionintoc {26}{4}{High Throughput Jobs}{98}{6}{26}
 \beamer@sectionintoc {27}{HPC Job Submission}{99}{6}{27}
 \beamer@subsectionintoc {27}{1}{README}{99}{6}{27}
-\beamer@subsectionintoc {27}{2}{Exercise 11: High Throughput Jobs}{101}{6}{27}
-\beamer@subsectionintoc {27}{3}{Exercise 12: High Throughput Jobs}{102}{6}{27}
-\beamer@subsectionintoc {27}{4}{Interactive Jobs}{103}{6}{27}
-\beamer@sectionintoc {28}{Array Jobs}{104}{6}{28}
-\beamer@subsectionintoc {28}{1}{Array Jobs}{104}{6}{28}
-\beamer@subsectionintoc {28}{2}{Excercise 13: Array Jobs}{106}{6}{28}
-\beamer@subsectionintoc {28}{3}{Scheduling}{107}{6}{28}
-\beamer@subsectionintoc {28}{4}{Wait Times}{108}{6}{28}
-\beamer@subsectionintoc {28}{5}{Checkpointing}{109}{6}{28}
-\beamer@subsectionintoc {28}{6}{Scheduling Top Tips}{110}{6}{28}
+\beamer@subsectionintoc {27}{2}{Exercise 11: High Throughput Jobs}{100}{6}{27}
+\beamer@subsectionintoc {27}{3}{Exercise 12: High Throughput Jobs}{101}{6}{27}
+\beamer@subsectionintoc {27}{4}{Interactive Jobs}{102}{6}{27}
+\beamer@sectionintoc {28}{Array Jobs}{103}{6}{28}
+\beamer@subsectionintoc {28}{1}{Array Jobs}{103}{6}{28}
+\beamer@subsectionintoc {28}{2}{Excercise 13: Array Jobs}{105}{6}{28}
+\beamer@subsectionintoc {28}{3}{Scheduling}{106}{6}{28}
+\beamer@subsectionintoc {28}{4}{Wait Times}{107}{6}{28}
+\beamer@subsectionintoc {28}{5}{Checkpointing}{108}{6}{28}
+\beamer@subsectionintoc {28}{6}{Scheduling Top Tips}{109}{6}{28}
