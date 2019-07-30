@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  30 JUL 2019 13:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  30 JUL 2019 13:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1109,7 +1109,7 @@ Overfull \hbox (2.7375pt too wide) detected at line 47
 ] [38
 
 ]
-<imgs/AmdahlsLaw.png, id=427, 520.344pt x 390.258pt>
+<imgs/AmdahlsLaw.png, id=426, 520.344pt x 390.258pt>
 File: imgs/AmdahlsLaw.png Graphic file (type png)
 <use imgs/AmdahlsLaw.png>
 Package pdftex.def Info: imgs/AmdahlsLaw.png  used on input line 109.
@@ -1160,7 +1160,7 @@ Package pdftex.def Info: imgs/AmdahlsLaw.png  used on input line 109.
 ] [60
 
 ]
-<imgs/lstopo.png, id=544, 1030.85126pt x 903.375pt>
+<imgs/lstopo.png, id=543, 1030.85126pt x 903.375pt>
 File: imgs/lstopo.png Graphic file (type png)
 <use imgs/lstopo.png>
 Package pdftex.def Info: imgs/lstopo.png  used on input line 227.
@@ -1180,7 +1180,7 @@ Overfull \vbox (19.92807pt too high) detected at line 227
 ] [65
 
 ]
-<imgs/coreib.jpg, id=572, 2731.20375pt x 5100.05376pt>
+<imgs/coreib.jpg, id=571, 2731.20375pt x 5100.05376pt>
 File: imgs/coreib.jpg Graphic file (type jpg)
 <use imgs/coreib.jpg>
 Package pdftex.def Info: imgs/coreib.jpg  used on input line 264.
@@ -1267,7 +1267,7 @@ Overfull \hbox (2.7375pt too wide) detected at line 347
 [85
 
 ]
-<imgs/edsac_wilkes.jpg, id=681, 1885.0425pt x 1516.66624pt>
+<imgs/edsac_wilkes.jpg, id=680, 1885.0425pt x 1516.66624pt>
 File: imgs/edsac_wilkes.jpg Graphic file (type jpg)
 <use imgs/edsac_wilkes.jpg>
 Package pdftex.def Info: imgs/edsac_wilkes.jpg  used on input line 360.
@@ -1289,7 +1289,7 @@ Overfull \vbox (3.10896pt too high) detected at line 360
 ] [91
 
 ]
-<imgs/darwin.jpg, id=714, 301.125pt x 220.4235pt>
+<imgs/darwin.jpg, id=713, 301.125pt x 220.4235pt>
 File: imgs/darwin.jpg Graphic file (type jpg)
 <use imgs/darwin.jpg>
 Package pdftex.def Info: imgs/darwin.jpg  used on input line 427.
@@ -1301,7 +1301,7 @@ Overfull \vbox (2.09862pt too high) detected at line 427
 [92
 
  <./imgs/darwin.jpg>]
-<imgs/MLDC-big.jpg, id=720, 3902.58pt x 2601.72pt>
+<imgs/MLDC-big.jpg, id=719, 3902.58pt x 2601.72pt>
 File: imgs/MLDC-big.jpg Graphic file (type jpg)
 <use imgs/MLDC-big.jpg>
 Package pdftex.def Info: imgs/MLDC-big.jpg  used on input line 433.
@@ -1309,7 +1309,7 @@ Package pdftex.def Info: imgs/MLDC-big.jpg  used on input line 433.
  [93
 
  <./imgs/MLDC-big.jpg>]
-<imgs/peta4.jpg, id=726, 649.42625pt x 432.61626pt>
+<imgs/peta4.jpg, id=725, 649.42625pt x 432.61626pt>
 File: imgs/peta4.jpg Graphic file (type jpg)
 <use imgs/peta4.jpg>
 Package pdftex.def Info: imgs/peta4.jpg  used on input line 438.
@@ -1524,7 +1524,7 @@ th Intel MPI[]
 ] (./Intro_to_HPC.vrb) [164
 
 ]
-<imgs/EDSAC_2_1960.jpg, id=1100, 513.92pt x 316.18124pt>
+<imgs/EDSAC_2_1960.jpg, id=1099, 513.92pt x 316.18124pt>
 File: imgs/EDSAC_2_1960.jpg Graphic file (type jpg)
 <use imgs/EDSAC_2_1960.jpg>
 Package pdftex.def Info: imgs/EDSAC_2_1960.jpg  used on input line 1004.
@@ -1854,11 +1854,11 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 \tf@snm=\write8
 \openout8 = `Intro_to_HPC.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
  (./Intro_to_HPC.aux (./main.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `Intro_to_HPC.out' has not changed.
 (rerunfilecheck)             Checksum: EB398CE06B044D1A237698C61B7732C8;2888.
 
@@ -1895,10 +1895,10 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Intro_to_HPC.pdf (223 pages, 8231674 bytes).
+Output written on Intro_to_HPC.pdf (223 pages, 8230955 bytes).
 PDF statistics:
- 1580 PDF objects out of 1728 (max. 8388607)
- 1296 compressed objects within 13 object streams
+ 1579 PDF objects out of 1728 (max. 8388607)
+ 1295 compressed objects within 13 object streams
  493 named destinations out of 1000 (max. 500000)
  481 words of extra memory for PDF output out of 10000 (max. 10000000)
 
