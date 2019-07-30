@@ -130,12 +130,24 @@ The remote host is \alert{login.hpc.cam.ac.uk}. The user name is the same name a
 \end{frame}
 
 \section{File transfer}
+\begin{frame}{Exercise 3: Laptop setup}
+Before attempting exercise 3:
+\begin{itemize}
+\item{\url{https://www.hpc.cam.ac.uk/training-courses}}
+\item{Download the file \alert{exercises.tgz} to your desktop.}
+\item{You will need an sftp client on your laptop to then transfer this file to the cluster.}
+\item{Mac users - open a terminal, you can use sftp from the command line}
+\item{Windows users - download winsftp}
+\end{itemize}
+\end{frame}
+
+\section{File transfer}
 \begin{frame}{Exercise 3: File transfer}
 \begin{itemize}
 \item{Use SFTP to transfer the file \alert{exercises.tgz} to your Research Computing Service training account directory $\tilde{}$/rds/hpc-work.}
 \visible<2->{\begin{description}
 \item[\emph{Hints:}]{\small The command is \alert{sftp}. Use the same remote host, username and password as in the previous exercise.\\\smallskip
-  Use \alert{cd rds/hpc-work} to change the target directory, then \alert{put exercises.tgz} to transfer the file from your MCS home directory to the target directory on the Research Computing Service cluster. Use \alert{quit} to close the connection.}
+  Use \alert{cd rds/hpc-work} to change the target directory, then \alert{put exercises.tgz} to transfer the file from your desktop to the target directory on the Research Computing Service cluster. Use \alert{quit} to close the connection.}
 \end{description}Optionally, copy the file over again using \alert{rsync}.}
 \end{itemize}
 \end{frame}

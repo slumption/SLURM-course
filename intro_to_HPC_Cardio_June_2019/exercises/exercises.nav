@@ -13,36 +13,41 @@
 \headcommand {\beamer@sectionpages {3}{4}}
 \headcommand {\beamer@subsectionpages {3}{4}}
 \headcommand {\sectionentry {3}{File transfer}{5}{File transfer}{0}}
-\headcommand {\slideentry {3}{0}{1}{5/6}{}{0}}
-\headcommand {\beamer@framepages {5}{6}}
-\headcommand {\beamer@sectionpages {5}{6}}
-\headcommand {\beamer@subsectionpages {5}{6}}
-\headcommand {\sectionentry {4}{File transfer}{7}{File transfer}{0}}
-\headcommand {\slideentry {4}{0}{1}{7/9}{}{0}}
-\headcommand {\beamer@framepages {7}{9}}
-\headcommand {\beamer@sectionpages {7}{9}}
-\headcommand {\beamer@subsectionpages {7}{9}}
-\headcommand {\sectionentry {5}{Modules and Compilers}{10}{Modules and Compilers}{0}}
-\headcommand {\slideentry {5}{0}{1}{10/13}{}{0}}
-\headcommand {\beamer@framepages {10}{13}}
-\headcommand {\slideentry {5}{0}{2}{14/17}{}{0}}
-\headcommand {\beamer@framepages {14}{17}}
-\headcommand {\beamer@sectionpages {10}{17}}
-\headcommand {\beamer@subsectionpages {10}{17}}
-\headcommand {\sectionentry {6}{Submitting Jobs}{18}{Submitting Jobs}{0}}
-\headcommand {\slideentry {6}{0}{1}{18/19}{}{0}}
-\headcommand {\beamer@framepages {18}{19}}
-\headcommand {\slideentry {6}{0}{2}{20/21}{}{0}}
-\headcommand {\beamer@framepages {20}{21}}
-\headcommand {\slideentry {6}{0}{3}{22/23}{}{0}}
-\headcommand {\beamer@framepages {22}{23}}
-\headcommand {\beamer@sectionpages {18}{23}}
-\headcommand {\beamer@subsectionpages {18}{23}}
-\headcommand {\sectionentry {7}{Array Jobs}{24}{Array Jobs}{0}}
-\headcommand {\slideentry {7}{0}{1}{24/26}{}{0}}
-\headcommand {\beamer@framepages {24}{26}}
-\headcommand {\beamer@partpages {1}{26}}
-\headcommand {\beamer@subsectionpages {24}{26}}
-\headcommand {\beamer@sectionpages {24}{26}}
-\headcommand {\beamer@documentpages {26}}
-\headcommand {\gdef \inserttotalframenumber {11}}
+\headcommand {\slideentry {3}{0}{1}{5/5}{}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\beamer@sectionpages {5}{5}}
+\headcommand {\beamer@subsectionpages {5}{5}}
+\headcommand {\sectionentry {4}{File transfer}{6}{File transfer}{0}}
+\headcommand {\slideentry {4}{0}{1}{6/7}{}{0}}
+\headcommand {\beamer@framepages {6}{7}}
+\headcommand {\beamer@sectionpages {6}{7}}
+\headcommand {\beamer@subsectionpages {6}{7}}
+\headcommand {\sectionentry {5}{File transfer}{8}{File transfer}{0}}
+\headcommand {\slideentry {5}{0}{1}{8/10}{}{0}}
+\headcommand {\beamer@framepages {8}{10}}
+\headcommand {\beamer@sectionpages {8}{10}}
+\headcommand {\beamer@subsectionpages {8}{10}}
+\headcommand {\sectionentry {6}{Modules and Compilers}{11}{Modules and Compilers}{0}}
+\headcommand {\slideentry {6}{0}{1}{11/14}{}{0}}
+\headcommand {\beamer@framepages {11}{14}}
+\headcommand {\slideentry {6}{0}{2}{15/18}{}{0}}
+\headcommand {\beamer@framepages {15}{18}}
+\headcommand {\beamer@sectionpages {11}{18}}
+\headcommand {\beamer@subsectionpages {11}{18}}
+\headcommand {\sectionentry {7}{Submitting Jobs}{19}{Submitting Jobs}{0}}
+\headcommand {\slideentry {7}{0}{1}{19/20}{}{0}}
+\headcommand {\beamer@framepages {19}{20}}
+\headcommand {\slideentry {7}{0}{2}{21/22}{}{0}}
+\headcommand {\beamer@framepages {21}{22}}
+\headcommand {\slideentry {7}{0}{3}{23/24}{}{0}}
+\headcommand {\beamer@framepages {23}{24}}
+\headcommand {\beamer@sectionpages {19}{24}}
+\headcommand {\beamer@subsectionpages {19}{24}}
+\headcommand {\sectionentry {8}{Array Jobs}{25}{Array Jobs}{0}}
+\headcommand {\slideentry {8}{0}{1}{25/27}{}{0}}
+\headcommand {\beamer@framepages {25}{27}}
+\headcommand {\beamer@partpages {1}{27}}
+\headcommand {\beamer@subsectionpages {25}{27}}
+\headcommand {\beamer@sectionpages {25}{27}}
+\headcommand {\beamer@documentpages {27}}
+\headcommand {\gdef \inserttotalframenumber {12}}
