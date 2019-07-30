@@ -1,0 +1,17 @@
+#!/bin/bash
+TOPDIR=~/Darwin/Courses/SJR-IntroHPC
+DATE=$1
+
+pdflatex Intro_to_HPC.tex && pdflatex Intro_to_HPC.tex && \
+pdflatex Intro_to_HPC-handout.tex && pdflatex Intro_to_HPC-handout.tex
+
+[ -r Intro_to_HPC.pdf ] && rsync -av Intro_to_HPC.pdf ${TOPDIR}/Introduction_to_HPC-${DATE}.pdf
+[ -r Intro_to_HPC-handout.pdf ] && rsync -av Intro_to_HPC-handout.pdf ${TOPDIR}/Introduction_to_HPC-${DATE}-handout.pdf
+
+pushd exercises
+pdflatex exercises.tex && pdflatex exercises.tex && \
+rsync -av exercises.pdf exercises/ && tar -zcvf exercises.tgz exercises
+/bin/mv exercises.tgz ${TOPDIR}/
+popd
+
+

@@ -1,0 +1,270 @@
+% $Header: /Users/joseph/Documents/LaTeX/beamer/solutions/generic-talks/generic-ornate-15min-45min.en.tex,v 90e850259b8b 2007/01/28 20:48:30 tantau $
+
+\documentclass{beamer}
+%\documentclass[handout]{beamer}
+\usepackage{pgfpages}
+%\pgfpagesuselayout{4 on 1}[a4paper,border shrink=5mm,landscape]
+
+% Based on solutions/generic-ornate-15min-45min.en.tex
+% and HPCS-UoC-Beamer-master/uoc-beamer-template-1.tex.
+
+% Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
+%
+% In principle, this file can be redistributed and/or modified under
+% the terms of the GNU Public License, version 2.
+%
+% However, this file is supposed to be a template to be modified
+% for your own needs. For this reason, if you use this file as a
+% template and not specifically distribute it as part of a another
+% package/program, I grant the extra permission to freely copy and
+% modify this file as you see fit and even to delete this copyright
+% notice. 
+
+
+\mode<presentation>
+{
+  \usetheme{cambridge}
+  %\usetheme{Warsaw}
+
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{multicol}
+
+%\usepackage{times}
+%\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+
+\title[An Introduction to HPC --- Exercises] % (optional, use only with long paper titles)
+{An Introduction to HPC --- Exercises}
+
+%\subtitle
+%{Presentation Subtitle} % (optional)
+
+\author[SJ Rankin] % (optional, use only with lots of authors)
+{Stuart Rankin\\ \texttt{sjr20@cam.ac.uk}}
+%{F.~Author\inst{1} \and S.~Another\inst{2}}
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[UIS, University of Cambridge] % (optional, but mostly needed)
+{Research Computing Services (http://www.hpc.cam.ac.uk/)\\
+University Information Services (http://www.uis.cam.ac.uk/)}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\date[20/06/2019] % (optional)
+{20th June 2019 / UIS Training}
+
+\subject{Courses --- Exercises}
+% This is only inserted into the PDF information catalog. Can be left
+% out. 
+
+
+
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+% \pgfdeclareimage[height=0.5cm]{university-logo}{university-logo-filename}
+% \logo{\pgfuseimage{university-logo}}
+
+
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+%\AtBeginSubsection[]
+%{
+%  \begin{frame}<beamer>{Outline}
+%    \tableofcontents[currentsection,currentsubsection]
+%  \end{frame}
+%}
+
+
+% If you wish to uncover everything in a step-wise fashion, uncomment
+% the following command: 
+
+%\beamerdefaultoverlayspecification{<+->}
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\section{Login}
+\begin{frame}{Exercise 1: Login}
+\begin{itemize}
+\item{Log into your RCS training account.}
+\begin{description}
+\item[\emph{Hints:}]{\small Create a terminal window and use \alert{ssh} to login to your cluster training account. \\\smallskip
+The remote host is \alert{login.hpc.cam.ac.uk}. The user name is the same name as your MCS Desktop training account (i.e. \alert{z4XY}).\hfill\\\smallskip
+{\scriptsize N.B.\ If in doubt about the name of your training account, check the number of your station (see the label on the top of the box), then station 1\textbf{XY} should correspond to account z4\textbf {XY}.}\hfill\\\smallskip
+}
+\end{description}
+\end{itemize}
+\end{frame}
+
+
+\section{Simple command line operations}
+\begin{frame}{Exercise 2: Simple command line operations}
+\begin{itemize}
+
+\item[(a)]{List your current directory (folder) using \alert{ls -al}. Use \alert{df -h} to see the various cluster filesystems, their sizes and their current total usages. You will be on a random login node -- use \alert{hostname} to confirm which one, and \alert{w} to find out who else is using it. Use \alert{lstopo} to find out more about the internal structure of the login node.}
+
+\item[(b)]{Examine your personal filesystem quotas with the command \alert{quota}.}
+ \visible<2->{\begin{description}
+   \item{You should see a 40GB quota on /home, a 1TB block and 1024k file quota on /rds-d2 (which corresponds to $\tilde{}$/rds/hpc-work).}
+   \end{description}}
+ 
+\item[(c)]{Ask the scheduler what compute resources are available to you with \alert{mybalance}. This command may take a little while to return (the units are CPU/GPU/KNL hours).}
+
+\end{itemize}
+\end{frame}
+
+\section{File transfer}
+\begin{frame}{Exercise 3: File transfer}
+\begin{itemize}
+\item{Use SFTP to transfer the file \alert{exercises.tgz} to your Research Computing Service training account directory $\tilde{}$/rds/hpc-work.}
+\visible<2->{\begin{description}
+\item[\emph{Hints:}]{\small The command is \alert{sftp}. Use the same remote host, username and password as in the previous exercise.\\\smallskip
+  Use \alert{cd rds/hpc-work} to change the target directory, then \alert{put exercises.tgz} to transfer the file from your MCS home directory to the target directory on the Research Computing Service cluster. Use \alert{quit} to close the connection.}
+\end{description}Optionally, copy the file over again using \alert{rsync}.}
+\end{itemize}
+\end{frame}
+    
+\section{File transfer}
+\begin{frame}{Exercise 3: File transfer (ctd)}
+\begin{itemize}
+\item{Switch back to the SSH session you created in the previous exercise. Verify that the file is now present by using \alert{ls}.}
+\visible<2->{\begin{description}
+\item[\emph{Hints:}]{Do \alert{ls -al\quad$\tilde{}$/rds/hpc-work/}. Note that you can often reduce typing by pressing \alert{TAB}.}
+\end{description}}
+\item{Unpack the tar archive to create an exercise subdirectory.}
+\visible<3->{\begin{description}
+\item[\emph{Hints:}]{Do \alert{cd\quad$\tilde{}$/rds/hpc-work/} then \alert{tar -zxvf exercises.tgz}.}
+\end{description}}
+\end{itemize}
+\end{frame}
+    
+
+\section{Remote desktop}
+\begin{frame}{Exercise 4: Remote desktop}
+\begin{itemize}
+\item{Using TurboVNC, connect to the remote desktop running on \alert{login-gfx2.hpc.cam.ac.uk} on display \alert{:99}. The command is \alert{\~{}/bin/turbovncviewer} (note that the vncviewer command provides a different version) and the VNC password is \alert{\emph{``trAin99''}}.}
+\visible<2->{\begin{description}
+\item[\emph{Hints:}]{\small Because the RCS clusters only allow SSH connections, to use VNC we need to tunnel via SSH.\hfill\\\smallskip
+Use \alert{localhost:99} as the remote display name.\hfill\\\smallskip
+Use \alert{-via USER@login-gfx2.hpc.cam.ac.uk} to specify the gateway server, with your training account ID as USER.\hfill\\\smallskip
+You should be prompted first for your training account password, then for the VNC password which is \alert{\emph{``trAin99''}}. Note that this is a view-only password.}
+\end{description}}
+\end{itemize}
+\end{frame}
+
+
+\section{Modules and Compilers}
+\begin{frame}{Exercise 5: Modules and Compilers}
+\begin{itemize}
+\item{Go to the \alert{exercises} directory of your cluster account.}
+\visible<2->{\begin{description}
+\item[\emph{Hints:}]{\small Firstly you may need to review Exercise~1 in order to reconnect to your cluster account. At the remote command prompt, change to the exercises directory (\alert{cd $\tilde{}$/rds/hpc-work/exercises}).}
+\end{description}}
+\item{Try to compile the \alert{hello.c} program using the default \alert{gcc} compiler (it will fail because there is a deliberate bug).}
+\visible<3->{\begin{description}
+\item[\emph{Hints:}]{\small \alert{gcc hello.c -o hello}}
+\end{description}}
+\item{To fix the problem, open the \alert{hello.c} file in an editor (e.g. \alert{gedit}, \alert{nano}, \alert{emacs}).}
+\visible<4->{\begin{description}
+\item[\emph{Hints:}]{\small Launch gedit in the background by doing \alert{gedit\&}. A gedit window should appear. Remove the word \alert{BUG}, save the file and recompile. Do \alert{./hello} to run the program.}
+\end{description}}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Exercise 5: Modules and Compilers (ctd)}
+  \begin{itemize}
+  \item{The default version of gcc on the RCS HPC clusters is 4.8.5. Compile hello.c again with \alert{gcc 5.4.0}.}
+   \visible<2->{\begin{description}
+\item[\emph{Hints:}]{\small module av, module load, then \alert{gcc hello.c -o hello2}}
+\end{description}}
+\item{Launch the Matlab GUI. Note this should work from either the SSH command-line or remote desktop sessions.}
+\visible<3->{\begin{description}
+\item[\emph{Hints:}]{\small \alert{module load matlab} then run: \alert{matlab\&}}
+\end{description}}
+\item{Quit Matlab and launch it again without the graphical desktop interface. This is the way to launch it inside a batch job.}
+\visible<4->{\begin{description}
+\item[\emph{Hints:}]{\alert{matlab -nodisplay -nojvm -nosplash}}
+\end{description}}
+\end{itemize}
+\end{frame}
+
+\section{Submitting Jobs}
+\begin{frame}{Exercise 6: Submitting Jobs (Matlab)}
+\begin{itemize}
+\item{Submit a job which will run \alert{matlab} on the \alert{file.m} command file (which contains just the Matlab \alert{ver} command).}
+\visible<2->{\begin{description}
+\item[\emph{Hints:}]{\scriptsize\begin{enumerate}
+\item{Load the matlab module at the place indicated in the file \alert{job\_script} in your exercises directory.}
+\item{Set the value of application to\hfill\break{}\alert{\"{}matlab -nodesktop -nosplash -nojvm\"{}}}
+\item{Set the value of options to \alert{\"{}-r file\"{}}}
+\item{Submit the job with \alert{sbatch job\_script}. The jobid is then printed.}
+\item{Watch the job in the queue with \alert{squeue}.}
+\item{After it has disappeared, open the output file \alert{slurm-jobid.out} in your editor. It should contain a list of licensed Matlab features from the ver command.}
+  \item{For more demanding work you can increase the available memory by increasing the number of cpus.}
+  \end{enumerate}%
+}
+\end{description}}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Exercise 6: Submitting Jobs (serial application)}
+\begin{itemize}
+\item{Submit a job which will run a copy of your hello program on 1 cpu.}
+\visible<2->{\begin{description}
+\item[\emph{Hints:}]{\scriptsize\begin{enumerate}
+\item{Edit the script \alert{job\_script} in your exercises directory. Set:\hfill\\
+\alert{\#SBATCH --nodes=1}\hfill\\
+\alert{\#SBATCH --ntasks=1}\hfill\\
+\alert{application="./hello"}}
+\item{Submit the job with \alert{sbatch job\_script}. The jobid is then printed.}
+\item{Watch the job in the queue with \alert{squeue}.}
+\item{After it has disappeared, open the output file \alert{slurm-jobid.out} in your editor. There should be exactly one ``Hello, World!'' message.}
+\end{enumerate}%
+}
+\end{description}}
+\end{itemize}
+\end{frame}
+
+\section{Array Jobs}
+\begin{frame}{Exercise 7: Array Jobs}
+\begin{itemize}
+\item{Submit your last job in the form of an array with indices 1-64. Use -H with sbatch to mark the array as held (so that it won't run immediately).}
+\visible<2->{\begin{description}
+\item[\emph{Hints:}]{\scriptsize\begin{enumerate}
+\item{Use \alert{sbatch -H -{}-array=1-64 job\_script}}
+\item{Use \alert{squeue -u userid} to see your array job. Note that \alert{-r} reports each array element individually.}
+\end{enumerate}%
+}
+\end{description}}
+\item{Release array element 1 and allow it to run. Then release the others.}
+\visible<3->{\begin{description}
+\item[\emph{Hints:}]{\scriptsize\begin{enumerate}
+\item{Use \alert{scontrol release \$\{{SLURM\_ARRAY\_JOB\_ID}\}\_{{\color{red}1}}}}
+\item{Use \alert{squeue -u userid} again to watch what happens.}
+\item{Release the others with\hfill\break
+\null\qquad scontrol release \$\{{SLURM\_ARRAY\_JOB\_ID}\}\hfill\break
+i.e. use the array id to release the entire array.}
+  \item{When all the jobs complete you should have 64 slurm-\$\{SLURM\_ARRAY\_JOB\_ID\}\_N.out files saying hello from various cpus on possibly multiple nodes.}
+\end{enumerate}%
+}
+\end{description}}
+\end{itemize}
+\end{frame}
+
+\end{document}
