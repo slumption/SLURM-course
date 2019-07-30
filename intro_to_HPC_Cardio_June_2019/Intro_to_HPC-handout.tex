@@ -1,9 +1,10 @@
 % $Header: /Users/joseph/Documents/LaTeX/beamer/solutions/generic-talks/generic-ornate-15min-45min.en.tex,v 90e850259b8b 2007/01/28 20:48:30 tantau $
 
-\documentclass[handout]{beamer}
-\usepackage{pgfpages}
-\pgfpagesuselayout{4 on 1}[a4paper,border shrink=5mm,landscape]
 
+\documentclass[handout]{beamer} %No presenter effects
+%\documentclass{beamer} %Presenter effects
+\usepackage{pgfpages}
+\pgfpagesuselayout{4 on 1}[a4paper,border shrink=5mm,landscape] %4 sided handout
 
 \mode<presentation>
 {
@@ -43,8 +44,8 @@ University Information Services (http://www.uis.cam.ac.uk/)}
 % - Use the \inst command only if there are several affiliations.
 % - Keep it simple, no one is interested in your street address.
 
-\date[20/06/2019] % (optional)
-{20th June 2019 / UIS Training}
+\date[30/07/2019] % (optional)
+{30th July 2019 / UIS Training}
 
 \subject{Courses}
 
@@ -55,11 +56,32 @@ University Information Services (http://www.uis.cam.ac.uk/)}
   \titlepage
 \end{frame}
 
+\begin{frame}{Health and Safety}
+\begin{columns}[c]
+\begin{column}{0.33\textwidth}
+\begin{center}
+\includegraphics[width=0.8\textwidth,height=0.5\textheight,keepaspectratio]{imgs/health-safety-1.png}\\
+\includegraphics[width=0.8\textwidth,height=0.5\textheight,keepaspectratio]{imgs/health-safety-4.png}
+\end{center}
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{center}
+\includegraphics[width=0.8\textwidth,height=0.5\textheight,keepaspectratio]{imgs/health-safety-2.png}\\
+\includegraphics[width=0.8\textwidth,height=0.5\textheight,keepaspectratio]{imgs/health-safety-5.png}
+\end{center}
+\end{column}
+\begin{column}{0.33\textwidth}
+\begin{center}
+\includegraphics[width=0.8\textwidth,height=0.5\textheight,keepaspectratio]{imgs/health-safety-3.png}\\
+\includegraphics[width=0.8\textwidth,height=0.5\textheight,keepaspectratio]{imgs/health-safety-6.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
 \begin{frame}<presentation>{Welcome}
 \begin{itemize}
 \item{Please sign in on the {\color{red}attendance sheet}.}
-\item Please give your {\color{red}online feedback} at the end of the course:
-      \url{http://feedback.training.cam.ac.uk/ucs/form.php}
 \item{Keep your belongings with you.}
 %\item Course files can be downloaded from:  \url{www.ucs.cam.ac.uk/training/files}
 \item\alert{Please ask questions and let us know if you need assistance.}
@@ -70,9 +92,8 @@ University Information Services (http://www.uis.cam.ac.uk/)}
 \begin{frame}{UIS: Research Computing Services}
 Your trainers for today will be:\\
 \begin{itemize}
-\item{\alert{Stuart Rankin}\\{}\qquad\qquad Research Computing User Services}
-\item{\alert{Mark Sharpley}\\{}\qquad\qquad Research Computing Platforms}
-\item{We are generalists, but there is also the \alert{Research Software Engineering} team.}
+\item{\alert{Paul Sumption}\\{}\qquad\qquad Research Computing User Services}
+\item{\alert{Eleftherios Avramidis}\\{}\qquad\qquad Research Software Engineering}
 \end{itemize}
 \end{frame}
 
@@ -95,6 +116,12 @@ Your trainers for today will be:\\
 \item[Part 1:]{Basics}
 \item[Part 2:]{Research Computing Services HPC}
 \item[Part 3:]{Using HPC}
+\medskip
+\item<2>{\alert{10:00}\hbox to 0pt{\hphantom{{}-15:15}\quad WELCOME\hss}}
+\item<2>{\alert{11:00-11:15}\quad Break}
+\item<2>{\alert{12:30-13:30}\quad LUNCH}
+\item<2>{\alert{15:30-15:45}\quad Break}
+\item<2>{\alert{16:30}\hbox to 0pt{\hphantom{{}-15:15}\quad CLOSE\hss}}
 \end{description}
 \end{frame}
 
