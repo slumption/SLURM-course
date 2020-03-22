@@ -1,7 +1,0 @@
-\beamer@endinputifotherversion {3.36pt}
-\select@language {english}
-\beamer@sectionintoc {1}{Login}{2}{0}{1}
-\beamer@sectionintoc {2}{File transfer}{3}{0}{2}
-\beamer@sectionintoc {3}{Remote desktop}{7}{0}{3}
-\beamer@sectionintoc {4}{Modules and Compilers}{9}{0}{4}
-\beamer@sectionintoc {5}{Submitting Jobs}{17}{0}{5}
