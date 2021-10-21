@@ -1,0 +1,41 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{Who are we?}{3}{0}{1}
+\beamer@sectionintoc {2}{Who are you?}{4}{0}{2}
+\beamer@sectionintoc {3}{Prerequisites}{6}{0}{3}
+\beamer@sectionintoc {4}{Training Accounts}{7}{0}{4}
+\beamer@sectionintoc {5}{Security}{8}{0}{5}
+\beamer@sectionintoc {6}{Why Buy a Big Computer?}{10}{1}{6}
+\beamer@sectionintoc {7}{Inside a Modern Computer}{18}{1}{7}
+\beamer@sectionintoc {8}{How to Build a Supercomputer}{20}{1}{8}
+\beamer@sectionintoc {9}{Running Applications on a Cluster}{23}{1}{9}
+\beamer@sectionintoc {10}{Summary}{24}{1}{10}
+\beamer@sectionintoc {11}{Early History of Big Computers in Cambridge}{26}{2}{11}
+\beamer@sectionintoc {12}{Central HPC in Cambridge}{28}{2}{12}
+\beamer@sectionintoc {13}{History of Performance}{29}{2}{13}
+\beamer@sectionintoc {14}{Skylake}{33}{2}{14}
+\beamer@sectionintoc {15}{Coprocessors --- GPUs etc}{34}{2}{15}
+\beamer@sectionintoc {16}{Pascal}{35}{2}{16}
+\beamer@sectionintoc {17}{KNL}{36}{2}{17}
+\beamer@sectionintoc {18}{Storage}{37}{2}{18}
+\beamer@sectionintoc {19}{Obtaining an Account and Support}{38}{2}{19}
+\beamer@sectionintoc {20}{Connecting}{40}{3}{20}
+\beamer@subsectionintoc {20}{1}{Windows Clients}{41}{3}{20}
+\beamer@subsectionintoc {20}{2}{Linux/MacOSX/UNIX Clients}{42}{3}{20}
+\beamer@subsectionintoc {20}{3}{Login}{43}{3}{20}
+\beamer@subsectionintoc {20}{4}{First time login}{44}{3}{20}
+\beamer@subsectionintoc {20}{5}{File Transfer}{46}{3}{20}
+\beamer@subsectionintoc {20}{6}{Remote Desktop}{47}{3}{20}
+\beamer@sectionintoc {21}{User Environment}{50}{3}{21}
+\beamer@subsectionintoc {21}{1}{Filesystems}{51}{3}{21}
+\beamer@subsectionintoc {21}{2}{Software}{55}{3}{21}
+\beamer@subsectionintoc {21}{3}{Environment Modules}{56}{3}{21}
+\beamer@subsectionintoc {21}{4}{Environment Modules}{57}{3}{21}
+\beamer@subsectionintoc {21}{5}{Compilers}{61}{3}{21}
+\beamer@sectionintoc {22}{Job Submission}{62}{3}{22}
+\beamer@subsectionintoc {22}{1}{Single Node Jobs}{72}{3}{22}
+\beamer@subsectionintoc {22}{2}{MPI Jobs}{77}{3}{22}
+\beamer@subsectionintoc {22}{3}{Hybrid Jobs}{79}{3}{22}
+\beamer@subsectionintoc {22}{4}{High Throughput Jobs}{80}{3}{22}
+\beamer@subsectionintoc {22}{5}{Interactive Jobs}{81}{3}{22}
+\beamer@subsectionintoc {22}{6}{Array Jobs}{82}{3}{22}
+\beamer@subsectionintoc {22}{7}{Scheduling}{84}{3}{22}
