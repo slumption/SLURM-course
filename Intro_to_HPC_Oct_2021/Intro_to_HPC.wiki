@@ -1,0 +1,875 @@
+<span>Health and Safety</span>
+
+<span>0.33</span>
+
+[[File:imgs/health-safety-1.png|image]]<br />
+[[File:imgs/health-safety-4.png|image]]
+
+<span>0.33</span>
+
+[[File:imgs/health-safety-2.png|image]]<br />
+[[File:imgs/health-safety-5.png|image]]
+
+<span>0.33</span>
+
+[[File:imgs/health-safety-3.png|image]]<br />
+[[File:imgs/health-safety-6.png|image]]
+
+&lt;presentation&gt;<span>Welcome</span>
+
+* <span>Please sign in on the <span>attendance sheet</span>.</span>
+* Please give your <span>online feedback</span> at the end of the course: http://feedback.training.cam.ac.uk/ucs/form.php
+* <span>Keep your belongings with you.</span>
+* <span class="alert">Please ask questions and let us know if you need assistance.</span>
+
+=== Who are we? ===
+
+<span>UIS: Research Computing Services</span> Your trainers for today will be:<br />
+
+
+* <span><span class="alert">Stuart Rankin</span><br />
+Research Computing User Services</span>
+* <span><span class="alert">Mark Sharpley</span><br />
+Research Computing Platforms</span>
+* <span>We are generalists, but there is also the <span class="alert">Research Software Engineering</span> team.</span>
+
+=== Who are you? ===
+
+<span>You may be <math display="inline">\ldots</math></span>
+
+* <span>Programmers (or not).</span>
+* <span>UNIX power users (or not).</span>
+* <span>Researchers wishing to run large, parallel code.</span>
+* <span>Researchers wishing to run many, non-parallel cases.</span>
+* <span>Researchers interested in big data, machine learning, AI.</span>
+* <span>Researchers requiring slightly more than an ordinary workstation.</span>
+* <span><span class="alert">Many different disciplines and requirements.</span></span>
+
+&lt;presentation&gt;<span>Plan of the Course</span>
+
+<span>Basics</span>
+
+<span>Research Computing Services HPC</span>
+
+<span>Using HPC</span>
+
+<span><span class="alert">09:30</span>to 0pt<span>WELCOME</span></span>
+
+<span><span class="alert">11:00-11:15</span>Break</span>
+
+<span><span class="alert">12:30-13:30</span>LUNCH</span>
+
+<span><span class="alert">15:30-15:45</span>Break</span>
+
+<span><span class="alert">16:30</span>to 0pt<span>CLOSE</span></span>
+
+=== Prerequisites ===
+
+<span>Prerequisites</span>
+
+* <span>Basic Unix/Linux command line experience: <span class="alert">Unix: Introduction to the Command Line Interface (self-paced)</span>https://www.training.cam.ac.uk/ucs/Course/ucs-unixintro1</span>
+* <span>Shell scripting experience is desirable: <span class="alert">Unix: Simple Shell Scripting for Scientists</span>https://www.training.cam.ac.uk/ucs/Course/ucs-scriptsci</span>
+
+=== Training Accounts ===
+
+<span>Training accounts</span>
+
+* <span><span class="alert">For our practical exercises we will use HPC training accounts.</span> These are distinct from the MCS desktop training accounts.</span>
+* <span>You will find HPC training account details on your desk.</span>
+* <span>Your HPC training account is valid only for today.</span>
+* <span>The name of the HPC account will be the same as your MCS desktop account: z4<span class="alert">XY</span> (where <span class="alert">XY</span> is the station number).</span>
+* <span>Please check your MCS workstation is booted into Ubuntu Linux, and logged in, ask if you need help with this.</span>
+* <span>PDFs of the course notes and the exercises can be found in your MCS filespace.</span>
+
+=== Security ===
+
+<span>Security</span>
+
+* <span>Cambridge IT is under constant attack by would-be intruders.</span>
+* <span><span class="alert">Choose strong passwords and keep it (or private key passphrase) safe.</span></span>
+* <span><span class="alert">Your UIS password is used for multiple systems so keep it secure!</span></span>
+* <span>Keep the software on your laptops/tablets/PCs up to date — this includes home computers.</span>
+* <span>Check out and install free anti-malware software available for work and home: <span class="alert">https://help.uis.cam.ac.uk/service/security/stay-safe-online/malware</span></span>
+* <span>Don’t share accounts (this is against the rules, and anyone can get their own).</span>
+
+= Basics =
+
+=== Why Buy a Big Computer? ===
+
+<span>Basics: Why Buy a Big Computer?</span>
+
+What types of big problem might require a “Big Computer”?
+
+; ''Compute Intensive:''
+: <span>A single problem requiring a large amount of computation.</span>
+; ''Memory Intensive:''
+: <span>A single problem requiring a large amount of memory.</span>
+; ''Data Intensive:''
+: <span>A single problem operating on a large amount of data.</span>
+; ''High Throughput:''
+: <span>Many unrelated problems to be executed in bulk.</span>
+
+<span>Basics: Compute Intensive Problems</span>
+
+* <span>Distribute the <span class="alert">work</span> for a <span class="alert">single problem</span> across multiple CPUs to reduce the execution time as far as possible.</span>
+* <span>Program workload must be ''parallelised'':</span>
+* <span>The CPUs typically need to exchange information rapidly, requiring specialized communication hardware.</span>
+* <span>Many use cases from Physics, Chemistry, Engineering, Astronomy, Biology...</span>
+* <span>The traditional domain of <span class="alert">HPC</span> and the <span class="alert">Supercomputer</span>.</span>
+
+<span>Basics: Scaling &amp; Amdahl’s Law</span>
+
+* <span><span class="alert">Using more CPUs is not necessarily faster.</span></span>
+* <span>Typically parallel codes have a <span class="alert">scaling limit</span>.</span>
+* <span>Partly due to the system overhead of managing more copies, but also to more basic constraints;</span>
+* <span>Amdahl’s Law (idealized):</span> <math display="block">S(N)=\frac{1}{\left(1-p+\frac{p}{N}\right)}</math> where <math display="block">\begin{aligned}
+S(N)&\text{ is the fraction by which the program has sped up}\\&\text{ relative to $N=1$}\\
+p&\text{ is the fraction of the program which can be parallelized}\\
+N&\text{ is the number of CPUs.}\end{aligned}</math>
+
+<span>Basics: Amdahl’s Law</span>
+
+[[File:imgs/AmdahlsLaw.png|image]]
+
+<span>The Bottom Line</span>
+
+* <span>Parallelisation requires effort:</span>
+** <span>There are libraries to help (e.g. <span class="alert">OpenMP</span>, <span class="alert">MPI</span>).</span>
+** <span>Aim to make both <math display="inline">p</math> and performance per CPU as large as possible.</span>
+* <span>The scaling limit: eventually using more CPUs becomes <span class="alert">detrimental</span> instead of helpful.</span>
+
+<span>Basics: Data Intensive Problems</span>
+
+* <span>Distribute the <span class="alert">data</span> for a <span class="alert">single problem</span> across multiple CPUs to reduce the overall execution time.</span>
+* <span>The ''same'' work may be done on each data segment.</span>
+* <span>Rapid movement of data to and from disk is more important than inter-CPU communication.</span>
+* <span><span class="alert">Big Data</span> problems of great current interest -</span>
+* <span>Hadoop/MapReduce</span>
+* <span>Life Sciences (genomics) and elsewhere.</span>
+
+<span>Basics: High Throughput</span>
+
+* <span>Distribute <span class="alert">independent</span>, <span class="alert">multiple problems</span> across multiple CPUs to reduce the overall execution time.</span>
+* <span>Workload is trivially (or ''embarrassingly'') parallel:</span>
+** <span>Workload breaks up naturally into ''independent'' pieces.</span>
+** <span>Each piece is performed by a separate process/thread on a separate CPU (concurrently).</span>
+** <span><span class="alert">Little or no inter-CPU communication</span>.</span>
+* <span>Emphasis is on throughput over a period, rather than on performance on a single problem.</span>
+* <span>Compute intensive capable <math display="inline">\Rightarrow</math> high throughput capable (not conversely).</span>
+
+<span>Basics: Putting it All Together</span>
+
+* <span>Each of these types of problem requires <span class="alert">combining many CPUs and memory modules</span>.</span>
+* <span>Nowadays, there can be many CPUs and memory modules inside a <span class="alert">single commodity PC or server</span>.</span>
+* <span>HPC involves combining <span class="alert">many times more than this</span>.</span>
+
+=== Inside a Modern Computer ===
+
+<span>Basics: Inside a Modern Computer</span><span>CPUs in a box</span>
+
+<span>Basics: Inside a Modern Computer</span><span>CPUs in a box</span>
+
+[[File:imgs/lstopo.png|image]]
+
+=== How to Build a Supercomputer ===
+
+<span>Basics: How to Build a Supercomputer</span>
+
+<span>Basics: How to Build a Supercomputer</span>
+
+{|
+|
+<ol start="2">
+<li><p><span>Connect similar nodes with one or more <span class="alert">networks</span>. E.g.</span></p>
+<dl>
+<dt>Gbit Ethernet:</dt>
+<dd><p><span><span class="alert">100 MB/sec</span></span></p></dd>
+<dt>Omni-Path:</dt>
+<dd><p><span><span class="alert">10 GB/sec</span></span></p></dd></dl>
+
+<p>Faster network is for <span class="alert">inter-CPU communication across nodes</span>.</p>
+<p>Slower network is for <span class="alert">management</span> and <span class="alert">provisioning</span>.</p>
+<p><span class="alert">Storage</span> may use either.</p></li></ol>
+| to 0pt
+|}
+
+<span>Basics: How to Build a Supercomputer</span>
+
+<ol start="3">
+<li><p><span>Allocate CPUs &amp; memory to workload</span></p>
+<ul>
+<li><p><span>Clusters consist of distinct nodes (i.e. separate Linux computers), networked together and controlled centrally by a <span class="alert">scheduler</span>.</span></p>
+<ul>
+<li><p><span><span class="alert">Each process/thread can see only its local node’s CPUs and memory (without help from e.g. MPI).</span></span></p></li>
+<li><p><span>Each process/thread must fit within a single node’s memory.</span></p></li></ul>
+</li>
+<li><p><span>More expensive machines logically bind nodes into a single system.</span></p>
+<ul>
+<li><p><span>Logically one big node.</span></p></li>
+<li><p><span>A single process can see the entire system.</span></p></li>
+<li><p><span>E.g. SGI UV.</span></p></li></ul>
+</li></ul>
+</li></ol>
+
+=== Running Applications on a Cluster ===
+
+<span>Basics: Running Applications on a Cluster</span>
+
+=== Summary ===
+
+<span>Basics: Summary</span>
+
+* <span><span class="alert">Why have a supercomputer?</span></span>
+** <span>Single problems requiring great time or big data; many problems.</span>
+* <span>Most current supercomputers are <span class="alert">clusters</span> of separate <span class="alert">nodes</span>.</span>
+* <span>Each node has <span class="alert">multiple CPUs</span> and <span class="alert">(non-uniform, shared) memory</span>.</span>
+* <span><span class="alert">Parallel</span> code may use <span class="alert">pthreads/OpenMP/MPI</span> within a node, or <span class="alert">MPI</span> across multiple nodes.</span>
+* <span><span class="alert">Serial</span> code uses a single CPU and the memory of one node, but may be copied across many nodes.</span>
+
+= Research Computing Services HPC =
+
+=== Early History of Big Computers in Cambridge ===
+
+&lt;presentation&gt;<span>Early History: EDSAC (1949–1958)</span>
+
+[[File:imgs/edsac_wilkes.jpg|image]]
+
+<span>Early History: EDSAC (1949–1958)</span>
+
+* <span>'''E'''lectronic '''D'''elay '''S'''torage '''A'''utomatic '''C'''alculator</span>
+* <span>The second general use, electronic digital (Turing complete) stored program computer</span>
+* <span>3,000 valves</span>
+* <span>650 instructions per second</span>
+* <span>2KB memory in mercury ultrasonic delay lines</span>
+* <span>One program at a time!</span>
+* <span>Used in meteorology, genetics, theoretical chemistry, numerical analysis, radioastronomy.</span>
+* <span>''“On a few occasions it worked for more than 24 hours.”''</span>
+
+=== Central HPC in Cambridge ===
+
+<span>Central HPC in Cambridge</span>
+
+<span>1996 (as the HPCF).</span>
+
+<span>Delivery and support of a large HPC resource for use by the University of Cambridge research community.</span>
+
+<span>Paying and non-paying service levels.</span>
+
+<span>Includes external STFC &amp; EPSRC plus industrial users.</span>
+
+<span>Dedicated group nodes and research projects.</span>
+
+=== History of Performance ===
+
+<span>History of Performance</span>
+
+; 1997
+: <span>76.8 Gflop/s</span>
+; 2002
+: <span>1.4 Tflop/s</span>
+; 2006
+: <span>18.27 Tflop/s</span>
+; 2010
+: <span>30 Tflop/s</span>
+; 2012
+: <span>183.38 Tflop/s</span>
+; 2013
+: <span><math display="inline">183.38\,\mbox{CPU}{}+ 239.90\,\mbox{GPU}</math> Tflop/s</span>
+
+&lt;presentation&gt;<span>Darwin1 (2006–2012)</span>
+
+[[File:imgs/darwin.jpg|image]]
+
+&lt;presentation&gt;<span>Darwin3 (2012–2018)(b) &amp; Wilkes (2013–2018)(f)</span>
+
+&lt;presentation&gt;<span>Peta4 (2017) Cumulus (2018)</span>
+
+=== Skylake ===
+
+<span>Skylake</span>
+
+* <span>Each compute node:</span>
+** 
+** 
+** 
+* <span>1152 compute nodes.</span>
+* <span>8 login nodes (<span class="alert">login-cpu.hpc.cam.ac.uk</span>).</span>
+
+=== Coprocessors — GPUs etc ===
+
+<span>Coprocessors — GPUs etc</span>
+
+* <span>CPUs are <span class="alert">general purpose</span></span>
+* <span>Some types of parallel workload fit <span class="alert">vector</span> processing well:</span>
+** <span>Single Instruction, Multiple Data (SIMD)</span>
+** <span>''Think pixels on a screen''</span>
+** <span>GPUs specialise in this type of work</span>
+** <span>Also competitor many-core architectures such as the Intel Phi</span>
+
+=== Pascal ===
+
+<span>Pascal</span>
+
+* <span>Each compute node:</span>
+** 
+** 
+** 
+** 
+* <span>90 compute nodes.</span>
+* <span>8 login nodes (<span class="alert">login-gpu.hpc.cam.ac.uk</span>).</span>
+
+=== KNL ===
+
+<span>KNL (Intel Phi)</span>
+
+* <span>Each compute node:</span>
+** 
+** 
+** 
+* <span>342 compute nodes</span>
+* <span>Shared login nodes with Skylake</span>
+
+=== Storage ===
+
+<span>Cluster Storage</span>
+
+* <span>Lustre cluster filesystem:</span>
+** <span>Very scalable, high bandwidth.</span>
+** <span>Multiple RAID6 back-end disk volumes.</span>
+** <span>Multiple object storage servers.</span>
+** <span>Single metadata server.</span>
+** <span>Tape-backed HSM on newest filesystems.</span>
+** <span><span class="alert"><math display="inline">12\,\text{GB/sec}</math> overall read or write.</span></span>
+** <span><span class="alert">Prefers big read/writes over small.</span></span>
+
+=== Obtaining an Account and Support ===
+
+<span>Obtaining an Account and Support</span>
+
+* <span><span class="alert">https://www.hpc.cam.ac.uk/applications-access-research-computing-services</span></span>
+* <span>Email <span class="alert">support@hpc.cam.ac.uk</span></span>
+
+= Using HPC =
+
+=== Connecting ===
+
+<span>Using HPC: Connecting to the RCS Clusters</span>
+
+* SSH secure protocol only.<br />
+
+* SSH access is allowed from anywhere.<br />
+<br />
+
+* <span>Policies for other clusters may differ.</span>
+
+==== Windows Clients ====
+
+<span>Connecting: Windows Clients</span>
+
+* putty, pscp, psftp<br />
+<span class="alert">http://www.chiark.greenend.org.uk/ sgtatham/putty/download.html</span>
+* WinSCP<br />
+<span class="alert">http://winscp.net/eng/download.php</span>
+* TurboVNC <span class="alert">(remote desktop, 3D optional)</span><br />
+<span class="alert">http://sourceforge.net/projects/turbovnc/files/</span>
+* Cygwin<br />
+<span class="alert">http://cygwin.com/install.html</span><br />
+
+* MobaXterm<br />
+<span class="alert">http://mobaxterm.mobatek.net/</span>
+
+==== Linux/MacOSX/UNIX Clients ====
+
+<span>Connecting: Linux/MacOSX/UNIX Clients</span>
+
+* <span>ssh</span>, scp, sftp, <span>rsync</span><br />
+<span class="alert">Installed (or installable).</span>
+* TurboVNC <span class="alert">(remote desktop, 3D optional)</span><br />
+<span class="alert">http://sourceforge.net/projects/turbovnc/files/</span>
+* On MacOSX, install <span class="alert">XQuartz</span> to display remote graphical applications.<br />
+<span class="alert">http://xquartz.macosforge.org/landing/</span>
+
+==== Login ====
+
+<span>Connecting: Login</span>
+
+* From Linux/MacOSX/UNIX (or Cygwin):<br />
+<span class="alert">ssh -Y '''abc123'''@login-cpu.hpc.cam.ac.uk</span>
+* From graphical clients:<br />
+Host: <span class="alert">login-cpu.hpc.cam.ac.uk</span><br />
+Username: <span class="alert">'''abc123'''</span> (your UCAM account name)
+* login-cpu.hpc will map to a random login node<br />
+<span class="alert">i.e. one of login-e-9, login-e-10, … , login-e-16</span>
+
+==== First time login ====
+
+<span>Connecting: First time login</span>
+
+<ul>
+<li><p><span>The first connection to a particular hostname produces the following:</span></p>
+<p>The authenticity of host ’login-cpu (128.232.224.50)’ can’t be established.</p>
+<p><span>ECDSA key fingerprint is SHA256:HsiY1Oe0M8tS6JwR76PeQQA/VB7r8675BzG5OYQ4h34.</span></p>
+<p><span>ECDSA key fingerprint is MD5:34:9b:f2:d2:c6:b3:5c:63:99:b7:27:da:5b:c8:16:fe.</span></p>
+<p>Are you sure you want to continue connecting (yes/no)? <span>yes</span></p>
+<p>Warning: Permanently added ’login-cpu,128.232.224.50’ (ECDSA) to the list of known hosts.</p></li>
+<li><p><span><span class="alert">One should always check the fingerprint before typing “yes”.</span></span></p></li>
+<li><p><span>Graphical SSH clients ''should'' ask a similar question.</span></p></li>
+<li><p><span>Designed to detect fraudulent servers.</span></p></li></ul>
+
+<span>Connecting: First time login</span>
+
+* <span>Exercise 1 - Log into your RCS training account.</span>
+* <span>Exercise 2 - Simple command line operations.</span>
+
+==== File Transfer ====
+
+<span>Connecting: File Transfer</span>
+
+* With graphical clients, connect as before and drag and drop.
+* From Linux/MacOSX/UNIX (or Cygwin):<br />
+<span class="alert">rsync -av '''old_directory/''' abc12@login-cpu.hpc.cam.ac.uk:rds/hpc-work/new_directory</span><br />
+copies contents of old_directory to <math display="inline">\tilde{}\text{/rds/hpc-work/new\_directory}</math>.<br />
+<span class="alert">rsync -av '''old_directory''' abc12@login-cpu.hpc.cam.ac.uk:rds/hpc-work/new_directory</span><br />
+copies old_directory (and contents) to <math display="inline">\tilde{}\text{/rds/hpc-work/new\_directory/old\_directory}</math>.<br />
+
+** Rerun to update or resume after interruption.
+** All transfers are checksummed.
+** For transfers in the opposite direction, place the remote machine as the first argument.
+* <span>Exercise 3 - File transfer.</span>
+
+==== Remote Desktop ====
+
+<span>Connecting: Remote Desktop</span>
+
+<ul>
+<li><p>First time use of TurboVNC (recommended):</p>
+<p>[sjr20@login-e-1  ]$ vncserver</p>
+<p>You will require a password to access your desktops.</p>
+<p>Password: Verify: Would you like to enter a view-only password (y/n)? n</p>
+<p>New ’login-e-1:99 (sjr20)’ desktop is <span>login-e-1:99</span></p>
+<p>Starting applications specified in /home/sjr20/.vnc/xstartup Log file is /home/sjr20/.vnc/login-e-1:99.log</p></li>
+<li><p><span>NB Choose a <span class="alert">different</span> password for VNC to protect your desktop from other users.</span></p></li>
+<li><p><span>Note the unique host and display number (<span>login-e-1</span> and <span>:99</span> here).</span></p></li></ul>
+
+<span>Connecting: Remote Desktop</span>
+
+<ul>
+<li><p>Remote desktop already running:</p>
+<p>[sjr20@login-e-1  ]$ vncserver -list</p>
+<p>TigerVNC server sessions:</p>
+<p>X DISPLAY # PROCESS ID :99 130655</p></li>
+<li><p>Kill it:</p>
+<p>[sjr20@login-e-1  ]$ vncserver -kill :99 Killing Xvnc process ID 130655</p></li>
+<li><p><span class="alert">Typically you only need <span>one</span> remote desktop.</span></p></li>
+<li><p><span class="alert">Keeps running until killed, or the node reboots.</span></p></li></ul>
+
+<span>Connecting: Remote Desktop</span>
+
+* To connect to the desktop from Linux:<br />
+<span> <span class="alert">vncviewer -via abc12@login-e-1.hpc.cam.ac.uk localhost:99</span></span>
+* <span>The display number <span class="alert">:99</span> will be different in general and unique to each desktop.</span>
+* <span>You will be asked firstly for your cluster login password, and secondly for your VNC password.</span>
+* <span><span class="alert">Press F8 to bring up the control panel.</span></span>
+* <span>Exercise 4 - Connecting to a remote desktop running on the HPC cluster.</span>
+
+=== User Environment ===
+
+<span>Using HPC: User Environment</span>
+
+* <span><span class="alert"><span>Red Hat Enterprise Linux 7</span></span></span>
+** 
+** 
+** 
+* <span>But you don’t need to know that.</span>
+* <span>NOT Ubuntu or Debian!</span>
+* <span><span class="alert">CentOS 7 is OK.</span></span>
+
+==== Filesystems ====
+
+<span>User Environment: Filesystems</span>
+
+* <span><span class="alert">/home/abc123</span></span>
+** <span>40GB quota.</span>
+** <span>Visible equally from all nodes.</span>
+** <span>Single storage server.</span>
+** <span>Hourly, daily, weekly snapshots copied to tape.</span>
+** <span>Not intended for job outputs or large/many input files.</span>
+* <span><span class="alert">/rds/user/abc123/hpc-work</span> a.k.a. <span class="alert">/home/abc123/rds/hpc-work</span></span>
+** <span>Visible equally from all nodes.</span>
+** <span>Larger and faster (1TB initial quota).</span>
+** <span>Intended for job inputs and outputs.</span>
+** <span>Not backed up.</span>
+** <span><span class="alert">Research Data Storage</span></span>
+** <span><span class="alert">https://www.hpc.cam.ac.uk/research-data-storage-services</span></span>
+
+<span>Filesystems: Quotas</span>
+
+* <span>quota</span>
+* <span><span class="alert">Aim to stay below the soft limit (''quota'').</span></span>
+* <span><span class="alert">Once over the soft limit, you have 7 days grace to return below.</span></span>
+* <span><span class="alert">When the grace period expires, or you reach the hard limit (''limit''), no more data can be written.</span></span>
+* <span><span class="alert">It is important to rectify an out of quota condition ASAP.</span></span>
+
+<span>Filesystems: Permissions</span>
+
+* <span>Be careful and if unsure, please ask support.</span>
+** <span>Can lead to <span class="alert">accidental destruction</span> of your data or <span class="alert">account compromise</span>.</span>
+* <span>Avoid changing the permissions on your home directory.</span>
+** <span>Files under /home are particularly security sensitive.</span>
+** <span>Easy to break passwordless communication between nodes.</span>
+
+==== Software ====
+
+<span>User Environment: Software</span>
+
+* <span>Free software accompanying <span class="alert">Red Hat Enterprise Linux</span> is (or can be) provided.</span>
+* <span>Other software (free and non-free) is available via <span class="alert">modules</span>.</span>
+* <span>Some proprietary software may not be generally accessible.</span>
+* <span>New software may be possible to provide on request.</span>
+* <span><span class="alert">Self-installed software should be properly licensed.</span></span>
+* <span>''sudo will not work.'' (You should be worried if it did.)</span>
+* <span>Docker-compatible containers can now be downloaded and used via <span class="alert">singularity</span>.</span>
+
+==== Environment Modules ====
+
+<span>User Environment: Environment Modules</span>
+
+* <span>Modules load or unload additional software packages.</span>
+* <span>Some are <span class="alert">required</span> and automatically loaded on login.</span>
+* <span>Others are optional extras, or possible replacements for other modules.</span>
+* <span><span class="alert">Beware</span> unloading default modules in <math display="inline">\tilde{}\text{/.bashrc}</math>.</span>
+* <span><span class="alert">Beware</span> overwriting environment variables such as PATH and LD_LIBRARY_PATH in <math display="inline">\tilde{}\text{/.bashrc}</math>. If necessary append or prepend.</span>
+
+==== Environment Modules ====
+
+<span>User Environment: Environment Modules</span>
+
+<ul>
+<li><p><span>Currently loaded:</span></p>
+<p>module list Currently Loaded Modulefiles: 1) dot 9) intel/impi/2017.4/intel 2) slurm 10) intel/libs/idb/2017.4 3) turbovnc/2.0.1 11) intel/libs/tbb/2017.4 4) vgl/2.5.1/64 12) intel/libs/ipp/2017.4 5) singularity/current 13) intel/libs/daal/2017.4 6) rhel7/global 14) intel/bundles/complib/2017.4 7) intel/compilers/2017.4 15) rhel7/default-peta4 8) intel/mkl/2017.4</p></li>
+<li><p><span>Available:</span></p>
+<p>module av</p></li></ul>
+
+<span>User Environment: Environment Modules</span>
+
+<ul>
+<li><p><span>Whatis:</span></p>
+<p>module whatis openmpi-1.10.7-gcc-5.4.0-jdc7f4f openmpi-1.10.7-gcc-5.4.0-jdc7f4f: The Open MPI Project is an open source...</p></li>
+<li><p><span>Load:</span></p>
+<p>module load openmpi-1.10.7-gcc-5.4.0-jdc7f4f</p></li>
+<li><p><span>Unload:</span></p>
+<p>module unload openmpi-1.10.7-gcc-5.4.0-jdc7f4f</p></li></ul>
+
+<span>User Environment: Environment Modules</span>
+
+<ul>
+<li><p><span>Matlab</span></p>
+<p>module load matlab/r2017b</p></li>
+<li><p><span>Invoking matlab in batch mode:<br />
+<span class="alert">matlab -nodisplay -nojvm -nosplash command</span><br />
+where the file <span class="alert">command.m</span> contains your matlab code.</span></p></li>
+<li><p><span>The University site license contains the <span class="alert">Parallel Computing Toolbox</span>.</span></p></li>
+<li><p><span><span class="alert">MATLAB Parallel Server</span> is also available.</span></p></li></ul>
+
+<span>User Environment: Environment Modules</span>
+
+<ul>
+<li><p><span>Purge:</span></p>
+<p>module purge</p></li>
+<li><p><span>Defaults loaded on login (vary by cluster):</span></p></li>
+<li><p><span><span class="alert">Run time environment must match compile time environment.</span></span></p></li></ul>
+
+==== Compilers ====
+
+<span>User Environment: Compilers</span>
+
+; Intel:
+: <span><span class="alert">icc</span>, <span class="alert">icpc</span>, <span class="alert">ifort</span> (recommended)</span>
+; GCC:
+: <span><span class="alert">gcc</span>, <span class="alert">g++</span>, <span class="alert">gfortran</span></span>
+; PGI:
+: <span><span class="alert">pgcc</span>, <span class="alert">pgCC</span>, <span class="alert">pgf90</span></span>
+; Exercise 5:
+: Modules and Compilers
+
+=== Job Submission ===
+
+<span>Using HPC: Job Submission</span>
+
+[[File:imgs/EDSAC_2_1960.jpg|image]]
+
+<span>Using HPC: Job Submission</span>
+
+* <span>Compute resources are managed by a scheduler:<br />
+<span class="alert">SLURM</span>/PBS/SGE/LSF/…</span>
+* <span>Jobs are submitted to the scheduler<br />
+— analogous to submitting jobs to a print queue<br />
+— a file (''submission script'') is copied and queued<br />
+for processing.</span>
+
+<span>Using HPC: Job Submission</span>
+
+* <span>Jobs are submitted from the <span class="alert">login node</span><br />
+— not itself managed by the scheduler.</span>
+* <span>Jobs may be either non-interactive (<span class="alert">batch</span>) or <span class="alert">interactive</span>.</span>
+* <span><span class="alert">Batch</span> jobs run a shell script on the first of a list of allocated nodes.</span>
+* <span><span class="alert">Interactive</span> jobs provide a command line on the first of a list of allocated nodes.</span>
+
+<span>Using HPC: Job Submission</span>
+
+* <span>Jobs may use <span class="alert">part</span> or <span class="alert">all</span> of one or more nodes<br />
+— the owner can specify <code>–exclusive</code> to force exclusive<br />
+node access (automatic on KNL).</span>
+* <span>Template submission scripts are available under<br />
+<span class="alert">/usr/local/Cluster-Docs/SLURM</span>.</span>
+
+<span>Job Submission: Using SLURM</span>
+
+<ul>
+<li><p><span>Prepare a shell script and submit it to SLURM:</span></p>
+<p>[abc123@login-e-1]<math display="inline">sbatch slurm_submission_script
+Submitted batch job {\color{red}790299}
+\end{semiverbatim}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Job Submission: Show Queue}
+\begin{itemize}
+\item{Submitted job scripts are copied and stored in a queue:}
+\begin{semiverbatim}
+\tiny
+[abc123@login-e-1]</math> squeue -u abc123 JOBID PARTITION NAME USER ST TIME NODES NODELIST(REASON) <span>790299</span> skylake Test3 abc123 PD 0:00 2 () 790290 skylake Test2 abc123 R 27:56:10 2 cpu-e-[1,10]</p></li></ul>
+
+<span>Job Submission: Monitor Job</span>
+
+<ul>
+<li><p><span>Examine a particular job:</span></p>
+<p>[abc123@login-e-1]<math display="inline">scontrol show job={\color{red}790290}
+\end{semiverbatim}
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Job Submission: Accounting Commands}
+\begin{itemize}
+\item{How many core hours available do I have?}
+\begin{semiverbatim}
+\tiny
+mybalance
+
+User           Usage |        Account     Usage | Account Limit Available (hours)
+---------- --------- + -------------- --------- + ------------- ---------
+sjr20              3 |    SUPPORT-CPU     2,929 |    22,425,600 {\color{red}22,422,671}
+sjr20              0 |    SUPPORT-GPU         0 |        87,600    {\color{red}87,600}
+\end{semiverbatim}
+\smallskip
+\item{How many core hours does some other project or user have?}
+\begin{semiverbatim}
+\tiny
+gbalance -p SUPPORT-CPU
+
+User           Usage |        Account     Usage | Account Limit Available (hours)
+---------- --------- + -------------- --------- + ------------- ---------
+
+pfb29          2,925 |    SUPPORT-CPU     2,929 |    22,425,600 22,422,671
+sjr20 *            3 |    SUPPORT-CPU     2,929 |    22,425,600 22,422,671
+...
+(Use -u for user.)
+\end{semiverbatim}
+\smallskip
+\item{List all jobs charged to a project/user between certain times:}
+\begin{semiverbatim}
+\Tiny
+gstatement -p SUPPORT-CPU  -u xyz10 -s "2018-04-01-00:00:00" -e "2018-04-30-00:00:00" 
+       JobID      User    Account    JobName  Partition                 End ExitCode      State  CompHrs 
+------------ --------- ---------- ---------- ---------- ------------------- -------- ---------- -------- 
+263              xyz10 support-c+ _interact+    skylake 2018-04-18T19:44:40      0:0    TIMEOUT      1.0
+264              xyz10 support-c+ _interact+    skylake 2018-04-18T19:48:07      0:0 CANCELLED+      0.1
+275              xyz10 support-c+ _interact+    skylake             Unknown      0:0    RUNNING      0.3
+...
+\end{semiverbatim}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}[fragile]{Job Submission: Cancel Job}
+\begin{itemize}
+\item{Cancel a particular job:}
+\begin{semiverbatim}
+\scriptsize
+[abc123@login-e-1]</math> scancel <span>790290</span></p></li></ul>
+
+<span>Job Submission: Scripts</span>
+
+<ul>
+<li><p>SLURM<br />
+In <span class="alert">/usr/local/Cluster-Docs/SLURM, see examples: <span class="alert">slurm_submit.peta4-skylake</span>, <span class="alert">slurm_submit.wilkes2</span>.</span></p>
+<p>#!/bin/bash #! Name of the job: <span>#SBATCH</span> -J myjob #! Which project should be charged: <span>#SBATCH</span> -A CHANGEME #! How many whole nodes should be allocated? <span>#SBATCH</span> –nodes=1 #! How many tasks will there be in total? (&lt;= nodes*32) <span>#SBATCH</span> –ntasks= #! How much wallclock time will be required? <span>#SBATCH</span> –time=02:00:00 #! Select partition: <span>#SBATCH</span> -p skylake ...</p></li>
+<li><p><span><span>#SBATCH</span> lines are ''structured comments''<br />
+— correspond to sbatch command line options.</span></p></li>
+<li><p><span><span class="alert">The above job will be given on 1 node for 2 hours (by default there is 1 task per node, and 1 cpu per task).</span></span></p></li></ul>
+
+==== Single Node Jobs ====
+
+<span>Job Submission: Single Node Jobs</span>
+
+<ul>
+<li><p><span>Serial jobs requiring large memory, or OpenMP codes.</span></p>
+<p>#!/bin/bash … #SBATCH –nodes=1 … <math display="inline">application \$options
+\ldots
+\end{semiverbatim}
+\end{itemize}
+\end{frame}
+
+\subsection{MPI Jobs}
+\begin{frame}[fragile]{Job Submission: MPI Jobs}
+\begin{itemize}
+\item{Parallel job across multiple nodes.}
+\begin{semiverbatim}
+\scriptsize
+#!/bin/bash
+\ldots
+#SBATCH --nodes={\color{red}4}
+#SBATCH --ntasks=\alert{\only<1|handout:1>{128}\only<2-|handout:2->{64}}     # \only<1|handout:1>{i.e.\ {\color[rgb]{0,0.8,0}32}}\only<2-|handout:2->{i.e.\ {\color[rgb]{0,0.8,0} 16}}x{\color{red}4} MPI tasks in total.
+\uncover<2-|handout:2->{{\color{red}#SBATCH --cpus-per-task=2}}
+\ldots
+mpirun\only<2-|handout:2->{ -ppn {\color[rgb]{0,0.8,0}16}} -np \alert{\only<1|handout:1>{128}\only<2-|handout:2->{64}} \$application \$options
+\ldots
+\end{semiverbatim}
+\item<3-|handout:2->{\small \alert{SLURM-aware MPI} launches remote tasks via SLURM (doesn't need a list of nodes).}
+%\item<3-|handout:2->{\small The template script uses \$SLURM\_TASKS\_PER\_NODE to set PPN.}
+\end{itemize}
+\end{frame}
+
+\subsection{Hybrid Jobs}
+\begin{frame}[fragile]{Job Submission: Hybrid Jobs}
+\begin{itemize}
+\item{Parallel jobs using both MPI and OpenMP.}
+\begin{semiverbatim}
+\scriptsize
+#!/bin/bash
+\ldots
+#SBATCH --nodes={\color{red}4}
+#SBATCH --ntasks=\alert{64}     # i.e.\ {\color[rgb]{0,0.8,0}16}x{\color{red}4} MPI tasks in total.
+#SBATCH --cpus-per-task={\color{brown}2}
+\ldots
+{\color{brown}export OMP\_NUM\_THREADS=2   # i.e.\ 2 threads per MPI task.}
+mpirun -ppn {\color[rgb]{0,0.8,0}16} -np \alert{64} \$application \$options
+\ldots
+\end{semiverbatim}
+\item<2->{\small This job uses \alert{128 CPUs} (each MPI task splits into 2 OpenMP threads).}
+\end{itemize}
+\end{frame}
+
+\subsection{High Throughput Jobs}
+\begin{frame}[fragile]{Job Submission: High Throughput Jobs}
+\begin{itemize}
+\item{Multiple serial jobs across multiple nodes.}
+\item{Use \alert{srun} to launch tasks (\alert{job steps}) within a job.}
+\begin{semiverbatim}
+\scriptsize
+#!/bin/bash
+\ldots
+#SBATCH --nodes=2
+\ldots
+cd directory\_for\_job1
+\alert{srun} {\color<3>{red}--exclusive} {\color<2>{red}-N 1 -n 1} \$application \$options\_for\_job1 > output 2> err {\color<4>{red}&}
+cd directory\_for\_job2
+\alert{srun} {\color<3>{red}--exclusive} {\color<2>{red}-N 1 -n 1} \$application \$options\_for\_job2 > output 2> err {\color<4>{red}&}
+...
+cd directory\_for\_job64
+\alert{srun} {\color<3>{red}--exclusive} {\color<2>{red}-N 1 -n 1} \$application \$options\_for\_job64 > output 2> err {\color<4>{red}&}
+{\color<5>{red}wait}
+\end{semiverbatim}
+\item<6>{Exercise 6--8 - Submitting Jobs.}
+\end{itemize}
+\end{frame}
+
+\subsection{Interactive Jobs}
+\begin{frame}[fragile]{Job Submission: Interactive}
+\begin{itemize}
+\item{Compute nodes are accessible via SSH \alert{while you have a job running on them}.}
+\pause
+\item{Alternatively, submit an interactive job:}
+\begin{semiverbatim}
+\alert{sintr -A TRAINING-CPU -N1 -n8 -t 1:0:0}
+\end{semiverbatim}
+\medskip
+\pause
+\item{Within the window (screen session):}
+\begin{itemize}
+\item[</math><math display="inline">]{Launches a shell on the first node (when the job starts).}
+\item[</math><math display="inline">]{Graphical applications should display correctly \alert{(if they did from the login node)}.}
+\item[</math><math display="inline">]{Create new shells with \alert{ctrl-a c}, navigate with \alert{ctrl-a n} and \alert{ctrl-a p}.}
+\item[</math><math display="inline">]{\alert{ssh} or \alert{srun} can be used to start processes on any nodes in the job.}
+\item[</math><math display="inline">]{SLURM-aware MPI will do this automatically.}
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+
+\subsection{Array Jobs}
+\begin{frame}[fragile]{Job Submission: Array Jobs}
+\begin{itemize}
+\item{\alert{$http://slurm.schedmd.com/job\_array.html$}}
+\item{Used for submitting and managing large sets of similar jobs.}
+\item{Each job in the array has the same \alert{initial} options.}
+\item{SLURM}
+\begin{semiverbatim}
+\scriptsize
+[abc123@login-e-1]</math> sbatch –array= -A TRAINING-CPU submit_script Submitted batch job <span>791609</span></p></li></ul>
+
+<span>Job Submission: Array Jobs (ctd)</span>
+
+* <span>Updates can be applied to specific array elements using ${<span>SLURM_ARRAY_JOB_ID</span>}_${<span>SLURM_ARRAY_TASK_ID</span>}</span>
+* <span>Alternatively operate on the entire array via ${<span>SLURM_ARRAY_JOB_ID</span>}</span>.
+* <span>Some commands still require the SLURM_JOB_ID (sacct, sreport, sshare, sstat and a few others).</span>
+* <span>Exercise 9 - Array Jobs.</span>
+
+==== Scheduling ====
+
+<span>Scheduling</span>
+
+* <span>SLURM scheduling is multifactor:</span>
+** <span><span class="alert">QoS</span> — payer or non-payer?</span>
+** <span><span class="alert">Age</span> — how long has the job waited?<br />
+<span class="alert">Don’t cancel jobs that seem to wait too long.</span></span>
+** <span><span class="alert">Fair Share</span> — how much recent usage?<br />
+<span class="alert">Payers with little recent usage receive boost.</span></span>
+** <span><span class="alert">sprio -j jobid</span></span>
+* <span><span class="alert">Backfilling</span></span>
+** <span>Promote lower priority jobs into gaps left by higher priority jobs.</span>
+** <span>Demands that the higher priority jobs not be delayed.</span>
+** <span>Relies on reasonably accurate wall time requests for this to work.</span>
+** <span>Jobs of default length will not backfill readily.</span>
+
+==== Wait Times ====
+
+<span>Wait Times</span>
+
+* <span>36 hour job walltimes are permitted.</span>
+* <span><span class="alert">This sets the timescale at busy times (''without'' backfilling).</span></span>
+* <span>Use backfilling when possible.</span>
+* <span>Short (1 hour or less) jobs have higher throughput.</span>
+
+==== Checkpointing ====
+
+<span>Checkpointing</span>
+
+* <span>Insurance against failures during long jobs.</span>
+* <span>Restart from checkpoints to work around finite job length.</span>
+* <span>Application native methods are best. Failing that, one can try <span class="alert">DMTCP</span>: <span class="alert">http://dmtcp.sourceforge.net/index.html</span></span>
+
+==== Scheduling Top Tips ====
+
+<span>Job Submission: Scheduling Top Dos &amp; Don’ts</span>
+
+* <span>'''Do …'''</span>
+** <span>Give reasonably accurate wall times (allows <span class="alert">backfilling</span>).</span>
+** <span>Check your balance occasionally (<span class="alert">mybalance</span>).</span>
+** <span>Test on a small scale first.</span>
+** <span>Implement <span class="alert">checkpointing</span> if possible (reduces resource wastage).</span>
+* <span>'''Don’t …'''</span>
+** <span>Request more than you need<br />
+— you will wait longer and use more credits.</span>
+** <span>Cancel jobs unnecessarily<br />
+— priority increases over time.</span>
