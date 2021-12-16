@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  16 DEC 2021 12:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.16)  16 DEC 2021 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -248,7 +248,7 @@ Package: babel 2021/01/26 3.53 The Babel package
 File: babel.def 2021/01/26 3.53 Babel common definitions
 \babel@savecnt=\count198
 \U@D=\dimen156
-\l@babelnohyphens=\language5
+\l@babelnohyphens=\language9
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
@@ -260,9 +260,9 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language3) on input line 105.
+(babel)             (\language6) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language3) on input line 108.
+(babel)             (\language6) on input line 108.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -996,12 +996,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 15797 strings out of 481209
- 299682 string characters out of 5914746
- 587641 words of memory out of 5000000
- 32422 multiletter control sequences out of 15000+600000
+ 15799 strings out of 481134
+ 299707 string characters out of 5913145
+ 588248 words of memory out of 5000000
+ 32433 multiletter control sequences out of 15000+600000
  449920 words of font info for 177 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
+ 81 hyphenation exceptions out of 8191
  102i,7n,102p,402b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/pasump/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.15
 28pk> </home/pasump/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700
