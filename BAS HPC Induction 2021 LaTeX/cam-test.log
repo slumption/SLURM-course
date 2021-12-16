@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.16)  16 DEC 2021 15:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.20)  16 DEC 2021 19:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -672,6 +672,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \pgfphysicalwidth=\dimen287
 \pgfpages@shipoutbox=\box72
 )
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedove.sty)
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2021/01/26 3.53 The Babel package
 
@@ -679,7 +680,7 @@ Package: babel 2021/01/26 3.53 The Babel package
 File: babel.def 2021/01/26 3.53 Babel common definitions
 \babel@savecnt=\count329
 \U@D=\dimen288
-\l@babelnohyphens=\language9
+\l@babelnohyphens=\language7
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
@@ -689,12 +690,16 @@ LaTeX Info: Redefining \textlatin on input line 716.
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@british = using hyphenrules for english
+(babel)             (\language0) on input line 82.
+Package babel Info: \l@UKenglish = using hyphenrules for english
+(babel)             (\language0) on input line 83.
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
-Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language6) on input line 105.
-Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language6) on input line 108.
+Package babel Info: \l@australian = using hyphenrules for english
+(babel)             (\language0) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for english
+(babel)             (\language0) on input line 108.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
@@ -847,32 +852,32 @@ File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 37.
+(hyperref)                removing `\\' on input line 38.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count350
 \l__pdf_internal_box=\box124
 )
-(./cam-test.aux (./main.aux))
+(./cam-test.aux (./access.aux))
 \openout1 = `cam-test.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -930,7 +935,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 54.
+Package hyperref Info: Link coloring OFF on input line 55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -943,56 +948,56 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count357
 )
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
 
 (./cam-test.out) (./cam-test.out)
 \@outlinefile=\write5
 \openout5 = `cam-test.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 54.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 54.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 55.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 54.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 54.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 54.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 54.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 54.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 54.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 54.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 54.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 54.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 54.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 54.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 54.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 54.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 54.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 54.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 54.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 55.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1017,15 +1022,23 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./cam-test.nav) [1
+) (./cam-test.nav)
+<./imgs//header_and_footer.png, id=73, 1027.84pt x 781.73746pt>
+File: ./imgs//header_and_footer.png Graphic file (type png)
+<use ./imgs//header_and_footer.png>
+Package pdftex.def Info: ./imgs//header_and_footer.png  used on input line 61.
+(pdftex.def)             Requested size: 364.19536pt x 276.99985pt.
+ [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./imgs/Header_and_footer.p
+ng (PNG copy)>]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
 
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1033,2933 +1046,278 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2
 
 ]
-<./images//footer_1.png, id=37, 1027.84pt x 770.88pt>
-File: ./images//footer_1.png Graphic file (type png)
-<use ./images//footer_1.png>
-Package pdftex.def Info: ./images//footer_1.png  used on input line 79.
+<./imgs//footer_2.png, id=90, 1027.84pt x 770.88pt>
+File: ./imgs//footer_2.png Graphic file (type png)
+<use ./imgs//footer_2.png>
+Package pdftex.def Info: ./imgs//footer_2.png  used on input line 85.
 (pdftex.def)             Requested size: 364.19536pt x 273.15263pt.
  [3
 
- <./images//footer_1.png>] [4
+ <./imgs//footer_2.png>]
+<./imgs//footer_3.png, id=96, 1027.84pt x 781.73746pt>
+File: ./imgs//footer_3.png Graphic file (type png)
+<use ./imgs//footer_3.png>
+Package pdftex.def Info: ./imgs//footer_3.png  used on input line 101.
+(pdftex.def)             Requested size: 364.19536pt x 276.99985pt.
+ [4
 
-] [5
+ <./imgs//footer_3.png (PNG copy)>]
+<./imgs//footer_4.png, id=103, 1027.84pt x 781.73746pt>
+File: ./imgs//footer_4.png Graphic file (type png)
+<use ./imgs//footer_4.png>
+Package pdftex.def Info: ./imgs//footer_4.png  used on input line 118.
+(pdftex.def)             Requested size: 364.19536pt x 276.99985pt.
+ [5
 
-] [6
+ <./imgs//footer_4.png (PNG copy)>]
+\openout2 = `access.aux'.
 
-] [7
+ (./access.tex [6
 
-] [8
-
-] [9
-
-] [10
-
-] [11
-
-] [12
 
 ]
-\openout2 = `main.aux'.
+File: ./imgs//footer_4.png Graphic file (type png)
+<use ./imgs//footer_4.png>
+Package pdftex.def Info: ./imgs//footer_4.png  used on input line 26.
+(pdftex.def)             Requested size: 364.19536pt x 276.99985pt.
+ [7
 
- (./main.tex
+]
+! Misplaced alignment tab character &.
+\beamer@doifinframe ...or Bastion hosts (bslcenb &
+                                                   bslcenc) \begin {itemize}...
+l.53 \end{frame}
+                
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-! LaTeX Error: Can be used only in preamble.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \documentclass
-                  {article}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.53 \end{frame}
+                
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
 
-! LaTeX Error: Can be used only in preamble.
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2 \usepackage
-               {amsmath}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.53 \end{frame}
+                
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
+! Misplaced alignment tab character &.
+\beamer@doifinframe ... General Use Workstations &
+                                                   Private Workstations \ite...
+l.53 \end{frame}
+                
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-! LaTeX Error: Can be used only in preamble.
+<./imgs//footer_5.png, id=122, 1027.84pt x 781.73746pt>
+File: ./imgs//footer_5.png Graphic file (type png)
+<use ./imgs//footer_5.png>
+Package pdftex.def Info: ./imgs//footer_5.png  used on input line 53.
+(pdftex.def)             Requested size: 364.19536pt x 276.99985pt.
+[8
 
-See the LaTeX manual or LaTeX Companion for explanation.
+ <./imgs//footer_5.png (PNG copy)>]
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 \usepackage
-               {color,pxfonts,fix-cm}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.66 \end{frame}
+                
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
 
-! LaTeX Error: Can be used only in preamble.
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 \usepackage
-               {latexsym}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.66 \end{frame}
+                
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
+<./imgs//footer_6.png, id=128, 1027.84pt x 770.88pt>
+File: ./imgs//footer_6.png Graphic file (type png)
+<use ./imgs//footer_6.png>
+Package pdftex.def Info: ./imgs//footer_6.png  used on input line 66.
+(pdftex.def)             Requested size: 364.19536pt x 273.15263pt.
+[9
 
-! LaTeX Error: Can be used only in preamble.
+ <./imgs//footer_6.png>]
 
-See the LaTeX manual or LaTeX Companion for explanation.
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 \usepackage
-               [mathletters]{ucs}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.79 \end{frame}
+                
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
 
-! LaTeX Error: Can be used only in preamble.
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 \DeclareUnicodeCharacter
-                            {8211}{\textendash}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.79 \end{frame}
+                
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
 
+! Misplaced alignment tab character &.
+\beamer@doifinframe ...(available for Linux, Mac &
+                                                   windows), Putty, WSL, Mob...
+l.79 \end{frame}
+                
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-! LaTeX Error: Can be used only in preamble.
+File: ./imgs//footer_6.png Graphic file (type png)
+<use ./imgs//footer_6.png>
+Package pdftex.def Info: ./imgs//footer_6.png  used on input line 79.
+(pdftex.def)             Requested size: 364.19536pt x 273.15263pt.
+[10
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 \DeclareUnicodeCharacter
-                            {46}{\textperiodcentered}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+]
+<./imgs//footer_8.png, id=140, 1027.84pt x 781.73746pt>
+File: ./imgs//footer_8.png Graphic file (type png)
+<use ./imgs//footer_8.png>
+Package pdftex.def Info: ./imgs//footer_8.png  used on input line 95.
+(pdftex.def)             Requested size: 364.19536pt x 276.99985pt.
+ [11
 
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-7.
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
-File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
+ <./imgs//footer_8.png (PNG copy)>]
+<./imgs//footer_1.png, id=146, 1027.84pt x 770.88pt>
+File: ./imgs//footer_1.png Graphic file (type png)
+<use ./imgs//footer_1.png>
+Package pdftex.def Info: ./imgs//footer_1.png  used on input line 108.
+(pdftex.def)             Requested size: 364.19536pt x 273.15263pt.
+ [12
 
-! LaTeX Error: Can be used only in preamble.
+ <./imgs//footer_1.png>]
+! Undefined control sequence.
+\beamer@doifinframe ...\text User Area - /users/\<
+                                                  username>\^^M\begin {itemi...
+l.126 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 \DeclareUnicodeCharacter
-                            {58}{$\colon$}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 \DeclareUnicodeCharacter
-                            {8226}{$\bullet$}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 \DeclareUnicodeCharacter
-                             {8217}{\textquoteright}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \DeclareUnicodeCharacter
-                             {62}{\textgreater}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-LaTeX Font Info:    Trying to load font information for OML+cmss on input line 
-11.
-LaTeX Font Info:    No file OMLcmss.fd. on input line 11.
-
-LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
-(Font)              using `OML/cmm/m/it' instead
-(Font)              for symbol `textgreater' on input line 11.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 \DeclareUnicodeCharacter
-                             {32}{$\ $}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 \usepackage
-                [T1]{fontenc}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 \usepackage
-                [utf8x]{inputenc}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \usepackage
-                {pict2e}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 \usepackage
-                {wasysym}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 \usepackage
-                [english]{babel}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \usepackage
-                {tikz}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 \usepackage
-                [margin=0in,paperwidth=720pt,paperheight=540pt]{geometry}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 \begin{document}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<latexImage_340e7acc1534b9ba351a92c1a1081d49.png, id=90, 1027.84pt x 781.73746p
-t>
-File: latexImage_340e7acc1534b9ba351a92c1a1081d49.png Graphic file (type png)
-<use latexImage_340e7acc1534b9ba351a92c1a1081d49.png>
-Package pdftex.def Info: latexImage_340e7acc1534b9ba351a92c1a1081d49.png  used 
-on input line 40.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <28.006> not available
-(Font)              size <29.86> substituted on input line 41.
-
+File: ./imgs//footer_2.png Graphic file (type png)
+<use ./imgs//footer_2.png>
+Package pdftex.def Info: ./imgs//footer_2.png  used on input line 126.
+(pdftex.def)             Requested size: 364.19536pt x 273.15263pt.
 [13
 
-
- <./latexImage_340e7acc1534b9ba351a92c1a1081d49.png (PNG copy)>]
-<latexImage_15b9e6acda8be87c69673355bc94d374.png, id=101, 1027.84pt x 781.73746
-pt>
-File: latexImage_15b9e6acda8be87c69673355bc94d374.png Graphic file (type png)
-<use latexImage_15b9e6acda8be87c69673355bc94d374.png>
-Package pdftex.def Info: latexImage_15b9e6acda8be87c69673355bc94d374.png  used 
-on input line 82.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-LaTeX Font Warning: Font shape `T1/cmr/b/n' in size <21.997> not available
-(Font)              size <20.74> substituted on input line 83.
-
-
-LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <20.013> not available
-(Font)              size <20.74> substituted on input line 95.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.95 ...r}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-LaTeX Font Warning: Font shape `TS1/cmr/m/n' in size <20.013> not available
-(Font)              size <20.74> substituted on input line 95.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.112 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.118 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.132 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.149 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.158 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.191 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.204 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[14 <./latexImage_15b9e6acda8be87c69673355bc94d374.png (PNG copy)>]
-<latexImage_1aef5d9a345e7259c360833b5fc6008f.png, id=110, 1027.84pt x 781.73746
-pt>
-File: latexImage_1aef5d9a345e7259c360833b5fc6008f.png Graphic file (type png)
-<use latexImage_1aef5d9a345e7259c360833b5fc6008f.png>
-Package pdftex.def Info: latexImage_1aef5d9a345e7259c360833b5fc6008f.png  used 
-on input line 225.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <15.987> not available
-(Font)              size <17.28> substituted on input line 233.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.233 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-LaTeX Font Warning: Font shape `TS1/cmr/m/n' in size <15.987> not available
-(Font)              size <17.28> substituted on input line 233.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.265 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.307 ...}{m}{n}\selectfont\color{color_29791}’}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.307 ...}{m}{n}\selectfont\color{color_29791}’}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.330 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.334 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.383 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.417 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.420 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.427 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.468 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.489 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[15 <./latexImage_1aef5d9a345e7259c360833b5fc6008f.png (PNG copy)>]
-File: latexImage_15b9e6acda8be87c69673355bc94d374.png Graphic file (type png)
-<use latexImage_15b9e6acda8be87c69673355bc94d374.png>
-Package pdftex.def Info: latexImage_15b9e6acda8be87c69673355bc94d374.png  used 
-on input line 531.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.546 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.560 ...}{m}{n}\selectfont\color{color_29791}–}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.560 ...}{m}{n}\selectfont\color{color_29791}–}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.589 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.635 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.669 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.708 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.770 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.806 ...}{m}{n}\selectfont\color{color_29791}–}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.806 ...}{m}{n}\selectfont\color{color_29791}–}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.813 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[16]
-<latexImage_6f17c9ae575e6e3412bad9150a17b852.png, id=125, 1027.84pt x 781.73746
-pt>
-File: latexImage_6f17c9ae575e6e3412bad9150a17b852.png Graphic file (type png)
-<use latexImage_6f17c9ae575e6e3412bad9150a17b852.png>
-Package pdftex.def Info: latexImage_6f17c9ae575e6e3412bad9150a17b852.png  used 
-on input line 893.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.913 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.955 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.982 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.991 ...}{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1023 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1083 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1105 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1115 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1123 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[17 <./latexImage_6f17c9ae575e6e3412bad9150a17b852.png (PNG copy)>]
-<latexImage_2828171a63492229494bbe96f89381b1.png, id=131, 1027.84pt x 781.73746
-pt>
-File: latexImage_2828171a63492229494bbe96f89381b1.png Graphic file (type png)
-<use latexImage_2828171a63492229494bbe96f89381b1.png>
-Package pdftex.def Info: latexImage_2828171a63492229494bbe96f89381b1.png  used 
-on input line 1151.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1179 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1214 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1247 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1304 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1341 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1390 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1420 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1477 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[18 <./latexImage_2828171a63492229494bbe96f89381b1.png (PNG copy)>]
-<latexImage_43fb9acc39826b86b6493904abaeacaa.png, id=137, 1027.84pt x 781.73746
-pt>
-File: latexImage_43fb9acc39826b86b6493904abaeacaa.png Graphic file (type png)
-<use latexImage_43fb9acc39826b86b6493904abaeacaa.png>
-Package pdftex.def Info: latexImage_43fb9acc39826b86b6493904abaeacaa.png  used 
-on input line 1554.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1610 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1655 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1683 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1720 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1759 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1771 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1799 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1845 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[19 <./latexImage_43fb9acc39826b86b6493904abaeacaa.png (PNG copy)>]
-<latexImage_d5964f0fe7de530ea43707adcb11ad51.png, id=144, 1027.84pt x 781.73746
-pt>
-File: latexImage_d5964f0fe7de530ea43707adcb11ad51.png Graphic file (type png)
-<use latexImage_d5964f0fe7de530ea43707adcb11ad51.png>
-Package pdftex.def Info: latexImage_d5964f0fe7de530ea43707adcb11ad51.png  used 
-on input line 1905.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1931 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1998 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2041 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2068 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2144 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2200 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2285 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[20 <./latexImage_d5964f0fe7de530ea43707adcb11ad51.png (PNG copy)>]
-<latexImage_70f318a8f2de3f58eebb26eed4f2123e.png, id=150, 1027.84pt x 781.73746
-pt>
-File: latexImage_70f318a8f2de3f58eebb26eed4f2123e.png Graphic file (type png)
-<use latexImage_70f318a8f2de3f58eebb26eed4f2123e.png>
-Package pdftex.def Info: latexImage_70f318a8f2de3f58eebb26eed4f2123e.png  used 
-on input line 2381.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2413 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2417 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2479 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2531 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2534 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[21 <./latexImage_70f318a8f2de3f58eebb26eed4f2123e.png (PNG copy)>]
-File: latexImage_2828171a63492229494bbe96f89381b1.png Graphic file (type png)
-<use latexImage_2828171a63492229494bbe96f89381b1.png>
-Package pdftex.def Info: latexImage_2828171a63492229494bbe96f89381b1.png  used 
-on input line 2553.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2567 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2573 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2596 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2656 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2665 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2704 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2711 ...{m}{n}\selectfont\color{color_29791}–}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2711 ...{m}{n}\selectfont\color{color_29791}–}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2737 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2744 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2754 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2812 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[22]
-File: latexImage_1aef5d9a345e7259c360833b5fc6008f.png Graphic file (type png)
-<use latexImage_1aef5d9a345e7259c360833b5fc6008f.png>
-Package pdftex.def Info: latexImage_1aef5d9a345e7259c360833b5fc6008f.png  used 
-on input line 2839.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2853 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2857 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2899 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2930 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2973 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3026 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[23]
-File: latexImage_15b9e6acda8be87c69673355bc94d374.png Graphic file (type png)
-<use latexImage_15b9e6acda8be87c69673355bc94d374.png>
-Package pdftex.def Info: latexImage_15b9e6acda8be87c69673355bc94d374.png  used 
-on input line 3053.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3079 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3150 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3205 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3232 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3297 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3351 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3430 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3485 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[24]
-File: latexImage_43fb9acc39826b86b6493904abaeacaa.png Graphic file (type png)
-<use latexImage_43fb9acc39826b86b6493904abaeacaa.png>
-Package pdftex.def Info: latexImage_43fb9acc39826b86b6493904abaeacaa.png  used 
-on input line 3554.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3577 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3659 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3672 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3707 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3750 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3772 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3833 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[25]
-File: latexImage_d5964f0fe7de530ea43707adcb11ad51.png Graphic file (type png)
-<use latexImage_d5964f0fe7de530ea43707adcb11ad51.png>
-Package pdftex.def Info: latexImage_d5964f0fe7de530ea43707adcb11ad51.png  used 
-on input line 3861.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3878 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3934 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[26]
-<latexImage_3f3a920d1f055ee96cf3917d47957291.png, id=184, 1027.84pt x 781.73746
-pt>
-File: latexImage_3f3a920d1f055ee96cf3917d47957291.png Graphic file (type png)
-<use latexImage_3f3a920d1f055ee96cf3917d47957291.png>
-Package pdftex.def Info: latexImage_3f3a920d1f055ee96cf3917d47957291.png  used 
-on input line 4004.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4013 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4044 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4056 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4062 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4113 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4170 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4179 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4208 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4243 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4306 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[27 <./latexImage_3f3a920d1f055ee96cf3917d47957291.png (PNG copy)>]
-<latexImage_bdabda61317014bb20dc1cc743a20acb.png, id=190, 1027.84pt x 781.73746
-pt>
-File: latexImage_bdabda61317014bb20dc1cc743a20acb.png Graphic file (type png)
-<use latexImage_bdabda61317014bb20dc1cc743a20acb.png>
-Package pdftex.def Info: latexImage_bdabda61317014bb20dc1cc743a20acb.png  used 
-on input line 4330.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4335 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4343 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4383 ...{m}{n}\selectfont\color{color_29791}–}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4383 ...{m}{n}\selectfont\color{color_29791}–}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4404 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4445 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4456 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4465 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4474 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4482 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4487 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4495 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4538 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[28 <./latexImage_bdabda61317014bb20dc1cc743a20acb.png (PNG copy)>]
-File: latexImage_70f318a8f2de3f58eebb26eed4f2123e.png Graphic file (type png)
-<use latexImage_70f318a8f2de3f58eebb26eed4f2123e.png>
-Package pdftex.def Info: latexImage_70f318a8f2de3f58eebb26eed4f2123e.png  used 
-on input line 4607.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4617 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4623 ...{m}{n}\selectfont\color{color_29791}–}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4623 ...{m}{n}\selectfont\color{color_29791}–}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4636 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4638 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4691 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4739 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4779 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4784 ...{m}{n}\selectfont\color{color_29791}–}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4784 ...{m}{n}\selectfont\color{color_29791}–}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4826 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4861 ...{m}{n}\selectfont\color{color_29791}–}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4861 ...{m}{n}\selectfont\color{color_29791}–}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[29]
-File: latexImage_15b9e6acda8be87c69673355bc94d374.png Graphic file (type png)
-<use latexImage_15b9e6acda8be87c69673355bc94d374.png>
-Package pdftex.def Info: latexImage_15b9e6acda8be87c69673355bc94d374.png  used 
-on input line 4920.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4936 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4952 ...m}{n}\selectfont\color{color_29791}– }
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4952 ...m}{n}\selectfont\color{color_29791}– }
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4958 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4970 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4991 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[30]
-File: latexImage_43fb9acc39826b86b6493904abaeacaa.png Graphic file (type png)
-<use latexImage_43fb9acc39826b86b6493904abaeacaa.png>
-Package pdftex.def Info: latexImage_43fb9acc39826b86b6493904abaeacaa.png  used 
-on input line 5029.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5045 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5056 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5072 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5085 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5132 ...29791}scontrol show jobid –dd <jobid>}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5132 ...29791}scontrol show jobid –dd <jobid>}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5135 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5161 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[31]
-File: latexImage_1aef5d9a345e7259c360833b5fc6008f.png Graphic file (type png)
-<use latexImage_1aef5d9a345e7259c360833b5fc6008f.png>
-Package pdftex.def Info: latexImage_1aef5d9a345e7259c360833b5fc6008f.png  used 
-on input line 5213.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5229 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5247 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5306 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5317 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5343 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5427 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5444 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5474 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5488 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5548 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[32]
-File: latexImage_70f318a8f2de3f58eebb26eed4f2123e.png Graphic file (type png)
-<use latexImage_70f318a8f2de3f58eebb26eed4f2123e.png>
-Package pdftex.def Info: latexImage_70f318a8f2de3f58eebb26eed4f2123e.png  used 
-on input line 5572.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5585 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[33]
-File: latexImage_2828171a63492229494bbe96f89381b1.png Graphic file (type png)
-<use latexImage_2828171a63492229494bbe96f89381b1.png>
-Package pdftex.def Info: latexImage_2828171a63492229494bbe96f89381b1.png  used 
-on input line 5626.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5644 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5652 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[34]
-File: latexImage_6f17c9ae575e6e3412bad9150a17b852.png Graphic file (type png)
-<use latexImage_6f17c9ae575e6e3412bad9150a17b852.png>
-Package pdftex.def Info: latexImage_6f17c9ae575e6e3412bad9150a17b852.png  used 
-on input line 5700.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5712 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5724 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5730 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5733 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5747 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5752 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[35]
-File: latexImage_bdabda61317014bb20dc1cc743a20acb.png Graphic file (type png)
-<use latexImage_bdabda61317014bb20dc1cc743a20acb.png>
-Package pdftex.def Info: latexImage_bdabda61317014bb20dc1cc743a20acb.png  used 
-on input line 5812.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5817 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5844 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5903 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5918 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5923 ...{m}{n}\selectfont\color{color_29791}•}
-                                                  
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-[36]
-File: latexImage_340e7acc1534b9ba351a92c1a1081d49.png Graphic file (type png)
-<use latexImage_340e7acc1534b9ba351a92c1a1081d49.png>
-Package pdftex.def Info: latexImage_340e7acc1534b9ba351a92c1a1081d49.png  used 
-on input line 5946.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
- [37]
-
-LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <43.994> not available
-(Font)              size <42.99> substituted on input line 5978.
-
-[38]
-File: latexImage_340e7acc1534b9ba351a92c1a1081d49.png Graphic file (type png)
-<use latexImage_340e7acc1534b9ba351a92c1a1081d49.png>
-Package pdftex.def Info: latexImage_340e7acc1534b9ba351a92c1a1081d49.png  used 
-on input line 6016.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
- [39]
-File: latexImage_70f318a8f2de3f58eebb26eed4f2123e.png Graphic file (type png)
-<use latexImage_70f318a8f2de3f58eebb26eed4f2123e.png>
-Package pdftex.def Info: latexImage_70f318a8f2de3f58eebb26eed4f2123e.png  used 
-on input line 6037.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
- [40]
-File: latexImage_bdabda61317014bb20dc1cc743a20acb.png Graphic file (type png)
-<use latexImage_bdabda61317014bb20dc1cc743a20acb.png>
-Package pdftex.def Info: latexImage_bdabda61317014bb20dc1cc743a20acb.png  used 
-on input line 6057.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
- [41]
-File: latexImage_1aef5d9a345e7259c360833b5fc6008f.png Graphic file (type png)
-<use latexImage_1aef5d9a345e7259c360833b5fc6008f.png>
-Package pdftex.def Info: latexImage_1aef5d9a345e7259c360833b5fc6008f.png  used 
-on input line 6077.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
- [42]
-File: latexImage_15b9e6acda8be87c69673355bc94d374.png Graphic file (type png)
-<use latexImage_15b9e6acda8be87c69673355bc94d374.png>
-Package pdftex.def Info: latexImage_15b9e6acda8be87c69673355bc94d374.png  used 
-on input line 6097.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
- [43]
-File: latexImage_d5964f0fe7de530ea43707adcb11ad51.png Graphic file (type png)
-<use latexImage_d5964f0fe7de530ea43707adcb11ad51.png>
-Package pdftex.def Info: latexImage_d5964f0fe7de530ea43707adcb11ad51.png  used 
-on input line 6117.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
- [44]
-File: latexImage_2828171a63492229494bbe96f89381b1.png Graphic file (type png)
-<use latexImage_2828171a63492229494bbe96f89381b1.png>
-Package pdftex.def Info: latexImage_2828171a63492229494bbe96f89381b1.png  used 
-on input line 6137.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
- [45]
-File: latexImage_43fb9acc39826b86b6493904abaeacaa.png Graphic file (type png)
-<use latexImage_43fb9acc39826b86b6493904abaeacaa.png>
-Package pdftex.def Info: latexImage_43fb9acc39826b86b6493904abaeacaa.png  used 
-on input line 6157.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
- [46]
-File: latexImage_3f3a920d1f055ee96cf3917d47957291.png Graphic file (type png)
-<use latexImage_3f3a920d1f055ee96cf3917d47957291.png>
-Package pdftex.def Info: latexImage_3f3a920d1f055ee96cf3917d47957291.png  used 
-on input line 6177.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
- [47]
-File: latexImage_6f17c9ae575e6e3412bad9150a17b852.png Graphic file (type png)
-<use latexImage_6f17c9ae575e6e3412bad9150a17b852.png>
-Package pdftex.def Info: latexImage_6f17c9ae575e6e3412bad9150a17b852.png  used 
-on input line 6197.
-(pdftex.def)             Requested size: 720.01634pt x 540.03163pt.
- [48]
+]
+File: ./imgs//footer_3.png Graphic file (type png)
+<use ./imgs//footer_3.png>
+Package pdftex.def Info: ./imgs//footer_3.png  used on input line 141.
+(pdftex.def)             Requested size: 364.19536pt x 276.99985pt.
+ [14
+
+]
+! Misplaced alignment tab character &.
+\beamer@doifinframe ...te and offsite, via tapes &
+                                                   disk \item If you need a ...
+l.160 \end{frame}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+File: ./imgs//footer_4.png Graphic file (type png)
+<use ./imgs//footer_4.png>
+Package pdftex.def Info: ./imgs//footer_4.png  used on input line 160.
+(pdftex.def)             Requested size: 364.19536pt x 276.99985pt.
+[15
+
+]
+File: ./imgs//footer_5.png Graphic file (type png)
+<use ./imgs//footer_5.png>
+Package pdftex.def Info: ./imgs//footer_5.png  used on input line 173.
+(pdftex.def)             Requested size: 364.19536pt x 276.99985pt.
+ [16
+
+]
+File: ./imgs//footer_6.png Graphic file (type png)
+<use ./imgs//footer_6.png>
+Package pdftex.def Info: ./imgs//footer_6.png  used on input line 190.
+(pdftex.def)             Requested size: 364.19536pt x 273.15263pt.
+ [17
+
+]
+<./imgs//footer_7.png, id=180, 1027.84pt x 781.73746pt>
+File: ./imgs//footer_7.png Graphic file (type png)
+<use ./imgs//footer_7.png>
+Package pdftex.def Info: ./imgs//footer_7.png  used on input line 204.
+(pdftex.def)             Requested size: 364.19536pt x 276.99985pt.
+ [18
+
+ <./imgs//footer_7.png (PNG copy)>])
+\openout2 = `userenv.aux'.
+
+ (./userenv.tex [19
+
+
+
+
+]
+File: ./imgs//footer_1.png Graphic file (type png)
+<use ./imgs//footer_1.png>
+Package pdftex.def Info: ./imgs//footer_1.png  used on input line 14.
+(pdftex.def)             Requested size: 364.19536pt x 273.15263pt.
+
+[20
+
+])
 \tf@nav=\write6
 \openout6 = `cam-test.nav'.
 
@@ -3969,58 +1327,35 @@ on input line 6197.
 \tf@snm=\write8
 \openout8 = `cam-test.snm'.
 
- (./cam-test.aux
-(./main.aux))
+ (./cam-test.aux (./access.aux) (./userenv.aux))
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.854pt have occurred.
+Package rerunfilecheck Warning: File `cam-test.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-Package rerunfilecheck Info: File `cam-test.out' has not changed.
-(rerunfilecheck)             Checksum: 939CC78982C048F918A7F1B399243533;93.
- ) )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 21 (\begingroup)
-### bottom level
-(\end occurred when \iftrue on line 110 was incomplete)
-(\end occurred when \ifnum on line 110 was incomplete) 
+Package rerunfilecheck Info: Checksums for `cam-test.out':
+(rerunfilecheck)             Before: 74BBB066C58001E1C628197B27CD23CB;871
+(rerunfilecheck)             After:  EDCD7C77A9A5A2C5FD000001307C34FD;989.
+ ) 
 Here is how much of TeX's memory you used:
- 21960 strings out of 481134
- 430628 string characters out of 5913145
- 768787 words of memory out of 5000000
- 38282 multiletter control sequences out of 15000+600000
- 422041 words of font info for 80 fonts, out of 8000000 for 9000
- 81 hyphenation exceptions out of 8191
- 112i,11n,116p,433b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/pasump/.texlive20
-20/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm3583.720pk> </home/pasump/.texlive
-2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk> </home/pasump/.texli
-ve2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/pasump/.tex
-live2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/pasump/.t
-exlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/pasump/
-.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/pasum
-p/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1728.600pk> </home/pas
-ump/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk> </home/p
-asump/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm2074.600pk> </home
-/pasump/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2074.600pk> </ho
-me/pasump/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrb2074.600pk> </
-home/pasump/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2986.600pk> 
-</home/pasump/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1095.600pk
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/symbols/msam10.pfb>
-Output written on cam-test.pdf (48 pages, 2765332 bytes).
+ 22010 strings out of 481176
+ 429763 string characters out of 5914225
+ 750475 words of memory out of 5000000
+ 38380 multiletter control sequences out of 15000+600000
+ 416084 words of font info for 74 fonts, out of 8000000 for 9000
+ 59 hyphenation exceptions out of 8191
+ 112i,11n,116p,433b,497s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on cam-test.pdf (20 pages, 2067367 bytes).
 PDF statistics:
- 697 PDF objects out of 1000 (max. 8388607)
- 316 compressed objects within 4 object streams
- 99 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 239 PDF objects out of 1000 (max. 8388607)
+ 193 compressed objects within 2 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 208 words of extra memory for PDF output out of 10000 (max. 10000000)
 

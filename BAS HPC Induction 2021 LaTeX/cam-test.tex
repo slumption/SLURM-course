@@ -1,5 +1,5 @@
-%\documentclass[handout]{beamer} %No presenter effects
-\documentclass{beamer} %Presenter effects
+\documentclass[handout]{beamer} %No presenter effects
+%\documentclass{beamer} %Presenter effects
 \usepackage{pgfpages}
 %\pgfpagesuselayout{4 on 1}[a4paper,border shrink=5mm,landscape] %4 sided handout
 
@@ -7,6 +7,7 @@
 {
   %\usetheme{cambridge}
   \usetheme{default}
+  \usecolortheme{dove}
 
   \setbeamertemplate{navigation symbols}{}
   \setbeamercovered{transparent}
@@ -19,7 +20,7 @@
 \usepackage{graphicx}
 \usepackage{tikz}
 
-\graphicspath{ {./images/} }
+\graphicspath{ {./imgs/} }
 
 %\usepackage{times}
 %\usepackage[T1]{fontenc}
@@ -27,59 +28,66 @@
 % does not look nice, try deleting the line with the fontenc.
 
 
-\title[HPC: An introduction] % (optional, use only with long paper titles)
-{An Introduction to High Performance Computing}
+\title[British Antarctic Survey] % (optional, use only with long paper titles)
+{An Introduction to High Performance Computing 2021}
 
 %\subtitle
 %{Presentation Subtitle} % (optional)
 
-\author[SJ Rankin] % (optional, use only with lots of authors)
-{Stuart Rankin\\ \texttt{sjr20@cam.ac.uk}}
+\author[Paul Sumption]% (optional, use only with lots of authors)
+{Paul Sumption\\ \texttt{pasump@bas.ac.uk}}
+
+%\author[Andrew England] % (optional, use only with lots of authors)
+%{Andrew England\\ \texttt{aeng@bas.ac.uk}}
+
 %{F.~Author\inst{1} \and S.~Another\inst{2}}
 % - Use the \inst{?} command only if the authors have different
 %   affiliation.
 
-\institute[Research Computing Services, University of Cambridge] % (optional, but mostly needed)
-{Research Computing Services (http://www.hpc.cam.ac.uk/)\\
-University Information Services (http://www.uis.cam.ac.uk/)}
+%{BAS HPC service (http://ictdocs.nerc-bas.ac.uk/wiki/index.php/HPC:User_Guide)}
 % - Use the \inst command only if there are several affiliations.
 % - Keep it simple, no one is interested in your street address.
 
-\date[30/07/2019] % (optional)
-{30th July 2019 / UIS Training}
+%\date[15/01/2022] % (optional)
 
 \subject{Courses}
 
-
 \begin{document}
 
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{header_and_footer}}%
 \begin{frame}
-  \titlepage
+\titlepage
 \end{frame}
+}
 
+{
 \begin{frame}<presentation>{Welcome}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_1}}%
 \begin{itemize}
 \item{Please sign in on the {\color{red}attendance sheet}.}
 \item{Keep your belongings with you.}
-%\item Course files can be downloaded from:  \url{www.ucs.cam.ac.uk/training/files}
+%\item Course files can be downloaded from:  \url{www.bas.ac.uk/training/files}
 \item\alert{Please ask questions and let us know if you need assistance.}
-\end{itemize}
-\end{frame}
-
-
-{
-\section{Who are we?}
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_1}}%
-\begin{frame}{UIS: Research Computing Services}
-Your trainers for today will be:\\
-\begin{itemize}
-\item{\alert{Paul Sumption}\\{}\qquad\qquad Research Computing User Services}
-\item{\alert{Eleftherios Avramidis}\\{}\qquad\qquad Research Software Engineering}
 \end{itemize}
 \end{frame}
 }
 
+{
+\section{Who are we?}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_2}}%
+\begin{frame}{BAS: HPC Computing Services}
+Your trainers for today will be:\\
+\begin{itemize}
+\item{\alert{Paul Sumption}\\{}\qquad\qquad HPC Engineer}
+\item{\alert{Andrew England}\\{}\qquad\qquad HPC service owner}
+\end{itemize}
+\end{frame}
+}
+
+{
 \section{Who are you?}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_3}}%
 \begin{frame}{You may be $\ldots$}
   \begin{itemize}
   \item{Programmers (or not).}\pause
@@ -91,8 +99,10 @@ Your trainers for today will be:\\
   \item{\alert{Many different disciplines and requirements.}}
 \end{itemize}
 \end{frame}
+}
 
-
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_4}}%
 \begin{frame}<presentation>{Plan of the Course}
 \begin{description}
 \item[Part 1:]{Basics}
@@ -106,7 +116,9 @@ Your trainers for today will be:\\
 \item<2>{\alert{16:30}\hbox to 0pt{\hphantom{{}-15:15}\quad CLOSE\hss}}
 \end{description}
 \end{frame}
+}
 
-\include{main}
+\include{access}
+\include{userenv}
 
 \end{document}
