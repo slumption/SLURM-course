@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.20)  25 OCT 2021 22:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.15)  16 DEC 2021 12:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -248,7 +248,7 @@ Package: babel 2021/01/26 3.53 The Babel package
 File: babel.def 2021/01/26 3.53 Babel common definitions
 \babel@savecnt=\count198
 \U@D=\dimen156
-\l@babelnohyphens=\language7
+\l@babelnohyphens=\language5
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
@@ -257,16 +257,12 @@ File: babel.def 2021/01/26 3.53 Babel common definitions
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
-Package babel Info: \l@british = using hyphenrules for english
-(babel)             (\language0) on input line 82.
-Package babel Info: \l@UKenglish = using hyphenrules for english
-(babel)             (\language0) on input line 83.
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
-Package babel Info: \l@australian = using hyphenrules for english
-(babel)             (\language0) on input line 105.
-Package babel Info: \l@newzealand = using hyphenrules for english
-(babel)             (\language0) on input line 108.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language3) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language3) on input line 108.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -599,13 +595,13 @@ File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count290
 \l__pdf_internal_box=\box60
 )
-No file main.aux.
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/pxmi/m/it on input line 21.
 LaTeX Font Info:    Trying to load font information for OML+pxmi on input line 
 21.
-(/usr/share/texlive/texmf-dist/tex/latex/pxfonts/omlpxmi.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/pxfonts/omlpxmi.fd
 File: omlpxmi.fd 2000/12/14 v1.0
 )
 LaTeX Font Info:    ... okay on input line 21.
@@ -1000,24 +996,24 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 15797 strings out of 481176
- 299684 string characters out of 5914225
- 587743 words of memory out of 5000000
- 32426 multiletter control sequences out of 15000+600000
+ 15797 strings out of 481209
+ 299682 string characters out of 5914746
+ 587641 words of memory out of 5000000
+ 32422 multiletter control sequences out of 15000+600000
  449920 words of font info for 177 fonts, out of 8000000 for 9000
- 59 hyphenation exceptions out of 8191
+ 36 hyphenation exceptions out of 8191
  102i,7n,102p,402b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/sumption/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.
-1528pk> </home/sumption/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
-0700.685pk> </home/sumption/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/
-ecrm1000.600pk> </home/sumption/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen
-/ec/ecrm1000.720pk> </home/sumption/.texlive2020/texmf-var/fonts/pk/ljfour/jkna
-ppen/ec/ecrm1200.799pk> </home/sumption/.texlive2020/texmf-var/fonts/pk/ljfour/
-jknappen/ec/ecrm1728.695pk> </home/sumption/.texlive2020/texmf-var/fonts/pk/ljf
-our/jknappen/ec/ecrb1728.764pk> </home/sumption/.texlive2020/texmf-var/fonts/pk
-/ljfour/jknappen/ec/ecrm1728.972pk></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/pxfonts/pxsy.pfb>
-Output written on main.pdf (36 pages, 2388223 bytes).
+ </home/pasump/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.15
+28pk> </home/pasump/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700
+.685pk> </home/pasump/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm10
+00.600pk> </home/pasump/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
+1000.720pk> </home/pasump/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+rm1200.799pk> </home/pasump/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/
+ecrm1728.695pk> </home/pasump/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/e
+c/ecrb1728.764pk> </home/pasump/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen
+/ec/ecrm1728.972pk></usr/share/texlive/texmf-dist/fonts/type1/public/pxfonts/px
+sy.pfb>
+Output written on main.pdf (36 pages, 2388211 bytes).
 PDF statistics:
  463 PDF objects out of 1000 (max. 8388607)
  118 compressed objects within 2 object streams
