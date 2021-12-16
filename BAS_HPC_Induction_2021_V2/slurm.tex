@@ -1,0 +1,157 @@
+\part{SLURM}
+\frame{\partpage}
+
+{
+\section{SLURM}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_1}}%
+\begin{frame}{SLURM}
+\begin{itemize}
+\item What is it?
+\item Simple Linux Utility for Resource Management – our HPC resource manager
+\item Schedules jobs based on the resources they need
+\end{itemize}
+\end{frame}
+}
+
+{
+\section{SLURM Queues}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_2}}%
+\begin{frame}{SLURM: Queues}
+\text Queues
+\begin{itemize}
+\item Short -
+\item Medium -
+\item Long -
+\item GPU -
+\end{itemize}
+\end{frame}
+}
+
+{
+\section{SLURM fair share}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_3}}%
+\begin{frame}{SLURM fair share}
+\text Fair Usage
+\begin{itemize}
+\item Ensures each user gets fair usage of each HPC queue
+\item Adjusts priorities of submitted jobs based on previous usage
+\end{itemize}
+\end{frame}
+}
+
+{\section{SLURM Job Types}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_4}}%
+\begin{frame}{SLURM Job Types}
+\begin{itemize}
+\item Batch – Standard job
+\item MPI
+\item When you require large amounts of memory or cpu cores.
+\item MPI require infiniband connectivity for Messaging
+\item All nodes need to be in the same queue.
+\item Array – When you want to run upto a 1000 small jobs
+\item GPU - To use GPU's you must include the –gres option with the number of GPU's you require: \textit{#SBATCH --gres=gpu:2}
+\end{itemize}
+\end{frame}
+}
+
+{
+\section{SLURM job script}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_5}}%
+\begin{frame}{SLURM: job script}
+\text Sample job script.....\\
+
+\text Useful Options
+\begin{itemize}
+\item{\textit{Exclusive node:#SBATCH --exclusive}}
+\item{\textit{Specific node:#SBATCH --nodelist=node022}}
+\end{itemize} 
+\end{frame}
+}
+
+{
+\section{SLURM: Job Monitoring}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_6}}%
+\begin{frame}{SLURM: Job monitoring}
+\begin{itemize}
+\item squeue -u <username>
+\item sacct -j <jobid>
+\item To see details on resources used by all running jobs: scontrol show jobid –dd <jobid>
+\item To see all your recent jobs: sacct -u <username>
+\item To check memory and cpu usage on a node: scontrol show node <node>
+\end{itemize}
+\end{frame}
+}
+
+{
+\section{SLURM:  Troubleshooting}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_7}}%
+\begin{frame}{SLURM: Troubleshooting}
+\begin{itemize}
+\item Set an output file, often has useful information when jobs fail
+\item Did you load any require modules
+\item Check your quota
+\end{itemize}
+\end{frame}
+}
+
+{
+\section{SLURM: Common Mistakes}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_8}}%
+\begin{frame}{Common mistakes}
+\begin{itemize}
+\item Forgetting to load modules
+\item Using storage which is not visible to the HPC nodes (use either /data/hpcdata or /data/hpcflash)
+\item Avoid using symlinks
+\item More information: http://ictdocs/wiki/index.php?title=HPC:User_Guide
+\end{itemize}
+\end{frame}
+}
+
+
+{
+\section{Model Ensembler}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_1}}%
+\begin{frame}{Model Ensembler}
+\begin{itemize}
+\item Aimed at solving complex HPC workloads.
+\end{itemize}
+\end{frame}
+}
+
+{
+\section{Developer Environment}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_2}}%
+\begin{frame}{Developer Environment}
+\begin{itemize}
+\item Use git!
+\item Repeatable, reproducible & shareable - containers can help
+\end{itemize}
+\end{frame}
+}
+
+{
+\section{Best Practise}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_3}}%
+\begin{frame}{Best Practice}
+\begin{itemize}
+\item User Policy
+\item Link:
+\item Do! Ask for help,
+\item Don't! Submit jobs which use more than 4 nodes at a time.
+\end{itemize}
+\end{frame}
+}
+
+{
+\section{HELP!}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_4}}%
+\begin{frame}{HELP!}
+\begin{itemize}
+\item Service desk: servicedesk@bas.ac.uk
+\item HPC User Guide: http://ictdocs/wiki/index.php?title=HPC:User_Guide
+\item Service Desk Solutions
+\item Yammer
+\item Email List
+\end{itemize}
+\end{frame}
+}
