@@ -1,0 +1,112 @@
+%\documentclass[handout]{beamer} %No presenter effects
+\documentclass{beamer} %Presenter effects
+\usepackage{pgfpages}
+%\pgfpagesuselayout{4 on 1}[a4paper,border shrink=5mm,landscape] %4 sided handout
+
+\mode<presentation>
+{
+  %\usetheme{cambridge}
+  \usetheme{default}
+
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+\graphicspath{ {./images/} }
+
+%\usepackage{times}
+%\usepackage[T1]{fontenc}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+
+\title[HPC: An introduction] % (optional, use only with long paper titles)
+{An Introduction to High Performance Computing}
+
+%\subtitle
+%{Presentation Subtitle} % (optional)
+
+\author[SJ Rankin] % (optional, use only with lots of authors)
+{Stuart Rankin\\ \texttt{sjr20@cam.ac.uk}}
+%{F.~Author\inst{1} \and S.~Another\inst{2}}
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[Research Computing Services, University of Cambridge] % (optional, but mostly needed)
+{Research Computing Services (http://www.hpc.cam.ac.uk/)\\
+University Information Services (http://www.uis.cam.ac.uk/)}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\date[30/07/2019] % (optional)
+{30th July 2019 / UIS Training}
+
+\subject{Courses}
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}<presentation>{Welcome}
+\begin{itemize}
+\item{Please sign in on the {\color{red}attendance sheet}.}
+\item{Keep your belongings with you.}
+%\item Course files can be downloaded from:  \url{www.ucs.cam.ac.uk/training/files}
+\item\alert{Please ask questions and let us know if you need assistance.}
+\end{itemize}
+\end{frame}
+
+
+{
+\section{Who are we?}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_1}}%
+\begin{frame}{UIS: Research Computing Services}
+Your trainers for today will be:\\
+\begin{itemize}
+\item{\alert{Paul Sumption}\\{}\qquad\qquad Research Computing User Services}
+\item{\alert{Eleftherios Avramidis}\\{}\qquad\qquad Research Software Engineering}
+\end{itemize}
+\end{frame}
+}
+
+\section{Who are you?}
+\begin{frame}{You may be $\ldots$}
+  \begin{itemize}
+  \item{Programmers (or not).}\pause
+  \item{UNIX power users (or not).}\pause
+  \item{Researchers wishing to run large, parallel code.}\pause
+  \item{Researchers wishing to run many, non-parallel cases.}\pause
+  \item{Researchers interested in big data, machine learning, AI.}\pause
+  \item{Researchers requiring slightly more than an ordinary workstation.}\pause
+  \item{\alert{Many different disciplines and requirements.}}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}<presentation>{Plan of the Course}
+\begin{description}
+\item[Part 1:]{Basics}
+\item[Part 2:]{Research Computing Services HPC}
+\item[Part 3:]{Using HPC}
+\medskip
+\item<2>{\alert{10:00}\hbox to 0pt{\hphantom{{}-15:15}\quad WELCOME\hss}}
+\item<2>{\alert{11:00-11:15}\quad Break}
+\item<2>{\alert{12:30-13:30}\quad LUNCH}
+\item<2>{\alert{15:30-15:45}\quad Break}
+\item<2>{\alert{16:30}\hbox to 0pt{\hphantom{{}-15:15}\quad CLOSE\hss}}
+\end{description}
+\end{frame}
+
+\include{main}
+
+\end{document}
