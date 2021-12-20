@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.16)  20 DEC 2021 22:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.16)  20 DEC 2021 22:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1026,7 +1026,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./exercises.nav)
-<./imgs//header_and_footer.png, id=45, 1027.84pt x 781.73746pt>
+<./imgs//header_and_footer.png, id=53, 1027.84pt x 781.73746pt>
 File: ./imgs//header_and_footer.png Graphic file (type png)
 <use ./imgs//header_and_footer.png>
 Package pdftex.def Info: ./imgs//header_and_footer.png  used on input line 63.
@@ -1047,7 +1047,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 79.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<./imgs//footer_1.png, id=55, 1027.84pt x 770.88pt>
+<./imgs//footer_1.png, id=63, 1027.84pt x 770.88pt>
 File: ./imgs//footer_1.png Graphic file (type png)
 <use ./imgs//footer_1.png>
 Package pdftex.def Info: ./imgs//footer_1.png  used on input line 79.
@@ -1055,107 +1055,124 @@ Package pdftex.def Info: ./imgs//footer_1.png  used on input line 79.
  [2
 
  <./imgs//footer_1.png>]
-<./imgs//footer_2.png, id=65, 1027.84pt x 770.88pt>
+<./imgs//footer_2.png, id=73, 1027.84pt x 770.88pt>
 File: ./imgs//footer_2.png Graphic file (type png)
 <use ./imgs//footer_2.png>
-Package pdftex.def Info: ./imgs//footer_2.png  used on input line 98.
+Package pdftex.def Info: ./imgs//footer_2.png  used on input line 96.
 (pdftex.def)             Requested size: 364.19536pt x 273.15263pt.
  [3
 
  <./imgs//footer_2.png>]
-<./imgs//footer_3.png, id=72, 1027.84pt x 781.73746pt>
+<./imgs//footer_3.png, id=80, 1027.84pt x 781.73746pt>
 File: ./imgs//footer_3.png Graphic file (type png)
 <use ./imgs//footer_3.png>
-Package pdftex.def Info: ./imgs//footer_3.png  used on input line 113.
+Package pdftex.def Info: ./imgs//footer_3.png  used on input line 111.
 (pdftex.def)             Requested size: 364.19536pt x 276.99985pt.
  [4
 
  <./imgs//footer_3.png (PNG copy)>]
-<./imgs//footer_4.png, id=78, 1027.84pt x 781.73746pt>
+<./imgs//footer_4.png, id=86, 1027.84pt x 781.73746pt>
 File: ./imgs//footer_4.png Graphic file (type png)
 <use ./imgs//footer_4.png>
-Package pdftex.def Info: ./imgs//footer_4.png  used on input line 127.
+Package pdftex.def Info: ./imgs//footer_4.png  used on input line 125.
 (pdftex.def)             Requested size: 364.19536pt x 276.99985pt.
 
 [5
 
  <./imgs//footer_4.png (PNG copy)>]
-<./imgs//footer_5.png, id=84, 1027.84pt x 781.73746pt>
+<./imgs//footer_5.png, id=92, 1027.84pt x 781.73746pt>
 File: ./imgs//footer_5.png Graphic file (type png)
 <use ./imgs//footer_5.png>
-Package pdftex.def Info: ./imgs//footer_5.png  used on input line 144.
+Package pdftex.def Info: ./imgs//footer_5.png  used on input line 142.
 (pdftex.def)             Requested size: 364.19536pt x 276.99985pt.
  [6
 
  <./imgs//footer_5.png (PNG copy)>]
-<./imgs//footer_6.png, id=90, 1027.84pt x 770.88pt>
+<./imgs//footer_6.png, id=98, 1027.84pt x 770.88pt>
 File: ./imgs//footer_6.png Graphic file (type png)
 <use ./imgs//footer_6.png>
-Package pdftex.def Info: ./imgs//footer_6.png  used on input line 178.
+Package pdftex.def Info: ./imgs//footer_6.png  used on input line 159.
 (pdftex.def)             Requested size: 364.19536pt x 273.15263pt.
 
 [7
 
  <./imgs//footer_6.png>]
-<./imgs//footer_7.png, id=97, 1027.84pt x 781.73746pt>
+<./imgs//footer_7.png, id=105, 1027.84pt x 781.73746pt>
 File: ./imgs//footer_7.png Graphic file (type png)
 <use ./imgs//footer_7.png>
-Package pdftex.def Info: ./imgs//footer_7.png  used on input line 198.
+Package pdftex.def Info: ./imgs//footer_7.png  used on input line 172.
 (pdftex.def)             Requested size: 364.19536pt x 276.99985pt.
  [8
 
  <./imgs//footer_7.png (PNG copy)>]
-<./imgs//footer_8.png, id=103, 1027.84pt x 781.73746pt>
+<./imgs//footer_8.png, id=111, 1027.84pt x 781.73746pt>
 File: ./imgs//footer_8.png Graphic file (type png)
 <use ./imgs//footer_8.png>
-Package pdftex.def Info: ./imgs//footer_8.png  used on input line 220.
+Package pdftex.def Info: ./imgs//footer_8.png  used on input line 192.
 (pdftex.def)             Requested size: 364.19536pt x 276.99985pt.
  [9
 
  <./imgs//footer_8.png (PNG copy)>]
 File: ./imgs//footer_1.png Graphic file (type png)
 <use ./imgs//footer_1.png>
-Package pdftex.def Info: ./imgs//footer_1.png  used on input line 242.
+Package pdftex.def Info: ./imgs//footer_1.png  used on input line 213.
 (pdftex.def)             Requested size: 364.19536pt x 273.15263pt.
  [10
 
 ]
 File: ./imgs//footer_2.png Graphic file (type png)
 <use ./imgs//footer_2.png>
-Package pdftex.def Info: ./imgs//footer_2.png  used on input line 263.
+Package pdftex.def Info: ./imgs//footer_2.png  used on input line 234.
 (pdftex.def)             Requested size: 364.19536pt x 273.15263pt.
  [11
 
 ]
+File: ./imgs//footer_3.png Graphic file (type png)
+<use ./imgs//footer_3.png>
+Package pdftex.def Info: ./imgs//footer_3.png  used on input line 244.
+(pdftex.def)             Requested size: 364.19536pt x 276.99985pt.
+ [12
+
+]
+File: ./imgs//footer_4.png Graphic file (type png)
+<use ./imgs//footer_4.png>
+Package pdftex.def Info: ./imgs//footer_4.png  used on input line 265.
+(pdftex.def)             Requested size: 364.19536pt x 276.99985pt.
+ [13
+
+]
+File: ./imgs//footer_5.png Graphic file (type png)
+<use ./imgs//footer_5.png>
+Package pdftex.def Info: ./imgs//footer_5.png  used on input line 282.
+(pdftex.def)             Requested size: 364.19536pt x 276.99985pt.
+ [14
+
+]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-292.
+303.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 
-292.
-LaTeX Font Info:    No file OMScmss.fd. on input line 292.
+303.
+LaTeX Font Info:    No file OMScmss.fd. on input line 303.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/bx/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 292.
+(Font)              for symbol `textbraceleft' on input line 303.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 292.
+(Font)              for symbol `textbraceleft' on input line 303.
 
-
-Overfull \vbox (16.67136pt too high) detected at line 292
- []
-
-File: ./imgs//footer_3.png Graphic file (type png)
-<use ./imgs//footer_3.png>
-Package pdftex.def Info: ./imgs//footer_3.png  used on input line 292.
-(pdftex.def)             Requested size: 364.19536pt x 276.99985pt.
-[12
+File: ./imgs//footer_6.png Graphic file (type png)
+<use ./imgs//footer_6.png>
+Package pdftex.def Info: ./imgs//footer_6.png  used on input line 303.
+(pdftex.def)             Requested size: 364.19536pt x 273.15263pt.
+[15
 
 ]
 \tf@nav=\write7
@@ -1172,16 +1189,16 @@ Package pdftex.def Info: ./imgs//footer_3.png  used on input line 292.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `exercises.out' has not changed.
-(rerunfilecheck)             Checksum: FD705386E097C0E999A18FA7EEE3AAB4;400.
+(rerunfilecheck)             Checksum: 7E5B2390E115F6C5D878B76A1EC754C6;519.
  ) 
 Here is how much of TeX's memory you used:
- 21981 strings out of 481134
- 430104 string characters out of 5913145
- 752570 words of memory out of 5000000
- 38384 multiletter control sequences out of 15000+600000
+ 22003 strings out of 481134
+ 430303 string characters out of 5913145
+ 750571 words of memory out of 5000000
+ 38398 multiletter control sequences out of 15000+600000
  415440 words of font info for 71 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
- 112i,11n,116p,413b,687s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 112i,11n,116p,413b,676s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/pasump/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1000.60
 0pk> </home/pasump/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcsx1000.
 600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
@@ -1192,10 +1209,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on exercises.pdf (12 pages, 2084250 bytes).
+Output written on exercises.pdf (15 pages, 2085408 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 152 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
 

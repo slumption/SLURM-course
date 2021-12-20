@@ -68,10 +68,10 @@
 \usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_1}}%
 \begin{frame}{Exercise 1: Login}
 \begin{itemize}
-\item{Log into your RCS training account.}
+\item{Log into a BAS HPC workstation using your account.}
 \begin{description}
 \item[\emph{Hints:}]{\small Create a terminal window and use \alert{ssh} to login to your cluster training account. \\\smallskip
-The remote host is \alert{login.hpc.cam.ac.uk}. The user name is the same name as your MCS Desktop training account (i.e. \alert{z4XY}).\hfill\\\smallskip
+The remote host is \alert{bslws06.nerc-bas.ac.uk}. The user name is the same name as your MCS Desktop training account (i.e. \alert{z4XY}).\hfill\\\smallskip
 {\scriptsize N.B.\ If in doubt about the name of your training account, check the number of your station (see the label on the top of the box), then station 1\textbf{XY} should correspond to account z4\textbf {XY}.}\hfill\\\smallskip
 }
 \end{description}
@@ -91,8 +91,6 @@ The remote host is \alert{login.hpc.cam.ac.uk}. The user name is the same name a
  \visible<2->{\begin{description}
    \item{You should see a 40GB quota on /home, a 1TB block and 1024k file quota on /rds-d2 (which corresponds to $\tilde{}$/rds/hpc-work).}
    \end{description}}
- 
-\item[(c)]{Ask the scheduler what compute resources are available to you with \alert{mybalance}. This command may take a little while to return (the units are CPU/GPU/KNL hours).}
 
 \end{itemize}
 \end{frame}
@@ -144,19 +142,6 @@ Before attempting exercise 3:
 \end{frame}
 }    
 
-%\section{Remote desktop}
-%\begin{frame}{Exercise 4: Remote desktop}
-%\begin{itemize}
-%\item{Using TurboVNC, connect to the remote desktop running on \alert{login-gfx2.hpc.cam.ac.uk} %on display \alert{:99}. The command is \alert{\~{}/bin/turbovncviewer} (note that the vncviewer %command provides a different version) and the VNC password is \alert{\emph{``trAin99''}}.}
-%\visible<2->{\begin{description}
-%\item[\emph{Hints:}]{\small Because the RCS clusters only allow SSH connections, to use VNC we %need to tunnel via SSH.\hfill\\\smallskip
-%Use \alert{localhost:99} as the remote display name.\hfill\\\smallskip
-%Use \alert{-via USER@login-gfx2.hpc.cam.ac.uk} to specify the gateway server, with your training account ID as USER.\hfill\\\smallskip
-%You should be prompted first for your training account password, then for the VNC password which is \alert{\emph{``trAin99''}}. Note that this is a view-only password.}
-%\end{description}}
-%\end{itemize}
-%\end{frame}
-
 {
 \section{Modules and Compilers}
 \usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_6}}%
@@ -170,6 +155,15 @@ Before attempting exercise 3:
 \visible<3->{\begin{description}
 \item[\emph{Hints:}]{\small \alert{gcc hello.c -o hello}}
 \end{description}}
+\end{itemize}
+\end{frame}
+}
+
+{
+\section{Modules and Compilers (ctd)}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_7}}%
+\begin{frame}{Exercise 5: Modules and Compilers}
+\begin{itemize}
 \item{To fix the problem, open the \alert{hello.c} file in an editor (e.g. \alert{gedit}, \alert{nano}, \alert{emacs}).}
 \visible<4->{\begin{description}
 \item[\emph{Hints:}]{\small Launch gedit in the background by doing \alert{gedit\&}. A gedit window should appear. Remove the word \alert{BUG}, save the file and recompile. Do \alert{./hello} to run the program.}
@@ -179,7 +173,7 @@ Before attempting exercise 3:
 }
 
 {
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_7}}%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_8}}%
 \begin{frame}{Exercise 5: Modules and Compilers (ctd)}
   \begin{itemize}
   \item{The default version of gcc on the RCS HPC clusters is 4.8.5. Compile hello.c again with \alert{gcc 5.4.0}.}
@@ -200,7 +194,7 @@ Before attempting exercise 3:
 
 {
 \section{Submitting Jobs}
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_8}}%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_1}}%
 \begin{frame}{Exercise 6: Submitting Jobs (Matlab)}
 \begin{itemize}
 \item{Submit a job which will run \alert{matlab} on the \alert{file.m} command file (which contains just the Matlab \alert{ver} command).}
@@ -212,7 +206,6 @@ Before attempting exercise 3:
 \item{Submit the job with \alert{sbatch job\_script}. The jobid is then printed.}
 \item{Watch the job in the queue with \alert{squeue}.}
 \item{After it has disappeared, open the output file \alert{slurm-jobid.out} in your editor. It should contain a list of licensed Matlab features from the ver command.}
-  \item{For more demanding work you can increase the available memory by increasing the number of cpus.}
   \end{enumerate}%
 }
 \end{description}}
@@ -221,7 +214,7 @@ Before attempting exercise 3:
 }
 
 {
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_1}}%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_2}}%
 \begin{frame}{Exercise 7: Submitting Jobs (serial or threaded application)}
 \begin{itemize}
 \item{Submit a job which will run a copy of your hello program on 1 cpu.}
@@ -237,13 +230,22 @@ Before attempting exercise 3:
 \end{enumerate}%
 }
 \end{description}}
-Experiment with varying the number of nodes and tasks (you are limited to 4 nodes). Note you will need to launch the application with \alert{srun} to actually use more than 1 cpu.
 \end{itemize}
 \end{frame}
 }
 
 {
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_2}}%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_3}}%
+\begin{frame}{Exercise 7: Submitting Jobs (serial or threaded application)}
+\begin{itemize}
+\item Experiment with varying the number of nodes and tasks.
+\item Note you will need to launch the application with \alert{srun} to actually use more than 1 cpu.
+\end{itemize}
+\end{frame}
+}
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_4}}%
 \begin{frame}{Exercise 8: Submitting Jobs (R)}
 \begin{itemize}
 \item{R jobs may be serial, threaded, or even MPI parallel depending on the packages used. Submit a job which will run the trivial script \alert{hello.r} program on 1 cpu.}
@@ -265,7 +267,7 @@ Experiment with varying the number of nodes and tasks (you are limited to 4 node
 
 {
 \section{Array Jobs}
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_3}}%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_5}}%
 \begin{frame}{Exercise 9: Array Jobs}
 \begin{itemize}
 \item{Submit your last job in the form of an array with indices 1-64. Use -H with sbatch to mark the array as held (so that it won't run immediately).}
@@ -276,6 +278,15 @@ Experiment with varying the number of nodes and tasks (you are limited to 4 node
 \end{enumerate}%
 }
 \end{description}}
+\end{itemize}
+\end{frame}
+}
+
+{
+\section{Array Jobs (ctd)}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_6}}%
+\begin{frame}{Exercise 9: Array Jobs}
+\begin{itemize}
 \item{Release array element 1 and allow it to run. Then release the others.}
 \visible<3->{\begin{description}
 \item[\emph{Hints:}]{\scriptsize\begin{enumerate}
