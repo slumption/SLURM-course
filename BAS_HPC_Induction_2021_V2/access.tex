@@ -67,12 +67,23 @@
 }
 
 {
-\section{Access: SSH}
+\section{Access: Jumphosts}
 \usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_6}}%
+\begin{frame}{Jump or Bastion hosts}
+To access HPC service you need to pass through our bastion host(s)
+\begin{figure}[h]
+\includegraphics[scale=0.25]{bastion}
+\end{figure}
+\end{frame}
+}
+
+{
+\section{Access: SSH}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_7}}%
 \begin{frame}{SSH}
 \begin{itemize}
-\item First connect to gateway hosts: bslcenb.nerc-bas.ac.uk / bslcenc.nerc-bas.ac.uk
-\item Second connect to HPC workstations: bslws01 – bslws12
+\item First connect to jump hosts: bslcenb.nerc-bas.ac.uk or bslcenc.nerc-bas.ac.uk
+\item Second connect to HPC workstations: bslws01...bslws12
 \item OpenSSH (available for Linux, Mac & windows), Putty, WSL, MobaXterm
 \end{itemize}
 \pause
@@ -113,13 +124,13 @@
 \section{Access: Storage - homes}
 \usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_2}}%
 \begin{frame}{Storage}
-\text User Area - /users/\<username>\
+\text User Area - /users/$\langle$username$\rangle$
 \begin{itemize}
 \item Small, not intended for sharing data
 \item Space restricted via quotas
 \item Not accessible from the HPC Nodes!
 \end{itemize}
-\text HPC Storage - /data/hpcdata/users/username
+\text HPC Storage - /data/hpcdata/users/$\langle$username$\rangle$
 \begin{itemize}
 \item Accessible from nodes and workstations, bslcenb, bslcenc.
 \item Usage limited via quotas
@@ -192,16 +203,39 @@
 }
 
 {
-\section{Access: Data access (continued)}
+\section{Access: Data access (RSYNC)}
 \usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_7}}%
 \begin{frame}{Data access (continued)}
 \text rsync
 \begin{itemize}
 \item Perfect tool for transferring file locally and securely over the internet
 \item Options to resume, reconnect, compression, limit transferred rates.
+\item Good for transferring multiple files i.e a data set
 \end{itemize}
-\text scp\\
+\end{frame}
+}
+
+{
+\section{Access: Data access (SSHFS)}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_8}}%
+\begin{frame}{Data access (SSHFS)}
 \text sshfs
+\begin{itemize}
+\item  SSHFS client mounts and interacts with directories and files located on a remote systems
+\item The client uses ssh
+\end{itemize}
+\end{frame}
+}
+
+{
+\section{Access: Data access (SCP)}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_1}}%
+\begin{frame}{Data access (SCP)}
+\text Secure Copy Protocol
+\begin{itemize}
+\item Transfer files over ssh
+\item Good for transferring a small number of files
+\end{itemize}
 \end{frame}
 }
 
