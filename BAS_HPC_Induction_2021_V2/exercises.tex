@@ -126,9 +126,25 @@
 \end{frame}
 }
 
-
-
-
+{
+\section{Simple command line operations}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_4}}%
+\begin{frame}{Exercise 2: Simple command line operations}
+\begin{minipage}{0.5\textwidth}
+\begin{figure}[H]
+\includegraphics[scale=0.25]{x2go-terminal}
+%\caption{\label{fig:mate-session}Opening a terminal}
+\end{figure}
+\end{minipage} \hfill
+\begin{minipage}{0.35\textwidth}
+\begin{itemize}
+\item Click on the terminal icon 
+\item A terminal window will open
+\item We can now interact with our 'shell'
+\end{itemize}
+\end{minipage}
+\end{frame}
+}
 
 {
 \section{Simple command line operations}
@@ -136,30 +152,12 @@
 \begin{frame}{Exercise 2: Simple command line operations}
 \begin{itemize}
 
-\item[(a)]{List your current directory (folder) using \alert{ls -al}. Use \alert{df -h} to see the various cluster filesystems, their sizes and their current total usages. You will be on a random login node -- use \alert{hostname} to confirm which one, and \alert{w} to find out who else is using it. Use \alert{lstopo} to find out more about the internal structure of the login node.}
+\item[(a)]{List your current directory (folder) using \alert{ls -al}. Use \alert{df -h} to see the various filesystems, their sizes and their current total usages. You check the hostname of the system using -- \alert{hostname}, and \alert{w} to find out who else is using it.}
 
-\item[(b)]{Examine your personal filesystem quotas with the command \alert{quota}.}
+\item[(b)]{Examine your personal filesystem quotas with the command \alert{myquota}.}
  \visible<2->{\begin{description}
-   \item{You should see a 40GB quota on /home, a 1TB block and 1024k file quota on /rds-d2 (which corresponds to $\tilde{}$/rds/hpc-work).}
+   \item{You should see a quota on /users, and a quota on /data/hpcdata as you have two homes.}
    \end{description}}
-
-\end{itemize}
-\end{frame}
-}
-
-{
-\section{Simple command line operations}
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_5}}%
-\begin{frame}{Exercise 2: Simple command line operations}
-\begin{itemize}
-
-\item[(a)]{List your current directory (folder) using \alert{ls -al}. Use \alert{df -h} to see the various cluster filesystems, their sizes and their current total usages. You will be on a random login node -- use \alert{hostname} to confirm which one, and \alert{w} to find out who else is using it. Use \alert{lstopo} to find out more about the internal structure of the login node.}
-
-\item[(b)]{Examine your personal filesystem quotas with the command \alert{quota}.}
- \visible<2->{\begin{description}
-   \item{You should see a 40GB quota on /home, a 1TB block and 1024k file quota on /rds-d2 (which corresponds to $\tilde{}$/rds/hpc-work).}
-   \end{description}}
-
 \end{itemize}
 \end{frame}
 }
@@ -167,13 +165,13 @@
 {
 \section{File transfer}
 \usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_6}}%
-\begin{frame}{Exercise 3: Laptop setup}
+\begin{frame}{Exercise 3: File transfer}
 Before attempting exercise 3:
 \begin{itemize}
-\item{\url{https://www.hpc.cam.ac.uk/training-courses}}
+\item{\url{http://ictdocs.nerc-bas.ac.uk/wiki/index.php/HPC:User_Guide_Exercises}}
 \item{Download the file \alert{exercises.tgz} to your desktop.}
 \item{You will need an sftp client on your laptop to then transfer this file to the cluster.}
-\item{Mac users - open a terminal, you can use sftp from the command line}
+\item{Linux and Mac users - open a terminal, you can use sftp from the command line}
 \item{Windows users - download winsftp}
 \end{itemize}
 \end{frame}
@@ -184,7 +182,7 @@ Before attempting exercise 3:
 \usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_7}}%
 \begin{frame}{Exercise 3: File transfer}
 \begin{itemize}
-\item{Use SFTP to transfer the file \alert{exercises.tgz} to your Research Computing Service training account directory $\tilde{}$/rds/hpc-work.}
+\item{Use SFTP to transfer the file \alert{exercises.tgz} to your home directory}
 \visible<2->{\begin{description}
 \item[\emph{Hints:}]{\small The command is \alert{sftp}. Use the same remote host, username and password as in the previous exercise.\\\smallskip
   Use \alert{cd rds/hpc-work} to change the target directory, then \alert{put exercises.tgz} to transfer the file from your desktop to the target directory on the Research Computing Service cluster. Use \alert{quit} to close the connection.}
