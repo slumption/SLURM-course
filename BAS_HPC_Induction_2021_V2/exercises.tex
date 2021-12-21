@@ -19,6 +19,8 @@
 \usepackage{tikz}
 \usepackage{comment}
 \usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{wrapfig}
 
 \RequirePackage{inputenc}
 
@@ -66,22 +68,88 @@
 {
 \section{Login}
 \usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_1}}%
-\begin{frame}{Exercise 1: Login}
+\begin{frame}{Exercise 1: Login to a BAS HPC Workstation}
 \begin{itemize}
-\item{Log into a BAS HPC workstation using your account.}
-\begin{description}
-\item[\emph{Hints:}]{\small Create a terminal window and use \alert{ssh} to login to your cluster training account. \\\smallskip
-The remote host is \alert{bslws06.nerc-bas.ac.uk}. The user name is the same name as your MCS Desktop training account (i.e. \alert{z4XY}).\hfill\\\smallskip
-{\scriptsize N.B.\ If in doubt about the name of your training account, check the number of your station (see the label on the top of the box), then station 1\textbf{XY} should correspond to account z4\textbf {XY}.}\hfill\\\smallskip
+\item Login to any of the workstations: bslws01...bslws12 
+\item Configure X2go (it runs on Mac, Linux and Windows) 
+\item X2go will also allow us to use a graphical desktop in our later exercises
+\end{itemize}
+\end{frame}
 }
-\end{description}
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_3}}%
+\begin{frame}{Exercise 1: X2go solution}
+\text Follow the \href{https://servicedesk.bas.ac.uk/app/itdesk/ui/solutions/60624000019605299/details}{\color{blue}{service desk solution}} to setup your client
+\includegraphics[scale=0.22]{servicedesk-x2go-solution.png}
+\end{frame}
+}
+
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_4}}%
+\begin{frame}{Exercise 1: X2go session preferences }
+\begin{minipage}{0.5\textwidth}
+\begin{figure}[H]
+\includegraphics[scale=0.2]{x2g0-bslws06-prefs.png}
+%\caption{\label{fig:mate-session}Session preferences}
+\end{figure}
+\end{minipage} \hfill
+\begin{minipage}{0.35\textwidth}
+\begin{itemize}
+\item Follow the instructions in the solution for your operating system
+\item Configure a session preference for a workstation
+\item My example uses ssh keys, you can just use passwords
+\end{itemize}
+\end{minipage}
+\end{frame}
+}
+
+{
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_5}}%
+\begin{frame}{Exercise 1: X2go session launch }
+\begin{minipage}{0.5\textwidth}
+\begin{figure}[H]
+\includegraphics[scale=0.25]{x2go-bslws06-mate}
+%\caption{\label{fig:mate-session}A MATE session}
+\end{figure}
+\end{minipage} \hfill
+\begin{minipage}{0.35\textwidth}
+\begin{itemize}
+\item Click on a session and launch it
+\item You should see a MATE desktop
+\item {\color{red}{Demonstration}} 
+\item {\color{red}{Troubleshooting}}
+\end{itemize}
+\end{minipage}
+
+\end{frame}
+}
+
+
+
+
+
+{
+\section{Simple command line operations}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_4}}%
+\begin{frame}{Exercise 2: Simple command line operations}
+\begin{itemize}
+
+\item[(a)]{List your current directory (folder) using \alert{ls -al}. Use \alert{df -h} to see the various cluster filesystems, their sizes and their current total usages. You will be on a random login node -- use \alert{hostname} to confirm which one, and \alert{w} to find out who else is using it. Use \alert{lstopo} to find out more about the internal structure of the login node.}
+
+\item[(b)]{Examine your personal filesystem quotas with the command \alert{quota}.}
+ \visible<2->{\begin{description}
+   \item{You should see a 40GB quota on /home, a 1TB block and 1024k file quota on /rds-d2 (which corresponds to $\tilde{}$/rds/hpc-work).}
+   \end{description}}
+
 \end{itemize}
 \end{frame}
 }
 
 {
 \section{Simple command line operations}
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_2}}%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_5}}%
 \begin{frame}{Exercise 2: Simple command line operations}
 \begin{itemize}
 
@@ -98,7 +166,7 @@ The remote host is \alert{bslws06.nerc-bas.ac.uk}. The user name is the same nam
 
 {
 \section{File transfer}
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_3}}%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_6}}%
 \begin{frame}{Exercise 3: Laptop setup}
 Before attempting exercise 3:
 \begin{itemize}
@@ -113,7 +181,7 @@ Before attempting exercise 3:
 
 {
 \section{File transfer}
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_4}}%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_7}}%
 \begin{frame}{Exercise 3: File transfer}
 \begin{itemize}
 \item{Use SFTP to transfer the file \alert{exercises.tgz} to your Research Computing Service training account directory $\tilde{}$/rds/hpc-work.}
@@ -127,7 +195,7 @@ Before attempting exercise 3:
 
 {    
 \section{File transfer}
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_5}}%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_8}}%
 \begin{frame}{Exercise 3: File transfer (ctd)}
 \begin{itemize}
 \item{Switch back to the SSH session you created in the previous exercise. Verify that the file is now present by using \alert{ls}.}
@@ -144,7 +212,7 @@ Before attempting exercise 3:
 
 {
 \section{Modules and Compilers}
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_6}}%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_1}}%
 \begin{frame}{Exercise 5: Modules and Compilers}
 \begin{itemize}
 \item{Go to the \alert{exercises} directory of your cluster account.}
@@ -161,7 +229,7 @@ Before attempting exercise 3:
 
 {
 \section{Modules and Compilers (ctd)}
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_7}}%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_2}}%
 \begin{frame}{Exercise 5: Modules and Compilers}
 \begin{itemize}
 \item{To fix the problem, open the \alert{hello.c} file in an editor (e.g. \alert{gedit}, \alert{nano}, \alert{emacs}).}
@@ -173,7 +241,7 @@ Before attempting exercise 3:
 }
 
 {
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_8}}%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_3}}%
 \begin{frame}{Exercise 5: Modules and Compilers (ctd)}
   \begin{itemize}
   \item{The default version of gcc on the RCS HPC clusters is 4.8.5. Compile hello.c again with \alert{gcc 5.4.0}.}
@@ -194,7 +262,7 @@ Before attempting exercise 3:
 
 {
 \section{Submitting Jobs}
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_1}}%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_4}}%
 \begin{frame}{Exercise 6: Submitting Jobs (Matlab)}
 \begin{itemize}
 \item{Submit a job which will run \alert{matlab} on the \alert{file.m} command file (which contains just the Matlab \alert{ver} command).}
@@ -214,7 +282,7 @@ Before attempting exercise 3:
 }
 
 {
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_2}}%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_5}}%
 \begin{frame}{Exercise 7: Submitting Jobs (serial or threaded application)}
 \begin{itemize}
 \item{Submit a job which will run a copy of your hello program on 1 cpu.}
@@ -235,7 +303,7 @@ Before attempting exercise 3:
 }
 
 {
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_3}}%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_6}}%
 \begin{frame}{Exercise 7: Submitting Jobs (serial or threaded application)}
 \begin{itemize}
 \item Experiment with varying the number of nodes and tasks.
@@ -245,7 +313,7 @@ Before attempting exercise 3:
 }
 
 {
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_4}}%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_7}}%
 \begin{frame}{Exercise 8: Submitting Jobs (R)}
 \begin{itemize}
 \item{R jobs may be serial, threaded, or even MPI parallel depending on the packages used. Submit a job which will run the trivial script \alert{hello.r} program on 1 cpu.}
@@ -267,7 +335,7 @@ Before attempting exercise 3:
 
 {
 \section{Array Jobs}
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_5}}%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_8}}%
 \begin{frame}{Exercise 9: Array Jobs}
 \begin{itemize}
 \item{Submit your last job in the form of an array with indices 1-64. Use -H with sbatch to mark the array as held (so that it won't run immediately).}
@@ -284,7 +352,7 @@ Before attempting exercise 3:
 
 {
 \section{Array Jobs (ctd)}
-\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_6}}%
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_1}}%
 \begin{frame}{Exercise 9: Array Jobs}
 \begin{itemize}
 \item{Release array element 1 and allow it to run. Then release the others.}
