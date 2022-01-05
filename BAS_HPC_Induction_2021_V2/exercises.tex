@@ -185,7 +185,7 @@ Before attempting exercise 3:
 \item{Use SFTP to transfer the file \alert{exercises.tgz} to your home directory}
 \visible<2->{\begin{description}
 \item[\emph{Hints:}]{\small The command is \alert{sftp}. Use the same remote host, username and password as in the previous exercise.\\\smallskip
-  Use \alert{cd rds/hpc-work} to change the target directory, then \alert{put exercises.tgz} to transfer the file from your desktop to the target directory on the Research Computing Service cluster. Use \alert{quit} to close the connection.}
+  Use \alert{mkdir exercises} to create a directory then \alert{cd exercises} to change into the target directory, then \alert{put exercises.tgz} to transfer the file from your desktop to the target directory on the cluster. Use \alert{quit} to close the connection.}
 \end{description}Optionally, copy the file over again using \alert{rsync}.}
 \end{itemize}
 \end{frame}
@@ -198,11 +198,11 @@ Before attempting exercise 3:
 \begin{itemize}
 \item{Switch back to the SSH session you created in the previous exercise. Verify that the file is now present by using \alert{ls}.}
 \visible<2->{\begin{description}
-\item[\emph{Hints:}]{Do \alert{ls -al\quad$\tilde{}$/rds/hpc-work/}. Note that you can often reduce typing by pressing \alert{TAB}.}
+\item[\emph{Hints:}]{Do \alert{ls -al\quad$\tilde{}$/exercises/}. Note that you can often reduce typing by pressing \alert{TAB}.}
 \end{description}}
 \item{Unpack the tar archive to create an exercise subdirectory.}
 \visible<3->{\begin{description}
-\item[\emph{Hints:}]{Do \alert{cd\quad$\tilde{}$/rds/hpc-work/} then \alert{tar -zxvf exercises.tgz}.}
+\item[\emph{Hints:}]{Do \alert{cd\quad$\tilde{}$/exercises/} then \alert{tar -zxvf exercises.tgz}.}
 \end{description}}
 \end{itemize}
 \end{frame}
@@ -215,7 +215,7 @@ Before attempting exercise 3:
 \begin{itemize}
 \item{Go to the \alert{exercises} directory of your cluster account.}
 \visible<2->{\begin{description}
-\item[\emph{Hints:}]{\small Firstly you may need to review Exercise~1 in order to reconnect to your cluster account. At the remote command prompt, change to the exercises directory (\alert{cd $\tilde{}$/rds/hpc-work/exercises}).}
+\item[\emph{Hints:}]{\small Firstly you may need to review Exercise~1 in order to reconnect to your cluster account. At the remote command prompt, change to the exercises directory (\alert{cd $\tilde{}$/exercises}).}
 \end{description}}
 \item{Try to compile the \alert{hello.c} program using the default \alert{gcc} compiler (it will fail because there is a deliberate bug).}
 \visible<3->{\begin{description}
@@ -242,7 +242,7 @@ Before attempting exercise 3:
 \usebackgroundtemplate{\includegraphics[width=\paperwidth]{footer_3}}%
 \begin{frame}{Exercise 5: Modules and Compilers (ctd)}
   \begin{itemize}
-  \item{The default version of gcc on the RCS HPC clusters is 4.8.5. Compile hello.c again with \alert{gcc 5.4.0}.}
+  \item{The default version of gcc on the HPC cluster is 4.8.5. Compile hello.c again with \alert{hpc/gcc/7.2.0}.}
    \visible<2->{\begin{description}
 \item[\emph{Hints:}]{\small module av, module load, then \alert{gcc hello.c -o hello2}}
 \end{description}}
