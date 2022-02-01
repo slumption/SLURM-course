@@ -1,0 +1,91 @@
+Notes
+
+Service desk solutions
+
+- Check we have solutions for all of the demos
+- Check that they have been tested/reviewed recently
+
+Part 1: Diagram change login node to login node/workstation
+
+Part 3: Jump hosts diagram, amend so that it shows BAS office as not needing a proxy. 
+
+SSH: explain what SSH is
+
+SD solutions: 
+
+X2go setting up (Linux, Windows and Mac) https://servicedesk.bas.ac.uk/app/itdesk/ui/solutions/60624000019605299/details
+
+Setting up SSH access (Putty only, as Mac and Linux have a terminal)
+
+Setting up SSH keys (putty plus Linux/Mac)
+
+Demonstrations
+
+1. X2GO session
+2. SSH into a workstation
+
+Excercises
+
+1. Login into BAS workstation, requires user to follow the X2go SD solution
+
+Part 3 access
+
+Need to link to an SD for setting up SFTP, for exercise example might need to be CLI and GUI (user then chooses appropriate one)
+
+Need to explain what SSH keys are (public, private, which key to transfer to the remote host). Might be worth adding a diagram.
+
+SD solution:
+
+SFTP to bslcenb or bslcenc for file tranfers, GUI (Win SFTP or filezilla)
+Rsync: check if there is an SD solution or notes in the HPC user guide
+
+Sftp demo
+Rsync demo
+
+Part 4: User environment 
+
+After slide TMUX, add a slide for screen
+Add a slide for text editors as we refer to this in the exercises
+
+SD solution
+
+Agree with Andy the strongest key type should be using (needs to work on old and new hosts) 
+Check http://ictdocs/wiki/index.php/SSH_Keys
+Check the SD solution
+
+Demonstration
+
+TMUX, I'd like just refer to the wiki page and demo screen
+Add a page and demo of screen as its quite easy to use
+
+Exercises
+
+Exercise 2: Opening a termining and some simple commands (ls, df, myquota etc)
+Exercise 3: a) Command line SFTP and b) command line based SFTP
+Exercise 4: Transfer files with rsync (need to write this)
+Exercise 5: Text editors
+Exercise 6: Modules and Compilers, Matlab exercise
+
+Part 5: SLURM
+
+Slides
+
+Need some slides to explain array jobs
+
+Demonstrations
+
+Submitting a SLURM script
+Monitoring a SLURM job
+SLURM array jobs
+
+Exercise 7: SLURM submit script
+Exercise 8: SLURM script, R module
+Exercise 9: SLURM Array jobs
+
+
+
+
+
+
+
+
